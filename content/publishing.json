@@ -1,5 +1,5 @@
 {
   "enabled": false,
-  "repository": "",
+  "repository": "https://github.com/ogreadmore/chatgptfan.com.git",
   "branch": "main"
 }
