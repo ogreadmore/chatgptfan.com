@@ -1,5 +1,25 @@
 export const CONSENT_KEY='chatgptfan-analytics-v1';
 const MAX_AGE=180*86400000;
+const COUNTRY_KEY='chatgptfan-country-v1';
+const CONSENT_COUNTRIES=new Set('AT BE BG HR CY CZ DK EE FI FR DE GR HU IS IE IT LV LI LT LU MT NL NO PL PT RO SK SI ES SE GB CH AX GF GP MQ RE MF YT'.split(' '));
+export function requiresAnalyticsConsent(country) {
+  return CONSENT_COUNTRIES.has(country);
+}
+export async function visitorCountry(win) {
+  try {
+    const cached=JSON.parse(win.sessionStorage?.getItem(COUNTRY_KEY)||'null');
+    if(cached && /^[A-Z]{2}$/.test(cached.country) && cached.at<=Date.now() && Date.now()-cached.at<300000) return cached.country;
+  } catch {}
+  try {
+    const response=await win.fetch('https://api.country.is/',{credentials:'omit',referrerPolicy:'no-referrer',cache:'no-store',signal:AbortSignal.timeout(3500)});
+    if(!response.ok) return null;
+    const {country}=await response.json();
+    if(typeof country!=='string' || !/^[A-Z]{2}$/.test(country) || ['XX','ZZ'].includes(country)) return null;
+    // Keep only a short-lived country code, never the IP returned by the service.
+    try {win.sessionStorage?.setItem(COUNTRY_KEY,JSON.stringify({country,at:Date.now()}));} catch {}
+    return country;
+  } catch {return null;}
+}
 export function savedConsent(storage,now=Date.now()) {
   try {
     const value=JSON.parse(storage.getItem(CONSENT_KEY));
@@ -15,14 +35,14 @@ export function pageMetadata(location,referrer) {
   return {page_location:location.origin+location.pathname,page_referrer:origin};
 }
 
-export function initAnalytics(win,doc) {
+export async function initAnalytics(win,doc) {
   const id=doc.body.dataset.analyticsId,host=doc.body.dataset.analyticsHost;
   if(!/^G-[A-Z0-9]+$/.test(id||'') || !permittedHost(win.location.hostname,host)) return;
   const panel=doc.querySelector('[data-analytics-choice]');
   if(!panel) return;
   let storage;
   try {storage=win.localStorage;} catch {storage={getItem:()=>null,setItem:()=>{}};}
-  let choice=savedConsent(storage),started=false;
+  let choice=savedConsent(storage),started=false,revision=0;
   function gtag(){win.dataLayer.push(arguments);}
   const track=(name,parameters={})=>{
     if(choice==='granted' && started) gtag('event',name,{...pageMetadata(win.location,doc.referrer),...parameters});
@@ -50,6 +70,7 @@ export function initAnalytics(win,doc) {
     }
   };
   const setChoice=value=>{
+    revision++;
     choice=value;
     try {storage.setItem(CONSENT_KEY,JSON.stringify({choice,at:Date.now()}));} catch {}
     panel.hidden=true;
@@ -76,8 +97,6 @@ export function initAnalytics(win,doc) {
   for(const button of doc.querySelectorAll('[data-open-analytics]')) {
     button.hidden=false;button.addEventListener('click',()=>{show();panel.querySelector('[data-analytics-deny]').focus();});
   }
-  if(choice==='granted') enable();
-  else if(!choice) show();
   doc.addEventListener('contact:sent',()=>track('contact_sent'));
   doc.addEventListener('click',event=>{
     const link=event.target.closest?.('a[href]');
@@ -86,9 +105,24 @@ export function initAnalytics(win,doc) {
   });
   win.addEventListener('storage',event=>{
     if(event.key!==CONSENT_KEY && event.key!==null) return;
+    revision++;
     const next=savedConsent(storage);
     if(started && next!=='granted') {win['ga-disable-'+id]=true;win.location.reload();}
     else if(!started) {choice=next;panel.hidden=Boolean(next);if(next==='granted') enable();}
   });
+  if(choice==='granted') enable();
+  else if(!choice) {
+    const beforeLookup=revision;
+    const country=await visitorCountry(win);
+    // A late response must never override a choice made while the lookup ran.
+    if(revision!==beforeLookup || choice) return;
+    if(!country) return;
+    if(requiresAnalyticsConsent(country)) show();
+    else {
+      // Regional default is not stored as the visitor's explicit consent.
+      choice='granted';
+      enable();
+    }
+  }
 }
 if(typeof window!=='undefined' && typeof document!=='undefined') initAnalytics(window,document);

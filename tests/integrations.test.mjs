@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import vm from 'node:vm';
 import { validateIntegrations, contactForm } from '../scripts/contact-page.mjs';
-import { CONSENT_KEY, savedConsent, pageMetadata, initAnalytics } from '../public/assets/analytics.js';
+import { CONSENT_KEY, savedConsent, pageMetadata, initAnalytics, visitorCountry } from '../public/assets/analytics.js';
 
 test('integration configuration rejects unsafe destinations and incomplete analytics activation',()=>{
   assert.doesNotThrow(()=>validateIntegrations({}));
@@ -29,13 +29,13 @@ function analyticsHarness(hostname='chatgptfan.com') {
   const allow=listener(),deny=listener(),panel=listener();
   panel.querySelector=s=>s==='[data-analytics-allow]'?allow:deny;
   const tags=[],events={},memory=new Map();let reloads=0;
-  const win={location:{hostname,origin:'https://'+hostname,pathname:'/search/',search:'?q=private',reload:()=>reloads++},localStorage:{getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v)},addEventListener:(n,fn)=>events[n]=fn};
+  const win={location:{hostname,origin:'https://'+hostname,pathname:'/search/',search:'?q=private',reload:()=>reloads++},localStorage:{getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v)},fetch:async()=>({ok:true,json:async()=>({country:'DE'})}),addEventListener:(n,fn)=>events[n]=fn};
   const doc={body:{dataset:{analyticsId:'G-TEST',analyticsHost:'chatgptfan.com'}},referrer:'https://other.test/?secret=hidden',cookie:'',querySelector:s=>s==='[data-analytics-choice]'?panel:null,querySelectorAll:()=>[],createElement:()=>({}),head:{append:tag=>tags.push(tag)},addEventListener:(n,fn)=>events[n]=fn};
   return {win,doc,tags,allow,deny,panel,memory,reloads:()=>reloads};
 }
 
-test('analytics makes no tag request before opt-in, supports withdrawal, and ignores local previews',()=>{
-  const h=analyticsHarness();initAnalytics(h.win,h.doc);
+test('consent-region analytics waits for opt-in, supports withdrawal, and ignores local previews',async()=>{
+  const h=analyticsHarness();await initAnalytics(h.win,h.doc);
   assert.equal(h.tags.length,0); assert.equal(h.panel.hidden,false);
   h.deny.handlers.click();assert.equal(h.tags.length,0);
   h.allow.handlers.click();assert.equal(h.tags.length,1);
@@ -44,7 +44,7 @@ test('analytics makes no tag request before opt-in, supports withdrawal, and ign
   assert.ok(!JSON.stringify(calls).includes('private'));
   assert.equal(calls.find(c=>c[0]==='config')[2].allow_google_signals,false);
   h.deny.handlers.click();assert.equal(h.win['ga-disable-G-TEST'],true);assert.equal(h.reloads(),1);
-  const local=analyticsHarness('127.0.0.1');initAnalytics(local.win,local.doc);assert.equal(local.tags.length,0);assert.equal(local.panel.hidden,true);
+  const local=analyticsHarness('127.0.0.1');local.win.fetch=()=>assert.fail('No lookup on previews');await initAnalytics(local.win,local.doc);assert.equal(local.tags.length,0);assert.equal(local.panel.hidden,true);
 });
 
 test('contact preserves input on failure, confirms success only on OK, and never sends while inactive',async()=>{
@@ -59,16 +59,63 @@ test('contact preserves input on failure, confirms success only on OK, and never
   form.dataset.ready='false';await handler({preventDefault(){}});assert.equal(requests,2);
 });
 
-test('browser privacy signals override saved analytics consent without loading Google',()=>{
+test('browser privacy signals override saved analytics consent without loading Google or location lookup',async()=>{
   for(const signal of [{globalPrivacyControl:true},{doNotTrack:'1'}]) {
     const h=analyticsHarness();h.win.navigator=signal;
     h.memory.set(CONSENT_KEY,JSON.stringify({choice:'granted',at:Date.now()}));
     h.doc.cookie='_ga=previous';
-    initAnalytics(h.win,h.doc);
+    h.win.fetch=()=>assert.fail('No lookup after privacy opt-out');
+    await initAnalytics(h.win,h.doc);
     assert.equal(h.tags.length,0);
     assert.equal(h.panel.hidden,true);
     assert.equal(savedConsent(h.win.localStorage),'denied');
     assert.equal(h.win['ga-disable-G-TEST'],true);
     assert.match(h.doc.cookie,/Max-Age=0/);
   }
+});
+
+test('regional defaults run quietly outside consent countries without fabricating saved consent',async()=>{
+  for(const country of ['US','CA','AU','JP','DE','FR','NO','IS','LI','GB','CH']) {
+    const h=analyticsHarness();h.win.fetch=async()=>({ok:true,json:async()=>({country})});
+    await initAnalytics(h.win,h.doc);
+    const consentRequired=['DE','FR','NO','IS','LI','GB','CH'].includes(country);
+    assert.equal(h.tags.length,consentRequired?0:1,country);
+    assert.equal(h.panel.hidden,!consentRequired,country);
+    assert.equal(savedConsent(h.win.localStorage),null);
+    h.deny.handlers.click();
+    assert.equal(h.win['ga-disable-G-TEST'],true);
+  }
+});
+
+test('unknown locations stay quiet and off; failures never assume US',async()=>{
+  for(const fetch of [async()=>{throw Error('offline');},async()=>({ok:false}),async()=>({ok:true,json:async()=>({country:'ZZ'})})]) {
+    const h=analyticsHarness();h.win.fetch=fetch;
+    await initAnalytics(h.win,h.doc);
+    assert.equal(h.tags.length,0);assert.equal(h.panel.hidden,true);
+    h.allow.handlers.click();assert.equal(h.tags.length,1);
+  }
+});
+
+test('saved declines and choices made during location lookup cannot be overridden',async()=>{
+  const saved=analyticsHarness();saved.memory.set(CONSENT_KEY,JSON.stringify({choice:'denied',at:Date.now()}));
+  saved.win.fetch=()=>assert.fail('No lookup after saved decline');
+  await initAnalytics(saved.win,saved.doc);assert.equal(saved.tags.length,0);assert.equal(saved.panel.hidden,true);
+  const h=analyticsHarness();let finish;
+  h.win.fetch=()=>new Promise(resolve=>{finish=resolve;});
+  const pending=initAnalytics(h.win,h.doc);
+  h.deny.handlers.click();
+  finish({ok:true,json:async()=>({country:'US'})});await pending;
+  assert.equal(h.tags.length,0);assert.equal(h.panel.hidden,true);
+});
+
+test('country lookup omits credentials and referrer, caches only country, and expires',async()=>{
+  const cache=new Map();let requests=0;
+  const win={sessionStorage:{getItem:k=>cache.get(k),setItem:(k,v)=>cache.set(k,v)},fetch:async(url,options)=>{
+    requests++;assert.equal(url,'https://api.country.is/');assert.equal(options.credentials,'omit');assert.equal(options.referrerPolicy,'no-referrer');
+    return {ok:true,json:async()=>({country:'US',ip:'192.0.2.1'})};
+  }};
+  assert.equal(await visitorCountry(win),'US');assert.equal(await visitorCountry(win),'US');assert.equal(requests,1);
+  assert.ok(!JSON.stringify([...cache.values()]).includes('192.0.2.1'));
+  for(const [key,value] of cache) cache.set(key,JSON.stringify({...JSON.parse(value),at:Date.now()-300001}));
+  await visitorCountry(win);assert.equal(requests,2);
 });

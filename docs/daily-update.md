@@ -10,6 +10,8 @@ Every main content section must be reviewed daily and refreshed when warranted. 
 
 The owner removed the startup safety modal. Keep safety content accessible through normal navigation; do not restore an automatic safety popup or an entry screen during maintenance.
 
+Preserve regional analytics behavior: prompt only in the configured EEA/UK/Swiss consent regions. Other identified countries use automatic measurement with a footer opt-out. Respect saved declines and browser privacy signals. Unknown countries leave both automatic analytics and the prompt off. Do not restore a worldwide consent banner during maintenance.
+
 Daily coverage checklist (record a separate outcome for each):
 - Homepage: lead, all rows, featured selections, dates, images, and presentation.
 - Daily Brief and Previous Editions: current edition, sources, cartoon, sharing card, archive listing; preserve historical articles except documented corrections.
