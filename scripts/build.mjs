@@ -27,7 +27,9 @@ const today = new Intl.DateTimeFormat('en-CA', { timeZone: site.timezone }).form
 const briefs = allBriefs.filter(b => b.status === 'published' && b.date <= today).sort((a, b) => b.date.localeCompare(a.date));
 const latest = briefs[0];
 const base = ('/' + (process.env.BASE_PATH ?? '').replace(/^\/+|\/+$/g, '')).replace(/\/$/, '');
-const origin = process.env.SITE_URL ?? site.url;
+// Pages may report http while HTTPS enforcement is still being configured.
+// Public canonical and sharing URLs must always use HTTPS.
+const origin = (process.env.SITE_URL || site.url).replace(/^http:/, 'https:');
 const url = path => `${base}/${path.replace(/^\//, '')}`;
 const absolute = path => `${origin.replace(/\/$/, '')}${url(path)}`;
 const nav = [['brief', 'Daily Brief'], ['news', 'News'], ['resources', 'Resources'], ['safety', 'Safety & Society']];
