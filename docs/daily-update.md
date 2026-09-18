@@ -8,6 +8,8 @@ Use `docs/source-selection.md` for source selection criteria. Feed descriptions 
 
 Every main content section must be reviewed daily and refreshed when warranted. The weekly resource rotation is a deeper audit, not permission to skip a section. About, Contact, Privacy, and other standing informational pages need updates only when facts, policies, or functionality change. Do not rewrite useful content merely to create activity.
 
+The owner removed the startup safety modal. Keep safety content accessible through normal navigation; do not restore an automatic safety popup or an entry screen during maintenance.
+
 Daily coverage checklist (record a separate outcome for each):
 - Homepage: lead, all rows, featured selections, dates, images, and presentation.
 - Daily Brief and Previous Editions: current edition, sources, cartoon, sharing card, archive listing; preserve historical articles except documented corrections.

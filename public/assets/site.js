@@ -1,18 +1,8 @@
-const notice = document.querySelector('#safety-notice');
 // Remote feed thumbnails can disappear; preserve the headline and layout.
 for (const img of document.querySelectorAll('[data-home-image]')) {
   const hideFailed = () => { img.hidden = true; };
   img.addEventListener('error', hideFailed);
   if (img.complete && !img.naturalWidth) hideFailed();
-}
-const noticeKey = `chatgptfan-safety-${notice?.dataset.version}`;
-const remember = () => { try { localStorage.setItem(noticeKey, 'seen'); } catch {} };
-if (notice && typeof notice.showModal === 'function') {
-  let seen = false;
-  try { seen = localStorage.getItem(noticeKey) === 'seen'; } catch {}
-  notice.addEventListener('close', remember);
-  notice.addEventListener('click', event => { if (event.target.closest('a')) remember(); });
-  if (!seen && notice.dataset.autoOpen === 'true') notice.showModal();
 }
 for (const scope of document.querySelectorAll('[data-filter-scope]')) {
   const controls = scope.querySelector('[data-filter-controls]');

@@ -77,10 +77,7 @@ export function initAnalytics(win,doc) {
     button.hidden=false;button.addEventListener('click',()=>{show();panel.querySelector('[data-analytics-deny]').focus();});
   }
   if(choice==='granted') enable();
-  else if(!choice) {
-    const safety=doc.querySelector('#safety-notice');
-    if(safety?.open) safety.addEventListener('close',show,{once:true}); else show();
-  }
+  else if(!choice) show();
   doc.addEventListener('contact:sent',()=>track('contact_sent'));
   doc.addEventListener('click',event=>{
     const link=event.target.closest?.('a[href]');

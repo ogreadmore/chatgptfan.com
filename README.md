@@ -25,11 +25,11 @@ Open http://127.0.0.1:4173. After content or code changes, run `npm run build` a
 | `content/feeds.json` | Feed URLs, labels, topics, optional keyword filter |
 | `content/news.json` | Committed feed snapshot; refresh with `npm run feeds` |
 | `content/home.json` | Homepage selections; see [curation guide](docs/homepage-curation.md) |
-| `content/site.json` | Site settings, optional newsletter link, notice behavior |
+| `content/site.json` | Site settings, optional newsletter link, contact and analytics |
 | `content/pages/*.md` | About, disclosure, and editorial position |
 | `content/publishing.json` | Daily agent's approved repository and publish switch |
 
-The build performs no network calls. It generates a branded sharing image and article metadata for every published Daily Brief. Failed feed refreshes retain the last successful stories and expose the source status on the News page. Search runs locally in the visitor's browser; all other content works without JavaScript. The safety notice appears once per version and is keyboard-dismissible. Fonts are self-hosted. No visitor accounts are included. Formspree contact is connected and tested. GA4 is configured for production-only, visitor-opt-in measurement and respects Global Privacy Control and Do Not Track. Integration settings live in `content/site.json`; private account setup notes stay outside the public repository.
+The build performs no network calls. It generates a branded sharing image and article metadata for every published Daily Brief. Failed feed refreshes retain the last successful stories and expose the source status on the News page. Search runs locally in the visitor's browser; all other content works without JavaScript. Fonts are self-hosted. No visitor accounts are included. Formspree contact is connected and tested. GA4 is configured for production-only, visitor-opt-in measurement and respects Global Privacy Control and Do Not Track. Integration settings live in `content/site.json`; private account setup notes stay outside the public repository.
 
 `npm run verify` builds and tests the output, internal links, RSS, and feed parsing safeguards. Article Markdown is sanitized before rendering. News feeds contribute only attributed titles, dates, and links, not full copied articles.
 
