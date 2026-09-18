@@ -35,6 +35,8 @@ The build performs no network calls. It generates a branded sharing image and ar
 
 ## GitHub Pages
 
+Production is served at **https://chatgptfan.com** by GitHub Pages, with HTTPS enforced and `www` redirecting to the canonical domain. DreamHost manages DNS only. The daily publishing gate is enabled for the repository and branch below.
+
 1. The project remote is `https://github.com/ogreadmore/chatgptfan.com.git`, with `main` as the publishing branch. Private setup notes, run logs, and superseded artwork are kept out of the public repository.
 2. Push the source and lockfile to `main`. In repository **Settings → Pages**, choose **GitHub Actions** as the build source. `.github/workflows/pages.yml` installs locked dependencies, verifies, uploads `dist/`, and deploys it.
 3. First verify the site's GitHub Pages URL. The workflow supplies the path prefix, so a project site under `/repository-name/` works as well as a custom domain.
