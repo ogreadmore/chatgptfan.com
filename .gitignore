@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+output/
+.DS_Store
+*.log
+*.tmp
+# Local operating records and superseded artwork stay on the owner's machine.
+docs/daily-runs/
+docs/editorial-revisions/
+docs/launch-status.md
+docs/contact-and-analytics.md
+docs/brief-image-*.md
+docs/resource-research-*.md
+public/assets/briefs/2026-09-18-connected-accounts.png
+public/assets/briefs/2026-09-18-breach-chain.png
+public/assets/briefs/2026-09-18-altman-cartoon.png
+public/assets/briefs/2026-09-18-access-map.*
+scripts/artwork/

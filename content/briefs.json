@@ -1,0 +1,173 @@
+[
+  {
+    "date": "2026-09-18",
+    "slug": "2026-09-18",
+    "title": "An OpenAI breach shows the reach of connected accounts",
+    "excerpt": "Researchers describe a July intrusion that reached employee accounts and an internal repository. What was fixed, what remains unproven, and why connected access matters.",
+    "file": "2026-09-18.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Hacking OpenAI",
+        "publisher": "Hacktron AI",
+        "url": "https://www.hacktron.ai/blog/hacking-openai",
+        "publishedAt": "2026-09-13",
+        "kind": "Security researchers’ account; incident occurred July 25; page date"
+      },
+      {
+        "title": "Researchers used Anthropic’s Claude to hack into OpenAI",
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai",
+        "publishedAt": "2026-09-18",
+        "kind": "Reporting"
+      },
+      {
+        "title": "RCE via malformed HEIF file · GHSA-vhm9-85gw-x335",
+        "publisher": "Discourse",
+        "url": "https://github.com/discourse/discourse/security/advisories/GHSA-vhm9-85gw-x335",
+        "publishedAt": "2026-07-28",
+        "kind": "Maintainer security advisory"
+      },
+      {
+        "title": "Privacy Considerations with AI Tools",
+        "publisher": "Electronic Frontier Foundation",
+        "url": "https://ssd.eff.org/module/privacy-considerations-with-ai-tools",
+        "publishedAt": "2026-08-05",
+        "kind": "Practical guidance; source review date"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-09-18-altman-purple.png",
+      "alt": "Editorial cartoon of Sam Altman examining a small bug on a laptop through a magnifying glass.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "owner-approved"
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "slug": "2026-09-17",
+    "title": "AI leaders call for a slowdown. Trump pushes back.",
+    "excerpt": "The divide over slowing frontier AI should lead the safety conversation. What the CEOs proposed, how Trump responded, and where the latest disclosures fit.",
+    "file": "2026-09-17.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Trump Downplays AI Concerns as CEOs Call for Slowing Pace",
+        "publisher": "Bloomberg",
+        "url": "https://news.bloomberglaw.com/tech-and-telecom-law/trump-downplays-ai-concerns-as-ceos-call-for-slowing-pace-1",
+        "publishedAt": "2026-09-13",
+        "kind": "Reporting"
+      },
+      {
+        "title": "We Must Pace the Frontier",
+        "publisher": "Dario Amodei · Anthropic CEO",
+        "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+        "publishedAt": "2026-09-12",
+        "kind": "Industry proposal; release date corroborated by reporting"
+      },
+      {
+        "title": "AI Leaders Are Calling for a Slowdown. Trump’s Team Says It’s on Them",
+        "publisher": "WIRED",
+        "url": "https://www.wired.com/story/ai-leaders-are-calling-for-a-slowdown-trumps-team-says-its-on-them/",
+        "publishedAt": "2026-09-14",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Our framework for reporting model misalignment",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/model-misalignment-reporting-framework/",
+        "publishedAt": "2026-09-16",
+        "kind": "Company announcement"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-09-17-slowdown.png",
+      "alt": "Lavender cubes moving along a graphite track through two glass bars shaped like a pause symbol.",
+      "credit": "AI-generated editorial illustration",
+      "width": 1672,
+      "height": 941
+    }
+  },
+  {
+    "date": "2026-09-16",
+    "slug": "2026-09-16",
+    "title": "ChatGPT expands its advertising tools",
+    "excerpt": "Sponsored Agents enter testing as OpenAI expands campaign tools. What the announcement and Shopify listing say about access, measurement, and commercial influence.",
+    "file": "2026-09-16.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Reimagining advertising with AI",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/reimagining-advertising-with-ai/",
+        "publishedAt": "2026-09-16",
+        "kind": "Company announcement"
+      },
+      {
+        "title": "ChatGPT Ads app listing",
+        "publisher": "Shopify App Store; developer: OpenAI",
+        "url": "https://apps.shopify.com/chatgptads",
+        "publishedAt": "2026-09-03",
+        "kind": "App launch date; listing checked September 16"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "slug": "2026-09-15",
+    "title": "Work Mode recovers after task errors",
+    "excerpt": "OpenAI marks the Work Mode incident resolved. A service update, plus background reading on checking results and planning for failure.",
+    "file": "2026-09-15.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Work Mode incident and recovery updates",
+        "publisher": "OpenAI Status",
+        "url": "https://status.openai.com/incidents/01M2GA8XTS6VB3QCDEGZ0HNAQ5",
+        "publishedAt": "2026-09-14",
+        "kind": "Service notice; resolution posted September 15"
+      },
+      {
+        "title": "AI Risk Management Framework 1.0",
+        "publisher": "NIST",
+        "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+        "publishedAt": "2023-01-26",
+        "kind": "Voluntary guidance; background reading"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-14",
+    "slug": "2026-09-14",
+    "title": "AI at work, and the question of trust",
+    "excerpt": "OpenAI’s latest customer stories put everyday workflows in focus. A closer look at what they demonstrate—and the safety questions they leave open.",
+    "file": "2026-09-14.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Fyxer customer story",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/fyxer/",
+        "publishedAt": "2026-09-14",
+        "kind": "Company account"
+      },
+      {
+        "title": "Perplexity customer story",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra/",
+        "publishedAt": "2026-09-14",
+        "kind": "Company account"
+      },
+      {
+        "title": "International AI Safety Report 2026",
+        "publisher": "International AI Safety Report",
+        "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+        "publishedAt": "2026-02-03",
+        "kind": "Research synthesis"
+      }
+    ]
+  }
+]

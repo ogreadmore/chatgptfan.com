@@ -1,0 +1,19 @@
+{
+  "name": "ChatGPT Fan",
+  "url": "https://chatgptfan.com",
+  "description": "An independent daily brief and resource library for people who use ChatGPT. News, learning, projects, work, and AI safety.",
+  "timezone": "America/New_York",
+  "newsletterUrl": "",
+  "googleSiteVerification": "GALgHWMSmkxYjqjjKlQczr-y29-x4EMzSCuGdnpBWPc",
+  "companyUrl": "",
+  "safetyNoticeVersion": "1",
+  "safetyNoticeAutoOpen": true,
+  "contact": {
+    "formspreeEndpoint": "https://formspree.io/f/xnpnnqnn"
+  },
+  "analytics": {
+    "enabled": true,
+    "measurementId": "G-2FKHXD6RG5",
+    "enhancedMeasurementDisabled": true
+  }
+}

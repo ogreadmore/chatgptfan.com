@@ -1,0 +1,57 @@
+{
+  "reviewedAt": "2026-09-18",
+  "resources": [
+    "academy",
+    "wharton-gail",
+    "google-essentials",
+    "cookbook",
+    "zotero",
+    "lm-studio",
+    "elements",
+    "notebook",
+    "hf-agents"
+  ],
+  "projects": [
+    "ai-town",
+    "n8n-summary",
+    "voice-agents",
+    "gradio-demo",
+    "realtime",
+    "hf-spaces"
+  ],
+  "money": [
+    "sba-plan",
+    "stripe-pricing",
+    "fyxer"
+  ],
+  "safetyFeature": "safety-report",
+  "safety": [
+    "eff-ai-privacy",
+    "incidents",
+    "ai-now"
+  ],
+  "social": [
+    "https://x.com/sama/status/2099348812305473766",
+    "https://x.com/sama/status/2098811563415150910",
+    "https://x.com/merettm/status/2097758971876483248",
+    "https://x.com/markchen90/status/2097400166554993041",
+    "https://x.com/gdb/status/2097447915933356308",
+    "https://x.com/merettm/status/2096630018495377464"
+  ],
+  "excludeNewsUrls": [
+    "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
+    "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories",
+    "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai",
+    "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot",
+    "https://techcrunch.com/2026/09/18/robinhoods-abhishek-fatehpuria-on-winning-the-modern-financial-consumer-at-techcrunch-disrupt-2026",
+    "https://techcrunch.com/2026/09/18/final-24-hours-to-exhibit-at-techcrunch-disrupt-2026"
+  ],
+  "videos": [
+    "https://www.youtube.com/watch?v=VMgEQ7ym9WU",
+    "https://www.youtube.com/watch?v=lxVMdEpe0RQ",
+    "https://www.youtube.com/watch?v=YeeGHCixr7o",
+    "https://www.youtube.com/watch?v=s495saGYWFg",
+    "https://www.youtube.com/watch?v=Q_MEaNdMpZw",
+    "https://www.youtube.com/watch?v=WY_PHjGilVs"
+  ]
+}

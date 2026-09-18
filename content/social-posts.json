@@ -1,0 +1,67 @@
+{
+  "updatedAt": "2026-09-18",
+  "items": [
+    {
+      "accountId": "sama",
+      "url": "https://x.com/sama/status/2099348812305473766",
+      "coveredAt": "2026-09-15",
+      "title": "Slowing development does not have to wait for legislation",
+      "summary": "Altman welcomed a federal AI framework while saying companies can slow development responsibly without waiting for a new law or an antitrust exemption.",
+      "sourceUrl": "https://texxr.com/handle/sama",
+      "sourceName": "TEXXR archive",
+      "checkedAt": "2026-09-18"
+    },
+    {
+      "accountId": "sama",
+      "url": "https://x.com/sama/status/2098811563415150910",
+      "coveredAt": "2026-09-15",
+      "title": "Support for independent evaluators",
+      "summary": "Altman backed Amodei’s proposal to give independent evaluators access comparable to employees, and said OpenAI would make the same commitment.",
+      "sourceUrl": "https://texxr.com/handle/sama",
+      "sourceName": "TEXXR archive",
+      "checkedAt": "2026-09-18"
+    },
+    {
+      "accountId": "merettm",
+      "url": "https://x.com/merettm/status/2097758971876483248",
+      "coveredAt": "2026-09-10",
+      "title": "Welcoming Paul Christiano to the Foundation board",
+      "summary": "Pachocki welcomed Christiano’s arrival at the OpenAI Foundation board and emphasized the work still ahead.",
+      "sourceUrl": "https://texxr.com/handle/merettm",
+      "sourceName": "TEXXR archive",
+      "checkedAt": "2026-09-18"
+    },
+    {
+      "accountId": "markchen90",
+      "url": "https://x.com/markchen90/status/2097400166554993041",
+      "coveredAt": "2026-09-09",
+      "title": "Chen addresses the Navier–Stokes data question",
+      "summary": "Chen denied that people or agents examined user data for the specific mathematics effort, while acknowledging broader use of feedback and de-identified data to improve models. This is his account of the issue.",
+      "sourceUrl": "https://texxr.com/handle/markchen90",
+      "sourceName": "TEXXR archive",
+      "checkedAt": "2026-09-18"
+    },
+    {
+      "accountId": "gdb",
+      "url": "https://x.com/gdb/status/2097447915933356308",
+      "coveredAt": "2026-09-09",
+      "title": "A demonstration of ChatGPT Images 2.5",
+      "summary": "Brockman shared a demonstration highlighting the updated image model’s capabilities.",
+      "sourceUrl": "https://texxr.com/handle/gdb",
+      "sourceName": "TEXXR archive",
+      "checkedAt": "2026-09-18"
+    },
+    {
+      "accountId": "merettm",
+      "url": "https://x.com/merettm/status/2096630018495377464",
+      "coveredAt": "2026-09-07",
+      "title": "An Alien Mind: concerns about the next few years",
+      "summary": "Pachocki shared his essay on AI progress, his concerns, and the choices needed to preserve human control.",
+      "contextUrl": "https://openai.com/index/an-alien-mind/",
+      "contextLabel": "Read the essay",
+      "sourceUrl": "https://texxr.com/handle/merettm",
+      "sourceName": "TEXXR archive",
+      "checkedAt": "2026-09-18"
+    }
+  ]
+}

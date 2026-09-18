@@ -1,0 +1,27 @@
+{
+  "name": "chatgptfan",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "feeds": "node scripts/refresh-feeds.mjs",
+    "check": "node --test --test-isolation=none tests/*.test.mjs",
+    "verify": "npm run build && npm run check",
+    "resources:review": "node scripts/resource-review.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource/silkscreen": "^5.3.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "fast-xml-parser": "^5.11.1",
+    "fontkit": "^2.0.4",
+    "marked": "^18.0.13",
+    "sanitize-html": "^2.17.7",
+    "sharp": "0.35.4"
+  }
+}

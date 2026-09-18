@@ -1,0 +1,60 @@
+[
+  {
+    "id": "sama",
+    "name": "Sam Altman",
+    "role": "CEO & co-founder",
+    "group": "People",
+    "reference": "https://blog.samaltman.com/?page=10",
+    "roleReference": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+    "url": "https://x.com/sama",
+    "checkedAt": "2026-09-18"
+  },
+  {
+    "id": "gdb",
+    "name": "Greg Brockman",
+    "role": "President & co-founder",
+    "group": "People",
+    "reference": "https://gregbrockman.com/",
+    "roleReference": "https://openai.com/index/dali-rajic-chief-revenue-officer/",
+    "url": "https://x.com/gdb",
+    "checkedAt": "2026-09-18"
+  },
+  {
+    "id": "markchen90",
+    "name": "Mark Chen",
+    "role": "Chief Research Officer",
+    "group": "People",
+    "reference": "https://digg.com/u/x/markchen90",
+    "roleReference": "https://forum.openai.com/public/videos/event-replay-terence-tao-and-mark-chen-on-ai-and-mathematical-discovery-2026-03-11",
+    "url": "https://x.com/markchen90",
+    "checkedAt": "2026-09-18"
+  },
+  {
+    "id": "merettm",
+    "name": "Jakub Pachocki",
+    "role": "Chief Scientist",
+    "group": "People",
+    "reference": "https://ww.twstalker.com/merettm",
+    "roleReference": "https://openai.com/index/an-alien-mind/",
+    "url": "https://x.com/merettm",
+    "checkedAt": "2026-09-18"
+  },
+  {
+    "id": "OpenAI",
+    "name": "OpenAI",
+    "role": "Company announcements",
+    "group": "Official accounts",
+    "reference": "https://help.openai.com/en/articles/11725090-verifying-communications-from-openai",
+    "url": "https://x.com/OpenAI",
+    "checkedAt": "2026-09-18"
+  },
+  {
+    "id": "OpenAIDevs",
+    "name": "OpenAI Developers",
+    "role": "Developer updates",
+    "group": "Official accounts",
+    "reference": "https://help.openai.com/en/articles/11725090-verifying-communications-from-openai",
+    "url": "https://x.com/OpenAIDevs",
+    "checkedAt": "2026-09-18"
+  }
+]
