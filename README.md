@@ -35,7 +35,7 @@ The build performs no network calls. It generates a branded sharing image and ar
 
 ## GitHub Pages
 
-1. Connect this checkout to the owner's chosen GitHub repository. The free Pages plan requires a public repository; only publish source files that are meant to be public. No remote is configured yet.
+1. The project remote is `https://github.com/ogreadmore/chatgptfan.com.git`, with `main` as the publishing branch. Private setup notes, run logs, and superseded artwork are kept out of the public repository.
 2. Push the source and lockfile to `main`. In repository **Settings → Pages**, choose **GitHub Actions** as the build source. `.github/workflows/pages.yml` installs locked dependencies, verifies, uploads `dist/`, and deploys it.
 3. First verify the site's GitHub Pages URL. The workflow supplies the path prefix, so a project site under `/repository-name/` works as well as a custom domain.
 4. Configure `chatgptfan.com` as the custom domain in Pages and verify domain ownership. Only then change DNS from the current host and enable HTTPS. This project deliberately contains no DNS-changing script or active CNAME takeover. See [GitHub's custom-domain documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
