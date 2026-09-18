@@ -58,3 +58,17 @@ test('contact preserves input on failure, confirms success only on OK, and never
   ok=true;await handler({preventDefault(){}});assert.equal(resets,1);assert.equal(sent,1);assert.match(status.textContent,/Message sent/);
   form.dataset.ready='false';await handler({preventDefault(){}});assert.equal(requests,2);
 });
+
+test('browser privacy signals override saved analytics consent without loading Google',()=>{
+  for(const signal of [{globalPrivacyControl:true},{doNotTrack:'1'}]) {
+    const h=analyticsHarness();h.win.navigator=signal;
+    h.memory.set(CONSENT_KEY,JSON.stringify({choice:'granted',at:Date.now()}));
+    h.doc.cookie='_ga=previous';
+    initAnalytics(h.win,h.doc);
+    assert.equal(h.tags.length,0);
+    assert.equal(h.panel.hidden,true);
+    assert.equal(savedConsent(h.win.localStorage),'denied');
+    assert.equal(h.win['ga-disable-G-TEST'],true);
+    assert.match(h.doc.cookie,/Max-Age=0/);
+  }
+});

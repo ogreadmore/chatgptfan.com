@@ -18,4 +18,8 @@ Briefs and resource descriptions may be researched and drafted with AI assistanc
 
 ## Contact & privacy
 
+For corrections, send the article URL, the statement at issue, and a supporting source through Contact. Substantive corrections are noted on the affected article; minor spelling and formatting fixes may be made without a separate note. For copyright or other rights concerns, identify the material and your relationship to it so we can investigate.
+
 Questions, corrections, and resource suggestions are welcome through [Contact](../contact/). See our [privacy page](../privacy/) for contact processing, optional analytics, and the preferences stored on your device.
+
+Our [Terms of Use](../terms/) explain content reuse, external links, and the limits of the information we publish.

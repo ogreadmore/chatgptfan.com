@@ -64,6 +64,12 @@ export function initAnalytics(win,doc) {
     const status=doc.querySelector('[data-privacy-consent-status]');
     if(status) status.textContent=value==='granted'?'Analytics allowed.':'Analytics declined.';
   };
+  if(win.navigator?.globalPrivacyControl===true || win.navigator?.doNotTrack==='1' || win.doNotTrack==='1') {
+    setChoice('denied');
+    const status=doc.querySelector('[data-privacy-consent-status]');
+    if(status) status.textContent='Analytics is off because your browser sends a privacy signal.';
+    return;
+  }
   panel.querySelector('[data-analytics-allow]').addEventListener('click',()=>setChoice('granted'));
   panel.querySelector('[data-analytics-deny]').addEventListener('click',()=>setChoice('denied'));
   const show=()=>{panel.hidden=false;};
