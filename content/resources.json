@@ -608,9 +608,9 @@
     "id": "ncsc-ai-security",
     "section": "safety",
     "title": "AI and cyber security: what you need to know",
-    "url": "https://www.ncsc.gov.uk/pdfs/guidance/ai-and-cyber-security-what-you-need-to-know.pdf",
+    "url": "https://www.ncsc.gov.uk/guidance/ai-and-cyber-security-what-you-need-to-know",
     "provider": "UK National Cyber Security Centre",
-    "kind": "Government guidance · PDF",
+    "kind": "Government guidance",
     "description": "A nontechnical introduction to AI security for managers: unreliable outputs, attacks on AI systems, sensitive data, and responsibility within an organization.",
     "checkedAt": "2026-09-18",
     "reviewEveryDays": 45,
@@ -618,7 +618,7 @@
       "group": "everyday",
       "audience": "Managers · no technical background needed",
       "why": "Gives people responsible for adopting AI a way to discuss security with their teams.",
-      "readFirst": "Read the sections on cyber risks and what leaders can do. The PDF is seven pages.",
+      "readFirst": "Read the sections on cyber risks and what leaders can do, then use the questions for managers to review your own organization.",
       "limits": "A security overview, not a complete treatment of social risks; some product examples reflect an earlier generation of tools."
     }
   }
