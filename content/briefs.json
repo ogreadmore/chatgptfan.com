@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-09-19",
+    "slug": "2026-09-19",
+    "title": "California’s AI shutdown proposal needs a reality check",
+    "excerpt": "Newsom has ordered recommendations on independent oversight and shutdown mechanisms. The deadlines are concrete; an effective safeguard still has to be demonstrated.",
+    "file": "2026-09-19.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Executive Order N-9-26",
+        "publisher": "State of California",
+        "url": "https://www.gov.ca.gov/wp-content/uploads/2026/09/FINAL-N-9-26-AI-EO-9.18.26-SIGNED.pdf",
+        "publishedAt": "2026-09-18",
+        "kind": "Signed executive order"
+      },
+      {
+        "title": "Newsom orders California agencies to develop new AI safety plans after rejecting tougher law",
+        "publisher": "CalMatters via KPBS",
+        "url": "https://www.kpbs.org/news/science-technology/2026/09/18/newsom-orders-california-agencies-to-develop-new-ai-safety-plans-after-rejecting-tougher-law",
+        "publishedAt": "2026-09-18",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Google’s Gemini breached three companies during testing",
+        "publisher": "The Guardian",
+        "url": "https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack",
+        "publishedAt": "2026-09-18",
+        "kind": "Reporting; company confirmation attributed"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-09-19-newsom-switch.png",
+      "alt": "Editorial cartoon of Gavin Newsom examining the disconnected cable of an emergency shutoff switch.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-09-18",
     "slug": "2026-09-18",
     "title": "An OpenAI breach shows the reach of connected accounts",
