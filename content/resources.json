@@ -8,7 +8,7 @@
     "kind": "Guide",
     "level": "Beginner",
     "description": "A direct introduction to using ChatGPT, with a route into OpenAI’s AI Foundations course. A sensible first stop before chasing advanced techniques.",
-    "checkedAt": "2026-09-19",
+    "checkedAt": "2026-09-20",
     "cost": "Free guide",
     "bestFor": "Your first conversations with ChatGPT",
     "needs": "No programming required.",
@@ -122,7 +122,7 @@
     "kind": "Course",
     "level": "Developer",
     "description": "Learn agent concepts, work with established frameworks, and build an evaluated final project. Includes retrieval, observability, and a game-playing example.",
-    "checkedAt": "2026-09-19",
+    "checkedAt": "2026-09-20",
     "cost": "Free course",
     "needs": "Basic Python and LLM knowledge; a Hugging Face account for publishing projects.",
     "time": "3–4 hours per chapter · provider estimate",
@@ -203,9 +203,9 @@
     "kind": "Local models",
     "level": "Intermediate",
     "description": "Explore open models on your own computer through a desktop interface. Its Bionic agent also supports document and coding work.",
-    "checkedAt": "2026-09-18",
+    "checkedAt": "2026-09-20",
     "cost": "Free local use · paid cloud",
-    "needs": "Hardware requirements depend on the model. Distinguish local inference from optional cloud services.",
+    "needs": "Hardware requirements depend on the model. Local inference is free; optional cloud plans and web tools can send data off your device. Check which mode you are using.",
     "bestFor": "Experimenting with local models",
     "reviewEveryDays": 14,
     "sourceUrl": "https://lmstudio.ai/pricing"
@@ -267,7 +267,7 @@
     "kind": "Starter project",
     "level": "Developer",
     "description": "Turn a Python function or model into a small web interface. The README includes a minimal working example and options for sharing a demo.",
-    "checkedAt": "2026-09-18",
+    "checkedAt": "2026-09-20",
     "cost": "Free framework · hosting extra",
     "needs": "Python 3.10 or later. Model and hosting costs depend on what you connect; review sharing settings.",
     "bestFor": "Making an experiment usable by someone else",
@@ -342,7 +342,7 @@
     "kind": "Business planning",
     "level": "All levels",
     "description": "Market research, business-plan examples, startup costs, and break-even planning in one reference. Use it to define a customer and a deliverable before investing in an AI service.",
-    "checkedAt": "2026-09-19",
+    "checkedAt": "2026-09-20",
     "cost": "Free resource",
     "bestFor": "Validating a service or product idea",
     "featured": true,
@@ -468,7 +468,7 @@
     "provider": "AI Now Institute",
     "kind": "Research & advocacy",
     "description": "Research and policy advocacy examining AI companies, concentrated power, and public accountability.",
-    "checkedAt": "2026-09-19",
+    "checkedAt": "2026-09-20",
     "reviewEveryDays": 45,
     "safety": {
       "group": "policy",
@@ -522,7 +522,7 @@
     "provider": "Apollo Research",
     "kind": "Evaluation research",
     "description": "Technical work on model deception, scheming, and alignment evaluations. Study findings describe tested conditions; they do not establish the prevalence of a behavior in everyday use.",
-    "checkedAt": "2026-09-18",
+    "checkedAt": "2026-09-20",
     "reviewEveryDays": 45,
     "safety": {
       "group": "frontier",
@@ -540,7 +540,7 @@
     "provider": "UK Department for Science, Innovation and Technology",
     "kind": "Government research",
     "description": "Government research on advanced AI capabilities, public safety, and risk mitigations, alongside evaluation tools and technical reports.",
-    "checkedAt": "2026-09-18",
+    "checkedAt": "2026-09-20",
     "reviewEveryDays": 45,
     "safety": {
       "group": "frontier",
@@ -558,13 +558,13 @@
     "provider": "MIT AI Risk Initiative",
     "kind": "Evidence",
     "description": "A structured collection of AI risks and the frameworks that describe them. Useful for checking whether a discussion overlooks social, security, or system-level harms.",
-    "checkedAt": "2026-09-18",
+    "checkedAt": "2026-09-20",
     "reviewEveryDays": 45,
     "safety": {
       "group": "evidence",
       "audience": "General readers · deeper reference",
       "why": "A map of risk categories helps reveal what a narrow discussion leaves out.",
-      "readFirst": "Explore the risk repository before moving into incident and governance datasets.",
+      "readFirst": "Start with the risk repository, then use the Risk Navigator to connect risk categories with incidents and governance records.",
       "limits": "A catalog organizes risks; it does not establish that every risk is equally likely or severe."
     }
   },
@@ -576,7 +576,7 @@
     "provider": "Epoch AI",
     "kind": "Data & research",
     "description": "Data explorers and research on model capabilities, compute, and AI infrastructure. Check measurement methods, coverage, and assumptions before comparing claims.",
-    "checkedAt": "2026-09-18",
+    "checkedAt": "2026-09-20",
     "reviewEveryDays": 45,
     "safety": {
       "group": "frontier",
@@ -594,7 +594,7 @@
     "provider": "Electronic Frontier Foundation",
     "kind": "Practical guidance",
     "description": "A readable guide to what happens to your data in AI apps, integrations, and local or cloud tools. Covers privacy settings, retention, and the limits of “private” modes.",
-    "checkedAt": "2026-09-19",
+    "checkedAt": "2026-09-20",
     "reviewEveryDays": 30,
     "safety": {
       "group": "everyday",
@@ -621,5 +621,20 @@
       "readFirst": "Read the sections on cyber risks and what leaders can do, then use the questions for managers to review your own organization.",
       "limits": "A security overview, not a complete treatment of social risks; some product examples reflect an earlier generation of tools."
     }
+  },
+  {
+    "id": "ai-business-value",
+    "section": "money",
+    "title": "Measure whether AI is paying off",
+    "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value/",
+    "provider": "OpenAI",
+    "kind": "Vendor guide",
+    "level": "Intermediate",
+    "description": "A practical approach to comparing AI use with delivery time, quality and business outcomes. Includes review and correction time, setup and support costs; its ROI example is illustrative, not a measured earnings result.",
+    "checkedAt": "2026-09-20",
+    "cost": "Free guide · product access varies",
+    "needs": "Useful for team leads and service providers. The product walkthrough uses ChatGPT administrator analytics; verify access in your plan.",
+    "bestFor": "Evaluating a workflow before expanding it",
+    "reviewEveryDays": 30
   }
 ]

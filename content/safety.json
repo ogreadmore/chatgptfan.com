@@ -2,20 +2,87 @@
   "purpose": "For people who use AI and want to understand its consequences.",
   "introduction": "Start with practical guidance and accessible evidence. Go deeper into public policy and frontier research when you want to examine the arguments yourself.",
   "starts": [
-    {"id":"safety-report","title":"Understand the bigger picture","description":"Begin with the executive summary of the International AI Safety Report: what researchers know, where they disagree, and what remains uncertain.","label":"Read the report"},
-    {"id":"eff-ai-privacy","title":"Make a better privacy decision","description":"EFF’s guide explains the data choices behind the AI tools you already use.","label":"Read the privacy guide"},
-    {"id":"ai-now","title":"Examine who has power","description":"AI Now looks at the companies, public institutions, and policy choices shaping AI.","label":"Explore the research"}
+    {
+      "id": "safety-report",
+      "title": "Understand the bigger picture",
+      "description": "Begin with the executive summary of the International AI Safety Report: what researchers know, where they disagree, and what remains uncertain.",
+      "label": "Read the report"
+    },
+    {
+      "id": "eff-ai-privacy",
+      "title": "Make a better privacy decision",
+      "description": "EFF’s guide explains the data choices behind the AI tools you already use.",
+      "label": "Read the privacy guide"
+    },
+    {
+      "id": "ai-now",
+      "title": "Examine who has power",
+      "description": "AI Now looks at the companies, public institutions, and policy choices shaping AI.",
+      "label": "Explore the research"
+    }
   ],
   "groups": [
-    {"id":"everyday","title":"Everyday use","question":"What can I do differently?","description":"Privacy and security decisions for your own use or your workplace. Individual precautions matter, but they cannot substitute for responsibilities held by developers and institutions.","resources":["eff-ai-privacy","ncsc-ai-security","nist"]},
-    {"id":"evidence","title":"Harms & evidence","question":"What is happening, and how do we know?","description":"Start with the research overview, then inspect reported incidents and the wider map of risks. Distinguish documented harm from a possible future scenario.","resources":["safety-report","incidents","mit-risk"]},
-    {"id":"policy","title":"Power & policy","question":"Who decides, and what could change?","description":"Research on industry power and proposals for stronger public control, including a pause in frontier development. These sources make arguments you can examine and act on.","resources":["ai-now","pause"]},
-    {"id":"frontier","title":"Frontier risks","question":"What could more capable systems do?","description":"Deeper reading on autonomous capabilities, deception, safeguards, and the pace of development. Best approached with attention to methods and uncertainty.","resources":["metr","apollo","aisi","epoch"]}
+    {
+      "id": "everyday",
+      "title": "Everyday use",
+      "question": "What can I do differently?",
+      "description": "Privacy and security decisions for your own use or your workplace. Individual precautions matter, but they cannot substitute for responsibilities held by developers and institutions.",
+      "resources": [
+        "eff-ai-privacy",
+        "ncsc-ai-security",
+        "nist"
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Harms & evidence",
+      "question": "What is happening, and how do we know?",
+      "description": "Start with the research overview, then inspect reported incidents and the wider map of risks. Distinguish documented harm from a possible future scenario.",
+      "resources": [
+        "safety-report",
+        "incidents",
+        "mit-risk"
+      ]
+    },
+    {
+      "id": "policy",
+      "title": "Power & policy",
+      "question": "Who decides, and what could change?",
+      "description": "Research on industry power and proposals for stronger public control, including a pause in frontier development. These sources make arguments you can examine and act on.",
+      "resources": [
+        "ai-now",
+        "pause"
+      ]
+    },
+    {
+      "id": "frontier",
+      "title": "Frontier risks",
+      "question": "What could more capable systems do?",
+      "description": "Deeper reading on autonomous capabilities, deception, safeguards, and the pace of development. Best approached with attention to methods and uncertainty.",
+      "resources": [
+        "metr",
+        "apollo",
+        "aisi",
+        "epoch"
+      ]
+    }
   ],
   "selection": [
-    {"title":"A useful reader question","description":"Each resource must help you understand a risk, make a decision, inspect evidence, or evaluate a policy proposal. Popularity alone is not a reason to include it."},
-    {"title":"Work you can examine","description":"We prefer original research, source-linked incident records, specific guidance, and clearly stated proposals. We note limits rather than treating an organization’s reputation as proof."},
-    {"title":"A clear point of view","description":"Research, government guidance, and advocacy are labeled. We consider affiliations and interests, welcome substantive criticism of OpenAI, and do not require agreement with our editorial position."},
-    {"title":"An ongoing reason to stay","description":"The daily editorial routine reviews a rotating selection. Checked dates mean the source was reviewed, not that every claim was independently verified. Outdated or redundant entries are revised or removed."}
+    {
+      "title": "A useful reader question",
+      "description": "Each resource must help you understand a risk, make a decision, inspect evidence, or evaluate a policy proposal. Popularity alone is not a reason to include it."
+    },
+    {
+      "title": "Work you can examine",
+      "description": "We prefer original research, source-linked incident records, specific guidance, and clearly stated proposals. We note limits rather than treating an organization’s reputation as proof."
+    },
+    {
+      "title": "A clear point of view",
+      "description": "Research, government guidance, and advocacy are labeled. We consider affiliations and interests, welcome substantive criticism of OpenAI, and do not require agreement with our editorial position."
+    },
+    {
+      "title": "An ongoing reason to stay",
+      "description": "Every main section is reviewed daily, with deeper checks of selected sources. Checked dates mean the individual source was reviewed, not that every claim was independently verified. Outdated or redundant entries are revised or removed."
+    }
   ]
 }

@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-09-20",
+    "slug": "2026-09-20",
+    "title": "Trump proposes an AI Force. The details still matter.",
+    "excerpt": "A new federal AI announcement leaves its powers unspecified. The useful test is what oversight can inspect, report and change.",
+    "file": "2026-09-20.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Trump says he will create 'AI Force,' name AI czar",
+        "publisher": "Reuters via Yahoo",
+        "url": "https://currently.att.yahoo.com/att/trump-says-create-ai-force-172503098.html",
+        "publishedAt": "2026-09-19",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Trump wants a new AI czar and an AI Force modeled on Space Force",
+        "publisher": "Axios",
+        "url": "https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety",
+        "publishedAt": "2026-09-19",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "We Must Pace the Frontier",
+        "publisher": "Dario Amodei — Anthropic CEO",
+        "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+        "publishedAt": "2026-09-12",
+        "kind": "Industry proposal; release date corroborated by reporting"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-09-20-trump-frame.png",
+      "alt": "Conceptual editorial cartoon of Donald Trump holding an empty lavender picture frame.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-09-19",
     "slug": "2026-09-19",
     "title": "California’s AI shutdown proposal needs a reality check",

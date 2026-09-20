@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-09-19",
+  "reviewedAt": "2026-09-20",
   "resources": [
     "academy",
     "wharton-gail",
@@ -22,7 +22,7 @@
   "money": [
     "sba-plan",
     "stripe-pricing",
-    "fyxer"
+    "ai-business-value"
   ],
   "safetyFeature": "safety-report",
   "safety": [
@@ -46,7 +46,14 @@
     "https://techcrunch.com/2026/09/18/robinhoods-abhishek-fatehpuria-on-winning-the-modern-financial-consumer-at-techcrunch-disrupt-2026",
     "https://techcrunch.com/2026/09/18/final-24-hours-to-exhibit-at-techcrunch-disrupt-2026",
     "https://techcrunch.com/2026/09/19/prices-go-up-in-7-days-get-your-disrupt-ticket-now",
-    "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack"
+    "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+    "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026",
+    "https://www.theguardian.com/australia-news/2026/sep/20/intergenerational-report-australian-life-expectancy-forecast-to-rise",
+    "https://www.theguardian.com/us-news/ng-interactive/2026/sep/20/anger-midterm-elections",
+    "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+    "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force",
+    "https://www.theguardian.com/commentisfree/picture/2026/sep/20/ella-baron-relationship-with-ai-human-technology-cartoon",
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN3lDRHRlTWN1YnNJaGtha3IwWGxCV0w1QlVNNWpGQ2habE9mTUJpN2tqT2RvRkJqai15TGVhTTRnbmNCX1o5a2NGaXRVWXpnYXF6SlFodGJLYmZDUjNrVmR3ZXgxQ1hua1c3ZnFfeGE3S1ZGb0REWV9DWWRQNFFEazBWSjVPb1VzMExOYWVKOTJ3SlZaRlRyZWkwVHNOQVpxY3J3?oc=5"
   ],
   "videos": [
     "https://www.youtube.com/watch?v=VMgEQ7ym9WU",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19",
+  "updatedAt": "2026-09-20",
   "items": [
     {
       "accountId": "sama",
@@ -9,7 +9,7 @@
       "summary": "Altman welcomed a federal AI framework while saying companies can slow development responsibly without waiting for a new law or an antitrust exemption.",
       "sourceUrl": "https://texxr.com/handle/sama",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-09-19"
+      "checkedAt": "2026-09-20"
     },
     {
       "accountId": "sama",
@@ -19,7 +19,7 @@
       "summary": "Altman backed Amodei’s proposal to give independent evaluators access comparable to employees, and said OpenAI would make the same commitment.",
       "sourceUrl": "https://texxr.com/handle/sama",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-09-19"
+      "checkedAt": "2026-09-20"
     },
     {
       "accountId": "merettm",
@@ -39,7 +39,7 @@
       "summary": "Chen denied that people or agents examined user data for the specific mathematics effort, while acknowledging broader use of feedback and de-identified data to improve models. This is his account of the issue.",
       "sourceUrl": "https://texxr.com/handle/markchen90",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-09-19"
+      "checkedAt": "2026-09-20"
     },
     {
       "accountId": "gdb",
@@ -49,7 +49,7 @@
       "summary": "Brockman shared a demonstration highlighting the updated image model’s capabilities.",
       "sourceUrl": "https://texxr.com/handle/gdb",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-09-19"
+      "checkedAt": "2026-09-20"
     },
     {
       "accountId": "merettm",
@@ -61,7 +61,7 @@
       "contextLabel": "Read the essay",
       "sourceUrl": "https://texxr.com/handle/merettm",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-09-19"
+      "checkedAt": "2026-09-20"
     }
   ]
 }
