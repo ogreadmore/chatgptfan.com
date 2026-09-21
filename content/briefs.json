@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-09-21",
+    "slug": "2026-09-21",
+    "title": "An AI incident line between the U.S. and China",
+    "excerpt": "Bessent says the two countries agreed to an AI dialogue and incident line. The next test is how the arrangement will work.",
+    "file": "2026-09-21.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "US, China to meet again on AI safety in two months in Shenzhen, Bessent says",
+        "publisher": "Reuters via MarketScreener",
+        "url": "https://www.marketscreener.com/news/us-china-to-meet-again-on-ai-safety-in-two-months-in-shenzhen-bessent-says-ce785adbdc8ef722",
+        "publishedAt": "2026-09-21",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Bessent: US proposes AI incident alert system in talks with China",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/2c7f54f07e755f506d9db9b91df282bd",
+        "publishedAt": "2026-09-21",
+        "kind": "Independent reporting; September 20 remarks"
+      },
+      {
+        "title": "Partnering with Accenture on embedded evaluation",
+        "publisher": "Anthropic",
+        "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+        "publishedAt": "2026-09-18",
+        "kind": "Company announcement"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-09-21-bessent-phone.png",
+      "alt": "Conceptual editorial cartoon of Scott Bessent listening on an apricot telephone against a purple background.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-09-20",
     "slug": "2026-09-20",
     "title": "Trump proposes an AI Force. The details still matter.",
