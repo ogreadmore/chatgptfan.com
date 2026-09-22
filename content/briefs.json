@@ -1,5 +1,73 @@
 [
   {
+    "date": "2026-09-22",
+    "slug": "2026-09-22",
+    "title": "Sol and Luna bring GPT-6’s prices down",
+    "excerpt": "New models arrive in Work and Codex as OpenAI and Anthropic compete on cost. What changes—and what still needs checking.",
+    "file": "2026-09-22.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Introducing GPT-6 Sol and Luna",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+        "publishedAt": "2026-09-22",
+        "kind": "Company announcement"
+      },
+      {
+        "title": "GPT-6 Sol model",
+        "publisher": "OpenAI API documentation",
+        "url": "https://developers.openai.com/api/docs/models/gpt-6-sol",
+        "publishedAt": "2026-09-22",
+        "kind": "Official documentation"
+      },
+      {
+        "title": "GPT-6 Luna model",
+        "publisher": "OpenAI API documentation",
+        "url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+        "publishedAt": "2026-09-22",
+        "kind": "Official documentation"
+      },
+      {
+        "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+        "publishedAt": "2026-09-22",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Introducing Claude Opus 5.5",
+        "publisher": "Anthropic",
+        "url": "https://www.anthropic.com/claude-opus-5-5",
+        "publishedAt": "2026-09-22",
+        "kind": "Company announcement"
+      },
+      {
+        "title": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
+        "publisher": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+        "publishedAt": "2026-09-22",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Building standards for the next phase of AI",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/building-standards-next-phase-ai/",
+        "publishedAt": "2026-09-21",
+        "kind": "Company announcement"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-09-22-altman-price.png",
+      "alt": "Conceptual editorial cartoon of Sam Altman cutting an apricot price tag with scissors against a purple background.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 940,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-09-21",
     "slug": "2026-09-21",
     "title": "An AI incident line between the U.S. and China",
