@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-09-23",
+    "slug": "2026-09-23",
+    "title": "AI safety goes before the Security Council",
+    "excerpt": "Altman and other AI leaders are due at the UN. The test is whether safety proposals produce access, evidence and accountability.",
+    "file": "2026-09-23.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Artificial Intelligence: High-level Briefing",
+        "publisher": "Security Council Report",
+        "url": "https://www.securitycouncilreport.org/whatsinblue/2026/09/artificial-intelligence-high-level-briefing-2.php",
+        "publishedAt": "2026-09-22",
+        "kind": "Independent analysis"
+      },
+      {
+        "title": "Anthropic CEO Dario Amodei to Brief UN Security Council on AI",
+        "publisher": "Bloomberg",
+        "url": "https://news.bloomberglaw.com/ip-law/anthropic-ceo-dario-amodei-to-brief-un-security-council-on-ai",
+        "publishedAt": "2026-09-22",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "AI leaders to brief UN amid warnings the technology could slip beyond human control",
+        "publisher": "Reuters via Internazionale",
+        "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/23/ai-leaders-to-brief-un-amid-warnings-the-technology-could-slip-beyond-human-control",
+        "publishedAt": "2026-09-23",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Building standards for the next phase of AI",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/building-standards-next-phase-ai/",
+        "publishedAt": "2026-09-21",
+        "kind": "Company proposal"
+      },
+      {
+        "title": "Summary of METR’s predeployment evaluation of Claude Opus 5.5",
+        "publisher": "METR",
+        "url": "https://metr.org/blog/2026-09-22-claude-opus-5-5/",
+        "publishedAt": "2026-09-22",
+        "kind": "Evaluation research"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-09-23-altman-un.png",
+      "alt": "Conceptual editorial cartoon of Sam Altman speaking into a conference microphone against a muted purple background.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-09-22",
     "slug": "2026-09-22",
     "title": "Sol and Luna bring GPT-6’s prices down",
