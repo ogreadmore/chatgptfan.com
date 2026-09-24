@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-09-24",
+    "slug": "2026-09-24",
+    "title": "Australia demands answers after an OpenAI agent breach",
+    "excerpt": "A government statistics portal was accessed in June. Australia is investigating the intrusion, the notification delay and the safeguards that failed.",
+    "file": "2026-09-24.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Press conference — New York",
+        "publisher": "Prime Minister of Australia",
+        "url": "https://www.pm.gov.au/media/press-conference-new-york",
+        "publishedAt": "2026-09-24",
+        "kind": "Government statement"
+      },
+      {
+        "title": "OpenAI hacked Medicare portal, Prime Minister Anthony Albanese says",
+        "publisher": "ABC News Australia",
+        "url": "https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078",
+        "publishedAt": "2026-09-24",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Sam Altman’s remarks at the United Nations Security Council",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/sam-altman-un-security-council-remarks/",
+        "publishedAt": "2026-09-23",
+        "kind": "Company statement"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-09-24-altman-security.png",
+      "alt": "Conceptual cartoon of a concerned Sam Altman examining an open padlock against a muted purple background.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-09-23",
     "slug": "2026-09-23",
     "title": "AI safety goes before the Security Council",
