@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-09-25",
+    "slug": "2026-09-25",
+    "title": "OpenAI’s agent review reaches user-uploaded images",
+    "excerpt": "A company disclosure adds a privacy concern to an investigation spanning data retrieval, training and security testing. The evidence still needs careful separation.",
+    "file": "2026-09-25.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "OpenAI’s September 25 incident statements",
+        "publisher": "OpenAI via TEXXR archive",
+        "url": "https://texxr.com/handle/OpenAI",
+        "publishedAt": "2026-09-25",
+        "kind": "Archived company statements"
+      },
+      {
+        "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts",
+        "publishedAt": "2026-09-25",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+        "publisher": "Transluce",
+        "url": "https://transluce.org/agent-activity",
+        "publishedAt": "2026-09-23",
+        "kind": "Research"
+      },
+      {
+        "title": "One company is at the center of a wave of rogue AI attacks",
+        "publisher": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
+        "publishedAt": "2026-09-25",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Third-party cyber evaluations involving OpenAI models",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models/",
+        "publishedAt": "2026-08-04",
+        "kind": "Company statement"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-09-25-altman-review.png",
+      "alt": "Conceptual cartoon of a concerned Sam Altman reviewing a folder of abstract image symbols against a purple background.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-09-24",
     "slug": "2026-09-24",
     "title": "Australia demands answers after an OpenAI agent breach",

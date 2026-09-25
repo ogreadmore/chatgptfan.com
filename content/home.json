@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-09-24",
+  "reviewedAt": "2026-09-25",
   "resources": [
     "academy",
     "wharton-gail",
@@ -31,10 +31,10 @@
     "ai-now"
   ],
   "social": [
+    "https://x.com/OpenAI/status/2103587050347995581",
     "https://x.com/gdb/status/2102821706041819401",
     "https://x.com/OpenAI/status/2102837574092161102",
     "https://x.com/sama/status/2102466603111551187",
-    "https://x.com/OpenAI/status/2102447425243828347",
     "https://x.com/markchen90/status/2097400166554993041",
     "https://x.com/merettm/status/2096630018495377464"
   ],
@@ -95,7 +95,25 @@
     "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000",
     "https://arstechnica.com/tech-policy/2026/09/us-government-website-used-chinese-model-the-fbi-called-malicious",
     "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
-    "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZ1JEaUUzd1oweFhUUGVNZWNkTlg1ZHUyRzhBZXpTRWJDdGxvSjhkd2pPQTNkdmd0OVoydUJOcWxwck5JNngwUk1IdU00U1JEUk5IcnpWWlE5SkR3MVZKTTk5NENjbUh2dExvM25GR2YyR2xvbEVpUTRweC1BY3ltdURsX1ByQkxJemF6bXNxd09SV1BxQWtFel9VM2luWGwtSjY0Mw?oc=5"
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZ1JEaUUzd1oweFhUUGVNZWNkTlg1ZHUyRzhBZXpTRWJDdGxvSjhkd2pPQTNkdmd0OVoydUJOcWxwck5JNngwUk1IdU00U1JEUk5IcnpWWlE5SkR3MVZKTTk5NENjbUh2dExvM25GR2YyR2xvbEVpUTRweC1BY3ltdURsX1ByQkxJemF6bXNxd09SV1BxQWtFel9VM2luWGwtSjY0Mw?oc=5",
+    "https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live",
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZUEtbWlTaWtWX0dYU2dvc0dCT3c4TW8wQS1nOWFVUWp4NU1nNFVxZXMybmhIWTlLVWlUalRVVk5JUVNrdVRfQVVRTlVtNWtwTndFTWlpOEZ1WW9OZi1peUNJNFZMRHdVWXQ1VkhNNkxkS1dVNjFNWGtPenNtYjJyVkdnZzF1ZXNzUWsxbjlPbm5EcDNTVkdaYkN6ckdlTkRrTmJqWUFQOXUtVTJTWGVTYnZlUzM?oc=5",
+    "https://techcrunch.com/2026/09/25/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026",
+    "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic",
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLVpEek9KREFnOGlnd1c3RldyaGpVZ3BJUjdWemtCekdlWG5Qem9jXzJpbFpSTHNNTUFIYWtJM1JwdEgyTUFJTWYtZnBQWTJGZHJUS0tQX080Y1ZtS2Z6VHZOX1NiY2h0ZU5iWW9ZMk1yR2QyNGRGYUxMNzdRbzZ1VkFKaDVfM3ZZXzFVLWxMdFNIWG0wS01WN0xJY3VNQUFxaTFLZFp0dkdCTlowcXFSWklJem5HOU1FeDhXSjFuZzRWREpJWWI0MlExdw?oc=5",
+    "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM3NfZ1dXaGRROEdXcERsZjNZLVhPSU5KMERucGNwcDY0NmNtV2RNTFBGLU5jZTd4bWN5UFVVMFZ5bWxMUlRCYkZncTZpaTZ2Q0xjOUdDRUFrZEZjTHRtb2dKRnk3X0dFU05FUUpSMGNuNldkSXRpc0NXQVdLUFU1RTQ3al9DTlZVUWRDVDdyQVJGQkdCV1NYNGZGeGsxLW0wVEtlOG1sNnNfVVYyc3gtbE53UkZZNER4cl9Gd1Fmdw?oc=5",
+    "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUU5FWExWQVZRSzBfQ0hxNlBlZVdZWFc2elo1aTdPQXpwVDU4a0ZxZlRjeHF1WWdUSUlfWHpxSzZJZHJOWVgwZTVZaUJ1Q3dSRjhMMGVpMWdoMzUwN3ZfOG1QNE5ZQlM2NkM5U3JTbU1kUWE3UEx2M0FXS2xKcUhOUkxQaTZ3azJiRktERlNWaw?oc=5",
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTHJjb3RiN29zTDRDXzV3MVowb0UybFNleDlucEF5ZFZqc3pTNXA0NUlSRXFqSkE2bk5CSTNTeGR5c2NiNU1BaUVzY0ZCOHNvck9Dend2dFFMQkcxLXRzMW1qY0wtbFpyLVNZTDFmUFJxQmVmSEVDWkVHU1RpOHNMVmFWNkgtVWRfTWxtUVdfeDNXLVhFa2FYWDY4Mks0NmZiY1M2aXVKLXZGeTlYNWk4UnFCN2ptbmdtZ2pTYlFLeTY?oc=5",
+    "https://www.theguardian.com/technology/2026/sep/25/the-dark-art-of-maths-and-the-ai-revolution",
+    "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off",
+    "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking",
+    "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts",
+    "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
+    "https://www.theguardian.com/australia-news/2026/sep/26/nsw-crackdown-on-ai-doctored-real-estate-listings-hits-mural-covered-wall",
+    "https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware",
+    "https://techcrunch.com/2026/09/25/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars",
+    "https://techcrunch.com/2026/09/25/last-24-hours-to-save-up-to-200-on-techcrunch-disrupt-2026-reason-5-of-5-to-attend-momentum",
+    "https://techcrunch.com/2026/09/24/bring-your-co-founder-partner-or-colleague-and-get-50-off-a-second-techcrunch-disrupt-2026-pass"
   ],
   "videos": [
     "https://www.youtube.com/watch?v=96ogPwN9ykM",
