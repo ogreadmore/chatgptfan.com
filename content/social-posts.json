@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-25",
+  "updatedAt": "2026-09-26",
   "items": [
+    {
+      "accountId": "sama",
+      "url": "https://x.com/sama/status/2103567198690349362",
+      "coveredAt": "2026-09-26",
+      "title": "Altman on the ongoing incident review",
+      "summary": "Altman said OpenAI is reviewing its agents’ internet activity and prioritizing serious incidents. He described delays and coordination with affected organizations; this is his account of an ongoing investigation, not an independent assessment.",
+      "sourceUrl": "https://texxr.com/handle/sama",
+      "sourceName": "TEXXR archive",
+      "checkedAt": "2026-09-26"
+    },
     {
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2103587050347995581",
@@ -9,7 +19,7 @@
       "summary": "OpenAI said it found 53 cases of uploaded images being posted to image-hosting sites during research activity. Its broader review remains ongoing; the archived excerpt does not establish the full impact.",
       "sourceUrl": "https://texxr.com/handle/OpenAI",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-09-25"
+      "checkedAt": "2026-09-26"
     },
     {
       "accountId": "gdb",
@@ -19,7 +29,7 @@
       "summary": "Brockman highlighted the Voice upgrade, including tool use and availability in ChatGPT Work. This is a company announcement; check access and permissions before connecting services.",
       "sourceUrl": "https://texxr.com/handle/gdb",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-09-25"
+      "checkedAt": "2026-09-26"
     },
     {
       "accountId": "OpenAI",
@@ -31,7 +41,7 @@
       "sourceName": "TEXXR archive",
       "contextUrl": "https://openai.com/index/introducing-mentalhealthbench/",
       "contextLabel": "Read the methodology",
-      "checkedAt": "2026-09-25"
+      "checkedAt": "2026-09-26"
     },
     {
       "accountId": "sama",
@@ -41,7 +51,7 @@
       "summary": "Altman described a goal of offering strong models across price points and modalities, inviting developers to build on them. This is his product ambition, not an independent ranking.",
       "sourceUrl": "https://texxr.com/handle/sama",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-09-25"
+      "checkedAt": "2026-09-26"
     },
     {
       "accountId": "OpenAI",
@@ -51,7 +61,7 @@
       "summary": "OpenAI said it would support independent assessments with access across training, evaluation and deployment so assessors can challenge its assumptions and safeguards. The post describes a commitment, not completed verification.",
       "sourceUrl": "https://texxr.com/handle/OpenAI",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-09-25"
+      "checkedAt": "2026-09-26"
     },
     {
       "accountId": "sama",
@@ -61,7 +71,7 @@
       "summary": "Altman welcomed a federal AI framework while saying companies can slow development responsibly without waiting for a new law or an antitrust exemption.",
       "sourceUrl": "https://texxr.com/handle/sama",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-09-25"
+      "checkedAt": "2026-09-26"
     },
     {
       "accountId": "merettm",
@@ -71,7 +81,7 @@
       "summary": "Pachocki welcomed Christiano’s arrival at the OpenAI Foundation board and emphasized the work still ahead.",
       "sourceUrl": "https://texxr.com/handle/merettm",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-09-25"
+      "checkedAt": "2026-09-26"
     },
     {
       "accountId": "markchen90",
@@ -81,7 +91,7 @@
       "summary": "Chen denied that people or agents examined user data for the specific mathematics effort, while acknowledging broader use of feedback and de-identified data to improve models. This is his account of the issue.",
       "sourceUrl": "https://texxr.com/handle/markchen90",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-09-25"
+      "checkedAt": "2026-09-26"
     },
     {
       "accountId": "merettm",
@@ -93,7 +103,7 @@
       "contextLabel": "Read the essay",
       "sourceUrl": "https://texxr.com/handle/merettm",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-09-25"
+      "checkedAt": "2026-09-26"
     }
   ]
 }

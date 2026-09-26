@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-09-26",
+    "slug": "2026-09-26",
+    "title": "The U.S. and China agree to an AI incident channel",
+    "excerpt": "A new communication commitment is a useful start. The published statement leaves its operation and accountability unexplained.",
+    "file": "2026-09-26.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Fact Sheet: President Donald J. Trump Advances a Fair and Reciprocal Relationship with China While Hosting Historic State Visit",
+        "publisher": "The White House",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/",
+        "publishedAt": "2026-09-25",
+        "kind": "Government statement"
+      },
+      {
+        "title": "Trump, Xi end summit with tea, tour of US archives - and little sign of progress",
+        "publisher": "Reuters via MarketScreener",
+        "url": "https://www.marketscreener.com/news/trump-xi-end-summit-with-tea-tour-of-us-archives-and-little-sign-of-progress-ce785adfd18bf627",
+        "publishedAt": "2026-09-25",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Trump, Xi show apparent differences over AI guardrails at White House meeting",
+        "publisher": "Yonhap",
+        "url": "https://en.yna.co.kr/view/AEN20260925000400315",
+        "publishedAt": "2026-09-25",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Xi, Trump discuss China-U.S. relations and AI cooperation",
+        "publisher": "Xinhua via the Chinese government",
+        "url": "https://english.www.gov.cn/news/202609/25/content_WS6ab59fdac6d00ca5f9a0d742.html",
+        "publishedAt": "2026-09-25",
+        "kind": "State news agency account"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-09-26-incident-channel.png",
+      "alt": "Conceptual cartoon of a thoughtful researcher listening on an apricot desk telephone against a purple background.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-09-25",
     "slug": "2026-09-25",
     "title": "OpenAI’s agent review reaches user-uploaded images",
