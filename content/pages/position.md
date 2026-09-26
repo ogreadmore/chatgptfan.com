@@ -10,4 +10,6 @@ Being a fan does not mean defending OpenAI’s every decision. We will link to s
 
 Our safety library distinguishes research, practical guidance, and advocacy. Inclusion is an invitation to examine a source, not an endorsement of every claim it makes.
 
+[Read the statement and explore ways to take action](../safety/take-action/).
+
 [Explore Safety & Society](../safety/).

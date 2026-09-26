@@ -1,3 +1,4 @@
+import { validateCampaign, campaignEligible, campaignModal, renderActionPage } from './campaign.mjs';
 import { prepareImageDelivery } from './image-delivery.mjs';
 import { renderHome, briefFigure } from './home-page.mjs';
 import { buildSharingImages, sharingMeta } from './sharing.mjs';
@@ -15,6 +16,8 @@ import { readJSON, escapeHTML as e, dateLabel, isWebURL } from './lib.mjs';
 
 const site = await readJSON('content/site.json');
 validateIntegrations(site);
+const campaign = await readJSON('content/campaign.json');
+validateCampaign(campaign);
 const resources = await readJSON('content/resources.json');
 const home = await readJSON('content/home.json');
 const safety = await readJSON('content/safety.json');
@@ -52,12 +55,14 @@ for (const b of allBriefs) {
 
 let sharingImages;
 function frame(title, body, active = '', description = site.description, route = '') {
+  const invite = campaign.enabled && campaignEligible(route);
+  const campaignAssets = invite || route === 'safety/take-action/' ? `<link rel="stylesheet" href="${url('assets/campaign.css')}">${invite ? `<script type="module" src="${url('assets/campaign.js')}"></script>` : ''}` : '';
   const brief = briefs.find(b => route === `brief/${b.slug}/`);
   const share = sharingMeta({site,title,description,canonical:absolute(redirects[route] || route),image:absolute(sharingImages.get(brief?.slug ?? 'site')),brief});
-  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${e(title === site.name ? title : `${title} · ${site.name}`)}</title><meta name="description" content="${e(description)}">${redirects[route] ? `<meta http-equiv="refresh" content="0;url=${e(url(redirects[route]))}">` : ''}<meta name="theme-color" content="#111214"><link rel="canonical" href="${e(absolute(redirects[route] || route))}">${share}<link rel="icon" href="${url('favicon.svg')}" type="image/svg+xml"><link rel="alternate" type="application/rss+xml" title="Daily Brief" href="${url('feed.xml')}"><link rel="stylesheet" href="${url('assets/site.css')}"><link rel="stylesheet" href="${url('assets/reader.css')}"><link rel="stylesheet" href="${url('assets/resources.css')}">${active === 'safety' ? `<link rel="stylesheet" href="${url('assets/safety.css')}">` : ''}<link rel="stylesheet" href="${url('assets/contact.css')}">${route === '' || brief ? `<link rel="stylesheet" href="${url('assets/home.css')}">` : ''}<script src="${url('assets/site.js')}" defer></script><script src="${url('assets/contact.js')}" defer></script>${site.analytics?.enabled ? `<script type="module" src="${url('assets/analytics.js')}"></script>` : ''}${active === 'news' ? `<script src="${url('assets/news-reader.js')}" defer></script>` : ''}</head>
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${e(title === site.name ? title : `${title} · ${site.name}`)}</title><meta name="description" content="${e(description)}">${redirects[route] ? `<meta http-equiv="refresh" content="0;url=${e(url(redirects[route]))}">` : ''}<meta name="theme-color" content="#111214"><link rel="canonical" href="${e(absolute(redirects[route] || route))}">${share}${campaignAssets}<link rel="icon" href="${url('favicon.svg')}" type="image/svg+xml"><link rel="alternate" type="application/rss+xml" title="Daily Brief" href="${url('feed.xml')}"><link rel="stylesheet" href="${url('assets/site.css')}"><link rel="stylesheet" href="${url('assets/reader.css')}"><link rel="stylesheet" href="${url('assets/resources.css')}">${active === 'safety' ? `<link rel="stylesheet" href="${url('assets/safety.css')}">` : ''}<link rel="stylesheet" href="${url('assets/contact.css')}">${route === '' || brief ? `<link rel="stylesheet" href="${url('assets/home.css')}">` : ''}<script src="${url('assets/site.js')}" defer></script><script src="${url('assets/contact.js')}" defer></script>${site.analytics?.enabled ? `<script type="module" src="${url('assets/analytics.js')}"></script>` : ''}${active === 'news' ? `<script src="${url('assets/news-reader.js')}" defer></script>` : ''}</head>
   <body data-base="${e(base)}" ${site.analytics?.enabled ? `data-analytics-id="${e(site.analytics.measurementId)}" data-analytics-host="${e(new URL(site.url).hostname)}"` : ''}><a class="skip" href="#main">Skip to content</a><header class="site-header wrap"><a class="wordmark" href="${url('')}" aria-label="ChatGPT Fan home"><span class="pixel-mark" aria-hidden="true">✦</span>ChatGPT<span class="brand-fan">Fan</span></a><nav aria-label="Main">${nav.map(([path, label]) => `<a href="${url(`${path}/`)}" ${active === path ? 'aria-current="page"' : ''}>${label}</a>`).join('')}</nav><a class="search-link" href="${url('search/')}" aria-label="Search the site"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></a></header>
   <main id="main" class="wrap">${body}</main><footer class="site-footer wrap"><div><a class="footer-brand" href="${url('')}">ChatGPT Fan</a><p>Independent. Not affiliated with OpenAI.</p></div><div class="footer-links"><a href="${url('about/')}">About</a><a href="${url('contact/')}" data-open-contact>Contact</a><a href="${url('privacy/')}">Privacy</a><a href="${url('terms/')}">Terms</a>${site.analytics?.enabled ? '<button class="footer-setting" type="button" data-open-analytics hidden>Analytics settings</button>' : ''}<a href="${url('sources/')}">Sources</a><a href="${url('position/')}">Our position</a><a href="${url('feed.xml')}">RSS</a>${site.newsletterUrl && isWebURL(site.newsletterUrl) ? `<a href="${e(site.newsletterUrl)}">Newsletter</a>` : ''}</div></footer>
-  ${contactModal(site,url)}${analyticsControls(site,url)}</body></html>`;
+  ${contactModal(site,url)}${analyticsControls(site,url)}${invite ? campaignModal(campaign,url) : ''}</body></html>`;
 }
 async function page(route, title, body, active = '', description) {
   const file = route === '404.html' ? 'dist/404.html' : `dist/${route}index.html`;
@@ -96,6 +101,8 @@ for (const account of social) searchItems.push({title:account.name,text:account.
 await page('sources/', 'Sources', renderSourcesPage({ feeds, newsUrl: url('news/'), libraryUrls: Object.fromEntries(['learn','safety','projects','money'].map(id => [id, url(id === 'safety' ? 'safety/' : 'resources/'+id+'/')])) }));
 for (const feed of feeds) searchItems.push({ title:feed.name, text:feed.description+' '+feed.notes+' '+feed.type, section:'Sources', url:url('sources/#'+feed.id) });
 await page('safety/', 'Safety & Society', renderSafetyPage({config:safety,resources,news,url}), 'safety', safety.purpose);
+await page('safety/take-action/', 'Take action', renderActionPage(campaign,url), 'safety', 'Read the Statement on Superintelligence, consider the debate, and find ways to contact your representatives.');
+searchItems.push({title:'Take action: Keep AI under human control',text:'Statement on Superintelligence petition prohibition public support representatives advocacy',section:'Safety & Society',url:url('safety/take-action/')});
 for (const r of resources.filter(r=>r.section==='safety')) searchItems.push({title:r.title,text:[r.description,r.provider,r.kind,r.safety.audience,r.safety.why].join(' '),section:'Safety & Society',url:url('safety/#'+r.id)});
 await page('resources/', 'Resources', renderResourcesOverview(resources, url), 'resources');
 for (const c of collections) {

@@ -31,8 +31,20 @@ function analyticsHarness(hostname='chatgptfan.com') {
   const tags=[],events={},memory=new Map();let reloads=0;
   const win={location:{hostname,origin:'https://'+hostname,pathname:'/search/',search:'?q=private',reload:()=>reloads++},localStorage:{getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v)},fetch:async()=>({ok:true,json:async()=>({country:'DE'})}),addEventListener:(n,fn)=>events[n]=fn};
   const doc={body:{dataset:{analyticsId:'G-TEST',analyticsHost:'chatgptfan.com'}},referrer:'https://other.test/?secret=hidden',cookie:'',querySelector:s=>s==='[data-analytics-choice]'?panel:null,querySelectorAll:()=>[],createElement:()=>({}),head:{append:tag=>tags.push(tag)},addEventListener:(n,fn)=>events[n]=fn};
-  return {win,doc,tags,allow,deny,panel,memory,reloads:()=>reloads};
+  return {win,doc,tags,allow,deny,panel,memory,events,reloads:()=>reloads};
 }
+
+test('campaign metrics follow analytics permission and record only allowed interaction labels',async()=>{
+  const h=analyticsHarness();await initAnalytics(h.win,h.doc);
+  h.events['campaign:interaction']({detail:{outcome:'shown'}});
+  assert.equal(h.win.dataLayer,undefined);
+  h.allow.handlers.click();
+  h.events['campaign:interaction']({detail:{outcome:'dismiss',email:'private@example.test'}});
+  h.events['campaign:interaction']({detail:{outcome:'signed'}});
+  const events=h.win.dataLayer.map(a=>Array.from(a)).filter(a=>a[1]==='campaign_interaction');
+  assert.equal(events.length,1);assert.equal(events[0][2].interaction,'dismiss');
+  assert.ok(!JSON.stringify(events).includes('private'));
+});
 
 test('consent-region analytics waits for opt-in, supports withdrawal, and ignores local previews',async()=>{
   const h=analyticsHarness();await initAnalytics(h.win,h.doc);

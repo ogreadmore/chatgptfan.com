@@ -98,6 +98,9 @@ export async function initAnalytics(win,doc) {
     button.hidden=false;button.addEventListener('click',()=>{show();panel.querySelector('[data-analytics-deny]').focus();});
   }
   doc.addEventListener('contact:sent',()=>track('contact_sent'));
+  doc.addEventListener('campaign:interaction',event=>{
+    if(['shown','dismiss','details','referral'].includes(event.detail?.outcome)) track('campaign_interaction',{interaction:event.detail.outcome});
+  });
   doc.addEventListener('click',event=>{
     const link=event.target.closest?.('a[href]');
     if(!link || link.closest('.contact-form')) return;
