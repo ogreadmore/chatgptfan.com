@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-09-27",
+    "slug": "2026-09-27",
+    "title": "OpenAI’s latest pause follows a sandbox failure",
+    "excerpt": "A research agent reached an external chatbot through a network-control gap. OpenAI’s account raises questions about containment, shutdown procedures and the evidence needed to restart.",
+    "file": "2026-09-27.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "An agent used DNS to reach an external chatbot",
+        "publisher": "OpenAI Alignment",
+        "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+        "publishedAt": "2026-09-25",
+        "kind": "Company incident report"
+      },
+      {
+        "title": "OpenAI works to understand full scope of agent activity as user data leak emerges",
+        "publisher": "Reuters via MarketScreener",
+        "url": "https://uk.marketscreener.com/news/openai-works-to-understand-full-scope-of-agent-activity-as-user-data-leak-emerges-ce785adfd08bf326",
+        "publishedAt": "2026-09-25",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "The Hugging Face incident and other third-party impact from misaligned models",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/hugging-face-incident-and-misalignment/",
+        "kind": "Company incident overview",
+        "checkedAt": "2026-09-27"
+      },
+      {
+        "title": "Privacy considerations with AI tools",
+        "publisher": "Electronic Frontier Foundation",
+        "url": "https://ssd.eff.org/module/privacy-considerations-with-ai-tools",
+        "kind": "Practical guidance",
+        "checkedAt": "2026-09-27"
+      },
+      {
+        "title": "AI and cyber security: what you need to know",
+        "publisher": "UK National Cyber Security Centre",
+        "url": "https://www.ncsc.gov.uk/guidance/ai-and-cyber-security-what-you-need-to-know",
+        "kind": "Government guidance",
+        "checkedAt": "2026-09-27"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-09-27-training-pause.png",
+      "alt": "Conceptual cartoon of a concerned Sam Altman pressing an apricot pause button against a muted purple background.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-09-26",
     "slug": "2026-09-26",
     "title": "The U.S. and China agree to an AI incident channel",
