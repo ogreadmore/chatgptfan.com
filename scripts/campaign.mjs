@@ -2,9 +2,9 @@ import { escapeHTML as e } from './lib.mjs';
 
 export function validateCampaign(c) {
   if (typeof c.enabled !== 'boolean' || !/^[a-z0-9-]+$/.test(c.id) ||
-      !['title','summary','invitation','label','organizer'].every(k => typeof c[k] === 'string' && c[k].trim()) ||
+      !['title','introduction','summary','invitation','label','organizer'].every(k => typeof c[k] === 'string' && c[k].trim()) ||
       c.url !== 'https://superintelligence-statement.org/' ||
-      !Number.isFinite(c.delaySeconds) || c.delaySeconds < 20 ||
+      !Number.isFinite(c.delaySeconds) || c.delaySeconds < 0 ||
       !Number.isFinite(c.dismissDays) || c.dismissDays < 90) throw Error('Invalid campaign configuration');
 }
 
@@ -15,10 +15,10 @@ export function campaignEligible(route) {
 
 export function campaignModal(c, url) {
   if (!c.enabled) return '';
-  return `<dialog id="campaign-dialog" class="campaign-dialog" aria-labelledby="campaign-title" aria-describedby="campaign-summary campaign-invitation" data-delay="${c.delaySeconds}" data-dismiss-days="${c.dismissDays}">
+  return `<dialog id="campaign-dialog" class="campaign-dialog" aria-labelledby="campaign-title" aria-describedby="campaign-introduction campaign-summary campaign-invitation" data-delay="${c.delaySeconds}" data-dismiss-days="${c.dismissDays}">
     <button type="button" class="dialog-close" data-campaign-close aria-label="Close invitation" autofocus>×</button>
     <span class="eyebrow">An invitation</span><h2 id="campaign-title">${e(c.title)}</h2>
-    <p id="campaign-summary">${e(c.summary)}</p><p id="campaign-invitation">${e(c.invitation)}</p>
+    <p id="campaign-introduction">${e(c.introduction)}</p><p id="campaign-summary">${e(c.summary)}</p><p id="campaign-invitation">${e(c.invitation)}</p>
     <div class="campaign-actions"><a class="button" data-campaign-outbound href="${e(c.url)}" target="_blank" rel="noopener noreferrer">${e(c.label)} <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a><button type="button" class="campaign-continue" data-campaign-close>Continue reading</button></div>
     <div class="campaign-foot"><span>Hosted by the ${e(c.organizer)}.</span><a href="${url('safety/take-action/')}" data-campaign-details>Why we support it →</a></div>
   </dialog>`;

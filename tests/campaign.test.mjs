@@ -10,7 +10,7 @@ function harness() {
   const listener=()=>({handlers:{},addEventListener(n,fn){this.handlers[n]=fn;}});
   const close=listener(),outbound=listener(),details=listener(),dialog=listener();
   let time=0,interval,restored=0;
-  Object.assign(dialog,{dataset:{delay:'20',dismissDays:'90'},open:false,showModal(){this.open=true;},close(){this.open=false;this.handlers.close();},querySelectorAll:()=>[close],querySelector:s=>s==='[data-campaign-outbound]'?outbound:details});
+  Object.assign(dialog,{dataset:{delay:String(config.delaySeconds),dismissDays:'90'},open:false,showModal(){this.open=true;},close(){this.open=false;this.handlers.close();},querySelectorAll:()=>[close],querySelector:s=>s==='[data-campaign-outbound]'?outbound:details});
   const doc={...listener(),visibilityState:'visible',focused:true,blocked:false,editing:false,hasFocus(){return this.focused;},querySelector:s=>s==='#campaign-dialog'?dialog:(doc.blocked?{}:null),activeElement:{isConnected:true,focus(){restored++;},closest:()=>doc.editing},events:[],dispatchEvent(e){this.events.push(e.detail.outcome);}};
   const win={localStorage:storage(),sessionStorage:storage(),performance:{now:()=>time},setInterval:fn=>{interval=fn;return 1;},clearInterval:()=>interval=null,CustomEvent:class {constructor(type,options){this.type=type;this.detail=options.detail;}}};
   return {doc,win,dialog,close,outbound,advance(ms){for(let i=0;i<ms;i+=500){time+=500;interval?.();}},restored:()=>restored};
@@ -19,11 +19,11 @@ test('campaign is limited to reading routes and a verified destination',()=>{
   validateCampaign(config);
   for(const route of ['','brief/2026-09-26/','news/social/','resources/learn/','safety/']) assert.equal(campaignEligible(route),true);
   for(const route of ['contact/','privacy/','terms/','search/','safety/take-action/','social/','404.html']) assert.equal(campaignEligible(route),false);
-  for(const change of [{url:'javascript:alert(1)'},{delaySeconds:0},{dismissDays:1}]) assert.throws(()=>validateCampaign({...config,...change}));
+  for(const change of [{url:'javascript:alert(1)'},{delaySeconds:-1},{dismissDays:1}]) assert.throws(()=>validateCampaign({...config,...change}));
   assert.equal(campaignModal({...config,enabled:false},p=>'/'+p),'');
 });
 test('invitation waits for visible focused reading and never overlaps other choices or editing',()=>{
-  const h=harness();initCampaign(h.win,h.doc);
+  const h=harness();h.dialog.dataset.delay='20';initCampaign(h.win,h.doc);
   h.advance(19500);assert.equal(h.dialog.open,false);
   h.doc.visibilityState='hidden';h.advance(30000);assert.equal(h.dialog.open,false);
   h.doc.visibilityState='visible';h.doc.blocked=true;h.advance(30000);assert.equal(h.dialog.open,false);
@@ -33,6 +33,23 @@ test('invitation waits for visible focused reading and never overlaps other choi
   h.close.handlers.click();assert.equal(h.dialog.open,false);assert.equal(h.restored(),1);
   assert.ok(recentlyDismissed(h.win.localStorage,90));assert.equal(h.win.sessionStorage.getItem(SESSION_KEY),'1');
   initCampaign(h.win,h.doc);h.advance(30000);assert.equal(h.dialog.open,false);
+});
+test('first visible load opens immediately without requiring a click, while saved dismissals still win',()=>{
+  assert.equal(config.delaySeconds,0);
+  const h=harness();h.doc.focused=false;initCampaign(h.win,h.doc);
+  assert.equal(h.dialog.open,true);assert.deepEqual(h.doc.events,['shown']);
+  h.close.handlers.click();initCampaign(h.win,h.doc);assert.equal(h.dialog.open,false);
+  const returning=harness();returning.win.localStorage.setItem(DISMISS_KEY,String(Date.now()));initCampaign(returning.win,returning.doc);
+  assert.equal(returning.dialog.open,false);
+});
+test('immediate mode waits for hidden tabs, another dialog, or form input to clear',()=>{
+  for(const reason of ['hidden','blocked','editing']) {
+    const h=harness();
+    if(reason==='hidden') h.doc.visibilityState='hidden';else h.doc[reason]=true;
+    initCampaign(h.win,h.doc);h.advance(1000);assert.equal(h.dialog.open,false,reason);
+    h.doc.visibilityState='visible';h.doc.blocked=false;h.doc.editing=false;
+    h.advance(500);assert.equal(h.dialog.open,true,reason);
+  }
 });
 test('Escape and outbound referrals close and persist; disabled storage never nags',()=>{
   for(const action of ['escape','outbound']) {

@@ -2,11 +2,12 @@
   "enabled": true,
   "id": "superintelligence-statement",
   "title": "Keep AI under human control",
+  "introduction": "We love using ChatGPT. We also believe powerful AI needs independent scrutiny, meaningful safeguards, and public accountability.",
   "summary": "We support the Statement on Superintelligence: prohibit its development until scientists broadly agree it can be built safely and kept under control, and the public supports proceeding.",
   "invitation": "You can read the statement and decide whether to add your name.",
   "url": "https://superintelligence-statement.org/",
   "label": "Read & sign the statement",
   "organizer": "Future of Life Institute",
-  "delaySeconds": 20,
+  "delaySeconds": 0,
   "dismissDays": 90
 }
