@@ -4,8 +4,7 @@ export function validateCampaign(c) {
   if (typeof c.enabled !== 'boolean' || !/^[a-z0-9-]+$/.test(c.id) ||
       !['title','introduction','summary','invitation','label','organizer'].every(k => typeof c[k] === 'string' && c[k].trim()) ||
       c.url !== 'https://superintelligence-statement.org/' ||
-      !Number.isFinite(c.delaySeconds) || c.delaySeconds < 0 ||
-      !Number.isFinite(c.dismissDays) || c.dismissDays < 90) throw Error('Invalid campaign configuration');
+      !Number.isFinite(c.delaySeconds) || c.delaySeconds < 0) throw Error('Invalid campaign configuration');
 }
 
 // Standing information, searches, redirects, and the action page never interrupt reading.
@@ -13,13 +12,13 @@ export function campaignEligible(route) {
   return route === '' || /^(brief|news|resources)(\/|$)/.test(route) || route === 'safety/';
 }
 
-export function campaignModal(c, url, route = '') {
+export function campaignModal(c, url) {
   if (!c.enabled) return '';
-  return `<dialog id="campaign-dialog" class="campaign-dialog" aria-labelledby="campaign-title" aria-describedby="campaign-introduction campaign-summary campaign-invitation" data-delay="${c.delaySeconds}" data-dismiss-days="${c.dismissDays}" data-repeat-on-entry="${route === 'safety/'}">
+  return `<dialog id="campaign-dialog" class="campaign-dialog" aria-labelledby="campaign-title" aria-describedby="campaign-introduction campaign-summary campaign-invitation" data-delay="${c.delaySeconds}" data-campaign-id="${e(c.id)}">
     <button type="button" class="dialog-close" data-campaign-close aria-label="Close invitation" autofocus>×</button>
     <span class="eyebrow">An invitation</span><h2 id="campaign-title">${e(c.title)}</h2>
     <p id="campaign-introduction">${e(c.introduction)}</p><p id="campaign-summary">${e(c.summary)}</p><p id="campaign-invitation">${e(c.invitation)}</p>
-    <div class="campaign-actions"><a class="button" data-campaign-outbound href="${e(c.url)}" target="_blank" rel="noopener noreferrer">${e(c.label)} <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a><button type="button" class="campaign-continue" data-campaign-close>Continue reading</button></div>
+    <div class="campaign-actions"><a class="button" data-campaign-outbound="${e(c.id)}" href="${e(c.url)}" target="_blank" rel="noopener noreferrer">${e(c.label)} <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a><button type="button" class="campaign-continue" data-campaign-close>Continue reading</button></div>
     <div class="campaign-foot"><span>Hosted by the ${e(c.organizer)}.</span><a href="${url('safety/take-action/')}" data-campaign-details>Why we support it →</a></div>
   </dialog>`;
 }
@@ -27,7 +26,7 @@ export function campaignModal(c, url, route = '') {
 export function renderActionPage(c, url) {
   return `<article class="action-page"><a class="small-link" href="${url('safety/')}">← Safety & Society</a>
     <header class="page-head"><span class="eyebrow">Take action</span><h1>${e(c.title)}</h1><p>Enjoy what AI makes possible. Have a say in what happens next.</p></header>
-    <section class="action-feature" aria-labelledby="statement-title"><span class="eyebrow">The campaign we support</span><h2 id="statement-title">Statement on Superintelligence</h2><p>${e(c.summary)}</p><p>Superintelligence means AI that substantially exceeds human capabilities across cognitive tasks. This statement concerns developing those systems; it does not call for people to stop using today’s ChatGPT.</p><a class="button" data-campaign-outbound href="${e(c.url)}" target="_blank" rel="noopener noreferrer">${e(c.label)} <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a><p class="action-credit">Hosted by the ${e(c.organizer)}. Signing happens on the organizer’s website, under its own privacy policy. We do not collect signatures or know whether you signed.</p></section>
+    <section class="action-feature" aria-labelledby="statement-title"><span class="eyebrow">The campaign we support</span><h2 id="statement-title">Statement on Superintelligence</h2><p>${e(c.summary)}</p><p>Superintelligence means AI that substantially exceeds human capabilities across cognitive tasks. This statement concerns developing those systems; it does not call for people to stop using today’s ChatGPT.</p><a class="button" data-campaign-outbound="${e(c.id)}" href="${e(c.url)}" target="_blank" rel="noopener noreferrer">${e(c.label)} <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a><p class="action-credit">Hosted by the ${e(c.organizer)}. Signing happens on the organizer’s website, under its own privacy policy. We do not collect signatures or know whether you signed.</p></section>
     <div class="action-copy prose"><h2>Why we support it</h2><p>We think decisions with potentially irreversible consequences need independent scrutiny and public legitimacy. Useful AI and binding safeguards can belong in the same future. This is <a href="${url('position/')}">our editorial position</a>, and you are welcome here whether or not you agree.</p><p>The <a href="${e(c.url)}">statement’s signatories</a> include Geoffrey Hinton, Yoshua Bengio, and Stuart Russell. Its website also quotes people who have not signed. Concern about AI risk is widespread; agreement on this particular prohibition is not universal.</p>
     <h2>What deserves debate</h2><p>A prohibition needs workable definitions, independent verification, and international cooperation. It also needs safeguards against giving today’s largest companies permanent control of the field. There are real disagreements about how to achieve those things and how to balance delayed benefits against risks.</p><p>For one different approach, <a href="https://darioamodei.com/post/we-must-pace-the-frontier">Dario Amodei’s proposal for pacing frontier development</a> discusses evaluations and coordinated limits. It should not be confused with an endorsement of this statement. <a href="https://apnews.com/article/ai-slowdown-challenges-anthropic-openai-trump-b61f28b6212338e88c0baec31f661701">AP’s reporting on the practical disagreements</a> examines obstacles to turning safety commitments into policy.</p>
     <h2>Make it a policy conversation</h2><p>A signature expresses support; it does not change the law. Contacting a representative or attending a local meeting is another way to ask for independent evaluations, public accountability, and enforceable safeguards. Choose the route that fits where you live.</p></div>

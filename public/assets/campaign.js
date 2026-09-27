@@ -1,36 +1,41 @@
-export const DISMISS_KEY='chatgptfan-campaign-dismissed-v1';
 export const SESSION_KEY='chatgptfan-campaign-shown-v1';
-export function recentlyDismissed(storage, days, now=Date.now()) {
-  try {
-    const at=Number(storage.getItem(DISMISS_KEY));
-    return at>0 && at<=now && now-at<days*86400000;
-  } catch {return false;}
-}
+export const followedKey=id=>'chatgptfan-campaign-followed:'+id;
 
 export function initCampaign(win,doc) {
+  // Also runs on Take action, which has a signing link but no automatic dialog.
+  for(const link of doc.querySelectorAll('[data-campaign-outbound]')) {
+    const follow=event=>{
+      if(event.type==='auxclick' && event.button!==1) return;
+      const id=link.dataset.campaignOutbound;
+      if(!/^[a-z0-9-]+$/.test(id||'')) return;
+      try {win.localStorage.setItem(followedKey(id),'1');} catch {}
+    };
+    link.addEventListener('click',follow);
+    link.addEventListener('auxclick',follow);
+  }
   const dialog=doc.querySelector('#campaign-dialog');
   if(!dialog || typeof dialog.showModal!=='function') return;
-  const repeatOnEntry=dialog.dataset.repeatOnEntry==='true';
+  const id=dialog.dataset.campaignId;
+  if(!/^[a-z0-9-]+$/.test(id||'')) return;
   let local,session;
-  // Safety entry is an explicit repeat; other pages require working preference storage.
+  // Without preference storage, use the permanent action page instead of risking repeat prompts.
   try {
     local=win.localStorage;session=win.sessionStorage;
     const probe='chatgptfan-preference-check';
     for(const storage of [local,session]) {storage.setItem(probe,'1');storage.removeItem(probe);}
-  } catch {if(!repeatOnEntry) return;}
-  const days=Number(dialog.dataset.dismissDays), delay=Number(dialog.dataset.delay)*1000;
-  if(!Number.isFinite(days)||days<90||!Number.isFinite(delay)||delay<0) return;
-  const suppressed=()=>!repeatOnEntry && (recentlyDismissed(local,days)||session.getItem(SESSION_KEY));
+  } catch {return;}
+  const delay=Number(dialog.dataset.delay)*1000;
+  if(!Number.isFinite(delay)||delay<0) return;
+  const suppressed=()=>local.getItem(followedKey(id))==='1' || session.getItem(SESSION_KEY);
   if(suppressed()) return;
   let elapsed=0,last=win.performance.now(),finished=false,previousFocus;
   const emit=outcome=>doc.dispatchEvent(new win.CustomEvent('campaign:interaction',{detail:{outcome}}));
-  const remember=()=>{try {local.setItem(DISMISS_KEY,String(Date.now()));} catch {}};
-  const close=outcome=>{remember();dialog.close();emit(outcome);};
+  const close=outcome=>{dialog.close();emit(outcome);};
   dialog.querySelectorAll('[data-campaign-close]').forEach(button=>button.addEventListener('click',()=>close('dismiss')));
   dialog.querySelector('[data-campaign-outbound]').addEventListener('click',()=>close('referral'));
   dialog.querySelector('[data-campaign-details]').addEventListener('click',()=>close('details'));
   dialog.addEventListener('cancel',event=>{event.preventDefault();close('dismiss');});
-  dialog.addEventListener('close',()=>{remember();if(previousFocus?.isConnected) previousFocus.focus({preventScroll:true});});
+  dialog.addEventListener('close',()=>{if(previousFocus?.isConnected) previousFocus.focus({preventScroll:true});});
   dialog.addEventListener('click',event=>{
     if(event.target!==dialog) return;
     const b=dialog.getBoundingClientRect();
@@ -47,7 +52,7 @@ export function initCampaign(win,doc) {
     if(finished || elapsed<delay || !isActive) return;
     finished=true;win.clearInterval(timer);
     if(suppressed()) return;
-    try {session.setItem(SESSION_KEY,'1');} catch {if(!repeatOnEntry) return;}
+    try {session.setItem(SESSION_KEY,'1');} catch {return;}
     previousFocus=doc.activeElement;
     dialog.showModal();emit('shown');
   };

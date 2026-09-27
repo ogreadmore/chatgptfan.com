@@ -8,6 +8,5 @@
   "url": "https://superintelligence-statement.org/",
   "label": "Read & sign the statement",
   "organizer": "Future of Life Institute",
-  "delaySeconds": 0,
-  "dismissDays": 90
+  "delaySeconds": 0
 }
