@@ -66,3 +66,21 @@ test('dismissal expires at 90 days and rejects malformed or future dates',()=>{
     s.setItem(DISMISS_KEY,String(at));assert.equal(recentlyDismissed(s,90,now),expected);
   }
 });
+
+test('Safety entry reopens after a dismissal without reopening repeatedly on the same page',()=>{
+  const home=harness();initCampaign(home.win,home.doc);home.close.handlers.click();
+  const safety=harness();safety.dialog.dataset.repeatOnEntry='true';
+  safety.win.localStorage=home.win.localStorage;safety.win.sessionStorage=home.win.sessionStorage;
+  initCampaign(safety.win,safety.doc);assert.equal(safety.dialog.open,true);
+  safety.close.handlers.click();safety.advance(30000);assert.equal(safety.dialog.open,false);
+  const nextVisit=harness();nextVisit.dialog.dataset.repeatOnEntry='true';
+  nextVisit.win.localStorage=safety.win.localStorage;nextVisit.win.sessionStorage=safety.win.sessionStorage;
+  initCampaign(nextVisit.win,nextVisit.doc);assert.equal(nextVisit.dialog.open,true);
+  const other=harness();other.win.localStorage=safety.win.localStorage;
+  initCampaign(other.win,other.doc);assert.equal(other.dialog.open,false);
+  const blockedStorage=harness();blockedStorage.dialog.dataset.repeatOnEntry='true';
+  blockedStorage.win.localStorage.setItem=()=>{throw Error('blocked');};
+  initCampaign(blockedStorage.win,blockedStorage.doc);assert.equal(blockedStorage.dialog.open,true);
+  assert.match(campaignModal(config,p=>'/'+p,'safety/'),/data-repeat-on-entry="true"/);
+  assert.match(campaignModal(config,p=>'/'+p,''),/data-repeat-on-entry="false"/);
+});

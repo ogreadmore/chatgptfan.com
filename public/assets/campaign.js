@@ -10,16 +10,18 @@ export function recentlyDismissed(storage, days, now=Date.now()) {
 export function initCampaign(win,doc) {
   const dialog=doc.querySelector('#campaign-dialog');
   if(!dialog || typeof dialog.showModal!=='function') return;
+  const repeatOnEntry=dialog.dataset.repeatOnEntry==='true';
   let local,session;
-  // If preferences cannot be remembered, leave the permanent action page as the invitation.
+  // Safety entry is an explicit repeat; other pages require working preference storage.
   try {
     local=win.localStorage;session=win.sessionStorage;
     const probe='chatgptfan-preference-check';
     for(const storage of [local,session]) {storage.setItem(probe,'1');storage.removeItem(probe);}
-  } catch {return;}
+  } catch {if(!repeatOnEntry) return;}
   const days=Number(dialog.dataset.dismissDays), delay=Number(dialog.dataset.delay)*1000;
   if(!Number.isFinite(days)||days<90||!Number.isFinite(delay)||delay<0) return;
-  if(recentlyDismissed(local,days)||session.getItem(SESSION_KEY)) return;
+  const suppressed=()=>!repeatOnEntry && (recentlyDismissed(local,days)||session.getItem(SESSION_KEY));
+  if(suppressed()) return;
   let elapsed=0,last=win.performance.now(),finished=false,previousFocus;
   const emit=outcome=>doc.dispatchEvent(new win.CustomEvent('campaign:interaction',{detail:{outcome}}));
   const remember=()=>{try {local.setItem(DISMISS_KEY,String(Date.now()));} catch {}};
@@ -44,8 +46,8 @@ export function initCampaign(win,doc) {
     last=now;wasActive=isActive;
     if(finished || elapsed<delay || !isActive) return;
     finished=true;win.clearInterval(timer);
-    if(recentlyDismissed(local,days)||session.getItem(SESSION_KEY)) return;
-    try {session.setItem(SESSION_KEY,'1');} catch {return;}
+    if(suppressed()) return;
+    try {session.setItem(SESSION_KEY,'1');} catch {if(!repeatOnEntry) return;}
     previousFocus=doc.activeElement;
     dialog.showModal();emit('shown');
   };

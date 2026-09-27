@@ -13,9 +13,9 @@ export function campaignEligible(route) {
   return route === '' || /^(brief|news|resources)(\/|$)/.test(route) || route === 'safety/';
 }
 
-export function campaignModal(c, url) {
+export function campaignModal(c, url, route = '') {
   if (!c.enabled) return '';
-  return `<dialog id="campaign-dialog" class="campaign-dialog" aria-labelledby="campaign-title" aria-describedby="campaign-introduction campaign-summary campaign-invitation" data-delay="${c.delaySeconds}" data-dismiss-days="${c.dismissDays}">
+  return `<dialog id="campaign-dialog" class="campaign-dialog" aria-labelledby="campaign-title" aria-describedby="campaign-introduction campaign-summary campaign-invitation" data-delay="${c.delaySeconds}" data-dismiss-days="${c.dismissDays}" data-repeat-on-entry="${route === 'safety/'}">
     <button type="button" class="dialog-close" data-campaign-close aria-label="Close invitation" autofocus>×</button>
     <span class="eyebrow">An invitation</span><h2 id="campaign-title">${e(c.title)}</h2>
     <p id="campaign-introduction">${e(c.introduction)}</p><p id="campaign-summary">${e(c.summary)}</p><p id="campaign-invitation">${e(c.invitation)}</p>
