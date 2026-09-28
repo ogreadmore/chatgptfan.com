@@ -1,5 +1,66 @@
 [
   {
+    "date": "2026-09-28",
+    "slug": "2026-09-28",
+    "title": "Australia seeks answers from AI’s leaders",
+    "excerpt": "Calls for public testimony, a government review and a planned White House meeting put AI accountability in focus. The test is what evidence and obligations follow.",
+    "file": "2026-09-28.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "OpenAI, Anthropic CEOs called to appear at Australian AI probe",
+        "publisher": "Reuters via MarketScreener",
+        "url": "https://www.marketscreener.com/news/openai-anthropic-ceos-called-to-appear-at-australian-ai-probe-ce785adcd88af52c",
+        "publishedAt": "2026-09-27",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Anthropic hearing update",
+        "publisher": "The Guardian",
+        "url": "https://www.theguardian.com/australia-news/2026/sep/28/anthropic-will-not-appear-at-senate-inquiry-into-ai-and-datacentres-amid-fallout-from-openai-hack-ntwnfb",
+        "publishedAt": "2026-09-28",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Press conference — New York",
+        "publisher": "Prime Minister of Australia",
+        "url": "https://www.pm.gov.au/media/press-conference-new-york",
+        "publishedAt": "2026-09-24",
+        "kind": "Government transcript"
+      },
+      {
+        "title": "Rapid review into Australian Government arrangements for an AI-driven cyber incident",
+        "publisher": "Department of the Prime Minister and Cabinet",
+        "url": "https://www.pmc.gov.au/domestic-policy/rapid-review-australian-government-arrangements-ai-driven-cyber-incident",
+        "publishedAt": "2026-09-24",
+        "kind": "Government review"
+      },
+      {
+        "title": "Anthropic’s CEO is about to have dinner with President Trump",
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+        "publishedAt": "2026-09-27",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Implementing and Evaluating a Basic Per-Action Monitor for Safer Evals",
+        "publisher": "METR",
+        "url": "https://metr.org/notes/2026-09-27-implementing-a-basic-blocking-action-monitor",
+        "publishedAt": "2026-09-27",
+        "kind": "Evaluation research"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-09-28-public-accountability.png",
+      "alt": "Conceptual cartoon of a thoughtful Sam Altman facing a desktop microphone against a purple background.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration, not an actual hearing",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-09-27",
     "slug": "2026-09-27",
     "title": "OpenAI’s latest pause follows a sandbox failure",
