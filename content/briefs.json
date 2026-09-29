@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-09-29",
+    "slug": "2026-09-29",
+    "title": "OpenAI withholds GPT-6.1 Astra after safety tests",
+    "excerpt": "A canceled release, proposed safety cases and Nvidia’s containment platform put the focus on evidence: what would make more autonomous AI safe enough to proceed?",
+    "file": "2026-09-29.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Model release withheld",
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+        "publishedAt": "2026-09-28",
+        "kind": "Reporting citing WSJ"
+      },
+      {
+        "title": "Company confirmation",
+        "publisher": "CBS News",
+        "url": "https://www.cbsnews.com/news/openai-halts-gpt-astra-safety-concerns/",
+        "publishedAt": "2026-09-28",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Towards safety cases for frontier AI training",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training/",
+        "publishedAt": "2026-09-28",
+        "kind": "Company safety proposal"
+      },
+      {
+        "title": "Open Agent Safety Platform announcement",
+        "publisher": "Nvidia",
+        "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+        "publishedAt": "2026-09-28",
+        "kind": "Company announcement"
+      },
+      {
+        "title": "How we will do better for Australia",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/how-we-will-do-better-for-australia/",
+        "publishedAt": "2026-09-28",
+        "kind": "Company incident account"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-09-29-release-withheld.png",
+      "alt": "Conceptual cartoon of a serious Sam Altman holding a closed laptop shut against a purple background.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-09-28",
     "slug": "2026-09-28",
     "title": "Australia seeks answers from AI’s leaders",
