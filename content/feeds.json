@@ -8,13 +8,14 @@
     "topic": "News",
     "category": "Reporting",
     "description": "Wire reporting on AI companies, government decisions, and international developments.",
-    "notes": "Discovery through Google News; publisher metadata is restricted to Reuters and AP. Open the original report before drawing conclusions.",
+    "notes": "Discovery through Google News; publisher metadata is restricted to Reuters and AP, with an additional AI-topic filter. Open the original report before drawing conclusions.",
     "maxItems": 20,
-    "reviewedAt": "2026-09-18",
+    "reviewedAt": "2026-09-30",
     "publisherDomains": [
       "reuters.com",
       "apnews.com"
-    ]
+    ],
+    "include": "\\b(AI|artificial intelligence|OpenAI|ChatGPT|Anthropic|Claude|Gemini|Nvidia|superintelligence|machine learning|language models?)\\b"
   },
   {
     "id": "openai",

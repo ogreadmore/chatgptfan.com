@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-09-30",
+    "slug": "2026-09-30",
+    "title": "A voluntary AI pact meets always-on agents",
+    "excerpt": "The White House accord promises safety reviews as OpenAI launches dots. The questions are who checks the safeguards, what becomes public and who can intervene.",
+    "file": "2026-09-30.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Tech firms sign voluntary AI accord",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/595796511f110fc006cca0d01329733e",
+        "publishedAt": "2026-09-29",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Congress continues back-seat role as AI execs feted at White House",
+        "publisher": "Roll Call",
+        "url": "https://rollcall.com/2026/09/29/congress-continues-back-seat-role-as-ai-execs-feted-at-white-house/",
+        "publishedAt": "2026-09-29",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Introducing dots",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/introducing-dots/",
+        "publishedAt": "2026-09-29",
+        "kind": "Company product documentation"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-09-30-safety-checklist.png",
+      "alt": "Conceptual cartoon of a thoughtful reader examining an empty safety checklist through a magnifying glass against a purple background.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-09-29",
     "slug": "2026-09-29",
     "title": "OpenAI withholds GPT-6.1 Astra after safety tests",

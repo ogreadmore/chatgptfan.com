@@ -1,6 +1,40 @@
 {
-  "updatedAt": "2026-09-29",
+  "updatedAt": "2026-09-30",
   "items": [
+    {
+      "accountId": "sama",
+      "url": "https://x.com/sama/status/2104995014208258235",
+      "title": "Altman introduces always-on dots",
+      "summary": "Altman announced dots as agents that can work around the clock. This is the product pitch; review access, connections and approval rules before assigning work.",
+      "sourceUrl": "https://texxr.com/handle/sama",
+      "contextUrl": "https://openai.com/index/introducing-dots/",
+      "contextLabel": "Read access and permission details",
+      "coveredAt": "2026-09-30",
+      "checkedAt": "2026-09-30",
+      "sourceName": "TEXXR archive"
+    },
+    {
+      "accountId": "gdb",
+      "url": "https://x.com/gdb/status/2104817220455202992",
+      "title": "Safety cases for frontier training",
+      "summary": "Brockman shared OpenAI’s guidance on securing frontier reinforcement-learning runs. The post points to a company proposal, not independent verification that those safeguards are effective.",
+      "sourceUrl": "https://texxr.com/handle/gdb",
+      "contextUrl": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training/",
+      "contextLabel": "Read the company proposal",
+      "coveredAt": "2026-09-30",
+      "checkedAt": "2026-09-30",
+      "sourceName": "TEXXR archive"
+    },
+    {
+      "accountId": "OpenAI",
+      "url": "https://x.com/OpenAI/status/2104986129686741046",
+      "title": "OpenAI introduces GPT-6.1 Sol",
+      "summary": "OpenAI presented Sol as a lower-cost option with performance approaching its larger model. Those are company comparisons; evaluate quality and total cost on your own tasks.",
+      "sourceUrl": "https://texxr.com/handle/OpenAI",
+      "coveredAt": "2026-09-30",
+      "checkedAt": "2026-09-30",
+      "sourceName": "TEXXR archive"
+    },
     {
       "accountId": "sama",
       "url": "https://x.com/sama/status/2103567198690349362",
@@ -44,16 +78,6 @@
       "checkedAt": "2026-09-29"
     },
     {
-      "accountId": "sama",
-      "url": "https://x.com/sama/status/2102466603111551187",
-      "coveredAt": "2026-09-22",
-      "title": "An API for different budgets and kinds of work",
-      "summary": "Altman described a goal of offering strong models across price points and modalities, inviting developers to build on them. This is his product ambition, not an independent ranking.",
-      "sourceUrl": "https://texxr.com/handle/sama",
-      "sourceName": "TEXXR archive",
-      "checkedAt": "2026-09-28"
-    },
-    {
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2102447425243828347",
       "coveredAt": "2026-09-22",
@@ -74,16 +98,6 @@
       "checkedAt": "2026-09-28"
     },
     {
-      "accountId": "merettm",
-      "url": "https://x.com/merettm/status/2097758971876483248",
-      "coveredAt": "2026-09-10",
-      "title": "Welcoming Paul Christiano to the Foundation board",
-      "summary": "Pachocki welcomed Christiano’s arrival at the OpenAI Foundation board and emphasized the work still ahead.",
-      "sourceUrl": "https://texxr.com/handle/merettm",
-      "sourceName": "TEXXR archive",
-      "checkedAt": "2026-09-29"
-    },
-    {
       "accountId": "markchen90",
       "url": "https://x.com/markchen90/status/2097400166554993041",
       "coveredAt": "2026-09-09",
@@ -91,7 +105,7 @@
       "summary": "Chen denied that people or agents examined user data for the specific mathematics effort, while acknowledging broader use of feedback and de-identified data to improve models. This is his account of the issue.",
       "sourceUrl": "https://texxr.com/handle/markchen90",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-09-29"
+      "checkedAt": "2026-09-30"
     },
     {
       "accountId": "merettm",
@@ -103,7 +117,7 @@
       "contextLabel": "Read the essay",
       "sourceUrl": "https://texxr.com/handle/merettm",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-09-29"
+      "checkedAt": "2026-09-30"
     }
   ]
 }
