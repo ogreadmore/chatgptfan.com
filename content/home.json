@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-09-30",
+  "reviewedAt": "2026-10-01",
   "resources": [
     "academy",
     "wharton-gail",
@@ -21,8 +21,8 @@
   ],
   "money": [
     "sba-plan",
-    "stripe-pricing",
-    "ai-business-value"
+    "ai-business-value",
+    "stanford-index"
   ],
   "safetyFeature": "safety-report",
   "safety": [
@@ -33,7 +33,7 @@
   "social": [
     "https://x.com/sama/status/2104995014208258235",
     "https://x.com/gdb/status/2104817220455202992",
-    "https://x.com/OpenAI/status/2104986129686741046",
+    "https://x.com/OpenAI/status/2104987422308335828",
     "https://x.com/OpenAI/status/2103587050347995581",
     "https://x.com/markchen90/status/2097400166554993041",
     "https://x.com/merettm/status/2096630018495377464"
@@ -147,7 +147,16 @@
     "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch",
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLWFxb3Vsc1pSQlJBMjF2MHFDc3VldTcyWmp6OXUtbVZUNkJqRXlnY2pmR1ZhSktTSl9QTVlLMEVoblVtSlJZMVBNZG1jTFB0clhWV1NOOGRCa2NYd2Q2WUY3X05sOFMzRnNnOVhhS0dXZm5fa05iY0NVVUZRdk1WU0JmYndpZjYwRUJFcmlyNmJkS1BO?oc=5",
     "https://www.theguardian.com/technology/2026/sep/29/openai-announces-dots-agent-safety-concerns",
-    "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ0lSc2diRmIwWXNMaFIzLWFrMnRSa1hvR1ZSZWR0V1kxclMtUm04a2FoelZnX2RsY0QxeWR1d1BwbXlTN2hMWFZ6elFFSkFfVUdBeVVBaXkwb2trcnBLRW9YX1BDRDZVOGJ0WmRqYW9iSk8zVjI1cV9DSHEwNWpiRmNtSTNiaEZ6RnNlOWk4b0V1YjFTNW9KWHdWVHdyby0y?oc=5"
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ0lSc2diRmIwWXNMaFIzLWFrMnRSa1hvR1ZSZWR0V1kxclMtUm04a2FoelZnX2RsY0QxeWR1d1BwbXlTN2hMWFZ6elFFSkFfVUdBeVVBaXkwb2trcnBLRW9YX1BDRDZVOGJ0WmRqYW9iSk8zVjI1cV9DSHEwNWpiRmNtSTNiaEZ6RnNlOWk4b0V1YjFTNW9KWHdWVHdyby0y?oc=5",
+    "https://www.theguardian.com/australia-news/2026/oct/01/anika-wells-time100-time-magazine-influential-rising-stars",
+    "https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
+    "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet",
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOFhLTkZneU9Ya2hKLWthbzg3TmpESVlwR3JVN01jc0VGaE85T0FOUnp6Z09ManVqcDJVNVFwVzUzUk5FMFJ5dUw5UFA4ckpEeDhTcVJLSldfa3k1c3FHMHFjMUVlRURuX014b3BQMmhPSVhrWmQ3ZnhPT05TM2w5dVZYZFZ5ZVoyRjdtSzlUT1Ffck5RSWNGSW9tbUVvSndMMlNUeEFnMWVIalRl?oc=5",
+    "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation",
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa0kxM3JDazhISnQtVGJ1Q2phRmxPR2Mtb2R4X1dQX0U3TkVZLWV0YUZNSnRfQ25OQnRuWHpNczNHSzhCZFFkdHFCWEVXYUhuazBDLWJ0eV92WU9nMDR6Nnl5ZDRCOG5UdWtwNnpTNkVtS2NLejVrX1Y3eXFvbDRMc0Y2Q2hvN0Q5YTEzTVA3NDFLaHprbnpuNWVBejNPVUlKemJCSHZUcHZSVE9iNmt3TWxXMXFBWkU?oc=5",
+    "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+    "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet",
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxOLUhCdEZlM2xkNVpqTkRoNk1UbHdrQ1lkUWlwdzltbDhMWS1RemN3WEFkTmJYdl9DYXBJQU14VGMtcXQ3OGhRM01pcjBOaDVtLS00THJUeHMwdlcxQ2ZXWWlvUk90azgtQVBLNGV1eGlZN0t6RG1oQkdjRS1nZEZPNnd1dmwyaXp4eWhDdFoybWdXSEI2Uk1YRklFUTBjZw?oc=5"
   ],
   "videos": [
     "https://www.youtube.com/watch?v=Fls_onRviPM",

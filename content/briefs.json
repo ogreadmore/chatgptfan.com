@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-10-01",
+    "slug": "2026-10-01",
+    "title": "The FTC puts AI safety under scrutiny",
+    "excerpt": "A federal investigation, Google’s restricted Gemini rollout and California’s worker protections put accountability alongside capability.",
+    "file": "2026-10-01.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "FTC is investigating OpenAI and Anthropic over possible risks to consumers",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/89ac416717adbfb1d72f2d85e6ce83d1",
+        "kind": "Independent reporting",
+        "publishedAt": "2026-09-30"
+      },
+      {
+        "title": "FTC probes OpenAI, Anthropic over AI safety",
+        "publisher": "Axios",
+        "url": "https://www.axios.com/2026/09/30/ftc-openai-anthropic-ai-safety-investigation",
+        "kind": "Independent reporting",
+        "publishedAt": "2026-09-30"
+      },
+      {
+        "title": "Introducing Gemini 4 Argon",
+        "publisher": "Google",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+        "kind": "Company announcement",
+        "publishedAt": "2026-09-30"
+      },
+      {
+        "title": "Google announces Gemini 4 Argon AI model, but you cannot use it yet",
+        "publisher": "Ars Technica",
+        "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+        "kind": "Independent reporting",
+        "publishedAt": "2026-09-30"
+      },
+      {
+        "title": "California announces AI worker protections and other signed legislation",
+        "publisher": "Governor of California",
+        "url": "https://www.gov.ca.gov/2026/09/30/californias-nation-leading-ai-framework-just-got-stronger-governor-newsom-signs-more-first-in-the-nation-worker-protections-and-more/",
+        "kind": "Government announcement",
+        "publishedAt": "2026-09-30"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-10-01-ai-investigation.png",
+      "alt": "Conceptual cartoon of a thoughtful investigator reading an AI case file against a purple background.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-09-30",
     "slug": "2026-09-30",
     "title": "A voluntary AI pact meets always-on agents",
