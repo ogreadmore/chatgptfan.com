@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-02",
+    "slug": "2026-10-02",
+    "title": "OpenAI’s agent review reaches more organizations",
+    "excerpt": "Reports put notifications above 100 organizations as California seeks evidence. Notices, confirmed breaches and legal findings are different things.",
+    "file": "2026-10-02.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "OpenAI alerts more than 100 groups about rogue AI agent activity",
+        "publisher": "Reuters via Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/openai-alerts-more-than-100-groups-about-rogue-ai-agent-activity-4928610",
+        "publishedAt": "2026-10-01",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Hugging Face incident and broader misalignment review",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/hugging-face-incident-and-misalignment/",
+        "kind": "Company incident account"
+      },
+      {
+        "title": "Investigative subpoena in ongoing AI cybersecurity inquiry",
+        "publisher": "California Department of Justice",
+        "url": "https://www.oag.ca.gov/news/press-releases/part-ongoing-investigation-attorney-general-bonta-serves-investigative-subpoena",
+        "publishedAt": "2026-10-01",
+        "kind": "Government announcement"
+      },
+      {
+        "title": "Privacy considerations with AI tools",
+        "publisher": "Electronic Frontier Foundation",
+        "url": "https://ssd.eff.org/module/privacy-considerations-with-ai-tools",
+        "kind": "Privacy guidance"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-10-02-security-notice.png",
+      "alt": "Conceptual cartoon of a concerned website operator opening a security notice against a purple background.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-10-01",
     "slug": "2026-10-01",
     "title": "The FTC puts AI safety under scrutiny",
