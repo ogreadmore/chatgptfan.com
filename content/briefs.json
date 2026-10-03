@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-10-03",
+    "slug": "2026-10-03",
+    "title": "OpenAI discloses access to NSW fire records",
+    "excerpt": "A June incident became public on October 2. NSW is investigating, while a new U.S. proposal would assign responsibility for AI-agent hacking.",
+    "file": "2026-10-03.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "OpenAI reveals another hack into a government agency in Australia",
+        "publisher": "ABC News (U.S.)",
+        "url": "https://abcnews.com/Business/openai-reveals-hack-government-agency-australia/story?id=136945837",
+        "publishedAt": "2026-10-02",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Rogue OpenAI agent enters another NSW government website, tech giant says",
+        "publisher": "ABC Australia",
+        "url": "https://www.abc.net.au/news/2026-10-02/rogue-open-ai-agent-breach-nsw-government-website/107223108",
+        "publishedAt": "2026-10-02",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Senators Hawley, Murphy announce AI Agent Accountability Act",
+        "publisher": "Senator Josh Hawley's office",
+        "url": "https://www.hawley.senate.gov/senators-hawley-murphy-announce-bipartisan-ai-agent-accountability-act/",
+        "publishedAt": "2026-10-01",
+        "kind": "Legislative announcement"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-10-03-fire-records.png",
+      "alt": "Conceptual cartoon of a concerned parks analyst examining a folder marked with a flame symbol.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-10-02",
     "slug": "2026-10-02",
     "title": "OpenAI’s agent review reaches more organizations",

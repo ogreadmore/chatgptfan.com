@@ -1,10 +1,10 @@
 {
-  "reviewedAt": "2026-10-02",
+  "reviewedAt": "2026-10-03",
   "resources": [
     "academy",
     "wharton-gail",
     "google-essentials",
-    "cookbook",
+    "gpt6-model-guide",
     "zotero",
     "lm-studio",
     "elements",
@@ -164,7 +164,20 @@
     "https://www.theguardian.com/us-news/2026/oct/01/california-opens-investigation-openai-hack",
     "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells",
     "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
-    "https://www.theguardian.com/technology/2026/oct/01/google-releases-gemini-model-restrictions"
+    "https://www.theguardian.com/technology/2026/oct/01/google-releases-gemini-model-restrictions",
+    "https://www.theguardian.com/money/2026/oct/03/bayeux-tapestry-glastonbury-top-tips-tricks-hottest-tickets",
+    "https://www.theguardian.com/stage/2026/oct/03/eliza-review-melbourne-theatre-company-birth-of-ai",
+    "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+    "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+    "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars",
+    "https://www.theguardian.com/us-news/2026/oct/02/arrest-smuggled-computer-servers-china",
+    "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents",
+    "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it",
+    "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house",
+    "https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis",
+    "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants",
+    "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer",
+    "https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders"
   ],
   "videos": [
     "https://www.youtube.com/watch?v=Fls_onRviPM",
