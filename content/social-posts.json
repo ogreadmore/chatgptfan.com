@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-04",
   "items": [
     {
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2104987422308335828",
       "coveredAt": "2026-09-30",
-      "checkedAt": "2026-10-03",
+      "checkedAt": "2026-10-04",
       "title": "Codex Security Cloud prepares fixes for review",
       "summary": "OpenAI described continuous repository checks, investigation of findings and proposed fixes in Codex Security Cloud. This is a company product claim; a generated fix still needs review.",
       "sourceUrl": "https://texxr.com/handle/OpenAI",
@@ -20,7 +20,7 @@
       "contextUrl": "https://openai.com/index/introducing-dots/",
       "contextLabel": "Read access and permission details",
       "coveredAt": "2026-09-30",
-      "checkedAt": "2026-10-03",
+      "checkedAt": "2026-10-04",
       "sourceName": "TEXXR archive"
     },
     {
@@ -32,7 +32,7 @@
       "contextUrl": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training/",
       "contextLabel": "Read the company proposal",
       "coveredAt": "2026-09-30",
-      "checkedAt": "2026-10-03",
+      "checkedAt": "2026-10-04",
       "sourceName": "TEXXR archive"
     },
     {
@@ -53,7 +53,7 @@
       "summary": "Altman said OpenAI is reviewing its agents’ internet activity and prioritizing serious incidents. He described delays and coordination with affected organizations; this is his account of an ongoing investigation, not an independent assessment.",
       "sourceUrl": "https://texxr.com/handle/sama",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-10-03"
+      "checkedAt": "2026-10-04"
     },
     {
       "accountId": "OpenAI",
@@ -115,7 +115,7 @@
       "summary": "Chen denied that people or agents examined user data for the specific mathematics effort, while acknowledging broader use of feedback and de-identified data to improve models. This is his account of the issue.",
       "sourceUrl": "https://texxr.com/handle/markchen90",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-10-03"
+      "checkedAt": "2026-10-04"
     },
     {
       "accountId": "merettm",
@@ -127,7 +127,7 @@
       "contextLabel": "Read the essay",
       "sourceUrl": "https://texxr.com/handle/merettm",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-10-03"
+      "checkedAt": "2026-10-04"
     }
   ]
 }
