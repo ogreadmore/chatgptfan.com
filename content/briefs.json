@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-10-05",
+    "slug": "2026-10-05",
+    "title": "Who decides which AI risks we accept?",
+    "excerpt": "Altman argues for broad access as Washington names its AI task force. Agreement on benefits still leaves hard questions about accountability.",
+    "file": "2026-10-05.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "OpenAI's Altman says AI benefits warrant accepting some risks",
+        "publisher": "Reuters · via The Star",
+        "url": "https://www.thestar.com.my/tech/tech-news/2026/10/05/openai039s-altman-says-ai-benefits-warrant-accepting-some-risks",
+        "publishedAt": "2026-10-05",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Trump names national intelligence director Jay Clayton to lead a new federal AI task force",
+        "publisher": "Associated Press · via NY1",
+        "url": "https://ny1.com/nyc/all-boroughs/politics/2026/10/04/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force",
+        "publishedAt": "2026-10-04",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Jay Clayton to lead Trump's AI task force, deliver report in 120 days, WSJ reports",
+        "publisher": "Reuters · via MarketScreener",
+        "url": "https://www.marketscreener.com/news/jay-clayton-to-lead-trump-s-ai-task-force-deliver-report-in-120-days-wsj-reports-ce785ddbdc8af724",
+        "publishedAt": "2026-10-03",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Statement on AI Extinction Risk",
+        "publisher": "Center for AI Safety",
+        "url": "https://safe.ai/work/statement-on-ai-extinction-risk",
+        "checkedAt": "2026-10-05",
+        "kind": "Public statement"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-10-05-risk-decisions.png",
+      "alt": "Conceptual cartoon of a thoughtful Sam Altman studying a balance scale holding a laptop and a shield.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-10-04",
     "slug": "2026-10-04",
     "title": "States push beyond voluntary AI promises",
