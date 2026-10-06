@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-10-06",
+    "slug": "2026-10-06",
+    "title": "Who protects the web from AI agents?",
+    "excerpt": "Wikimedia reports unwanted agent activity and the effort of investigating it. Public hearings put responsibility for AI's effects under scrutiny.",
+    "file": "2026-10-06.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "OpenAI agent activities found on Wikimedia projects",
+        "publisher": "Wikimedia Foundation",
+        "url": "https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+        "publishedAt": "2026-10-05",
+        "kind": "Primary account"
+      },
+      {
+        "title": "Wikipedia operator says OpenAI's rogue agents possibly tied to data service disruption in May",
+        "publisher": "Reuters · via StreetInsider",
+        "url": "https://www.streetinsider.com/Reuters/Wikipedia%2Boperator%2Bsays%2BOpenAIs%2Brogue%2Bagents%2Bpossibly%2Btied%2Bto%2Bdata%2Bservice%2Bdisruption%2Bin%2BMay/27148299.html",
+        "publishedAt": "2026-10-05",
+        "kind": "Reporting"
+      },
+      {
+        "title": "AI oversight hearing",
+        "publisher": "CBS New York",
+        "url": "https://www.cbsnews.com/newyork/news/new-york-city-council-ai-oversight-hearing/",
+        "publishedAt": "2026-10-05",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Council announces AI oversight hearing and legislative proposals",
+        "publisher": "New York City Council",
+        "url": "https://council.nyc.gov/press/2026/09/28/3266/",
+        "publishedAt": "2026-09-28",
+        "kind": "Government announcement"
+      },
+      {
+        "title": "Australia hearing",
+        "publisher": "The Guardian",
+        "url": "https://www.theguardian.com/media/2026/oct/06/openai-australia-parliament-inquiry-jason-kwon",
+        "publishedAt": "2026-10-06",
+        "kind": "Reporting"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-10-06-web-maintainers.png",
+      "alt": "Conceptual cartoon of a concerned web maintainer steadying a stack of reference books beside a laptop.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-10-05",
     "slug": "2026-10-05",
     "title": "Who decides which AI risks we accept?",
