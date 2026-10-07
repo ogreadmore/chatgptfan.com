@@ -1,11 +1,23 @@
 {
-  "updatedAt": "2026-10-06",
+  "updatedAt": "2026-10-07",
   "items": [
+    {
+      "accountId": "OpenAI",
+      "url": "https://x.com/OpenAI/status/2107596713791767021",
+      "coveredAt": "2026-10-07",
+      "checkedAt": "2026-10-07",
+      "title": "OpenAI shares new mathematics results",
+      "summary": "OpenAI announced a collection of results from an internal model, with papers and some Lean formalizations. The release invites mathematical scrutiny; this is a company account, not our verification of the proofs.",
+      "sourceUrl": "https://texxr.com/handle/openai",
+      "sourceName": "TEXXR archive",
+      "contextUrl": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "contextLabel": "Read the company publication"
+    },
     {
       "accountId": "sama",
       "url": "https://x.com/sama/status/2106388373221118198",
       "coveredAt": "2026-10-05",
-      "checkedAt": "2026-10-06",
+      "checkedAt": "2026-10-07",
       "title": "Altman warns against surrendering judgment to AI",
       "summary": "Altman described treating AI models as a religious authority or giving up human judgment as a safety concern. This is his stated view, preserved in a public archive.",
       "sourceUrl": "https://texxr.com/handle/sama",
@@ -22,18 +34,6 @@
       "sourceName": "TEXXR archive"
     },
     {
-      "accountId": "sama",
-      "url": "https://x.com/sama/status/2104995014208258235",
-      "title": "Altman introduces always-on dots",
-      "summary": "Altman announced dots as agents that can work around the clock. This is the product pitch; review access, connections and approval rules before assigning work.",
-      "sourceUrl": "https://texxr.com/handle/sama",
-      "contextUrl": "https://openai.com/index/introducing-dots/",
-      "contextLabel": "Read access and permission details",
-      "coveredAt": "2026-09-30",
-      "checkedAt": "2026-10-06",
-      "sourceName": "TEXXR archive"
-    },
-    {
       "accountId": "gdb",
       "url": "https://x.com/gdb/status/2104817220455202992",
       "title": "Safety cases for frontier training",
@@ -42,7 +42,7 @@
       "contextUrl": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training/",
       "contextLabel": "Read the company proposal",
       "coveredAt": "2026-09-30",
-      "checkedAt": "2026-10-06",
+      "checkedAt": "2026-10-07",
       "sourceName": "TEXXR archive"
     },
     {
@@ -115,7 +115,7 @@
       "summary": "Chen denied that people or agents examined user data for the specific mathematics effort, while acknowledging broader use of feedback and de-identified data to improve models. This is his account of the issue.",
       "sourceUrl": "https://texxr.com/handle/markchen90",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-07"
     },
     {
       "accountId": "merettm",
@@ -127,7 +127,7 @@
       "contextLabel": "Read the essay",
       "sourceUrl": "https://texxr.com/handle/merettm",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-10-06"
+      "checkedAt": "2026-10-07"
     }
   ]
 }

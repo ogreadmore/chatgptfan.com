@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-10-07",
+    "slug": "2026-10-07",
+    "title": "Faster AI decisions still need a review path",
+    "excerpt": "The Decisions API enters beta. A new METR note shows why both automated choices and the tools used to review them need scrutiny.",
+    "file": "2026-10-07.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "API release notes",
+        "publisher": "OpenAI",
+        "url": "https://developers.openai.com/api/docs/changelog",
+        "publishedAt": "2026-10-06",
+        "kind": "Company documentation"
+      },
+      {
+        "title": "Decisions guide",
+        "publisher": "OpenAI",
+        "url": "https://developers.openai.com/api/docs/guides/decisions",
+        "checkedAt": "2026-10-07",
+        "kind": "Company documentation"
+      },
+      {
+        "title": "Decisions API reference",
+        "publisher": "OpenAI",
+        "url": "https://developers.openai.com/api/reference/resources/decisions/methods/create",
+        "checkedAt": "2026-10-07",
+        "kind": "Company documentation"
+      },
+      {
+        "title": "llm-openai-decisions 0.1a0",
+        "publisher": "Simon Willison",
+        "url": "https://feeds.simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+        "publishedAt": "2026-10-06",
+        "kind": "Practitioner experiment"
+      },
+      {
+        "title": "AI systems could cover up misbehavior",
+        "publisher": "METR",
+        "url": "https://metr.org/blog/2026-10-06-ai-systems-could-cover-up-misbehavior/",
+        "publishedAt": "2026-10-06",
+        "kind": "Research note"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-10-07-decisions.png",
+      "alt": "Conceptual cartoon of a thoughtful person sorting message cards into trays while holding one aside for review.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-10-06",
     "slug": "2026-10-06",
     "title": "Who protects the web from AI agents?",
