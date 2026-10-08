@@ -41,7 +41,8 @@
       "resources": [
         "safety-report",
         "incidents",
-        "mit-risk"
+        "mit-risk",
+        "teen-risk-assessment"
       ]
     },
     {

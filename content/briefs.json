@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-10-08",
+    "slug": "2026-10-08",
+    "title": "ChatGPT gets interactive. Keep your judgment.",
+    "excerpt": "GPT-6 brings diagrams and tools into Chat. Try them on questions you can check—and keep independent safety evidence in view.",
+    "file": "2026-10-08.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "GPT-6 and Intelligent UI for everyone",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/gpt-6-for-everyone/",
+        "publishedAt": "2026-10-07",
+        "kind": "Company announcement"
+      },
+      {
+        "title": "ChatGPT release notes",
+        "publisher": "OpenAI",
+        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "checkedAt": "2026-10-08",
+        "kind": "Company documentation"
+      },
+      {
+        "title": "ChatGPT for Teens risk assessment",
+        "publisher": "Common Sense Media",
+        "url": "https://institute.commonsensemedia.org/risk-assessments/chatgpt-teens",
+        "publishedAt": "2026-10-07",
+        "kind": "Product evaluation"
+      },
+      {
+        "title": "ChatGPT for Teens safety assessment and company response",
+        "publisher": "Axios",
+        "url": "https://www.axios.com/2026/10/07/chatgpt-teens-safety-risk-common-sense-media",
+        "publishedAt": "2026-10-07",
+        "kind": "Reporting"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-10-08-interactive.png",
+      "alt": "Conceptual cartoon of a thoughtful person tapping a bicycle illustration on a tablet.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-10-07",
     "slug": "2026-10-07",
     "title": "Faster AI decisions still need a review path",
