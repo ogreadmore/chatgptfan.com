@@ -8,7 +8,7 @@
     "kind": "Guide",
     "level": "Beginner",
     "description": "Start a conversation, choose a useful first task, and learn when to move from a quick chat to a larger task in Work. Includes voice basics and a route into the AI Foundations course.",
-    "checkedAt": "2026-10-08",
+    "checkedAt": "2026-10-09",
     "cost": "Free guide",
     "bestFor": "Your first conversations with ChatGPT",
     "needs": "No programming required.",
@@ -124,7 +124,7 @@
     "kind": "Course",
     "level": "Developer",
     "description": "Learn agent concepts, work with established frameworks, and build an evaluated final project. Includes retrieval, observability, and a game-playing example.",
-    "checkedAt": "2026-10-08",
+    "checkedAt": "2026-10-09",
     "cost": "Free course",
     "needs": "Basic Python and LLM knowledge; a Hugging Face account for publishing projects.",
     "time": "3–4 hours per chapter · provider estimate",
@@ -206,7 +206,7 @@
     "kind": "Automation",
     "level": "Intermediate",
     "description": "Connect apps, triggers, and model calls in a visual workflow. Useful when an AI step needs to sit inside a repeatable business process.",
-    "checkedAt": "2026-10-07",
+    "checkedAt": "2026-10-09",
     "cost": "Paid cloud by workflow execution · self-host options",
     "needs": "App credentials and workflow setup. Check execution allowances and included AI credits; model/API use and self-hosting can add costs. Review license terms before reselling.",
     "bestFor": "Connecting AI to the apps you use",
@@ -285,7 +285,7 @@
     "kind": "Starter project",
     "level": "Developer",
     "description": "Turn a Python function or model into a small web interface. The README includes a minimal working example and options for sharing a demo.",
-    "checkedAt": "2026-10-04",
+    "checkedAt": "2026-10-09",
     "cost": "Free framework · hosting extra",
     "needs": "Python 3.10 or later. Model and hosting costs vary. Enabling share=True creates a public URL even when computation runs on your computer; review access before sharing.",
     "bestFor": "Making an experiment usable by someone else",
@@ -361,7 +361,7 @@
     "kind": "Business planning",
     "level": "All levels",
     "description": "Market research, business-plan examples, startup costs, and break-even planning in one reference. Use it to define a customer and a deliverable before investing in an AI service.",
-    "checkedAt": "2026-10-03",
+    "checkedAt": "2026-10-09",
     "cost": "Free resource",
     "bestFor": "Validating a service or product idea",
     "featured": true,
@@ -433,7 +433,7 @@
     "provider": "International AI Safety Report",
     "kind": "Evidence",
     "description": "A scientific synthesis of general-purpose AI capabilities, emerging risks, and risk management. Its authors distinguish evidence from uncertainty; the report does not endorse a particular policy.",
-    "checkedAt": "2026-10-03",
+    "checkedAt": "2026-10-09",
     "reviewEveryDays": 45,
     "safety": {
       "group": "evidence",
@@ -559,7 +559,7 @@
     "provider": "UK Department for Science, Innovation and Technology",
     "kind": "Government research",
     "description": "Government research on advanced AI capabilities, public safety, and risk mitigations, alongside evaluation tools and technical reports.",
-    "checkedAt": "2026-10-04",
+    "checkedAt": "2026-10-09",
     "reviewEveryDays": 45,
     "safety": {
       "group": "frontier",
@@ -595,7 +595,7 @@
     "provider": "Epoch AI",
     "kind": "Data & research",
     "description": "Data explorers and research on model capabilities, compute, and AI infrastructure. Check measurement methods, coverage, and assumptions before comparing claims.",
-    "checkedAt": "2026-10-02",
+    "checkedAt": "2026-10-09",
     "reviewEveryDays": 45,
     "safety": {
       "group": "frontier",
@@ -613,7 +613,7 @@
     "provider": "Electronic Frontier Foundation",
     "kind": "Practical guidance",
     "description": "A readable guide to what happens to your data in AI apps, integrations, and local or cloud tools. Covers privacy settings, retention, and the limits of “private” modes.",
-    "checkedAt": "2026-10-08",
+    "checkedAt": "2026-10-09",
     "reviewEveryDays": 30,
     "safety": {
       "group": "everyday",
@@ -710,14 +710,30 @@
     "provider": "Common Sense Media · Youth AI Safety Institute",
     "kind": "Product evaluation",
     "description": "An October 7 assessment of teen safeguards, with its testing methods and findings. Read the original evidence and stated limits; OpenAI disputes the evaluation.",
-    "checkedAt": "2026-10-08",
+    "checkedAt": "2026-10-09",
     "reviewEveryDays": 30,
     "safety": {
       "group": "evidence",
       "audience": "Parents, educators & general readers",
       "why": "Adds a focused evaluation of a product many young people use, rather than relying on launch assurances.",
       "readFirst": "Read the methodology and limitations before the findings. Compare the report with OpenAI’s documentation and response.",
-      "limits": "US-based, sequential tests before and after launch; model changes complicate comparisons and some modes were excluded. The institute reports industry funding including the OpenAI Foundation and editorial independence. We have not reproduced the tests."
+      "limits": "Testing ended September 28, before the October GPT-6 launch; this does not evaluate that release. US-based sequential tests, with model changes complicating comparisons and some modes excluded. The institute reports industry funding including the OpenAI Foundation and editorial independence. We have not reproduced the tests."
     }
+  },
+  {
+    "id": "ai-math-release",
+    "section": "learn",
+    "title": "Release AI mathematics responsibly",
+    "url": "https://agmai.org/general-sep29/",
+    "provider": "Advisory Group on Mathematics and Artificial Intelligence",
+    "kind": "Research guidance",
+    "level": "Advanced",
+    "description": "Recommendations for clear exposition, attribution, proof artifacts and community-led human understanding when labs publish AI-generated mathematical results.",
+    "checkedAt": "2026-10-09",
+    "cost": "Free reading",
+    "bestFor": "Evaluating how AI research claims are shared",
+    "needs": "Mathematical research context. These are scholarly recommendations, not verification of any particular proof or endorsement of a lab.",
+    "reviewEveryDays": 30,
+    "learningStage": "build"
   }
 ]

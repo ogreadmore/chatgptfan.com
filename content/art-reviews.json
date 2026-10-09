@@ -109,6 +109,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-09-math-review.png",
+      "brief": "2026-10-09",
+      "sha256": "147960511011f9f2b463a0745294378810df0318367e46c095e608a6b8565521",
+      "reviewedAt": "2026-10-09",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Two separate full-resolution pixel inspections completed, the second without relying on the generation prompt. One chest-up figure; zero hands or forearms. Two connected shoulder/upper-arm outlines end naturally behind the desk; no detached or ambiguous attachments. Complete head and coherent face, ears and neck. Freestanding framed board is separate from the figure and contains a simple coherent triangle, not a claimed proof. Desktop and 390px mobile homepage and article inspected; artwork loaded and retained full framing. Actual 1200x630 split sharing card inspected: face and board complete, headline/date fit. Conceptual illustration caption is visible.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

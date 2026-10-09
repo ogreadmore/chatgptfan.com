@@ -1,5 +1,66 @@
 [
   {
+    "date": "2026-10-09",
+    "slug": "2026-10-09",
+    "title": "AI math needs an audit trail",
+    "excerpt": "OpenAI withdrew three mathematics manuscripts and revised others. The useful question is what has been checked—and who can explain it.",
+    "file": "2026-10-09.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Mathematics collection: correction history",
+        "publisher": "OpenAI · GitHub",
+        "url": "https://github.com/openai/math/blob/main/history.md",
+        "publishedAt": "2026-10-07",
+        "kind": "Primary correction record"
+      },
+      {
+        "title": "Mathematics collection and verification status",
+        "publisher": "OpenAI · GitHub",
+        "url": "https://github.com/openai/math",
+        "checkedAt": "2026-10-09",
+        "kind": "Company research artifacts"
+      },
+      {
+        "title": "OpenAI withdraws three preprints",
+        "publisher": "Retraction Watch",
+        "url": "https://retractionwatch.com/2026/10/08/openai-withdraws-preprints-722-manuscripts-unsolved-math-problems/",
+        "publishedAt": "2026-10-08",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Navier–Stokes lost in translation",
+        "publisher": "Bastounis, Circelli & Hansen · arXiv",
+        "url": "https://arxiv.org/abs/2610.08144",
+        "checkedAt": "2026-10-09",
+        "kind": "Research preprint"
+      },
+      {
+        "title": "Responsible release of AI-generated mathematics",
+        "publisher": "Advisory Group on Mathematics and Artificial Intelligence",
+        "url": "https://agmai.org/general-sep29/",
+        "checkedAt": "2026-10-09",
+        "kind": "Scholarly recommendations"
+      },
+      {
+        "title": "Science initiatives and Genesis Mission expansion",
+        "publisher": "The White House",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century/",
+        "publishedAt": "2026-10-08",
+        "kind": "Government announcement"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-10-09-math-review.png",
+      "alt": "Conceptual cartoon of a thoughtful mathematician beside a freestanding chalkboard with a simple triangle diagram.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-10-08",
     "slug": "2026-10-08",
     "title": "ChatGPT gets interactive. Keep your judgment.",
