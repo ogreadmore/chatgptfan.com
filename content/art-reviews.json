@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "legacy": [
+    {
+      "src": "briefs/2026-10-07-decisions.png",
+      "sha256": "17b15d43ab556c1796c8a81b564f0301402b10a044fef3052ab34ebd2ded2d50"
+    },
+    {
+      "src": "briefs/2026-10-06-web-maintainers.png",
+      "sha256": "eb4e5828effda171d951141d090e47a5921a8eca14ae35f5ea84265fffe984c0"
+    },
+    {
+      "src": "briefs/2026-10-05-risk-decisions.png",
+      "sha256": "6468eea9bf2709def8ff49435ab49189405fff5cc6de800ec95c16c8b9cfdd0e"
+    },
+    {
+      "src": "briefs/2026-10-04-oversight.png",
+      "sha256": "be7acbf53c83c79c126714a2d055c876596f724adb4f3ca468a17b5d2a6838d9"
+    },
+    {
+      "src": "briefs/2026-10-03-fire-records.png",
+      "sha256": "2d51674bb32527e565383dfc1a196c4c9ca1682cb3f75919d064aa007c9a238a"
+    },
+    {
+      "src": "briefs/2026-10-02-security-notice.png",
+      "sha256": "4b9b4227396b6e909496ffd85ab558e0fdc4e3f64c518748d1073299ab1e224f"
+    },
+    {
+      "src": "briefs/2026-10-01-ai-investigation.png",
+      "sha256": "7c5737d2d5a6599f8885ad981437db1ceb8076fe673862cd98df71dac4d7985e"
+    },
+    {
+      "src": "briefs/2026-09-30-safety-checklist.png",
+      "sha256": "e7fb46e30dcb3475290fa8bf10b2115a1c553ddad72af3586fd74336b2339627"
+    },
+    {
+      "src": "briefs/2026-09-29-release-withheld.png",
+      "sha256": "a951b9a94d7a406e1b6946690edee677a4666c86a2c424b01d7b91b6e38aa10e"
+    },
+    {
+      "src": "briefs/2026-09-28-public-accountability.png",
+      "sha256": "816780830dbe4db940561e862f40e57f1ee11d89889bb8a74eed952f573696ff"
+    },
+    {
+      "src": "briefs/2026-09-27-training-pause.png",
+      "sha256": "863afc8dc628fe56946da326824831ec8b8c9b9209e09751f0aff199f829c19c"
+    },
+    {
+      "src": "briefs/2026-09-26-incident-channel.png",
+      "sha256": "cc5ab66b9cfee3c206d1ae217bcaf4285b217dc611da960705077deaf720ece0"
+    },
+    {
+      "src": "briefs/2026-09-25-altman-review.png",
+      "sha256": "033ec68f4a6107ef636df4894031fdb8ba7bd70a55100bdeae6fbefedce7b6f7"
+    },
+    {
+      "src": "briefs/2026-09-24-altman-security.png",
+      "sha256": "346a2cdbbb4be4de85d6841b5db993a38b3ca899b480a6181f9f11188a65faaf"
+    },
+    {
+      "src": "briefs/2026-09-23-altman-un.png",
+      "sha256": "2a45adc789e2590416d8857ae8b76ae1cf474fb62764fbafd209abd54ae1304f"
+    },
+    {
+      "src": "briefs/2026-09-22-altman-price.png",
+      "sha256": "8a8bb950b0ab396703eb5b41767ac218a4d8af0b1b8fb042ce99bf381e26a45e"
+    },
+    {
+      "src": "briefs/2026-09-21-bessent-phone.png",
+      "sha256": "e4ab627e348eb20acd51b0911ac5f0a370a2ff905f69363eb9ab79f474df359c"
+    },
+    {
+      "src": "briefs/2026-09-20-trump-frame.png",
+      "sha256": "52e4927bda287da6e1841fee09180e5f750481f50607d1a373bfaab003bf368f"
+    },
+    {
+      "src": "briefs/2026-09-19-newsom-switch.png",
+      "sha256": "db108c5416bc61a51681a15712ecfa0556194873f9a22873305e803083f205df"
+    },
+    {
+      "src": "briefs/2026-09-18-altman-purple.png",
+      "sha256": "94b6399583f54d3ea91d68255e962977890a6e861460e11c9ec81a6e12812f08"
+    },
+    {
+      "src": "briefs/2026-09-17-slowdown.png",
+      "sha256": "0c1a1542ff36d521e1186feee4633323ca19e7b5681869f73ffbb1b8cc05bd47"
+    }
+  ],
+  "reviews": []
+}

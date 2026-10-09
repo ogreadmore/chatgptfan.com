@@ -27,7 +27,7 @@ The owner has approved the cartoon series and purple background. Future story-sp
 
 When the owner requests a replacement, put the candidate into the local site so they can review it in context. This does not imply approval for remote publication. Mark it `reviewStatus: "owner-preview"` and record that distinction in provenance. Use `shareLayout: "split"` for full-frame illustrations that need their own space beside the social-card headline.
 
-After the applicable visual review, add an `image` object to brief metadata and record the review in its provenance document. Use `owner-approved` only for an image the owner actually approved, and `agent-reviewed` for subsequent images checked within the approved series:
+After the mandatory two-pass visual review in `docs/editorial-art-direction.md`, add an `image` object to brief metadata and an exact-PNG SHA-256 checklist record to `content/art-reviews.json`. The normal build blocks missing, failed, stale or preview-only reviews. Use the explicit local artwork preview build only to inspect candidates; finish with normal verification. Use `owner-approved` only for an image the owner actually approved, and `agent-reviewed` for subsequent images checked within the approved series:
 
 ```json
 {

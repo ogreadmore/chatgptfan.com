@@ -1,4 +1,5 @@
 import { createHash } from 'node:crypto';
+import { validatePublishedArt } from './art-review.mjs';
 import { validateCampaign, campaignEligible, campaignModal, renderActionPage } from './campaign.mjs';
 import { prepareImageDelivery } from './image-delivery.mjs';
 import { renderHome, briefFigure } from './home-page.mjs';
@@ -30,6 +31,9 @@ const news = await readJSON('content/news.json');
 const allBriefs = await readJSON('content/briefs.json');
 const today = new Intl.DateTimeFormat('en-CA', { timeZone: site.timezone }).format(new Date());
 const briefs = allBriefs.filter(b => b.status === 'published' && b.date <= today).sort((a, b) => b.date.localeCompare(a.date));
+const artPreview = process.argv.includes('--art-preview');
+if (artPreview) console.warn('ARTWORK PREVIEW ONLY: run npm run verify before publishing.');
+else await validatePublishedArt(briefs, await readJSON('content/art-reviews.json'));
 const latest = briefs[0];
 const base = ('/' + (process.env.BASE_PATH ?? '').replace(/^\/+|\/+$/g, '')).replace(/\/$/, '');
 // Pages may report http while HTTPS enforcement is still being configured.
