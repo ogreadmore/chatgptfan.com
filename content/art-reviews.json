@@ -86,5 +86,29 @@
       "sha256": "0c1a1542ff36d521e1186feee4633323ca19e7b5681869f73ffbb1b8cc05bd47"
     }
   ],
-  "reviews": []
+  "reviews": [
+    {
+      "src": "briefs/2026-10-08-interactive-v2.png",
+      "brief": "2026-10-08",
+      "sha256": "a5f8c35e665b6513009cf7c98981ba3765c4b0140a304b703754149a11c08dd8",
+      "reviewedAt": "2026-10-08",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Two separate original-resolution pixel inspections completed. Zero visible hands or forearms; two naturally connected shoulder/sleeve outlines disappear below the desk. Face and head are complete, with purple margin above. Tablet stands independently on its kickstand; simplified bicycle is coherent. Desktop article and homepage, 390px mobile article and homepage, and split sharing card inspected: artwork loaded, complete framing, no overflow or clipped face.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
+    }
+  ]
 }
