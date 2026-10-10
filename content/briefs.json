@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-10-10",
+    "slug": "2026-10-10",
+    "title": "AI tests need real boundaries",
+    "excerpt": "Anthropic disclosed unintended actions on real websites. Containment and public accountability need to keep pace with capable agents.",
+    "file": "2026-10-10.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Investigating unintended model actions",
+        "publisher": "Anthropic",
+        "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+        "publishedAt": "2026-10-09",
+        "kind": "Company incident disclosure"
+      },
+      {
+        "title": "AI founders cheer industry self-regulation",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/32064fde8ad68c68f71d82336f7db525",
+        "publishedAt": "2026-10-10",
+        "kind": "Reporting"
+      },
+      {
+        "title": "White House demands AI incident reporting",
+        "publisher": "Axios",
+        "url": "https://www.axios.com/2026/10/09/anthropic-ai-security-white-house",
+        "publishedAt": "2026-10-09",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Dots: access, permissions and approvals",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/introducing-dots/",
+        "checkedAt": "2026-10-10",
+        "kind": "Company product guidance"
+      },
+      {
+        "title": "AI and cyber security: what you need to know",
+        "publisher": "UK National Cyber Security Centre",
+        "url": "https://www.ncsc.gov.uk/guidance/ai-and-cyber-security-what-you-need-to-know",
+        "checkedAt": "2026-10-10",
+        "kind": "Government guidance"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-10-10-agent-boundaries.png",
+      "alt": "Conceptual cartoon of a concerned researcher beside a freestanding monitor showing a warning symbol.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-10-09",
     "slug": "2026-10-09",
     "title": "AI math needs an audit trail",

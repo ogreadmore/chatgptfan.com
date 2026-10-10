@@ -1,12 +1,12 @@
 {
-  "reviewedAt": "2026-10-09",
+  "reviewedAt": "2026-10-10",
   "resources": [
     "academy",
     "wharton-gail",
     "google-essentials",
     "gpt6-model-guide",
     "zotero",
-    "lm-studio",
+    "dots-permissions",
     "elements",
     "notebook",
     "hf-agents"
@@ -22,7 +22,7 @@
   "money": [
     "sba-plan",
     "ai-business-value",
-    "aws-project-spend-limit"
+    "stanford-index"
   ],
   "safetyFeature": "safety-report",
   "safety": [
@@ -206,14 +206,21 @@
     "https://www.theguardian.com/media/video/2026/oct/06/anthropic-ai-australia-parliament-inquiry-government-websites-breach-video",
     "https://news.google.com/rss/articles/CBMivgFBVV95cUxNckdwSjZhV3lYaVBsMFlkbHZqbHg3ejNwLXJRTjJCRUxvQk5jUXlyQ3NybURhWGliZE5kY0JKaml3RU9TeHlUM1E3OWZIa2tfNUIzSVdrMHVpcFpOVnBtX1Zmb3FYejBuUW1qbW1FQnFLNDZOVldPOG45aEoyZGVkaloyVmg4SF9YN3pjU3Q3Uk5QZFRZX3pGenJmYTFPNGhYem51SG9Uc3paeG9QUGU5dlk3aXRua1ZQaTNfdXZB?oc=5",
     "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses",
-    "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website"
+    "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website",
+    "https://www.theguardian.com/uk-news/2026/oct/10/recruitment-boss-accused-of-being-behind-doxxing-campaign-against-rnli-and-anti-racism-activists",
+    "https://www.theguardian.com/politics/audio/2026/oct/10/gaza-is-a-moral-tear-in-the-universe-naomi-klein-and-astra-taylor-radical-thinking-with-aditya-chakrabortty-podcast",
+    "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise",
+    "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed",
+    "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead",
+    "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUzh0MDhsc3I0ZzFCYTc4V0U4Nlk3WDVkX3ppUW5ZdzBJZTlGSGcxYUUtVThoRF9JZ24tLWhEaEQxRVFjWnRJU28wWVRkYVpRU09pdnBtZnFTdTZuM29vTjBURkdla0Z0N0ozSm8xemVKeXNyNjNDVGhCcWI0VDhPLUZUM1RiWVRGYXRXZ2JGSjRhYS04RGVjQUZ0dGlRN3NHeDA0OVcwQk4?oc=5"
   ],
   "videos": [
+    "https://www.youtube.com/watch?v=p5KxBTUncoE",
+    "https://www.youtube.com/watch?v=enPbh_A5F7E",
     "https://www.youtube.com/watch?v=IsL4dVezs18",
-    "https://www.youtube.com/watch?v=_nmlHbSB8kM",
     "https://www.youtube.com/watch?v=RQfg-zo4R-g",
-    "https://www.youtube.com/watch?v=3glzJZ-_qB8",
-    "https://www.youtube.com/watch?v=LiNhqbetrbU",
-    "https://www.youtube.com/watch?v=aDTPTwnrRyA"
+    "https://www.youtube.com/watch?v=_nmlHbSB8kM",
+    "https://www.youtube.com/watch?v=LiNhqbetrbU"
   ]
 }

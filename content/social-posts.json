@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-09",
+  "updatedAt": "2026-10-10",
   "items": [
     {
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2107164650249101695",
       "coveredAt": "2026-10-09",
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "title": "OpenAI explains text watermarking and its limits",
       "summary": "OpenAI describes text watermarking for eligible EU output and optional API use. Its archived post also describes detection limits; a watermark does not establish that a passage is accurate.",
       "sourceUrl": "https://texxr.com/handle/openai",
@@ -17,7 +17,7 @@
       "accountId": "gdb",
       "url": "https://x.com/gdb/status/2107899150247616531",
       "coveredAt": "2026-10-08",
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "title": "Brockman introduces interactive answers in ChatGPT",
       "summary": "Brockman shared the Intelligent UI launch, describing interactive elements in ChatGPT responses. This is a company announcement; the interface is not independent evidence of answer accuracy.",
       "sourceUrl": "https://texxr.com/handle/gdb",
@@ -29,7 +29,7 @@
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2107596713791767021",
       "coveredAt": "2026-10-07",
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "title": "OpenAI shares new mathematics results",
       "summary": "OpenAI announced mathematics results with papers and some Lean artifacts. The repository now records three withdrawals and other revisions; the release is a company account, not our verification of the proofs.",
       "sourceUrl": "https://texxr.com/handle/openai",
@@ -41,7 +41,7 @@
       "accountId": "sama",
       "url": "https://x.com/sama/status/2106388373221118198",
       "coveredAt": "2026-10-05",
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "title": "Altman warns against surrendering judgment to AI",
       "summary": "Altman described treating AI models as a religious authority or giving up human judgment as a safety concern. This is his stated view, preserved in a public archive.",
       "sourceUrl": "https://texxr.com/handle/sama",
@@ -119,7 +119,7 @@
       "summary": "Chen denied that people or agents examined user data for the specific mathematics effort, while acknowledging broader use of feedback and de-identified data to improve models. This is his account of the issue.",
       "sourceUrl": "https://texxr.com/handle/markchen90",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-10-09"
+      "checkedAt": "2026-10-10"
     },
     {
       "accountId": "merettm",
@@ -131,7 +131,7 @@
       "contextLabel": "Read the essay",
       "sourceUrl": "https://texxr.com/handle/merettm",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-10-09"
+      "checkedAt": "2026-10-10"
     }
   ]
 }

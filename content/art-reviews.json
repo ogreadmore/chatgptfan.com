@@ -132,6 +132,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-10-agent-boundaries.png",
+      "brief": "2026-10-10",
+      "sha256": "339e8853e36a206ecd061832d72c233f8a64a496a5ed66545fc339de440edb15",
+      "reviewedAt": "2026-10-10",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Two separate original-resolution pixel inspections completed, the second with the generation prompt put aside. One chest-up generic researcher; zero visible hands or forearms. Two connected shoulders and upper sleeve outlines end naturally behind the desk. Complete head, hair bun and coherent face; small clear purple margin above. Independent monitor and sturdy stand are grounded on the desk; simple warning symbol is coherent. No unexplained attachments. Desktop and 390px mobile homepage and article inspected: artwork loaded, full framing retained, readable expression and no horizontal overflow. Actual 1200x630 split sharing card inspected: complete head and monitor, headline and date fit. Conceptual illustration caption visible; no claim this depicts an actual employee or incident.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }
