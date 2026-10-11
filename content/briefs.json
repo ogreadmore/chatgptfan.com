@@ -1,5 +1,66 @@
 [
   {
+    "date": "2026-10-11",
+    "slug": "2026-10-11",
+    "title": "AI safety needs a public voice",
+    "excerpt": "A new AP-NORC poll puts human control at the center of public AI priorities. A global health assessment adds another reason to involve the people affected.",
+    "file": "2026-10-11.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Most adults think AI is developing too fast",
+        "publisher": "AP-NORC Center for Public Affairs Research",
+        "url": "https://apnorc.org/projects/most-adults-think-ai-is-developing-too-fast/",
+        "publishedAt": "2026-10-08",
+        "kind": "Public opinion research"
+      },
+      {
+        "title": "September 2026 AI poll: questionnaire and topline results",
+        "publisher": "AP-NORC",
+        "url": "https://apnorc.org/wp-content/uploads/2026/10/September-2026-Topline-AI.pdf",
+        "checkedAt": "2026-10-11",
+        "kind": "Survey questions and results"
+      },
+      {
+        "title": "September 2026 AmeriSpeak poll methodology",
+        "publisher": "AP-NORC",
+        "url": "https://apnorc.org/wp-content/uploads/2026/09/September-2026-Methodology.pdf",
+        "checkedAt": "2026-10-11",
+        "kind": "Research methodology"
+      },
+      {
+        "title": "Launch of the Lancet Commission on global health threats",
+        "publisher": "World Health Summit · IHME · The Lancet",
+        "url": "https://www.worldhealthsummit.org/sessions/d269f639-d13d-4950-b2d9-b87612f498eb",
+        "checkedAt": "2026-10-11",
+        "kind": "Primary launch agenda and framework"
+      },
+      {
+        "title": "AI founders cheer industry self-regulation",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/32064fde8ad68c68f71d82336f7db525",
+        "publishedAt": "2026-10-10",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Statement on Superintelligence",
+        "publisher": "Future of Life Institute",
+        "url": "https://superintelligence-statement.org/",
+        "checkedAt": "2026-10-11",
+        "kind": "Advocacy statement"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-10-11-public-voice.png",
+      "alt": "Conceptual cartoon of a thoughtful ordinary user beside a ballot box, representing a public voice in AI decisions.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-10-10",
     "slug": "2026-10-10",
     "title": "AI tests need real boundaries",

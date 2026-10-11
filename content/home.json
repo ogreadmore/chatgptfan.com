@@ -1,10 +1,10 @@
 {
-  "reviewedAt": "2026-10-10",
+  "reviewedAt": "2026-10-11",
   "resources": [
     "academy",
     "wharton-gail",
     "google-essentials",
-    "gpt6-model-guide",
+    "ms-genai",
     "zotero",
     "dots-permissions",
     "elements",
@@ -20,7 +20,7 @@
     "hf-spaces"
   ],
   "money": [
-    "sba-plan",
+    "stripe-pricing",
     "ai-business-value",
     "stanford-index"
   ],
@@ -213,14 +213,17 @@
     "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed",
     "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead",
     "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
-    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUzh0MDhsc3I0ZzFCYTc4V0U4Nlk3WDVkX3ppUW5ZdzBJZTlGSGcxYUUtVThoRF9JZ24tLWhEaEQxRVFjWnRJU28wWVRkYVpRU09pdnBtZnFTdTZuM29vTjBURkdla0Z0N0ozSm8xemVKeXNyNjNDVGhCcWI0VDhPLUZUM1RiWVRGYXRXZ2JGSjRhYS04RGVjQUZ0dGlRN3NHeDA0OVcwQk4?oc=5"
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUzh0MDhsc3I0ZzFCYTc4V0U4Nlk3WDVkX3ppUW5ZdzBJZTlGSGcxYUUtVThoRF9JZ24tLWhEaEQxRVFjWnRJU28wWVRkYVpRU09pdnBtZnFTdTZuM29vTjBURkdla0Z0N0ozSm8xemVKeXNyNjNDVGhCcWI0VDhPLUZUM1RiWVRGYXRXZ2JGSjRhYS04RGVjQUZ0dGlRN3NHeDA0OVcwQk4?oc=5",
+    "https://www.theguardian.com/news/audio/2026/oct/11/gaza-is-a-moral-tear-in-the-universe-naomi-klein-and-astra-taylor-radical-thinking-with-aditya-chakrabortty-podcast",
+    "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream",
+    "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
   ],
   "videos": [
+    "https://www.youtube.com/watch?v=Ju-JyxDgV7g",
     "https://www.youtube.com/watch?v=p5KxBTUncoE",
     "https://www.youtube.com/watch?v=enPbh_A5F7E",
     "https://www.youtube.com/watch?v=IsL4dVezs18",
     "https://www.youtube.com/watch?v=RQfg-zo4R-g",
-    "https://www.youtube.com/watch?v=_nmlHbSB8kM",
-    "https://www.youtube.com/watch?v=LiNhqbetrbU"
+    "https://www.youtube.com/watch?v=_nmlHbSB8kM"
   ]
 }

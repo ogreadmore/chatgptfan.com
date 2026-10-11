@@ -155,6 +155,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-11-public-voice.png",
+      "brief": "2026-10-11",
+      "sha256": "ebdc153c46c1460f5898b9890cb8f68d8eeaedee9a69712b6b13e0b2af333675",
+      "reviewedAt": "2026-10-11",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Two separate original-resolution pixel inspections completed, the second with the prompt put aside. One chest-up ordinary user, zero visible hands or forearms; two connected shoulders and upper-sleeve outlines end naturally behind desk/box. Complete head with clear purple top margin, coherent face, eyes, ears and neck. Ballot box is independently grounded on desk, folded paper fits its slot; no unexplained attachments. Desktop homepage and article, 390px mobile homepage and article, and actual 1200x630 split sharing card inspected: complete face and box retained, readable metaphor, image loaded, headline/date fit, no horizontal overflow. Conceptual caption visible; this is not an actual survey participant or election.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }
