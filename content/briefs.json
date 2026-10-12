@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-10-12",
+    "slug": "2026-10-12",
+    "title": "AI safety testing needs access",
+    "excerpt": "Reports say the US has restored Britain’s access to unreleased AI models. Outside scrutiny needs access—and clear consequences for what evaluators find.",
+    "file": "2026-10-12.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "US reverses course on Britain’s testing of AI models, Telegraph says",
+        "publisher": "Reuters (via Euronext)",
+        "url": "https://live.euronext.com/en/financial-news/us-reverses-course-britains-testing-ai-models-telegraph-says",
+        "publishedAt": "2026-10-11",
+        "kind": "Reporting citing The Telegraph"
+      },
+      {
+        "title": "Britain to get first look at new AI systems after White House U-turn",
+        "publisher": "The Telegraph (via AOL)",
+        "url": "https://www.aol.com/articles/britain-first-look-ai-systems-184607000.html",
+        "publishedAt": "2026-10-11",
+        "kind": "Reporting"
+      },
+      {
+        "title": "About the AI Security Institute",
+        "publisher": "UK AI Security Institute",
+        "url": "https://www.aisi.gov.uk/about",
+        "checkedAt": "2026-10-12",
+        "kind": "Government research organization"
+      },
+      {
+        "title": "We Must Pace the Frontier",
+        "publisher": "Dario Amodei · Anthropic CEO",
+        "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+        "checkedAt": "2026-10-12",
+        "kind": "Developer proposal · dated September 2026; exact day unspecified"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-10-12-safety-testing.png",
+      "alt": "Conceptual cartoon of a thoughtful researcher beside a microscope, representing outside scrutiny of AI systems.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-10-11",
     "slug": "2026-10-11",
     "title": "AI safety needs a public voice",

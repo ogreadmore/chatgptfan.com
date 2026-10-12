@@ -178,6 +178,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-12-safety-testing.png",
+      "brief": "2026-10-12",
+      "sha256": "2ebedd3836fbc7f3c609744f545f21475982a3bbf75e65ad247d474e8ee2b943",
+      "reviewedAt": "2026-10-12",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Two separate original-resolution inspections completed, the second with the generation prompt put aside. First candidate rejected for hair touching the top edge; one focused framing revision inspected in full. One chest-up generic researcher, zero hands or forearms; two connected shoulder and upper-sleeve outlines end naturally behind the desk. Complete head with generous purple margin; coherent face, eyes, ear and neck. Separate microscope has connected eyepiece, objectives, stage, support, focus control and grounded base, with no unexplained attachments. Desktop and 390px mobile homepage and article inspected: image loaded, complete framing retained, readable metaphor and no horizontal overflow. Actual 1200x630 split sharing card inspected: complete face and microscope, headline/date fit. Visible conceptual illustration caption; not an actual person or event.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }
