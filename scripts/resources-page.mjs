@@ -5,7 +5,7 @@ import {localImage} from './image-delivery.mjs';
 export const collections = [
   { id: 'learn', title: 'Learn', description: 'Courses, guides, and examples worth your time.', detail: 'Start with the fundamentals, improve your practice, or learn to build.' },
   { id: 'tools', title: 'Tools', description: 'A small toolkit for useful work.', detail: 'Research, automation, and local models. Choose for the task at hand.' },
-  { id: 'projects', title: 'Projects', description: 'Experiments to explore. Starting points to make your own.', detail: 'Working demos, practical workflows, and ideas with source code.' },
+  { id: 'projects', title: 'Projects', description: 'Experiments to explore. Starting points to make your own.', detail: 'Source code, practical workflows, and ideas to explore.' },
   { id: 'money', title: 'Money', description: 'How useful work becomes a business.', detail: 'Business examples, customer research, and the economics behind a product or service.' }
 ];
 

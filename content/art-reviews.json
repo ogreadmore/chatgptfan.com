@@ -201,6 +201,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-13-device-containment.png",
+      "brief": "2026-10-13",
+      "sha256": "a415229ec28e255004a1109a153f7d8a84026fb208976f8cb567e23a3dbc515f",
+      "reviewedAt": "2026-10-13",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "First candidate rejected for cropped hair; one focused framing revision. Two distinct original-resolution final-pixel inspections, second with prompt put aside. One chest-up figure; zero visible hands or forearms. Two connected shoulders and upper-sleeve outlines end naturally behind the desk. Complete head/hair with generous purple margin, coherent face/eyes/ear/neck. Separate router body, two attached antennas and feet are coherent and grounded; no unexplained attachments. Desktop and 390px mobile homepage/article and actual 1200x630 split sharing PNG inspected. Full framing retained, loaded image, readable metaphor/headline/date, no horizontal overflow. Visible conceptual caption; not an actual employee, infection or security product claim.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

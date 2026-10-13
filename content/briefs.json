@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-10-13",
+    "slug": "2026-10-13",
+    "title": "AI containment goes beyond the data center",
+    "excerpt": "Anthropic tests replication on connected devices. The important distinction: a controlled experiment is not a runaway system in the wild.",
+    "file": "2026-10-13.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "AI models may be capable of self-replicating without access to a datacenter",
+        "publisher": "Anthropic · Frontier Red Team",
+        "url": "https://www.anthropic.com/research/self-replicating-ai",
+        "publishedAt": "2026-10-12",
+        "kind": "Developer research · controlled evaluation"
+      },
+      {
+        "title": "Anthropic warns AI models could soon copy themselves in small devices",
+        "publisher": "ABC News",
+        "url": "https://abcnews.com/US/anthropic-warns-ai-models-copy-small-devices/story?id=137220664",
+        "publishedAt": "2026-10-13",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Privacy Considerations with AI Tools",
+        "publisher": "Electronic Frontier Foundation",
+        "url": "https://ssd.eff.org/module/privacy-considerations-with-ai-tools",
+        "checkedAt": "2026-10-13",
+        "kind": "Practical guidance"
+      },
+      {
+        "title": "Update Software",
+        "publisher": "CISA",
+        "url": "https://www.cisa.gov/secure-our-world/update-software",
+        "checkedAt": "2026-10-13",
+        "kind": "Archived background guidance"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-10-13-device-containment.png",
+      "alt": "Conceptual cartoon of a thoughtful man beside a home router with a shield emblem, representing protection of connected devices.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-10-12",
     "slug": "2026-10-12",
     "title": "AI safety testing needs access",
