@@ -224,6 +224,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-14-public-hearings.png",
+      "brief": "2026-10-14",
+      "sha256": "12ca07735db1c9bd57b7bf38887e1eb709481195af712183280427a8ecc8c020",
+      "reviewedAt": "2026-10-14",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Inspected the final 1672x941 PNG at full resolution twice, with a separate second pass after source and presentation work. One head and torso; two naturally attached upper sleeve silhouettes descend from the shoulders below the desk, with no forearms, wrists, fingers or hands visible. No extra limbs or unexplained attachments. Coherent eyes, nose, mouth and neck; complete hair has generous top clearance. Separate microphone has a plausible capsule, stem and base without figure contact. Conceptual public-voice scene, not a real hearing witness. Desktop and 390px mobile home/article show complete head and prop; loaded responsive variants preserve framing. Actual 1200x630 split sharing PNG inspected: readable headline/date and intact illustration. Initial candidate had inadequate top margin and was rejected; one framing revision passed. Agent inspection only, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

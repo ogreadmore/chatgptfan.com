@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-10-14",
+    "slug": "2026-10-14",
+    "title": "AI safety moves into public hearings",
+    "excerpt": "A UK inquiry opens as Europe seeks incident evidence. Scrutiny matters; hearings and information requests are not completed safeguards.",
+    "file": "2026-10-14.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "House of Commons Committee opens major new inquiry into AI security risks",
+        "publisher": "UK Parliament · BIST Committee",
+        "url": "https://committees.parliament.uk/committee/365/business-innovation-science-and-trade-committee/news/218156/house-of-commons-committee-opens-major-new-inquiry-into-ai-security-risks/",
+        "publishedAt": "2026-10-14",
+        "kind": "Parliamentary announcement"
+      },
+      {
+        "title": "Special meeting of the AI Scientific Panel",
+        "publisher": "European Commission",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/special-meeting-ai-scientific-panel",
+        "publishedAt": "2026-10-12",
+        "kind": "Government announcement"
+      },
+      {
+        "title": "EU’s AI rules face first enforcement test over lab incidents",
+        "publisher": "Euronews",
+        "url": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents",
+        "publishedAt": "2026-10-14",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Britain steps up national defences against growing AI risks",
+        "publisher": "UK Government",
+        "url": "https://www.gov.uk/government/news/britain-steps-up-national-defences-against-growing-ai-risks",
+        "publishedAt": "2026-10-12",
+        "kind": "Government announcement"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-10-14-public-hearings.png",
+      "alt": "Conceptual cartoon of a thoughtful woman beside a tabletop microphone, representing a public voice in AI oversight.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-10-13",
     "slug": "2026-10-13",
     "title": "AI containment goes beyond the data center",
