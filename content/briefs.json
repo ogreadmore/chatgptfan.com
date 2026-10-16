@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-10-16",
+    "slug": "2026-10-16",
+    "title": "AI safety needs evidence outsiders can inspect",
+    "excerpt": "Independent scrutiny depends on access, publication rights and evidence of how safeguards work.",
+    "file": "2026-10-16.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "FTC subpoenas",
+        "publisher": "CBS News",
+        "url": "https://www.cbsnews.com/news/ftc-subpoenas-anthropic-openai-consumer-protection/",
+        "publishedAt": "2026-10-15",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Company response",
+        "publisher": "Axios",
+        "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
+        "publishedAt": "2026-10-15",
+        "kind": "Reporting"
+      },
+      {
+        "title": "An update on independent evaluators",
+        "publisher": "Anthropic",
+        "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+        "publishedAt": "2026-10-15",
+        "kind": "Company announcement"
+      },
+      {
+        "title": "Our approach to working with AI companies",
+        "publisher": "METR",
+        "url": "https://metr.org/blog/2026-10-14-our-approach-to-risk-assessment/",
+        "publishedAt": "2026-10-14",
+        "kind": "Methods and limitations"
+      },
+      {
+        "title": "Control and monitoring assessment proposal",
+        "publisher": "METR",
+        "url": "https://metr.org/blog/2026-10-14-control-assessment-proposal/",
+        "publishedAt": "2026-10-14",
+        "kind": "Research proposal"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-10-16-outside-scrutiny.png",
+      "alt": "Conceptual cartoon of an attentive researcher studying an open binder on a separate stand, representing outside access to safety evidence.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-10-14",
     "slug": "2026-10-14",
     "title": "AI safety moves into public hearings",

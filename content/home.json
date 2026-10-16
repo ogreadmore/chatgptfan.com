@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-10-15",
+  "reviewedAt": "2026-10-16",
   "resources": [
     "academy",
     "wharton-gail",
@@ -234,14 +234,16 @@
     "https://techcrunch.com/2026/10/14/techcrunch-disrupt-2026-day-2",
     "https://www.theguardian.com/world/2026/oct/15/poland-economy-heights-transformed-regional-tech-hub",
     "https://www.theguardian.com/commentisfree/2026/oct/15/global-economy-multilateral-cooperation-crisis-imf",
-    "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview"
+    "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
+    "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access",
+    "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says"
   ],
   "videos": [
+    "https://www.youtube.com/watch?v=KJ_7KPKlO_Q",
+    "https://www.youtube.com/watch?v=GyO8Ao7yKJc",
     "https://www.youtube.com/watch?v=G-9Y2xNiDKQ",
     "https://www.youtube.com/shorts/PZxbaIp8PzE",
     "https://www.youtube.com/watch?v=IZXv6a78NDw",
-    "https://www.youtube.com/watch?v=p5KxBTUncoE",
-    "https://www.youtube.com/watch?v=RQfg-zo4R-g",
-    "https://www.youtube.com/shorts/OgjMGn4T6Ok"
+    "https://www.youtube.com/watch?v=p5KxBTUncoE"
   ]
 }

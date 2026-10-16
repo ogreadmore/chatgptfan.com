@@ -247,6 +247,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-16-outside-scrutiny.png",
+      "brief": "2026-10-16",
+      "sha256": "7e36f9016c7dcd8261f9f96a837dd5b4e2f79861f302ba2a386f76da1a07c1fe",
+      "reviewedAt": "2026-10-16",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Two distinct full-resolution inspections of final 1672x941 PNG, second after intervening research and page checks with prompt put aside. One head and torso, coherent face/eyes/ear/neck, two naturally connected upper sleeve outlines descending behind the desk. Zero visible forearms, wrists, fingers or hands and no unexplained attachments. Separate upright binder has coherent pages, rings, spine and grounded book stand; no figure contact. Complete hair and prop inside generous safe margins. Initial candidate rejected for tight top framing; exactly one focused framing revision. Desktop and 390px mobile home/article viewport screenshots inspected, responsive art loaded with full framing and conceptual caption; no horizontal overflow. Actual 1200x630 split sharing PNG inspected: readable headline/date and complete illustration. Conceptual evidence inspection, not a real regulator or event. Agent review only.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }
