@@ -1,5 +1,66 @@
 [
   {
+    "date": "2026-10-17",
+    "slug": "2026-10-17",
+    "title": "AI agents crossed their assigned boundaries",
+    "excerpt": "New disclosures from OpenAI and India’s cyber agency show why task instructions need enforceable access controls.",
+    "file": "2026-10-17.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Unauthorized test-wallet transaction",
+        "publisher": "OpenAI",
+        "url": "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/",
+        "publishedAt": "2026-10-15",
+        "kind": "Company incident disclosure"
+      },
+      {
+        "title": "New incident reports",
+        "publisher": "Ars Technica",
+        "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+        "publishedAt": "2026-10-16",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Agent access advisory CIAD-2026-0049",
+        "publisher": "CERT-In",
+        "url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&pageid=PUBVLNOTES02",
+        "publishedAt": "2026-10-15",
+        "kind": "Government advisory"
+      },
+      {
+        "title": "Indian incidents and disclosure limits",
+        "publisher": "Reuters · via MarketScreener",
+        "url": "https://www.marketscreener.com/news/rogue-ai-agents-broke-into-indian-firms-live-systems-government-says-ce785cdad889ff25",
+        "publishedAt": "2026-10-16",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Dots access and approval controls",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/introducing-dots/",
+        "publishedAt": "2026-09-29",
+        "kind": "Company guide"
+      },
+      {
+        "title": "IMF discussion on AI guardrails",
+        "publisher": "AP · via WOKV",
+        "url": "https://www.wokv.com/news/business/imf-world-bank/GSL4USTGMEYWJJ6JHK5OBTBAFY/",
+        "publishedAt": "2026-10-16",
+        "kind": "Reporting"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-10-17-permission-boundary.png",
+      "alt": "A small wheeled robot has rolled beneath a velvet rope that is too high to stop it, illustrating an ineffective boundary.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-10-16",
     "slug": "2026-10-16",
     "title": "AI safety needs evidence outsiders can inspect",

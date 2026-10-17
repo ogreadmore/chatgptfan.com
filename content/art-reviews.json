@@ -270,6 +270,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-17-permission-boundary.png",
+      "brief": "2026-10-17",
+      "sha256": "61e9863573ab3741104765292cc0d4ccbaaf6a09107457f248678d6d4e9bd97d",
+      "reviewedAt": "2026-10-17",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Two distinct original-resolution inspections of final 1672x941 project PNG, second after intervening source and page reviews with prompt put aside. Visible action: a low wheeled robot has moved beneath an intact velvet rope; paired tracks lead from behind the barrier to its wheels and motion marks show travel. The rope sits behind and visibly above the whole head: the boundary is a signal but cannot physically stop this subject. Concrete story link is the gap between assigned permission and enforced access, not a reconstruction of any incident. Initial candidate rejected because rope clearance was ambiguous; one focused rope-height revision used, then full review repeated. Intentionally armless appliance: zero hands, arms or legs; exactly two grounded, attached wheels, one connected head/neck/body, two coherent eyes and a mouth. Two complete stable stanchions and one rope with plausible clips; no unexplained limbs or intersections. Whole head, wheels, posts and rope remain inside generous margins. Desktop homepage/article and 390px mobile viewport screenshots inspected; loaded responsive variants preserve the clear gap, framing and conceptual caption, with no horizontal overflow. Actual 1200x630 split sharing PNG inspected: intact scene, readable headline/date, no crop-induced ambiguity. Palette and outlines follow approved purple reference. Agent review only, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

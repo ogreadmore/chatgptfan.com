@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-10-16",
+  "reviewedAt": "2026-10-17",
   "resources": [
     "academy",
     "wharton-gail",
@@ -31,7 +31,7 @@
     "ai-now"
   ],
   "social": [
-    "https://x.com/sama/status/2106388373221118198",
+    "https://x.com/sama/status/2111130577789493706",
     "https://x.com/gdb/status/2107899150247616531",
     "https://x.com/OpenAI/status/2107596713791767021",
     "https://x.com/OpenAI/status/2107164650249101695",
@@ -236,14 +236,22 @@
     "https://www.theguardian.com/commentisfree/2026/oct/15/global-economy-multilateral-cooperation-crisis-imf",
     "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
     "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access",
-    "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says"
+    "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says",
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYTh0MnBUY0FSUC1FdGM2REw2OFBSOVYyd2ZHb212YTFrUmdIRXc3enJINnFqOFRyOEJFN2dCS0wweEhPODlMMGY1dTM5WHM2MlF6Vk1aaEJIZmVEY0hmdkhlaHFJcm1HS3I1NU1xZTZjWDdIdGVFR0s5TWRhRU90bUZGYzNsdXdzSWFsTkxkUjk3aUdiTHJrakhqby1JbVE1bDFZY1N0U1hzdw?oc=5",
+    "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites",
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUWE4SllpWmQwcUxOeXpjRVg5NWhCdHY2bE1LT1kxdEN2bkxYS29Vc3hVV0dEbm1XeDd0dHNQUzZNQWxiMHItQV9XMTVHY21YMDJLZXFTVWFrUGZDY19PQXcxMnBBZzViSE45TWJkTHBNRnBkOUZVUjY1NzM5bWpFTFd1dmdLMnNlRUJtVTBobVJOV1htWUlxSXFqLUN0d2tQMGh6NkJ4bFpvYUJpN3lDRUVES2dtemF4eGViejJn?oc=5",
+    "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity",
+    "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet",
+    "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it",
+    "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy",
+    "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled"
   ],
   "videos": [
+    "https://www.youtube.com/watch?v=OMxEUdIgsQc",
     "https://www.youtube.com/watch?v=KJ_7KPKlO_Q",
-    "https://www.youtube.com/watch?v=GyO8Ao7yKJc",
-    "https://www.youtube.com/watch?v=G-9Y2xNiDKQ",
+    "https://www.youtube.com/watch?v=GBOZIRK1ujw",
     "https://www.youtube.com/shorts/PZxbaIp8PzE",
-    "https://www.youtube.com/watch?v=IZXv6a78NDw",
-    "https://www.youtube.com/watch?v=p5KxBTUncoE"
+    "https://www.youtube.com/watch?v=GyO8Ao7yKJc",
+    "https://www.youtube.com/watch?v=IZXv6a78NDw"
   ]
 }

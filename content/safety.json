@@ -30,7 +30,8 @@
       "resources": [
         "eff-ai-privacy",
         "ncsc-ai-security",
-        "nist"
+        "nist",
+        "cert-agent-security"
       ]
     },
     {
