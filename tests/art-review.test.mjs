@@ -25,3 +25,11 @@ test('Historical exemption cannot approve edited historical art or a new edition
   assert.throws(()=>validateArtReview({...brief,date:'2026-10-07'},Buffer.from('changed'),frozen), /missing review/);
   assert.throws(()=>validateArtReview(brief,bytes,frozen), /missing review/);
 });
+
+test('Sound anatomy cannot override failed meaning or an owner rejection', () => {
+  const meaningless = {...review(), checks:{...review().checks, story:false}};
+  assert.throws(()=>validateArtReview(brief,bytes,policy(meaningless)), /failed visual checklist/);
+  const rejected = {...review(), result:'reject'};
+  assert.throws(()=>validateArtReview(brief,bytes,policy(rejected)), /rejected/);
+  assert.doesNotThrow(()=>validateArtReview({...brief,image:undefined},bytes,policy(rejected)));
+});

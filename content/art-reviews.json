@@ -253,11 +253,11 @@
       "brief": "2026-10-16",
       "sha256": "7e36f9016c7dcd8261f9f96a837dd5b4e2f79861f302ba2a386f76da1a07c1fe",
       "reviewedAt": "2026-10-16",
-      "result": "pass",
+      "result": "reject",
       "secondPass": true,
       "expectedVisibleHands": 0,
       "observedVisibleHands": 0,
-      "notes": "Two distinct full-resolution inspections of final 1672x941 PNG, second after intervening research and page checks with prompt put aside. One head and torso, coherent face/eyes/ear/neck, two naturally connected upper sleeve outlines descending behind the desk. Zero visible forearms, wrists, fingers or hands and no unexplained attachments. Separate upright binder has coherent pages, rings, spine and grounded book stand; no figure contact. Complete hair and prop inside generous safe margins. Initial candidate rejected for tight top framing; exactly one focused framing revision. Desktop and 390px mobile home/article viewport screenshots inspected, responsive art loaded with full framing and conceptual caption; no horizontal overflow. Actual 1200x630 split sharing PNG inspected: readable headline/date and complete illustration. Conceptual evidence inspection, not a real regulator or event. Agent review only.",
+      "notes": "Owner rejected this image on October 16: the scene makes no sense. Reinspected the final pixels: a person appears to study a completely blank binder. There is no visible evidence to inspect and no clear story-specific action. The previous agent pass wrongly substituted a broad thematic explanation for a meaningful image. Anatomy and delivery checks do not establish editorial quality. Story check revoked; remove from homepage, article and sharing card. One focused framing revision was already used, so use the typography fallback. Do not reuse or restore this rejected asset.",
       "checks": {
         "limbCount": true,
         "limbConnections": true,
@@ -265,7 +265,7 @@
         "poseAndProps": true,
         "face": true,
         "framing": true,
-        "story": true,
+        "story": false,
         "desktop": true,
         "mobile": true,
         "sharingCard": true

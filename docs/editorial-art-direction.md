@@ -28,6 +28,17 @@ Prompt constraint: “One figure, simple chest-up composition. No visible hands 
 
 An image is optional; a weak image is never preferable to the clean typography fallback. “Probably fine,” an obscured attachment, ambiguous anatomy, or a model's own reassurance is a failure. Do not infer quality from the prompt, dimensions, or a passing build.
 
+### Meaning comes first
+
+Before checking anatomy, put aside the prompt and headline and describe only what the pixels show. State the visible action, why the prop makes sense in that action, and the concrete connection to the lead story. Record those observations in the review notes. A broad theme such as “scrutiny” or “safety” is not enough to pass `story`.
+
+- Reject a scene whose action makes no sense: reading a blank page, inspecting evidence that is absent, or using an object in an unexplained way. A caption cannot repair the scene's visual logic.
+- Reject a generic person beside a generic object when the story connection exists only in the prompt or reviewer's explanation. Expression and purple styling do not supply missing meaning.
+- No text in the illustration does not mean all documents must be blank. Choose a different coherent visual idea when the action requires information that cannot be shown clearly and honestly. Do not invent documentary evidence or fake interfaces to fill the gap.
+- Check whether the image communicates at thumbnail size and uses the frame well. Simplifying anatomy must not remove the action that made the concept worth illustrating.
+
+If the meaning is weak or uncertain, mark `story: false` and reject the image even if every anatomy check passes. Continue with the typography fallback; do not publish first and rely on the owner to catch it. The one-revision limit still applies across meaning, anatomy and presentation failures combined.
+
 Inspect the actual final file at full resolution, then make a separate second pass after putting aside the generation prompt. On that pass:
 - Count every visible hand and limb. Trace every arm from shoulder through elbow and wrist; reject extra limbs, floating hands or attachments that cannot be explained.
 - Inspect each visible hand for fingers, joints, orientation and a plausible grip. Simplified cartoon fingers still need a coherent hand.
@@ -63,9 +74,11 @@ After actual inspection, record the source path, final PNG SHA-256, brief slug, 
 }
 ```
 
-This is an enforced record of editorial review, not automatic anatomy recognition. The review must actually happen. Keep exact generation prompts and provenance in the private image log.
+This is an enforced record of editorial review, not automatic recognition of anatomy or meaning. The review must actually happen. Keep exact generation prompts and provenance in the private image log. An owner rejection overrides an earlier agent pass: retain the exact-file record, mark it rejected with the failed check and reason, and remove the image metadata so it cannot be restored with the old approval.
 
 Rejected September 18 directions: glass blocks and paths; distressed fake UI; the access-path diagram. Do not reinstate them.
+
+Rejected October 16 direction: a researcher studying a blank binder (`2026-10-16-outside-scrutiny.png`). The agent incorrectly approved a meaningless scene based on its intended theme and anatomical correctness. Do not reuse this asset or repeat the blank-evidence concept.
 
 The approved reference's complete generation prompt and provenance are in [brief-image-2026-09-18-cartoon.md](brief-image-2026-09-18-cartoon.md).
 

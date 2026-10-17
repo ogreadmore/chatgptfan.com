@@ -23,6 +23,8 @@ Art is optional. Follow `docs/editorial-art-direction.md` for the modern editori
 
 For new artwork, use a concrete visual idea tied to the actual story, with a composition that works as an image in its own right. Do not sacrifice most of the illustration to empty space for sharing-card text. Generic cubes, portals, networks, and decorative AI symbolism are not an acceptable substitute for a story. The sharing layout can adapt to the artwork.
 
+Apply the meaning-first gate in `docs/editorial-art-direction.md` before anatomy approval. Describe the visible action and why it makes sense without relying on the prompt or caption. Reading blank pages and generic people beside unrelated props fail even with correct anatomy. Record the actual story connection; use the typography fallback when it is weak or uncertain.
+
 The owner has approved the cartoon series and purple background. Future story-specific images in that established style can be generated and visually checked during the daily run; record agent review separately from owner approval. Save the prompt and provenance. Ask for feedback on a new style or an ambiguous concept; use the typography-only fallback if a suitable image cannot be produced. Avoid fabricated documentary scenes, invented quotations, or depictions of events as if photographed. Do not alter or reuse publisher photography without appropriate rights.
 
 When the owner requests a replacement, put the candidate into the local site so they can review it in context. This does not imply approval for remote publication. Mark it `reviewStatus: "owner-preview"` and record that distinction in provenance. Use `shareLayout: "split"` for full-frame illustrations that need their own space beside the social-card headline.
