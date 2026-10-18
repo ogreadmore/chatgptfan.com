@@ -293,6 +293,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-18-growth-guardrails.png",
+      "brief": "2026-10-18",
+      "sha256": "cb9e8fe22cb74b97787945e4aad4c59b758c0faeb5f8513727a08a73d1bc72d1",
+      "reviewedAt": "2026-10-18",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Two distinct original-resolution inspections of the final 1672x941 pixels, first generated file and second final project file after intervening resource and section reviews, with prompt/headline put aside. Visible action: a helmeted driver takes an apricot sports car around a tight curved track at speed; motion marks follow travel and a solid, supported outside guardrail follows that same bend. A broad continuous asphalt gap separates the whole car and its wheels from the barrier. Concrete story connection: Georgieva's reported racing/guardrails comparison, illustrating acceleration requiring physical safeguards, not a documentary event or proof controls already exist. Initial candidate rejected for ambiguous bumper/barrier clearance; exactly one focused revision moved the car inward. One connected head/neck and visible shoulder within a normal seated cockpit; zero visible hands, forearms, legs or floating limbs. Arms and lower body are naturally concealed by opaque car body, not cropped to hide defects. Three visible plausibly grounded wheels; fourth far-rear wheel naturally occluded, no duplicated wheels. Two eyes, one nose/mouth, coherent helmet, harness and steering wheel within cockpit. Car, complete helmet and barrier stay within safe margins. Desktop home/article and 390px mobile home/article screenshots inspected, loaded responsive variants preserve full frame, road gap and conceptual caption; no horizontal overflow. Actual 1200x630 sharing PNG inspected: complete coherent scene beside legible headline/date. Agent review in the approved purple cartoon series, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

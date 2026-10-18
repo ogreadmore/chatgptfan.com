@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-10-18",
+    "slug": "2026-10-18",
+    "title": "AI’s growth forecasts still need guardrails",
+    "excerpt": "Anthropic’s economic scenario meets a more practical question: who is responsible for keeping AI under control?",
+    "file": "2026-10-18.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Clark’s economic scenario and safeguard warning",
+        "publisher": "Reuters · via MarketScreener",
+        "url": "https://uk.marketscreener.com/news/ai-rapidly-improving-could-vastly-boost-us-gdp-anthropic-s-clark-tells-policymakers-ce785cdade8ef62c",
+        "publishedAt": "2026-10-17",
+        "kind": "Reporting"
+      },
+      {
+        "title": "IMF discussion on AI guardrails",
+        "publisher": "AP · via WOKV",
+        "url": "https://www.wokv.com/news/business/imf-world-bank/GSL4USTGMEYWJJ6JHK5OBTBAFY/",
+        "publishedAt": "2026-10-16",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Final AI adoption practices",
+        "publisher": "Financial Stability Board",
+        "url": "https://www.fsb.org/2026/10/fsb-finalises-sound-practices-for-the-responsible-adoption-of-artificial-intelligence-ai/",
+        "publishedAt": "2026-10-15",
+        "kind": "Government and regulatory guidance"
+      },
+      {
+        "title": "Final report: scope and limitations",
+        "publisher": "Financial Stability Board",
+        "url": "https://www.fsb.org/uploads/P151026-1.pdf",
+        "publishedAt": "2026-10-15",
+        "kind": "Guidance · introductory sections"
+      },
+      {
+        "title": "AI Risk Management Framework",
+        "publisher": "NIST",
+        "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+        "kind": "Government guidance"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-10-18-growth-guardrails.png",
+      "alt": "A helmeted driver rounds a sharp bend in an apricot racing car beside a solid guardrail.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-10-17",
     "slug": "2026-10-17",
     "title": "AI agents crossed their assigned boundaries",
