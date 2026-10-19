@@ -316,6 +316,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-19-small-ai.png",
+      "brief": "2026-10-19",
+      "sha256": "26f68b005bec211ddd3dbc5596e6db134a4adb8235478e84203a4c781a8e15c2",
+      "reviewedAt": "2026-10-19",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 1,
+      "observedVisibleHands": 1,
+      "notes": "Meaning-first observation from the pixels: a woman leans toward a visibly spotted and hole-damaged leaf, holding a smartphone above it with the rear camera directed toward the leaf and screen toward her. The plant supplies a concrete photographic subject, matching the Bank’s crop-photo example; this is a fictional conceptual scene, not a documentary portrayal or treatment claim. Separate original-resolution second pass after other work: one near arm traced shoulder to rolled sleeve, bent elbow, forearm and wrist; four curled fingers form a coherent phone grip, thumb naturally behind the phone. Far arm descends from the far sleeve behind the torso into foliage; its hand is naturally occluded, with no extra limbs or disconnected attachments. Complete head, coherent eyes, phone and leaf visible. Initial candidate rejected for head clipping and unclear aiming; exactly one focused revision used. Inspected final original pixels, delivered desktop homepage and article, 390px homepage and article, and actual 1200×630 split sharing PNG. Phone/leaf action remains visible without a caption, full head and prop preserved, headline legible and no overflow. Agent inspection only; owner has not reviewed this output.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

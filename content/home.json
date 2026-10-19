@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-10-18",
+  "reviewedAt": "2026-10-19",
   "resources": [
     "academy",
     "wharton-gail",
@@ -22,7 +22,7 @@
   "money": [
     "stripe-pricing",
     "ai-business-value",
-    "stanford-index"
+    "worldbank-ai-development"
   ],
   "safetyFeature": "safety-report",
   "safety": [
@@ -248,14 +248,16 @@
     "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns",
     "https://www.theguardian.com/australia-news/audio/2026/oct/18/black-box-the-chatbots-what-i-saw-at-the-double-six-ranch-ep-6-full-story-podcast",
     "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbk9CdFVPN2k3VV9iLUx0SGxFc184WkJQSDVpNGhBTkxVUElnNmFvRk5YeHJNVjloYlFXZWY1MC1TQjBaT3RMSmJXQjl4YUU4X0ZDVllhRGR5T09ncE1vRTVhZVBqZGZYeE1kRG9jRVFram83dWZSd3N1eU9jeWpPckdNTTFyYV9jN1kxTHBWR3YycW1DRlVMU095QzMxVnVNb1RULVZPaXYtVlRaMlF4TEFEd1U4aFpySG83R3BMaDNXYlpPclE?oc=5",
-    "https://www.theguardian.com/commentisfree/picture/2026/oct/17/madeline-horwath-ai-food-advertising-cartoon-restaurants"
+    "https://www.theguardian.com/commentisfree/picture/2026/oct/17/madeline-horwath-ai-food-advertising-cartoon-restaurants",
+    "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+    "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses"
   ],
   "videos": [
-    "https://www.youtube.com/watch?v=OMxEUdIgsQc",
+    "https://www.youtube.com/watch?v=mEulEkuxCnM",
     "https://www.youtube.com/watch?v=KJ_7KPKlO_Q",
-    "https://www.youtube.com/watch?v=GBOZIRK1ujw",
+    "https://www.youtube.com/watch?v=OMxEUdIgsQc",
     "https://www.youtube.com/shorts/PZxbaIp8PzE",
-    "https://www.youtube.com/watch?v=GyO8Ao7yKJc",
-    "https://www.youtube.com/watch?v=IZXv6a78NDw"
+    "https://www.youtube.com/watch?v=GBOZIRK1ujw",
+    "https://www.youtube.com/shorts/3IVo-MNwk2I"
   ]
 }

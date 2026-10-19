@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-10-19",
+    "slug": "2026-10-19",
+    "title": "The World Bank makes a case for small AI",
+    "excerpt": "Affordable, locally adapted tools could widen access. Their usefulness still needs evidence and safeguards.",
+    "file": "2026-10-19.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "World Bank’s small-AI push",
+        "publisher": "The Guardian",
+        "url": "https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies",
+        "publishedAt": "2026-10-18",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Global AI & Digital Summit programme",
+        "publisher": "World Bank",
+        "url": "https://live.worldbank.org/en/event/2026/global-ai-digital-summit-small-ai",
+        "kind": "Event programme"
+      },
+      {
+        "title": "Small AI, Big Impact",
+        "publisher": "World Bank",
+        "url": "https://www.worldbank.org/en/brief/2026/04/02/small-ai-big-impact",
+        "publishedAt": "2026-04-02",
+        "kind": "Institutional explainer"
+      },
+      {
+        "title": "Small AI Transforms Farming in India",
+        "publisher": "World Bank",
+        "url": "https://www.worldbank.org/en/news/feature/2026/08/27/small-ai-transforms-farming-in-india",
+        "publishedAt": "2026-08-31",
+        "kind": "Funder’s project account"
+      },
+      {
+        "title": "World Development Report 2026",
+        "publisher": "World Bank",
+        "url": "https://www.worldbank.org/en/publication/wdr2026",
+        "kind": "Report overview and main messages"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-10-19-small-ai.png",
+      "alt": "A farmer aims a smartphone at a spotted, damaged crop leaf.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-10-18",
     "slug": "2026-10-18",
     "title": "AI’s growth forecasts still need guardrails",
