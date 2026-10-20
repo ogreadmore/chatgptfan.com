@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-10-20",
+    "slug": "2026-10-20",
+    "title": "Anthropic’s public-benefit pledge leaves governance open",
+    "excerpt": "The proposed share allocation is conditional. Its recipients, rules and public accountability still need scrutiny.",
+    "file": "2026-10-20.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Investing in the public benefit",
+        "publisher": "Anthropic",
+        "url": "https://www.anthropic.com/news/public-benefit-fund",
+        "publishedAt": "2026-10-18",
+        "kind": "Company announcement"
+      },
+      {
+        "title": "Public-benefit fund pledge",
+        "publisher": "Semafor",
+        "url": "https://www.semafor.com/article/10/19/2026/anthropic-pledges-at-least-5-of-shares-to-public-benefit-fund",
+        "publishedAt": "2026-10-19",
+        "kind": "Reporting"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-10-20-public-benefit.png",
+      "alt": "A small slice reserved from a larger fruit pie sits under a closed glass serving dome.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration, not a quantitative chart",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-10-19",
     "slug": "2026-10-19",
     "title": "The World Bank makes a case for small AI",

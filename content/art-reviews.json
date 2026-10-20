@@ -339,6 +339,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-20-public-benefit.png",
+      "brief": "2026-10-20",
+      "sha256": "207e7d1803cb0d5d6b8ca87554d3ac9d752e11fe3ede72a9ee3802400663a797",
+      "reviewedAt": "2026-10-20",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Meaning-first pixels: a fruit pie has a small matching wedge removed; the separate slice is reserved on a plate beneath a closed glass dome, with nobody receiving it. The cut, slice, plate and resting dome are coherent. This is the concrete metaphor of allocating a small part of a larger whole while keeping it reserved, matching the conditional equity pledge rather than claiming money has reached recipients. It is not a quantitative 5% chart or documentary scene. Original file inspected twice with source work between passes. Zero people, faces, hands, arms or other limbs: hand count zero and anatomy/face checks have no human features to fail. No hidden or floating limb-like shapes, malformed props or clipped main objects. Safe margins, purple line-and-flat-color editorial style. Delivered desktop home and article, 390px home and article, and actual 1200×630 sharing PNG inspected; allocation metaphor, dome and headline remain readable. One generation, no revision. Agent review only, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }
