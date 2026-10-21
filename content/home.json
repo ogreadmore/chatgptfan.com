@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-10-20",
+  "reviewedAt": "2026-10-21",
   "resources": [
     "academy",
     "wharton-gail",
@@ -33,9 +33,9 @@
   "social": [
     "https://x.com/sama/status/2111130577789493706",
     "https://x.com/gdb/status/2107899150247616531",
-    "https://x.com/OpenAI/status/2107596713791767021",
+    "https://x.com/OpenAI/status/2112310345863930168",
     "https://x.com/OpenAI/status/2107164650249101695",
-    "https://x.com/markchen90/status/2097400166554993041",
+    "https://x.com/markchen90/status/2112628202594349139",
     "https://x.com/merettm/status/2096630018495377464"
   ],
   "excludeNewsUrls": [
@@ -253,14 +253,16 @@
     "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses",
     "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good",
     "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund",
-    "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says"
+    "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says",
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM2hxMmVsMXJ3Qzg3cDFjTWc4d2s1eTlxMUpUd3FtZVhzX3p6UEJyaGFfdF9pazEzeXJmRVFoRnMxaWZMTThxaUMzLTdOejlXc1dmZl9LVE1PMTZqWW9YdmxTM1FfYlJxXzBrWlFmZ1lQRjFmUjFEQzJJZW1OMG1oeUl5T3FIRlBsTU5KanZ4b3lFeVh3dDFqb3NJU1hlcWw0VUk1bVM3YVdyc0paOXd2OHpEQXQ?oc=5",
+    "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed"
   ],
   "videos": [
+    "https://www.youtube.com/watch?v=8n-SXxRIrm8",
     "https://www.youtube.com/watch?v=DQHtmW9ZlIs",
-    "https://www.youtube.com/watch?v=mEulEkuxCnM",
     "https://www.youtube.com/watch?v=KJ_7KPKlO_Q",
     "https://www.youtube.com/watch?v=OMxEUdIgsQc",
-    "https://www.youtube.com/watch?v=GBOZIRK1ujw",
-    "https://www.youtube.com/shorts/7lC2N9woZy4"
+    "https://www.youtube.com/shorts/7lC2N9woZy4",
+    "https://www.youtube.com/shorts/v45XAMqH7pE"
   ]
 }

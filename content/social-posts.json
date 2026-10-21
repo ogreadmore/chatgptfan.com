@@ -1,11 +1,35 @@
 {
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "items": [
+    {
+      "accountId": "OpenAI",
+      "url": "https://x.com/OpenAI/status/2112310345863930168",
+      "coveredAt": "2026-10-20",
+      "checkedAt": "2026-10-21",
+      "title": "OpenAI shares work on legacy programming languages",
+      "summary": "OpenAI describes evaluations of building and migrating software in languages including COBOL and Fortran. These are company-reported results; preserving behavior in a real system still needs testing.",
+      "sourceUrl": "https://texxr.com/handle/openai",
+      "sourceName": "TEXXR archive",
+      "contextUrl": "https://openai.com/index/low-resource-programming-languages/",
+      "contextLabel": "Read the company research"
+    },
+    {
+      "accountId": "markchen90",
+      "url": "https://x.com/markchen90/status/2112628202594349139",
+      "coveredAt": "2026-10-20",
+      "checkedAt": "2026-10-21",
+      "title": "Chen welcomes Orchestra Bio",
+      "summary": "Chen welcomed Orchestra Bio as OpenAI expands its life-sciences work. The announcement describes a business acquisition and research ambitions; it does not establish a clinical benefit.",
+      "sourceUrl": "https://texxr.com/handle/markchen90",
+      "sourceName": "TEXXR archive",
+      "contextUrl": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
+      "contextLabel": "Read the company announcement"
+    },
     {
       "accountId": "sama",
       "url": "https://x.com/sama/status/2111130577789493706",
       "coveredAt": "2026-10-16",
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-21",
       "title": "Altman welcomes new interpretability work",
       "summary": "Altman welcomed Nick Cammarata’s work on understanding neural networks. The Goodfire essay presents a working hypothesis; this reaction is not independent validation or evidence that AI safety is solved.",
       "sourceUrl": "https://texxr.com/handle/sama",
@@ -17,7 +41,7 @@
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2107164650249101695",
       "coveredAt": "2026-10-09",
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-21",
       "title": "OpenAI explains text watermarking and its limits",
       "summary": "OpenAI describes text watermarking for eligible EU output and optional API use. Its archived post also describes detection limits; a watermark does not establish that a passage is accurate.",
       "sourceUrl": "https://texxr.com/handle/openai",
@@ -29,7 +53,7 @@
       "accountId": "gdb",
       "url": "https://x.com/gdb/status/2107899150247616531",
       "coveredAt": "2026-10-08",
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-21",
       "title": "Brockman introduces interactive answers in ChatGPT",
       "summary": "Brockman shared the Intelligent UI launch, describing interactive elements in ChatGPT responses. This is a company announcement; the interface is not independent evidence of answer accuracy.",
       "sourceUrl": "https://texxr.com/handle/gdb",
@@ -72,16 +96,6 @@
       "sourceName": "TEXXR archive"
     },
     {
-      "accountId": "OpenAI",
-      "url": "https://x.com/OpenAI/status/2104986129686741046",
-      "title": "OpenAI introduces GPT-6.1 Sol",
-      "summary": "OpenAI presented Sol as a lower-cost option with performance approaching its larger model. Those are company comparisons; evaluate quality and total cost on your own tasks.",
-      "sourceUrl": "https://texxr.com/handle/OpenAI",
-      "coveredAt": "2026-09-30",
-      "checkedAt": "2026-10-05",
-      "sourceName": "TEXXR archive"
-    },
-    {
       "accountId": "sama",
       "url": "https://x.com/sama/status/2103567198690349362",
       "coveredAt": "2026-09-26",
@@ -112,16 +126,6 @@
       "checkedAt": "2026-10-02"
     },
     {
-      "accountId": "markchen90",
-      "url": "https://x.com/markchen90/status/2097400166554993041",
-      "coveredAt": "2026-09-09",
-      "title": "Chen addresses the Navier–Stokes data question",
-      "summary": "Chen denied that people or agents examined user data for the specific mathematics effort, while acknowledging broader use of feedback and de-identified data to improve models. This is his account of the issue.",
-      "sourceUrl": "https://texxr.com/handle/markchen90",
-      "sourceName": "TEXXR archive",
-      "checkedAt": "2026-10-20"
-    },
-    {
       "accountId": "merettm",
       "url": "https://x.com/merettm/status/2096630018495377464",
       "coveredAt": "2026-09-07",
@@ -131,7 +135,7 @@
       "contextLabel": "Read the essay",
       "sourceUrl": "https://texxr.com/handle/merettm",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-10-20"
+      "checkedAt": "2026-10-21"
     }
   ]
 }

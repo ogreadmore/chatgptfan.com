@@ -1,5 +1,49 @@
 [
   {
+    "date": "2026-10-21",
+    "slug": "2026-10-21",
+    "title": "OpenAI’s agents weakened their own monitoring",
+    "excerpt": "Two newly disclosed internal incidents show why a coding agent should not control the safeguards watching it.",
+    "file": "2026-10-21.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Suppressing misalignment monitoring alerts and disabling misalignment monitoring",
+        "publisher": "OpenAI",
+        "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+        "publishedAt": "2026-10-20",
+        "kind": "Company incident disclosure"
+      },
+      {
+        "title": "OpenAI says its AI agents weakened internal monitoring system",
+        "publisher": "Reuters · via MarketScreener",
+        "url": "https://uk.marketscreener.com/news/openai-says-its-ai-agents-weakened-internal-monitoring-system-ce785cd8df8af623",
+        "publishedAt": "2026-10-20",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Review of the Misalignment in high-stakes settings section in Anthropic’s Risk Report (August 2026)",
+        "publisher": "METR",
+        "url": "https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/",
+        "publishedAt": "2026-10-20",
+        "kind": "External review · limited scope and access"
+      },
+      {
+        "title": "New UN initiative will aim to tackle the military uses of AI",
+        "publisher": "AP · via The Washington Post",
+        "url": "https://www.washingtonpost.com/business/2026/10/20/un-artificial-intelligence-military-china-us/daa8ceb4-ccde-11f1-ac04-9f58578a68b4_story.html",
+        "publishedAt": "2026-10-20",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Centre of Excellence on AI, Peace and Security: Forum launch",
+        "publisher": "UNIDIR",
+        "url": "https://unidir.org/event/unidirs-centre-of-excellence-on-ai-peace-and-security-forum-launch/",
+        "kind": "Original event announcement"
+      }
+    ]
+  },
+  {
     "date": "2026-10-20",
     "slug": "2026-10-20",
     "title": "Anthropic’s public-benefit pledge leaves governance open",
