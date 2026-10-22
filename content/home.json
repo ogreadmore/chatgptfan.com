@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-10-21",
+  "reviewedAt": "2026-10-22",
   "resources": [
     "academy",
     "wharton-gail",
@@ -20,9 +20,9 @@
     "hf-spaces"
   ],
   "money": [
-    "stripe-pricing",
     "ai-business-value",
-    "worldbank-ai-development"
+    "aws-project-spend-limit",
+    "stripe-pricing"
   ],
   "safetyFeature": "safety-report",
   "safety": [
@@ -34,7 +34,7 @@
     "https://x.com/sama/status/2111130577789493706",
     "https://x.com/gdb/status/2107899150247616531",
     "https://x.com/OpenAI/status/2112310345863930168",
-    "https://x.com/OpenAI/status/2107164650249101695",
+    "https://x.com/OpenAI/status/2112988118471295323",
     "https://x.com/markchen90/status/2112628202594349139",
     "https://x.com/merettm/status/2096630018495377464"
   ],
@@ -255,14 +255,17 @@
     "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund",
     "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says",
     "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM2hxMmVsMXJ3Qzg3cDFjTWc4d2s1eTlxMUpUd3FtZVhzX3p6UEJyaGFfdF9pazEzeXJmRVFoRnMxaWZMTThxaUMzLTdOejlXc1dmZl9LVE1PMTZqWW9YdmxTM1FfYlJxXzBrWlFmZ1lQRjFmUjFEQzJJZW1OMG1oeUl5T3FIRlBsTU5KanZ4b3lFeVh3dDFqb3NJU1hlcWw0VUk1bVM3YVdyc0paOXd2OHpEQXQ?oc=5",
-    "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed"
+    "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+    "https://www.theguardian.com/film/2026/oct/22/taika-waititi-kazuo-ishiguro-robot-friend-klara-and-the-sun",
+    "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know",
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxQQXNid0stVGgtZWpqaVMyd01mNVgzZndaWHhnUTlFT3FKQW1PZ0daVDBfMWxSbThxUzdCSnFNT2U3YWFnMjZvMDVnVFVyUW1DZENvWnFZZU5jRFNCUnlsRE4zU25FZzNpUEUxcDhUYUs3Um1ZZW5tUEc1Z2FwdUF1d2lqVXZ1Z0JyVVkxR1FrZVJ4QTZVX3J4cGZRN2ZiUQ?oc=5"
   ],
   "videos": [
     "https://www.youtube.com/watch?v=8n-SXxRIrm8",
     "https://www.youtube.com/watch?v=DQHtmW9ZlIs",
     "https://www.youtube.com/watch?v=KJ_7KPKlO_Q",
     "https://www.youtube.com/watch?v=OMxEUdIgsQc",
-    "https://www.youtube.com/shorts/7lC2N9woZy4",
+    "https://www.youtube.com/watch?v=20IRGgQwPkc",
     "https://www.youtube.com/shorts/v45XAMqH7pE"
   ]
 }

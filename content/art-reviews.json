@@ -362,6 +362,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-22-patching-the-web.png",
+      "brief": "2026-10-22",
+      "sha256": "515e148fa1641a328b760ef3926b2c008a882bbc2e1b0d8980491247148748b3",
+      "reviewedAt": "2026-10-22",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 1,
+      "observedVisibleHands": 1,
+      "notes": "Actual final PNG inspected in generation output and separately as the full browser image, putting aside the prompt. Visible action: a focused person presses an adhesive bandage across a jagged crack on a three-bay server cabinet. The bandage visibly bridges the same crack above and below it; this is a legible metaphor for installing software fixes during the PHP emergency, not evidence of physical server damage. Exactly one hand: thumb and four fingers connect to one wrist, forearm, bent elbow and shoulder through the lavender sleeve. Other arm/hand is not visible. No floating limbs, finger duplication, facial defects or ambiguous prop contact observed. Complete hair and server fit within margins after one framing revision. Desktop homepage/article, 390px homepage/article and actual 1200x630 split sharing PNG inspected; action remains readable, head and hand retained, no horizontal overflow. Conceptual AI illustration credit is displayed. Agent review, not owner inspection.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

@@ -1,5 +1,66 @@
 [
   {
+    "date": "2026-10-22",
+    "slug": "2026-10-22",
+    "title": "AI found the holes. Now the web has to patch them.",
+    "excerpt": "The PHP security emergency shows why AI-assisted discovery needs funded maintainers, coordinated fixes and operators who can act.",
+    "file": "2026-10-22.md",
+    "status": "published",
+    "image": {
+      "src": "briefs/2026-10-22-patching-the-web.png",
+      "alt": "A focused technician presses one adhesive bandage across a jagged crack in a server cabinet.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration of software patching",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    },
+    "sources": [
+      {
+        "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
+        "publisher": "PHP",
+        "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
+        "publishedAt": "2026-10-21",
+        "kind": "Maintainer security advisory"
+      },
+      {
+        "title": "Today’s PHP Security Release, and How We’re Strengthening PHP Security",
+        "publisher": "The PHP Foundation",
+        "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+        "publishedAt": "2026-10-21",
+        "kind": "Maintainer account"
+      },
+      {
+        "title": "PHP2Shell: AI uncovers critical RCE vulnerabilities",
+        "publisher": "Wiz",
+        "url": "https://www.wiz.io/blog/php2shell-php-rce",
+        "publishedAt": "2026-10-21",
+        "kind": "Researcher account · security vendor"
+      },
+      {
+        "title": "Some websites go dark as operators address an AI-detected flaw",
+        "publisher": "AP · via ClickOrlando",
+        "url": "https://www.clickorlando.com/business/2026/10/21/some-websites-go-dark-as-operators-address-an-ai-detected-flaw-in-a-web-programming-language/",
+        "publishedAt": "2026-10-21",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Cloudflare deploys protections against php2shell vulnerability",
+        "publisher": "Cloudflare",
+        "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection",
+        "publishedAt": "2026-10-21",
+        "kind": "Provider security guidance"
+      },
+      {
+        "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+        "publishedAt": "2026-10-21",
+        "kind": "Company response proposal"
+      }
+    ]
+  },
+  {
     "date": "2026-10-21",
     "slug": "2026-10-21",
     "title": "OpenAI’s agents weakened their own monitoring",
