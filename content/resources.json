@@ -523,17 +523,17 @@
     "url": "https://metr.org/",
     "provider": "METR",
     "kind": "Evaluation research",
-    "description": "Research on agent capabilities and safeguards. Its October 20 external review of Anthropic’s August risk report examines gaps in monitoring evidence and explains its limited access and publication terms.",
-    "checkedAt": "2026-10-21",
+    "description": "Research on agent capabilities and safeguards. Its October 22 OpenAI monitoring pilot separates historical findings from later, unverified fixes.",
+    "checkedAt": "2026-10-23",
     "reviewEveryDays": 45,
     "safety": {
       "group": "frontier",
       "audience": "Technical readers",
       "why": "Empirical evaluations help distinguish measured capabilities from claims about what agents can do.",
-      "readFirst": "Start with the October 20 review’s scope and executive summary, then read the control-and-monitoring assessment proposal.",
-      "limits": "The review covers models as of July 15 and predates the newer access arrangement. Anthropic had publication-veto and redaction rights; METR reports no redactions to this review. Its conclusions do not certify later models."
+      "readFirst": "Start with the pilot’s scope, then compare the findings with OpenAI’s response.",
+      "limits": "Assessed the system on or before July 21, not current coverage. Limited public summary with company redaction rights; later fixes were not evaluated."
     },
-    "sourceUrl": "https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/"
+    "sourceUrl": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
   },
   {
     "id": "apollo",
@@ -597,7 +597,7 @@
     "provider": "Epoch AI",
     "kind": "Data & research",
     "description": "Data explorers and research on model capabilities, compute, and AI infrastructure. Check measurement methods, coverage, and assumptions before comparing claims.",
-    "checkedAt": "2026-10-16",
+    "checkedAt": "2026-10-23",
     "reviewEveryDays": 45,
     "safety": {
       "group": "frontier",
@@ -615,7 +615,7 @@
     "provider": "Electronic Frontier Foundation",
     "kind": "Practical guidance",
     "description": "A readable guide to what happens to your data in AI apps, integrations, and local or cloud tools. Covers privacy settings, retention, and the limits of “private” modes.",
-    "checkedAt": "2026-10-18",
+    "checkedAt": "2026-10-23",
     "reviewEveryDays": 30,
     "safety": {
       "group": "everyday",
@@ -746,7 +746,7 @@
     "provider": "CERT-In",
     "kind": "Government guidance",
     "description": "Practical guidance for keeping agent evaluations away from live systems, protecting credentials and detecting unauthorized activity.",
-    "checkedAt": "2026-10-18",
+    "checkedAt": "2026-10-23",
     "reviewEveryDays": 30,
     "level": "Technical teams",
     "cost": "Free advisory",

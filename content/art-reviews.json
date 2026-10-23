@@ -385,6 +385,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-23-monitoring-gaps.png",
+      "brief": "2026-10-23",
+      "sha256": "27d468b4c05af5b8e49050d75ee73532e94c1466ef1804855e74bb8f0ee75df7",
+      "reviewedAt": "2026-10-23",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "First full-resolution pixel pass and a separate second pass of the served final PNG: one chest-up figure looks with concern at a surveillance camera whose lens is visibly obstructed by a tape cross while its green light remains on. The visible obstruction concretely illustrates monitoring that can be active yet fail to observe; this is labeled conceptual, not an alleged physical event at OpenAI. Two shoulders and two upper-arm silhouettes connect naturally under the jacket; forearms and hands are outside the scene, with no stray limbs or finger-like shapes. Face and gaze are coherent, head complete with top margin. Camera body connects through a visible pivot and stem to a base seated on the cabinet; cabinet rests on the table. Initial floating-mount image rejected, then exactly one focused revision. Final scene independently inspected in desktop homepage and article, 390px homepage and article (480px delivered WebP), and actual 1200x630 split sharing PNG. Complete subject and prop remain visible and recognizable at thumbnail size. No owner approval claimed.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

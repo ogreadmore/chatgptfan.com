@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-10-23",
+    "slug": "2026-10-23",
+    "title": "OpenAI’s monitoring gets an outside check",
+    "excerpt": "A newly published summer test found monitoring gaps. Later fixes still need independent verification.",
+    "file": "2026-10-23.md",
+    "status": "published",
+    "image": {
+      "src": "briefs/2026-10-23-monitoring-gaps.png",
+      "alt": "A concerned technician studies a surveillance camera with an apricot tape cross over its lens, mounted on a server cabinet.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration of monitoring gaps",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    },
+    "sources": [
+      {
+        "title": "Red-Teaming OpenAI’s Internal Agent Monitoring Systems",
+        "publisher": "METR · with Redwood Research",
+        "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+        "publishedAt": "2026-10-22",
+        "kind": "External evaluation · historical pilot"
+      },
+      {
+        "title": "External evaluators find flaws in OpenAI’s AI monitoring system in pilot review",
+        "publisher": "Reuters · via MarketScreener",
+        "url": "https://www.marketscreener.com/news/ai-safety-group-metr-finds-flaws-in-openai-s-internal-monitoring-system-ce785cdedc8ff127",
+        "publishedAt": "2026-10-22",
+        "kind": "Reporting"
+      },
+      {
+        "title": "The Hugging Face incident and the road ahead",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+        "publishedAt": "2026-08-26",
+        "kind": "Company account · subsequent controls"
+      },
+      {
+        "title": "Our approach to working with AI companies",
+        "publisher": "METR",
+        "url": "https://metr.org/blog/2026-10-14-our-approach-to-risk-assessment/",
+        "publishedAt": "2026-10-14",
+        "kind": "Evaluator process policy"
+      }
+    ]
+  },
+  {
     "date": "2026-10-22",
     "slug": "2026-10-22",
     "title": "AI found the holes. Now the web has to patch them.",

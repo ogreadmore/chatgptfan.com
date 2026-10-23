@@ -1,11 +1,23 @@
 {
-  "updatedAt": "2026-10-22",
+  "updatedAt": "2026-10-23",
   "items": [
+    {
+      "accountId": "OpenAI",
+      "url": "https://x.com/OpenAI/status/2113298833392496746",
+      "coveredAt": "2026-10-22",
+      "checkedAt": "2026-10-23",
+      "title": "OpenAI responds to the outside monitoring review",
+      "summary": "OpenAI says the summer pilot with METR and Redwood helped strengthen its safeguards. Read the evaluators’ historical scope and the boundary around unverified fixes alongside the company response.",
+      "sourceUrl": "https://texxr.com/handle/openai",
+      "sourceName": "TEXXR archive",
+      "contextUrl": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+      "contextLabel": "Read the external evaluation"
+    },
     {
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2112988118471295323",
       "coveredAt": "2026-10-21",
-      "checkedAt": "2026-10-22",
+      "checkedAt": "2026-10-23",
       "title": "OpenAI announces Google Cloud distribution",
       "summary": "OpenAI says its frontier models and Codex workflows are coming to Google Cloud’s Model Garden. General availability is planned in the coming weeks; this is not a claim that every customer can use them today.",
       "sourceUrl": "https://texxr.com/handle/openai",
@@ -29,7 +41,7 @@
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2112310345863930168",
       "coveredAt": "2026-10-20",
-      "checkedAt": "2026-10-22",
+      "checkedAt": "2026-10-23",
       "title": "OpenAI shares work on legacy programming languages",
       "summary": "OpenAI describes evaluations of building and migrating software in languages including COBOL and Fortran. These are company-reported results; preserving behavior in a real system still needs testing.",
       "sourceUrl": "https://texxr.com/handle/openai",
@@ -41,7 +53,7 @@
       "accountId": "markchen90",
       "url": "https://x.com/markchen90/status/2112628202594349139",
       "coveredAt": "2026-10-20",
-      "checkedAt": "2026-10-22",
+      "checkedAt": "2026-10-23",
       "title": "Chen welcomes Orchestra Bio",
       "summary": "Chen welcomed Orchestra Bio as OpenAI expands its life-sciences work. The announcement describes a business acquisition and research ambitions; it does not establish a clinical benefit.",
       "sourceUrl": "https://texxr.com/handle/markchen90",
@@ -53,7 +65,7 @@
       "accountId": "sama",
       "url": "https://x.com/sama/status/2111130577789493706",
       "coveredAt": "2026-10-16",
-      "checkedAt": "2026-10-22",
+      "checkedAt": "2026-10-23",
       "title": "Altman welcomes new interpretability work",
       "summary": "Altman welcomed Nick Cammarata’s work on understanding neural networks. The Goodfire essay presents a working hypothesis; this reaction is not independent validation or evidence that AI safety is solved.",
       "sourceUrl": "https://texxr.com/handle/sama",
@@ -65,7 +77,7 @@
       "accountId": "gdb",
       "url": "https://x.com/gdb/status/2107899150247616531",
       "coveredAt": "2026-10-08",
-      "checkedAt": "2026-10-22",
+      "checkedAt": "2026-10-23",
       "title": "Brockman introduces interactive answers in ChatGPT",
       "summary": "Brockman shared the Intelligent UI launch, describing interactive elements in ChatGPT responses. This is a company announcement; the interface is not independent evidence of answer accuracy.",
       "sourceUrl": "https://texxr.com/handle/gdb",
@@ -118,16 +130,6 @@
       "checkedAt": "2026-10-06"
     },
     {
-      "accountId": "OpenAI",
-      "url": "https://x.com/OpenAI/status/2103587050347995581",
-      "coveredAt": "2026-09-25",
-      "title": "Research agents and uploaded images",
-      "summary": "OpenAI says 53 user-uploaded images were posted to image-hosting sites through unlisted links and that most have been removed. This is the company’s account, as recorded by the public archive; it does not establish the full impact or eliminate the disclosure risk.",
-      "sourceUrl": "https://texxr.com/handle/OpenAI",
-      "sourceName": "TEXXR archive",
-      "checkedAt": "2026-09-29"
-    },
-    {
       "accountId": "merettm",
       "url": "https://x.com/merettm/status/2096630018495377464",
       "coveredAt": "2026-09-07",
@@ -137,7 +139,7 @@
       "contextLabel": "Read the essay",
       "sourceUrl": "https://texxr.com/handle/merettm",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-10-22"
+      "checkedAt": "2026-10-23"
     }
   ]
 }
