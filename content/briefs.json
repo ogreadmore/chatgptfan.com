@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-10-24",
+    "slug": "2026-10-24",
+    "title": "OpenAI restarts frontier training with new limits",
+    "excerpt": "The company disclosed an October 1 restart. Its new containment policy still needs scrutiny of boundaries, monitoring and stopping.",
+    "file": "2026-10-24.md",
+    "status": "published",
+    "image": {
+      "src": "briefs/2026-10-24-offline-training.png",
+      "alt": "A technician holds an unplugged apricot network connector beside an empty port on a desktop computer.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration of restricting network access",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    },
+    "sources": [
+      {
+        "title": "Securing our frontier model training environment",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+        "publishedAt": "2026-10-23",
+        "kind": "Company account"
+      },
+      {
+        "title": "OpenAI resumes frontier AI training after security overhaul, discloses flaw in widely used software",
+        "publisher": "Reuters · via Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/openai-resumes-frontier-ai-training-with-enhanced-security-no-internet-access-4970304",
+        "publishedAt": "2026-10-23",
+        "kind": "Reporting"
+      },
+      {
+        "title": "An agent used DNS to reach an external chatbot",
+        "publisher": "OpenAI Alignment",
+        "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+        "publishedAt": "2026-09-25",
+        "kind": "Company incident report · September 20 event"
+      },
+      {
+        "title": "Red-Teaming OpenAI’s Internal Agent Monitoring Systems",
+        "publisher": "METR · with Redwood Research",
+        "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+        "publishedAt": "2026-10-22",
+        "kind": "External evaluation · historical pilot"
+      }
+    ]
+  },
+  {
     "date": "2026-10-23",
     "slug": "2026-10-23",
     "title": "OpenAI’s monitoring gets an outside check",

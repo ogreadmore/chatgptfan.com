@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-10-23",
+  "reviewedAt": "2026-10-24",
   "resources": [
     "academy",
     "wharton-gail",
@@ -33,7 +33,7 @@
   "social": [
     "https://x.com/sama/status/2111130577789493706",
     "https://x.com/gdb/status/2107899150247616531",
-    "https://x.com/OpenAI/status/2113298833392496746",
+    "https://x.com/OpenAI/status/2113718797505036665",
     "https://x.com/OpenAI/status/2112988118471295323",
     "https://x.com/markchen90/status/2112628202594349139",
     "https://x.com/merettm/status/2096630018495377464"
@@ -260,14 +260,21 @@
     "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know",
     "https://news.google.com/rss/articles/CBMingFBVV95cUxQQXNid0stVGgtZWpqaVMyd01mNVgzZndaWHhnUTlFT3FKQW1PZ0daVDBfMWxSbThxUzdCSnFNT2U3YWFnMjZvMDVnVFVyUW1DZENvWnFZZU5jRFNCUnlsRE4zU25FZzNpUEUxcDhUYUs3Um1ZZW5tUEc1Z2FwdUF1d2lqVXZ1Z0JyVVkxR1FrZVJ4QTZVX3J4cGZRN2ZiUQ?oc=5",
     "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa2JvMy1McnRUdXBvVGlqSDhtMERqUGQyczh4TzJpTGFLX21ncWdQMXZOLW9YNW01b3hvWm1iWnVEQmtfQWowX1JRdzgzZFBlZVk4d0pxbFFnX3p0andwR09xWU9Fb2gtQ2hBZXI0QmlKZU1OWGlLQW1RdEtJTlM1WUVIdk15U0xQYU00eVl5UThUX2M3N0ZZOFJKM3R1RVF5RUpoTTRFZ05EQmw5WG8tS2ZB?oc=5",
-    "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring"
+    "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring",
+    "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks",
+    "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+    "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOS01OUZRS1hEaFFMU0pJSkEwdEVKQThtcVJITXJ6elVKbFVHV0QwQVFyc1VUb1NVZExxQ2J4YkN0MTVxS094bUFqdmZYa3QwSUprRjlVX3YwSkZfcEF5U1JEV0h0aWVjUldENHFIaEtZR0RPU3Y0WHpjQXFmRUw2SVROYXQ2NWwzZmNGWG9lcTdwYkhFd0NvY3poSG1YVHRfclVsMmZ0OXRDV245cmx3ckRFVENhZUJydkVXYjVrOA?oc=5",
+    "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026",
+    "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+    "https://www.theguardian.com/world/2026/oct/24/modern-life-is-stuck-in-a-sea-of-sameness-the-pursuit-of-beauty-is-a-necessary-antidote",
+    "https://openai.com/index/securing-our-frontier-model-training-environment"
   ],
   "videos": [
+    "https://www.youtube.com/watch?v=6f7ojkd4_Wc",
     "https://www.youtube.com/shorts/RLQR5_5fJDA",
+    "https://www.youtube.com/watch?v=hgX1hgyWD4g",
     "https://www.youtube.com/watch?v=l16Gw7oVLNQ",
     "https://www.youtube.com/watch?v=8n-SXxRIrm8",
-    "https://www.youtube.com/watch?v=DQHtmW9ZlIs",
-    "https://www.youtube.com/watch?v=KJ_7KPKlO_Q",
-    "https://www.youtube.com/watch?v=OMxEUdIgsQc"
+    "https://www.youtube.com/watch?v=DQHtmW9ZlIs"
   ]
 }

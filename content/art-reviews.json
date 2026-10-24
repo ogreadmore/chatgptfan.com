@@ -408,6 +408,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-24-offline-training.png",
+      "brief": "2026-10-24",
+      "sha256": "e32bcdd512996f9f99fddbe0f98267c033ba0fe6a56f7563c1520d74cf32aa9e",
+      "reviewedAt": "2026-10-24",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 1,
+      "observedVisibleHands": 1,
+      "notes": "First pixel inspection of the final generated image, then a separate prompt-independent pass of the served complete PNG: one technician looks at an Ethernet plug held visibly outside the matching empty computer port. The gap and disconnected connector supply the concrete network-restriction story connection; the conceptual credit makes no claim of a literal event or physically air-gapped infrastructure. One hand only: thumb and curled fingers form a coherent grip, with plausible knuckles and a continuous wrist. The working arm traces from shoulder to elbow resting near the desk through sleeve and forearm to the hand; the other shoulder/upper-arm silhouette remains behind the torso, with no extra forearm or hand. Face, eyes and glasses coherent. Complete hair and computer inside generous top/right margins; computer rests on desk and cable has a continuous path behind it. Initial cropped-head version rejected, exactly one focused framing revision used. Final image inspected in desktop homepage/article, 390px homepage/article with delivered 480px WebP, and actual 1200x630 split sharing PNG. Head, hand, plug, empty port and computer remain visible at all sizes. Agent review only, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }
