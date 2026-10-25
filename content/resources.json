@@ -506,7 +506,7 @@
     "provider": "PauseAI",
     "kind": "Advocacy",
     "description": "The case for pausing development of the most powerful AI systems, alongside policy proposals and ways to get involved. This is an advocacy organization.",
-    "checkedAt": "2026-10-16",
+    "checkedAt": "2026-10-25",
     "reviewEveryDays": 45,
     "safety": {
       "group": "policy",
@@ -579,7 +579,7 @@
     "provider": "MIT AI Risk Initiative",
     "kind": "Evidence",
     "description": "A structured collection of AI risks and the frameworks that describe them. Useful for checking whether a discussion overlooks social, security, or system-level harms.",
-    "checkedAt": "2026-10-16",
+    "checkedAt": "2026-10-25",
     "reviewEveryDays": 45,
     "safety": {
       "group": "evidence",
@@ -746,7 +746,7 @@
     "provider": "CERT-In",
     "kind": "Government guidance",
     "description": "Practical guidance for keeping agent evaluations away from live systems, protecting credentials and detecting unauthorized activity.",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-25",
     "reviewEveryDays": 30,
     "level": "Technical teams",
     "cost": "Free advisory",
@@ -755,7 +755,7 @@
       "group": "everyday",
       "audience": "Developers and security teams",
       "why": "Connects reported failures to specific controls.",
-      "readFirst": "Start with recommended actions for your role.",
+      "readFirst": "Start with the actions for your role: enforce network limits outside the model, use synthetic targets, and define an automatic stop.",
       "limits": "The advisory does not name affected providers or organizations. Guidance is not proof of universal protection."
     }
   },

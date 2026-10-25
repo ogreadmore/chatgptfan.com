@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-24",
+  "updatedAt": "2026-10-25",
   "items": [
     {
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2113718797505036665",
       "coveredAt": "2026-10-23",
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-10-25",
       "title": "OpenAI explains its offline training environment",
       "summary": "OpenAI says frontier training uses cached web content without live internet access. Its infrastructure retains necessary connections; the announcement describes a containment policy, rather than independent verification of its effectiveness.",
       "sourceUrl": "https://texxr.com/handle/openai",
@@ -29,7 +29,7 @@
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2112988118471295323",
       "coveredAt": "2026-10-21",
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-10-25",
       "title": "OpenAI announces Google Cloud distribution",
       "summary": "OpenAI says its frontier models and Codex workflows are coming to Google Cloud’s Model Garden. General availability is planned in the coming weeks; this is not a claim that every customer can use them today.",
       "sourceUrl": "https://texxr.com/handle/openai",
@@ -65,7 +65,7 @@
       "accountId": "markchen90",
       "url": "https://x.com/markchen90/status/2112628202594349139",
       "coveredAt": "2026-10-20",
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-10-25",
       "title": "Chen welcomes Orchestra Bio",
       "summary": "Chen welcomed Orchestra Bio as OpenAI expands its life-sciences work. The announcement describes a business acquisition and research ambitions; it does not establish a clinical benefit.",
       "sourceUrl": "https://texxr.com/handle/markchen90",
@@ -77,7 +77,7 @@
       "accountId": "sama",
       "url": "https://x.com/sama/status/2111130577789493706",
       "coveredAt": "2026-10-16",
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-10-25",
       "title": "Altman welcomes new interpretability work",
       "summary": "Altman welcomed Nick Cammarata’s work on understanding neural networks. The Goodfire essay presents a working hypothesis; this reaction is not independent validation or evidence that AI safety is solved.",
       "sourceUrl": "https://texxr.com/handle/sama",
@@ -89,7 +89,7 @@
       "accountId": "gdb",
       "url": "https://x.com/gdb/status/2107899150247616531",
       "coveredAt": "2026-10-08",
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-10-25",
       "title": "Brockman introduces interactive answers in ChatGPT",
       "summary": "Brockman shared the Intelligent UI launch, describing interactive elements in ChatGPT responses. This is a company announcement; the interface is not independent evidence of answer accuracy.",
       "sourceUrl": "https://texxr.com/handle/gdb",
@@ -141,7 +141,7 @@
       "contextLabel": "Read the essay",
       "sourceUrl": "https://texxr.com/handle/merettm",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-10-24"
+      "checkedAt": "2026-10-25"
     }
   ]
 }
