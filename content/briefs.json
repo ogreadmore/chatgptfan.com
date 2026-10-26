@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-10-26",
+    "slug": "2026-10-26",
+    "title": "Sweden’s Government Offices restrict ChatGPT access",
+    "excerpt": "A workplace block takes effect today. Access to models through approved tools remains, making the service and its data rules the important distinction.",
+    "file": "2026-10-26.md",
+    "status": "published",
+    "image": {
+      "src": "briefs/2026-10-26-workplace-access.png",
+      "alt": "A concerned figure looks at a closed laptop held shut by an apricot padlock.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration of restricted workplace access",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    },
+    "sources": [
+      {
+        "title": "AI-tjänster spärras på Regeringskansliet",
+        "publisher": "SVT Nyheter",
+        "url": "https://www.svt.se/nyheter/inrikes/ai-tjanster-sparras-pa-regeringskansliet",
+        "publishedAt": "2026-10-23",
+        "kind": "Reporting · updated October 24 · Government Offices statement"
+      },
+      {
+        "title": "Regeringskansliet spärrar AI-tjänsterna Chat GPT och Claude",
+        "publisher": "Sveriges Radio · Ekot",
+        "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+        "publishedAt": "2026-10-23",
+        "kind": "Original reporting"
+      },
+      {
+        "title": "Särskilt om användning av allmänt tillgänglig och integrerad generativ AI",
+        "publisher": "Digg",
+        "url": "https://www.digg.se/kunskap-och-stod/regler-och-rekommendationer/regler-och-rekommendationer/sarskilt-om-anvandning-av-allmant-tillganglig-och-integrerad-generativ-ai",
+        "publishedAt": "2025-01-20",
+        "kind": "Government guidance · background"
+      }
+    ]
+  },
+  {
     "date": "2026-10-25",
     "slug": "2026-10-25",
     "title": "Britain backs an AI Biosecurity Lab",

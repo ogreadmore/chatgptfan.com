@@ -431,6 +431,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-26-workplace-access.png",
+      "brief": "2026-10-26",
+      "sha256": "57182afa7bb7550473e3ddfefc4cab257e8b2e0d8ab1b46da86863115d15ad96",
+      "reviewedAt": "2026-10-26",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Final pixels show one concerned figure looking down at a closed laptop, visibly held shut by a hasp and apricot padlock. The shut lid and connected lock give a concrete metaphor for restricted workplace access; the credit labels it conceptual and does not depict literal government equipment or a national ban. Separate full-file second pass after the generated output: zero hands or forearms; two shoulders and continuous upper-arm silhouettes descend naturally behind the desk. No extra limbs, reflections or stray attachments. Face and eye direction coherent; complete head, laptop and lock inside safe margins. The hinged metal hasp joins the lid and base, with the padlock threaded through its loop; laptop rests on the desk. First attempt rejected for tight top/right framing, exactly one focused revision used. Final image inspected in desktop homepage and article, 390px homepage and article with delivered 480px WebP, and actual 1200x630 split sharing PNG. Full subject and prop remain visible; the lock and closed device remain legible. Agent review only, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }
