@@ -19,3 +19,6 @@ public/assets/briefs/2026-09-18-breach-chain.png
 public/assets/briefs/2026-09-18-altman-cartoon.png
 public/assets/briefs/2026-09-18-access-map.*
 scripts/artwork/
+
+# Machine enrollment and private handoff records.
+.maintenance/

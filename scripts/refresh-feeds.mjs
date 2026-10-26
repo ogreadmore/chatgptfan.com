@@ -101,6 +101,7 @@ export async function readFeedBody(response, maxBytes = 3000000) {
   return Buffer.concat(chunks).toString('utf8');
 }
 async function main() {
+  const dryRun = process.argv.includes('--dry-run');
   const feeds = await readJSON('content/feeds.json');
   const old = await readJSON('content/news.json');
   const now = new Date().toISOString();
@@ -119,8 +120,9 @@ async function main() {
     }
   }));
   const successful = results.filter(result => result.source.status === 'ok').length;
-  await writeAtomic('content/news.json', JSON.stringify({ updatedAt: now, sources: results.map(r => r.source), items: deduplicate(results.flatMap(r => r.items)) }, null, 2) + '\n');
-  console.log(`Refreshed ${successful}/${feeds.length} feeds.`);
+  if (!dryRun) await writeAtomic('content/news.json', JSON.stringify({ updatedAt: now, sources: results.map(r => r.source), items: deduplicate(results.flatMap(r => r.items)) }, null, 2) + '\n');
+  console.log(`${dryRun ? "Checked without saving" : "Refreshed"} ${successful}/${feeds.length} feeds.`);
+  if (dryRun) console.log(JSON.stringify(results.map(r=>r.source),null,2));
   if (!successful) process.exitCode = 1;
 }
 if (process.argv[1] === fileURLToPath(import.meta.url)) await main();

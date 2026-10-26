@@ -4,7 +4,7 @@ An independent static publication: one daily brief, curated news feeds, Resource
 
 ## Run locally
 
-Requires Node.js 24 or newer.
+Requires Node.js 24 or newer. On the designated Windows maintenance computer, use `./scripts/run.ps1 verify` to use the isolated Node/npm toolchain. See [operations](docs/operations.md) for recovery and ownership checks.
 
 ```sh
 npm ci
@@ -49,7 +49,7 @@ GitHub Pages has [commercial-use and size limits](https://docs.github.com/en/pag
 
 The News reader opens with a compact board of source panels. Readers can switch to a chronological Latest view, browse categories or individual sources, search, filter unread stories, expand panels, and keep a saved list. Mobile includes category buttons and a source selector. The feed snapshot includes broad press discovery through Google News and official service notices; aggregation links are labeled. Opening a headline launches its publisher in another tab and marks it read. The small dot beside a headline toggles its read status. Bookmarks retain a local copy of the headline, source, date, and link so saved items survive rotation out of an RSS snapshot; full article text is not copied. These preferences stay in the visitor's browser. Filters can be shared through the page URL. Without JavaScript, the headlines remain ordinary working links.
 
-The daily agent follows [docs/daily-update.md](docs/daily-update.md): refresh sources, research, write one edition, maintain the library, verify, and publish only to the configured repository. A local scheduled agent needs an available local execution environment; the GitHub build only deploys committed content and does not itself write articles. A missed local run leaves the previous published site intact. No paid API integration is required by the site.
+The designated daily agent runs at 1 a.m. America/New_York and follows [docs/daily-update.md](docs/daily-update.md): refresh sources, research, write one edition, maintain the library, verify, and publish only to the configured repository. A local scheduled agent needs an available local execution environment; the GitHub build only deploys committed content and does not itself write articles. A missed local run leaves the previous published site intact. No paid API integration is required by the site.
 
 The supplied first edition is a sourced article for September 14, 2026. No fabricated historical archive is included. The resource library includes guided starting points and four collections at `/resources/`. Legacy Learn, Projects, and Money URLs redirect to their new collections. Run `npm run resources:review` for a read-only, due-first review queue. The daily agenda includes 3–5 source reviews and a monthly coverage audit; see [docs/resource-maintenance.md](docs/resource-maintenance.md).
 
