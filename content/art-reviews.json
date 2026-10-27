@@ -454,6 +454,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-27-visual-work.png",
+      "brief": "2026-10-27",
+      "sha256": "3cef1cd1d5218d4fd092ec3c75936e79655ed8b7ed0754174ec1fe68254c2b39",
+      "reviewedAt": "2026-10-27",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Final generated output inspected, followed by a separate prompt-independent full-PNG pass. Visible action: one person looks toward a laptop showing the same apricot mug with a diagonal charcoal stripe and left handle as the physical mug on the desk. The paired object and photograph provide a concrete product-to-catalog matching example described in the Terra documentation, not a fabricated real-world deployment or benchmark. Zero hands, fingers or forearms. Two shoulders connect naturally through the jacket to two upper-arm silhouettes behind the desk; no stray limbs. Coherent face, eyes and gaze. Laptop base and mug sit on the desk with plausible shadows; screen image matches the physical object. Complete hair and laptop have safe margins. Initial version rejected for tight top/right framing; exactly one focused revision used. Final desktop homepage/article, 390px homepage/article with delivered 480px WebP, and actual 1200x630 split sharing PNG inspected: both mugs, face and computer remain legible without clipping; no horizontal overflow observed. Conceptual AI illustration credit is displayed. Agent review, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

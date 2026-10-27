@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-10-27",
+    "slug": "2026-10-27",
+    "title": "GPT-6.1 Terra brings cheaper computer work",
+    "excerpt": "OpenAI’s new model targets visual tasks and everyday workflows. Test the finished result, including correction time, before handing it more responsibility.",
+    "file": "2026-10-27.md",
+    "status": "published",
+    "image": {
+      "src": "briefs/2026-10-27-visual-work.png",
+      "alt": "A shopkeeper compares a striped apricot mug with a matching product photograph on a laptop.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration of matching a product to its catalog photo",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    },
+    "sources": [
+      {
+        "title": "Introducing GPT-6.1 Terra",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+        "publishedAt": "2026-10-26",
+        "kind": "Company announcement"
+      },
+      {
+        "title": "GPT-6.1 Terra model",
+        "publisher": "OpenAI",
+        "url": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+        "kind": "Official API documentation"
+      },
+      {
+        "title": "GPT-6.1 Terra",
+        "publisher": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+        "publishedAt": "2026-10-26",
+        "kind": "Practitioner commentary and limited experiment"
+      },
+      {
+        "title": "Using GPT-6",
+        "publisher": "OpenAI",
+        "url": "https://developers.openai.com/api/docs/guides/latest-model",
+        "kind": "Official developer guide"
+      },
+      {
+        "title": "Addendum to GPT-6 Astra System Card: GPT-6.1 Terra",
+        "publisher": "OpenAI",
+        "url": "https://deploymentsafety.openai.com/gpt-6-1-terra/kernelgen-1p",
+        "publishedAt": "2026-10-26",
+        "kind": "Company safety evaluations"
+      }
+    ]
+  },
+  {
     "date": "2026-10-26",
     "slug": "2026-10-26",
     "title": "Sweden’s Government Offices restrict ChatGPT access",
