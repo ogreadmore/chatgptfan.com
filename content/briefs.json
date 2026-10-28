@@ -1,5 +1,51 @@
 [
   {
+    "date": "2026-10-28",
+    "slug": "2026-10-28",
+    "title": "Who gets to check OpenAI’s science?",
+    "excerpt": "Researchers want access to the work behind OpenAI’s latest scientific claims. Expert involvement is a starting point for scrutiny, not a certificate of correctness.",
+    "file": "2026-10-28.md",
+    "status": "published",
+    "image": {
+      "src": "briefs/2026-10-28-open-research.png",
+      "alt": "A researcher looks at mathematical diagrams behind a glass cabinet door secured with a padlock.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration of restricted access to research",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    },
+    "sources": [
+      {
+        "title": "Working with academic communities to build scientific understanding",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+        "publishedAt": "2026-10-26",
+        "kind": "Company research announcement"
+      },
+      {
+        "title": "Message to the TCS Community on ETH",
+        "publisher": "Russell Impagliazzo, Ramamohan Paturi and Ryan Williams",
+        "url": "https://docs.google.com/document/d/1adB0IhJgLzsmbfCgoLrtoJTjnlPf74UnyjMo35P5JHo/edit",
+        "kind": "Research organizers’ statement"
+      },
+      {
+        "title": "Recommendation for Immediate Release of Yang–Mills AI Output",
+        "publisher": "Advisory Group on Mathematics and Artificial Intelligence",
+        "url": "https://agmai.org/",
+        "publishedAt": "2026-10-26",
+        "kind": "Independent academic recommendations"
+      },
+      {
+        "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+        "publisher": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+        "publishedAt": "2026-10-27",
+        "kind": "Independent reporting"
+      }
+    ]
+  },
+  {
     "date": "2026-10-27",
     "slug": "2026-10-27",
     "title": "GPT-6.1 Terra brings cheaper computer work",

@@ -477,6 +477,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-28-open-research.png",
+      "brief": "2026-10-28",
+      "sha256": "238a788ce63e323001e4f2ee61e7b365641ec60edefce59cc10a44fa034fc35c",
+      "reviewedAt": "2026-10-28",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Final generated pixels inspected, then a separate prompt-independent pass of the complete served original PNG. Visible action: one researcher looks toward two worked mathematical diagrams behind a closed glass cabinet door. The locked door restricts access to the papers, a concrete conceptual illustration of the dispute over releasing research outputs; it is not a depiction of an actual OpenAI room or evidence that a scientific proof is correct. Zero hands, fingers or forearms. Two natural shoulders and upper-arm silhouettes connect under the jacket, with no stray attachments; neck, face, eyes and gaze are coherent. Both hinges are on the left, while the hasp spans door and frame on the right and the padlock closes it. Initial image rejected for putting hinges and lock on the same edge; exactly one focused mechanical revision used. Complete hair and cabinet are framed with safe margins. Final desktop homepage/article, 390px homepage/article with delivered 480px WebP, and actual 1200x630 split sharing PNG inspected: head, diagrams, door and lock remain visible and readable. AI-generated conceptual credit is displayed. Agent inspection only, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

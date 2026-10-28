@@ -254,11 +254,11 @@
     "description": "A virtual village where AI characters talk and socialize. An open-source starting point for experimenting with simulated worlds; supports several model providers, including OpenAI-compatible APIs.",
     "image": "village.png",
     "imageAlt": "Editorial pixel illustration of a small village among green trees",
-    "checkedAt": "2026-10-21",
+    "checkedAt": "2026-10-28",
     "level": "Developer",
     "cost": "Hosting & model costs",
     "bestFor": "Exploring playful agent simulations",
-    "needs": "JavaScript/TypeScript development setup, Convex (cloud or self-hosted), and a model provider. Supports local Ollama; the README includes Docker and Windows setup paths.",
+    "needs": "JavaScript/TypeScript, Convex (cloud or self-hosted), and a model provider; local Ollama is supported. README includes Docker and Windows setup. Not archived; last repository push August 2026. Source reviewed, not run by us.",
     "reviewEveryDays": 30
   },
   {
@@ -270,9 +270,9 @@
     "kind": "Workflow",
     "level": "Intermediate",
     "description": "An inspectable template collection for summarizing URLs, text, and PDFs. Adapt one input path first, then compare its summaries with the original documents.",
-    "checkedAt": "2026-10-17",
+    "checkedAt": "2026-10-28",
     "cost": "Platform & API costs",
-    "needs": "n8n and OpenAI credentials; OCR.Space for optional scanned-PDF processing. Check every external data destination, keep webhook access restricted, and test each input path with non-sensitive files first. Template reviewed, not run by us.",
+    "needs": "n8n and model API credentials; optional OCR.Space for scanned PDFs. The template names GPT-4.1-mini, so check model availability before importing. Restrict webhook access and test each input path with non-sensitive files. Template reviewed, not run by us.",
     "bestFor": "Turning a repetitive reading task into a workflow",
     "featured": true,
     "reviewEveryDays": 30
@@ -291,6 +291,21 @@
     "needs": "Python 3.10 or later. Model and hosting costs vary. Enabling share=True creates a public URL even when computation runs on your computer; review access before sharing.",
     "bestFor": "Making an experiment usable by someone else",
     "reviewEveryDays": 30
+  },
+  {
+    "id": "voice-quickstart",
+    "section": "projects",
+    "title": "Build a browser voice agent",
+    "url": "https://openai.github.io/openai-agents-js/guides/voice-agents/quickstart/",
+    "provider": "OpenAI Agents SDK",
+    "kind": "Voice",
+    "level": "Developer",
+    "description": "A current TypeScript starting point for a browser voice assistant, using the Agents SDK and WebRTC. Covers connection setup, microphone audio and a first conversation.",
+    "checkedAt": "2026-10-28",
+    "cost": "API usage required",
+    "needs": "Node.js/TypeScript, Zod v4 and OpenAI API access. Keep the regular API key on a backend; use short-lived client tokens in the browser. Source reviewed, not run by this site.",
+    "bestFor": "Starting a new voice project with current APIs",
+    "reviewEveryDays": 14
   },
   {
     "id": "realtime",
@@ -313,14 +328,15 @@
     "title": "Realtime voice agents",
     "url": "https://github.com/openai/openai-realtime-agents",
     "provider": "OpenAI",
-    "kind": "Voice",
+    "kind": "Reference demo",
     "level": "Developer",
-    "description": "A Next.js demo of voice agents that call tools and hand work to specialists. Compare the chat-supervisor and sequential-handoff patterns.",
-    "checkedAt": "2026-10-18",
+    "description": "A Next.js reference for chat-supervisor and sequential-handoff voice patterns. Its sample session still requests a retired Realtime preview model, so it needs migration before use.",
+    "checkedAt": "2026-10-28",
     "cost": "API usage required",
-    "needs": "Node.js, TypeScript familiarity, and an OpenAI API key. Not archived; last repository push January 2026. Examples reference older models, so check availability, costs and safeguards before adapting. We have not run this demo.",
-    "bestFor": "Prototyping a voice interface",
-    "reviewEveryDays": 30
+    "needs": "Node.js, TypeScript and paid API access. The sample requests gpt-4o-realtime-preview-2025-06-03, listed as shut down May 7, 2026. Use the current voice quickstart for a new project. Source reviewed; demo not run.",
+    "bestFor": "Studying voice-agent supervision and handoff patterns",
+    "reviewEveryDays": 30,
+    "sourceUrl": "https://developers.openai.com/api/docs/deprecations"
   },
   {
     "id": "hf-spaces",
@@ -346,7 +362,7 @@
     "description": "A sketch-to-interface project built with the tldraw SDK. The repository was archived on February 20, 2026; treat it as a reference rather than an actively maintained starter. Its README links to a separate starter repository.",
     "image": "sketch.png",
     "imageAlt": "Editorial pixel illustration of sketches turning into an interface",
-    "checkedAt": "2026-10-21",
+    "checkedAt": "2026-10-28",
     "status": "archived",
     "level": "Developer",
     "bestFor": "Studying a sketch-to-interface experiment",
