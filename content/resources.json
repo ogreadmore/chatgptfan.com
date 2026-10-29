@@ -436,7 +436,7 @@
     "provider": "Stanford HAI",
     "kind": "Economic evidence",
     "description": "The 2026 report brings together evidence on AI adoption, investment, capabilities and governance. Use the data and methods to test a market story; aggregate trends do not prove demand for your particular service.",
-    "checkedAt": "2026-10-17",
+    "checkedAt": "2026-10-29",
     "level": "All levels",
     "cost": "Free report",
     "bestFor": "Checking a market story against broader evidence",
@@ -715,10 +715,10 @@
     "kind": "Cost control",
     "level": "Developer",
     "description": "A guide to setting a monthly project spending ceiling that pauses resources when reached. Useful for experiments that create cloud infrastructure; compare a real stop with a notification-only budget alert.",
-    "checkedAt": "2026-10-22",
+    "checkedAt": "2026-10-29",
     "cost": "Free guide · paid AWS usage",
     "bestFor": "Containing cloud costs during agent experiments",
-    "needs": "Limited customer rollout; requires a Paid Plan and project-owner access. Minimum cap is $20 or a higher usage estimate, before tax. Pausing interrupts services; after 90 days without action, paused project data is permanently deleted. Optional early controls can also block new resources or pause idle or high-cost resources before the ceiling.",
+    "needs": "For the new AWS account experience; requires a Paid Plan and project-owner access. Minimum cap is $20 or a higher usage estimate, before tax. Pausing interrupts services; after 90 days without action, paused project data is permanently deleted. Optional early controls can also block new resources or pause idle or high-cost resources before the ceiling.",
     "reviewEveryDays": 14
   },
   {
@@ -785,7 +785,7 @@
     "kind": "Risk & governance",
     "description": "Twelve practices for financial institutions adopting AI, from accountable leadership and documented uses to oversight and outside-provider risk.",
     "level": "Professional",
-    "checkedAt": "2026-10-18",
+    "checkedAt": "2026-10-29",
     "cost": "Free report",
     "bestFor": "Teams building AI for financial services",
     "needs": "Read the introduction and twelve-practice summary first. Non-binding guidance, not certification; local obligations still apply. Agent-specific practices remain nascent. We reviewed the introduction and summary, not all case studies.",
@@ -805,5 +805,20 @@
     "bestFor": "Assessing local needs and adoption constraints",
     "needs": "Start with the main messages, then a relevant chapter. We reviewed the overview, not the full report; projected benefits are not guaranteed and policy recommendations are the Bank’s own.",
     "reviewEveryDays": 30
+  },
+  {
+    "id": "chatgpt-api-credits",
+    "section": "money",
+    "title": "Check your ChatGPT API credit benefit",
+    "url": "https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions",
+    "provider": "OpenAI",
+    "kind": "Cost planning",
+    "description": "Eligible Pro and Business subscriptions can claim API credits for a linked API organization. Read the activation and expiry rules before budgeting an experiment; these credits do not raise ChatGPT or signed-in Codex usage limits.",
+    "checkedAt": "2026-10-29",
+    "level": "Developer",
+    "cost": "Paid eligible subscription · included API credit benefit",
+    "bestFor": "Using an existing subscription benefit for API experiments",
+    "needs": "Paid subscription must be active for seven days; ownership and matching account email are required. Availability depends on cohort and country. First grants are prorated; unused credits expire. Plus is excluded, and Codex usage through API keys is not covered. Check the issued grant and paid-credit/recharge settings before running jobs.",
+    "reviewEveryDays": 14
   }
 ]

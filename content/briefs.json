@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-10-29",
+    "slug": "2026-10-29",
+    "title": "Who can stop unsafe AI?",
+    "excerpt": "OpenAI and Anthropic have put shutdown proposals before California. The consequential questions are who can intervene, what evidence they get, and when operations may restart.",
+    "file": "2026-10-29.md",
+    "status": "published",
+    "image": {
+      "src": "briefs/2026-10-29-shutdown-authority.png",
+      "alt": "A judge presses a red shutdown button connected by a cable to a server.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration of judicial authority to stop unsafe AI",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    },
+    "sources": [
+      {
+        "title": "Comments on California Executive Order N-9-26",
+        "publisher": "Anthropic",
+        "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/egpbggkkdvq/anthropic-letter.pdf",
+        "publishedAt": "2026-10-15",
+        "kind": "Company policy proposal · PDF hosted by Reuters"
+      },
+      {
+        "title": "Recommendations under September 18, 2026 Executive Order",
+        "publisher": "OpenAI",
+        "url": "https://cdn.openai.com/pdf/openai-letter-to-governor-newsom-20261020.pdf",
+        "publishedAt": "2026-10-20",
+        "kind": "Company policy proposal"
+      },
+      {
+        "title": "Executive Order N-9-26",
+        "publisher": "State of California",
+        "url": "https://www.gov.ca.gov/wp-content/uploads/2026/09/FINAL-N-9-26-AI-EO-9.18.26-SIGNED.pdf",
+        "publishedAt": "2026-09-18",
+        "kind": "Original executive order"
+      },
+      {
+        "title": "Anthropic tells California governor courts should be able to block risky AI models",
+        "publisher": "Reuters via MarketScreener",
+        "url": "https://www.marketscreener.com/news/anthropic-tells-california-governor-courts-should-be-able-to-block-risky-ai-models-ce785cd2d188fe2d",
+        "publishedAt": "2026-10-28",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Anthropic and OpenAI diverge on who should pull the plug on risky AI",
+        "publisher": "Computerworld",
+        "url": "https://www.computerworld.com/article/4242101/anthropic-and-openai-diverge-on-who-should-pull-the-plug-on-risky-ai.html",
+        "publishedAt": "2026-10-29",
+        "kind": "Independent reporting"
+      }
+    ]
+  },
+  {
     "date": "2026-10-28",
     "slug": "2026-10-28",
     "title": "Who gets to check OpenAI’s science?",

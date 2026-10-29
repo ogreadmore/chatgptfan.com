@@ -500,6 +500,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-29-shutdown-authority.png",
+      "brief": "2026-10-29",
+      "sha256": "fb24d80dc3508ae195f83e736248d3c3e73cc696c32d55bac8f00c8abddce85d",
+      "reviewedAt": "2026-10-29",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 1,
+      "observedVisibleHands": 1,
+      "notes": "Final original pixels inspected, then a separate second pass without relying on the prompt. Visible action: a judge in a black robe presses a red emergency-stop button; one continuous cable visibly connects its base to a server. The coherent action illustrates the proposed power of courts to stop unsafe AI operations. It is conceptual, not a claim of an actual court shutdown or of a single universal technical switch. Exactly one visible hand, naturally connected through wrist, forearm, bent robe-covered elbow and shoulder; other arm descends behind bench and no second hand appears. Simplified overlapping fingers and thumb form one plausible palm resting on the button, with no stray attachment. Coherent eyes, downward gaze, face and neck. Initial output rejected for tight hair/right-edge framing; one focused zoom-out revision supplies clear head/server margins. Final original, desktop homepage/article, 390px homepage/article with responsive WebP, and actual 1200x630 split sharing PNG inspected: face, hand, button and cable remain legible and complete. No clipping or horizontal overflow observed in required views. Agent review, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

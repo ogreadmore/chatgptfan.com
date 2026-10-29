@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-10-28",
+  "reviewedAt": "2026-10-29",
   "resources": [
     "academy",
     "wharton-gail",
@@ -20,9 +20,9 @@
     "hf-spaces"
   ],
   "money": [
+    "chatgpt-api-credits",
     "ai-business-value",
-    "aws-project-spend-limit",
-    "stripe-pricing"
+    "aws-project-spend-limit"
   ],
   "safetyFeature": "safety-report",
   "safety": [
@@ -278,14 +278,16 @@
     "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean",
     "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
     "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more",
-    "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up"
+    "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up",
+    "https://www.computerworld.com/article/4242101/anthropic-and-openai-diverge-on-who-should-pull-the-plug-on-risky-ai.html",
+    "https://www.theguardian.com/community/live/2026/oct/29/reader-qa-aditya-chakrabortty-answers-your-questions"
   ],
   "videos": [
-    "https://www.youtube.com/watch?v=6f7ojkd4_Wc",
-    "https://www.youtube.com/shorts/RLQR5_5fJDA",
-    "https://www.youtube.com/watch?v=hgX1hgyWD4g",
-    "https://www.youtube.com/watch?v=l16Gw7oVLNQ",
-    "https://www.youtube.com/watch?v=8n-SXxRIrm8",
-    "https://www.youtube.com/watch?v=DQHtmW9ZlIs"
+    "https://www.youtube.com/watch?v=ujmyzWSj8IU",
+    "https://www.youtube.com/watch?v=6ep8Vvm4Bdw",
+    "https://www.youtube.com/watch?v=yJxZef1Ylok",
+    "https://www.youtube.com/watch?v=lPZQrVFcz3c",
+    "https://www.youtube.com/watch?v=cflbzHRvGvg",
+    "https://www.youtube.com/watch?v=C2vdw5GSTQo"
   ]
 }
