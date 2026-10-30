@@ -24,5 +24,7 @@ export async function writeAtomic(file, contents) {
   await rename(temporary, file);
 }
 export function dateLabel(date, options = {}) {
-  return new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC', ...options }).format(new Date(date.length === 10 ? `${date}T12:00:00Z` : date));
+  const {timeZone = 'UTC', ...formatOptions} = options;
+  // Calendar dates are editorial dates, not instants to shift between zones.
+  return new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric', ...formatOptions, timeZone: date.length === 10 ? 'UTC' : timeZone }).format(new Date(date.length === 10 ? `${date}T12:00:00Z` : date));
 }

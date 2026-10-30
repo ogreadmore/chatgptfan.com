@@ -92,7 +92,7 @@ await cp('public', output, { recursive: true, filter:src=>!(/\.(png|svg)$/i.test
 await prepareImageDelivery([...usedArt]);
 sharingImages = await buildSharingImages(briefs);
 
-await page('', site.name, renderHome({config:home, resources, news, social, socialPosts, briefs, today, url}));
+await page('', site.name, renderHome({config:home, resources, news, social, socialPosts, briefs, today, url, timezone:site.timezone}));
 
 console.log('Homepage built.');
 await page('brief/', 'Daily Brief', `${pageHead('Daily Brief', 'One edition a day. Sources, context, and a little perspective.')}${archive(briefs)}<p class="rss-note"><a href="${url('feed.xml')}">Follow the brief by RSS →</a></p>`, 'brief');
@@ -109,7 +109,7 @@ for (const post of socialPosts.items) searchItems.push({title:post.title,text:po
 for (const account of social) searchItems.push({title:account.name,text:account.role+' OpenAI social posts X',section:'Social',url:url('news/social/#'+account.id)});
 await page('sources/', 'Sources', renderSourcesPage({ feeds, newsUrl: url('news/'), libraryUrls: Object.fromEntries(['learn','safety','projects','money'].map(id => [id, url(id === 'safety' ? 'safety/' : 'resources/'+id+'/')])) }));
 for (const feed of feeds) searchItems.push({ title:feed.name, text:feed.description+' '+feed.notes+' '+feed.type, section:'Sources', url:url('sources/#'+feed.id) });
-await page('safety/', 'Safety & Society', renderSafetyPage({config:safety,resources,news,url}), 'safety', safety.purpose);
+await page('safety/', 'Safety & Society', renderSafetyPage({config:safety,resources,news,url,timezone:site.timezone}), 'safety', safety.purpose);
 await page('safety/take-action/', 'Take action', renderActionPage(campaign,url), 'safety', 'Read the Statement on Superintelligence, consider the debate, and find ways to contact your representatives.');
 searchItems.push({title:'Take action: Keep AI under human control',text:'Statement on Superintelligence petition prohibition public support representatives advocacy',section:'Safety & Society',url:url('safety/take-action/')});
 for (const r of resources.filter(r=>r.section==='safety')) searchItems.push({title:r.title,text:[r.description,r.provider,r.kind,r.safety.audience,r.safety.why].join(' '),section:'Safety & Society',url:url('safety/#'+r.id)});

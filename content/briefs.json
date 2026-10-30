@@ -1,5 +1,66 @@
 [
   {
+    "date": "2026-10-30",
+    "slug": "2026-10-30",
+    "title": "OpenAI’s new rules need a response plan",
+    "excerpt": "A revised Model Spec sets out intended behavior. OpenAI’s monitoring disclosure shows why detecting a problem, alerting a person and stopping an agent must be examined separately.",
+    "file": "2026-10-30.md",
+    "status": "published",
+    "image": {
+      "src": "briefs/2026-10-30-monitoring-response.png",
+      "alt": "A concerned operator turns toward a glowing amber alarm mounted on a server.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration of responding to an AI monitoring alert",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    },
+    "sources": [
+      {
+        "title": "An updated Model Spec for more capable and beneficial AI",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/updated-model-spec/",
+        "publishedAt": "2026-10-29",
+        "kind": "Company announcement"
+      },
+      {
+        "title": "Model Spec: October 29, 2026",
+        "publisher": "OpenAI",
+        "url": "https://model-spec.openai.com/2026-10-29.html",
+        "publishedAt": "2026-10-29",
+        "kind": "Intended model behavior"
+      },
+      {
+        "title": "How we detect frontier model misalignment",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/",
+        "publishedAt": "2026-10-29",
+        "kind": "Company monitoring disclosure"
+      },
+      {
+        "title": "Red-Teaming OpenAI's Internal Agent Monitoring Systems",
+        "publisher": "METR",
+        "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+        "publishedAt": "2026-10-22",
+        "kind": "External evaluation of historical infrastructure"
+      },
+      {
+        "title": "We urgently need to monitor AI agents’ actions in real time",
+        "publisher": "MIT Technology Review · Partnership on AI authors",
+        "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+        "publishedAt": "2026-10-29",
+        "kind": "Opinion"
+      },
+      {
+        "title": "OpenAI says human intent at center of updated AI model guidelines",
+        "publisher": "Reuters via StreetInsider",
+        "url": "https://new.streetinsider.com/Reuters/OpenAI%2Bsays%2Bhuman%2Bintent%2Bat%2Bcenter%2Bof%2Bupdated%2BAI%2Bmodel%2Bguidelines/27256894.html",
+        "publishedAt": "2026-10-29",
+        "kind": "Independent reporting"
+      }
+    ]
+  },
+  {
     "date": "2026-10-29",
     "slug": "2026-10-29",
     "title": "Who can stop unsafe AI?",

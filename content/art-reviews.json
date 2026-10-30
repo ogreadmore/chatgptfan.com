@@ -523,6 +523,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-30-monitoring-response.png",
+      "brief": "2026-10-30",
+      "sha256": "3c2a521a606b2709d1523442348c60ec278c39291764a538166681195d27d690",
+      "reviewedAt": "2026-10-30",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Final original pixels inspected, followed by a separate full-resolution second pass after page and sharing checks. Visible action: one seated operator turns her face and eyes toward a glowing amber beacon mounted on a server. Radiating lines and lit indicator make the alert visible; the person noticing it gives a concrete conceptual connection to the lead’s distinction between detecting a problem and responding. This is not a depiction of a real OpenAI incident or physical alarm equipment. Zero visible hands, fingers, wrists or forearms. Two shoulders connect naturally to two jacket-covered upper arms that continue behind the desk; no floating attachments or extra limbs. Coherent eyes, mouth, neck and chair. Beacon sits on the server; desk occlusion is consistent. Initial candidate rejected for tight headroom and a clipped server edge; one framing revision used. Final complete head and server have safe margins. Actual desktop homepage/article, 390px homepage/article with delivered 480px WebP, and generated 1200x630 split sharing PNG inspected: face, beacon, server and headline remain legible, with no horizontal overflow in required mobile views. Conceptual AI credit displayed. Agent review, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }
