@@ -546,6 +546,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-10-31-teen-chat-break.png",
+      "brief": "2026-10-31",
+      "sha256": "e57e67d4a1732949729ed75d01fc1ad34d3acb888be004eca72d25f146620200",
+      "reviewedAt": "2026-10-31",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 1,
+      "observedVisibleHands": 1,
+      "notes": "Final PNG inspected at original resolution before presentation review and again separately after desktop, mobile, article and sharing-card checks. Pixels show one thoughtful teenager looking up and away while pressing down on a partly closed laptop lid. The outer lid faces the viewer; its hinge joins the base along the near edge and the keyboard extends toward the teenager, so the action and prop are mechanically coherent. This conceptual scene connects to interrupting a harmful chatbot interaction and the brief’s practical advice to step away; it does not depict an actual incident or claim an automatic safeguard is deployed. Exactly one visible hand. The near shoulder connects through the sleeve to an elbow on the desk, forearm, wrist and hand resting on the lid. Four fingers rest on the upper surface with the thumb partly occluded around the lid edge; no extra hand or disconnected attachment. The other upper arm descends naturally behind the desk; its forearm and hand are not shown. Eyes, neck and shoulders are coherent. Initial candidate rejected for tight headroom; exactly one framing revision. Final complete head, hand and laptop have generous margins. Desktop homepage and article, 390px homepage and article, delivered 480px mobile WebP and actual 1200x630 split sharing PNG inspected. Meaning and full scene remain readable, headline fits, and required mobile views have no horizontal overflow. Agent review, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

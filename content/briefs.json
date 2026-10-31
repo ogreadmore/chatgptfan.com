@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-10-31",
+    "slug": "2026-10-31",
+    "title": "What ChatGPT’s new teen safeguards will change",
+    "excerpt": "New restrictions are coming over the next few weeks. Here is what families can check now, and what still needs independent testing.",
+    "file": "2026-10-31.md",
+    "status": "published",
+    "image": {
+      "src": "briefs/2026-10-31-teen-chat-break.png",
+      "alt": "A thoughtful teenager closes a laptop and looks away from the screen.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration of stepping away from a chatbot",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    },
+    "sources": [
+      {
+        "title": "Community safety report and new protections for teens",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens/",
+        "publishedAt": "2026-10-30",
+        "kind": "Company announcement"
+      },
+      {
+        "title": "OpenAI to limit weapons information for teens on ChatGPT in violence-prevention push",
+        "publisher": "Reuters via Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/openai-to-limit-weapons-information-for-teens-on-chatgpt-in-violenceprevention-push-4988471",
+        "publishedAt": "2026-10-30",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Managing parental controls in ChatGPT",
+        "publisher": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/12315553-managing-parental-controls-in-chatgpt",
+        "kind": "Company documentation",
+        "checkedAt": "2026-10-31"
+      },
+      {
+        "title": "ChatGPT for Teens risk assessment",
+        "publisher": "Common Sense Media · Youth AI Safety Institute",
+        "url": "https://institute.commonsensemedia.org/risk-assessments/chatgpt-teens",
+        "publishedAt": "2026-10-07",
+        "kind": "Independent evaluation · testing ended September 28"
+      }
+    ]
+  },
+  {
     "date": "2026-10-30",
     "slug": "2026-10-30",
     "title": "OpenAI’s new rules need a response plan",

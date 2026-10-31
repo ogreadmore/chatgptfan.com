@@ -41,7 +41,7 @@
     "kind": "Prompt library",
     "description": "Reusable prompts with guidance for testing and adapting them. Includes an idea-challenging “Devil’s Advocate” example and a practical checklist for evaluating outputs.",
     "level": "All levels",
-    "checkedAt": "2026-10-20",
+    "checkedAt": "2026-10-31",
     "cost": "Free resource",
     "bestFor": "Improving a prompt you actually use",
     "needs": "Test prompts with your own tasks and model. Reusing the library’s prompts requires attribution to Ethan and Lilach Mollick under CC BY 4.0.",
@@ -174,9 +174,9 @@
     "kind": "Research",
     "level": "All levels",
     "description": "Work with a collection of documents and ask questions tied to those sources. Useful for comparing readings and tracing a summary back to the underlying material.",
-    "checkedAt": "2026-10-24",
+    "checkedAt": "2026-10-31",
     "cost": "Free plan · paid options",
-    "needs": "Google account. Free tier: up to 50 sources per notebook. Drive sources sync; other imports can become stale. Web URL imports omit images and nested pages. YouTube imports use captions, not visuals; videos less than 72 hours old may not import. Verify citations against originals.",
+    "needs": "Google account. Free tier: up to 50 sources per notebook. Drive sources sync; other imports can become stale. Updating a source does not refresh already-generated Studio outputs. Web imports omit images and nested pages; YouTube uses captions, not visuals, and videos under 72 hours old may fail. Verify citations against originals.",
     "bestFor": "Reading a stack of sources",
     "sourceUrl": "https://support.google.com/gemininotebook/answer/16215270?hl=en",
     "featured": true,
@@ -221,7 +221,7 @@
     "kind": "Local models",
     "level": "Intermediate",
     "description": "Explore open models on your own computer through a desktop interface. Its Bionic agent also supports document and coding work.",
-    "checkedAt": "2026-10-27",
+    "checkedAt": "2026-10-31",
     "cost": "Free local use · paid cloud",
     "needs": "Hardware requirements depend on the model. Local inference is free; optional Bionic+ starts at US$20/month. Cloud models and web tools send data off your device, so check which mode you are using.",
     "bestFor": "Experimenting with local models",
@@ -683,7 +683,7 @@
     "kind": "Agent guide",
     "level": "Intermediate",
     "description": "Understand cloud computers, app connections and the boundary between background research and actions. Review Custom Rules before assigning consequential work.",
-    "checkedAt": "2026-10-27",
+    "checkedAt": "2026-10-31",
     "cost": "Free guide · Eligible paid plan required",
     "bestFor": "Deciding what an always-on agent may do",
     "needs": "Check regional availability and administrator settings. Background research is restricted to read-only tools; connected-app actions have different permissions. Review consequential work. This is company guidance, not independent validation.",
@@ -698,7 +698,7 @@
     "kind": "Developer guide",
     "level": "Developer",
     "description": "A practical guide to balancing model capability, latency and cost, with advice on instructions, long-running work and production checks. Test vendor recommendations on your own tasks.",
-    "checkedAt": "2026-10-27",
+    "checkedAt": "2026-10-31",
     "cost": "Free guide · model usage extra",
     "needs": "Basic API or coding-agent experience. The October 2 overview predates GPT-6.1 Terra; use the current developer guide for model-specific details. Compare cost per successful task and test before changing a production workflow.",
     "bestFor": "Choosing a model for a real workload",
@@ -715,7 +715,7 @@
     "kind": "Cost control",
     "level": "Developer",
     "description": "A guide to setting a monthly project spending ceiling that pauses resources when reached. Useful for experiments that create cloud infrastructure; compare a real stop with a notification-only budget alert.",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-10-31",
     "cost": "Free guide · paid AWS usage",
     "bestFor": "Containing cloud costs during agent experiments",
     "needs": "For the new AWS account experience; requires a Paid Plan and project-owner access. Minimum cap is $20 or a higher usage estimate, before tax. Pausing interrupts services; after 90 days without action, paused project data is permanently deleted. Optional early controls can also block new resources or pause idle or high-cost resources before the ceiling.",
@@ -729,14 +729,14 @@
     "provider": "Common Sense Media · Youth AI Safety Institute",
     "kind": "Product evaluation",
     "description": "An October 7 assessment of teen safeguards, with its testing methods and findings. Read the original evidence and stated limits; OpenAI disputes the evaluation.",
-    "checkedAt": "2026-10-30",
+    "checkedAt": "2026-10-31",
     "reviewEveryDays": 30,
     "safety": {
       "group": "evidence",
       "audience": "Parents, educators & general readers",
       "why": "Adds a focused evaluation of a product many young people use, rather than relying on launch assurances.",
       "readFirst": "Read the methodology and limitations before the findings. Compare the report with OpenAI’s documentation and response.",
-      "limits": "Testing ended September 28, before the October GPT-6 launch; this does not evaluate that release. US-based sequential tests, with model changes complicating comparisons and some modes excluded. The institute reports industry funding including the OpenAI Foundation and editorial independence. We have not reproduced the tests."
+      "limits": "Testing ended September 28, before the October GPT-6 launch and October 30 safeguard announcement; it does not evaluate those changes. US-based sequential tests, with model changes complicating comparisons and some modes excluded. The institute reports industry funding including the OpenAI Foundation and editorial independence. We have not reproduced the tests."
     }
   },
   {
@@ -820,5 +820,23 @@
     "bestFor": "Using an existing subscription benefit for API experiments",
     "needs": "Paid subscription must be active for seven days; ownership and matching account email are required. Availability depends on cohort and country. First grants are prorated; unused credits expire. Plus is excluded, and Codex usage through API keys is not covered. Check the issued grant and paid-credit/recharge settings before running jobs.",
     "reviewEveryDays": 14
+  },
+  {
+    "id": "parental-controls",
+    "section": "safety",
+    "title": "Understand ChatGPT parental controls",
+    "url": "https://help.openai.com/en/articles/12315553-managing-parental-controls-in-chatgpt",
+    "provider": "OpenAI Help Center",
+    "kind": "Product documentation",
+    "description": "How linked accounts, quiet hours, study settings and limited notifications work. A practical starting point for a family conversation about using ChatGPT.",
+    "checkedAt": "2026-10-31",
+    "reviewEveryDays": 14,
+    "safety": {
+      "group": "everyday",
+      "audience": "Parents & guardians",
+      "why": "Explains which settings families can change and what a parent cannot see or monitor.",
+      "readFirst": "Read account linking, quiet hours and safety notifications. Check the settings together; study hours do not block access.",
+      "limits": "Company documentation, not an independent safety assessment. Linking requires acceptance, either side can unlink, and parents cannot read chats. Alerts are limited, may be delayed and will not identify every concern."
+    }
   }
 ]
