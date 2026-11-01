@@ -26,7 +26,7 @@ Prompt constraint: “One figure, simple chest-up composition. No visible hands 
 
 ## Mandatory visual gate
 
-An image is optional; a weak image is never preferable to the clean typography fallback. “Probably fine,” an obscured attachment, ambiguous anatomy, or a model's own reassurance is a failure. Do not infer quality from the prompt, dimensions, or a passing build.
+Owner update, November 1, 2026: every new edition must include a good story-specific cartoon before publication. Keep generating or revising until the artwork passes; there is no fixed attempt limit. If a concept repeatedly fails, simplify or replace the concept instead of repeatedly patching it. A technical generation or review blocker leaves the edition unpublished and the last complete edition live; report the blocker. Do not publish a new text-only edition as a fallback. Historical text-only editions before November 1 remain intact. “Probably fine,” an obscured attachment, ambiguous anatomy, or a model's own reassurance is a failure. Do not infer quality from the prompt, dimensions, or a passing build.
 
 ### Meaning comes first
 
@@ -37,7 +37,7 @@ Before checking anatomy, put aside the prompt and headline and describe only wha
 - No text in the illustration does not mean all documents must be blank. Choose a different coherent visual idea when the action requires information that cannot be shown clearly and honestly. Do not invent documentary evidence or fake interfaces to fill the gap.
 - Check whether the image communicates at thumbnail size and uses the frame well. Simplifying anatomy must not remove the action that made the concept worth illustrating.
 
-If the meaning is weak or uncertain, mark `story: false` and reject the image even if every anatomy check passes. Continue with the typography fallback; do not publish first and rely on the owner to catch it. The one-revision limit still applies across meaning, anatomy and presentation failures combined.
+If the meaning is weak or uncertain, mark `story: false` and reject the image even if every anatomy check passes. Revise or regenerate and repeat the full review; do not publish first and rely on the owner to catch it. Change the concept when necessary. Continue until a good illustration passes rather than stopping at an arbitrary attempt count.
 
 Inspect the actual final file at full resolution, then make a separate second pass after putting aside the generation prompt. On that pass:
 - Count every visible hand and limb. Trace every arm from shoulder through elbow and wrist; reject extra limbs, floating hands or attachments that cannot be explained.
@@ -45,11 +45,11 @@ Inspect the actual final file at full resolution, then make a separate second pa
 - Check the pose, prop contact, face/eyes, complete head, safe margins, and story relevance. Reject cropped anatomy defects, malformed props, or ambiguous silhouettes.
 - Inspect the delivered homepage on desktop and about 390px mobile, the article, and the actual sharing card. A defect at any size is a failure.
 
-Allow at most one focused revision, then repeat the entire review from the final pixels. If any check fails or remains uncertain, remove the brief's `image` object. That publishes text and a typography-only sharing card, excluding the rejected art from deployment. Log the rejection; do not advance an image to approved to satisfy a daily quota. Ask for owner feedback on a new style or ambiguous visual meaning. Do not claim owner approval from agent inspection.
+After every revision or new candidate, repeat the entire review from the final pixels. Failed candidates remain private and must not accompany published metadata. Keep working until the image passes; if blocked, keep the unfinished edition in draft and leave the existing live edition intact. Log each rejection and the next concrete improvement. Do not lower the standard to finish a run. Ask for owner feedback only when a material style or editorial decision needs it. Do not claim owner approval from agent inspection.
 
 ## Build enforcement
 
-Normal build, `npm run verify`, and GitHub Pages require a completed exact-file record in `content/art-reviews.json` for every new or changed brief illustration. `reviewStatus` alone is insufficient. SHA-256 binds the record to the final PNG: even a small edit requires a new review. A frozen legacy hash snapshot preserves pre-October 8 historical illustrations without claiming a new anatomy review; never extend that exemption or use it for new art.
+Normal build, `npm run verify`, and GitHub Pages require artwork for every published brief dated November 1, 2026 or later. Removing image metadata cannot bypass the requirement. They also require a completed exact-file record in `content/art-reviews.json` for every new or changed brief illustration. `reviewStatus` alone is insufficient. SHA-256 binds the record to the final PNG: even a small edit requires a new review. A frozen legacy hash snapshot preserves pre-October 8 historical illustrations without claiming a new anatomy review; never extend that exemption or use it for new art.
 
 For local candidate inspection only, run `node scripts/build.mjs --art-preview`, then serve the local site. To inspect an unpublished draft in context, add `--draft-preview=YYYY-MM-DD`; this requires `--art-preview` and includes only that draft in the local preview, without changing its publication status. Normal builds exclude drafts. This bypasses the gate solely to inspect candidates, not to approve them. Its output must never be published. The normal verification and Pages workflow rebuild without this flag and reject unreviewed art. Keep candidates `owner-preview` until all checks pass. Do not change publication settings to get around the gate.
 

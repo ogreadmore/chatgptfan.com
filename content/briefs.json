@@ -42,7 +42,16 @@
         "publishedAt": "2026-10-30",
         "kind": "Independent reporting"
       }
-    ]
+    ],
+    "image": {
+      "src": "briefs/2026-11-01-publisher-preferences.png",
+      "alt": "A publisher marks an illustrated article with a no-copy seal using a round stamp.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration of a publisher declaring reuse preferences",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
   },
   {
     "date": "2026-10-31",

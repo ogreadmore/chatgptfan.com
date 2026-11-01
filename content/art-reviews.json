@@ -569,6 +569,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-01-publisher-preferences.png",
+      "brief": "2026-11-01",
+      "sha256": "4938851bc9bbed17a357a24b9c48317487f522188b2259827f21d2d0dc36d5f7",
+      "reviewedAt": "2026-11-01",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 1,
+      "observedVisibleHands": 1,
+      "notes": "Visible action: a publisher lifts a round stamp from a crossed-document mark on a composed illustrated article. This directly depicts declaring a reuse restriction, a conceptual analogue of publisher preferences, not technical enforcement. Round base and impression are compatible in perspective. One visible right hand with thumb and four curled fingers grips one handle; wrist, elbow and shoulder connect naturally. Other arm stays behind the desk; no floating hands or duplicate limbs. Complete head, clear eyes and page framed with margins. Reopened final PNG for an independent second pixel pass. Inspected desktop homepage and article, 390px homepage and article, and actual 1200x630 split sharing PNG; figure, seal and headline remain legible without image clipping or overflow. Agent review, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

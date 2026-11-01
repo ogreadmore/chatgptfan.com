@@ -3,11 +3,16 @@ import {readFile} from 'node:fs/promises';
 
 export const ART_CHECKS = ['limbCount', 'limbConnections', 'hands', 'poseAndProps', 'face', 'framing', 'story', 'desktop', 'mobile', 'sharingCard'];
 export const imageHash = bytes => createHash('sha256').update(bytes).digest('hex');
+// Owner policy effective November 1; preserve earlier text-only editions.
+export const REQUIRED_ART_FROM = '2026-11-01';
 
 // This enforces recorded visual QA, not computer-vision detection of bad anatomy.
 export function validateArtReview(brief, bytes, policy) {
-  if (!brief.image) return;
-  const fail = reason => { throw new Error(`Artwork blocked for ${brief.slug}: ${reason}. Remove image metadata to use the typography fallback.`); };
+  const fail = reason => { throw new Error(`Artwork blocked for ${brief.slug}: ${reason}. Complete and review the artwork before publishing; keep unfinished editions in draft.`); };
+  if (!brief.image) {
+    if (brief.date >= REQUIRED_ART_FROM) fail('a reviewed story-specific image is required');
+    return;
+  }
   if (policy?.version !== 1) fail('invalid review policy');
   const sha256 = imageHash(bytes);
   // Frozen migration snapshot: historical art is preserved, not newly approved.
@@ -22,7 +27,10 @@ export function validateArtReview(brief, bytes, policy) {
 
 export async function validatePublishedArt(briefs, policy) {
   for (const brief of briefs) {
-    if (!brief.image) continue;
+    if (!brief.image) {
+      validateArtReview(brief, null, policy);
+      continue;
+    }
     if (!/^briefs\/[a-z0-9-]+\.png$/.test(brief.image.src)) throw new Error(`Invalid brief art path: ${brief.slug}`);
     validateArtReview(brief, await readFile('public/assets/' + brief.image.src), policy);
   }
