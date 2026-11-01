@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-01",
+    "slug": "2026-11-01",
+    "title": "What the new AI-training opt-out will actually do",
+    "excerpt": "A shared preference could simplify publishers’ choices. Rollout is still ahead, and training, crawling and search need different controls.",
+    "file": "2026-11-01.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Making it easier for websites to express AI training preferences",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/",
+        "publishedAt": "2026-10-30",
+        "kind": "Company announcement"
+      },
+      {
+        "title": "Supporting a shared AI training control for websites",
+        "publisher": "Google Search Central",
+        "url": "https://developers.google.com/search/blog/2026/10/ai-training-control",
+        "publishedAt": "2026-10-30",
+        "kind": "Company documentation"
+      },
+      {
+        "title": "Machine-Readable Training Preference Signal",
+        "publisher": "IETF Datatracker · Kevin Kelley",
+        "url": "https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/",
+        "publishedAt": "2026-10-30",
+        "kind": "Individual Internet-Draft · work in progress"
+      },
+      {
+        "title": "Overview of OpenAI Crawlers",
+        "publisher": "OpenAI",
+        "url": "https://developers.openai.com/api/docs/bots",
+        "checkedAt": "2026-11-01",
+        "kind": "Company documentation"
+      },
+      {
+        "title": "The biggest names in AI are backing a new way to opt out of scraping",
+        "publisher": "The Verge",
+        "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+        "publishedAt": "2026-10-30",
+        "kind": "Independent reporting"
+      }
+    ]
+  },
+  {
     "date": "2026-10-31",
     "slug": "2026-10-31",
     "title": "What ChatGPT’s new teen safeguards will change",
