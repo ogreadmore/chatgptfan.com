@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-11-02",
+    "slug": "2026-11-02",
+    "title": "What OpenAI’s policy push needs to prove",
+    "excerpt": "A new campaign meets an existing record of promises. Look for independent access, enforceable obligations and evidence that commitments are being met.",
+    "file": "2026-11-02.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Behind the Curtain: OpenAI's post-election power play",
+        "publisher": "Axios",
+        "url": "https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy",
+        "publishedAt": "2026-11-01",
+        "kind": "Reporting · OpenAI licensing agreement disclosed"
+      },
+      {
+        "title": "The AI policy window is open. We need to act.",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/ai-policy-window/",
+        "publishedAt": "2026-09-09",
+        "kind": "Company policy statement · background"
+      },
+      {
+        "title": "OpenAI president urges AI safeguards as group he funds opposes regulation",
+        "publisher": "Reuters via MarketScreener",
+        "url": "https://uk.marketscreener.com/news/openai-president-urges-ai-safeguards-as-group-he-funds-opposes-regulation-ce785cd8d08df627",
+        "publishedAt": "2026-10-21",
+        "kind": "Independent reporting · background"
+      },
+      {
+        "title": "Stargate Community",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/stargate-community/",
+        "publishedAt": "2026-01-20",
+        "kind": "Company commitments · background"
+      },
+      {
+        "title": "AI adoption, safety and governance",
+        "publisher": "UK Parliament",
+        "url": "https://committees.parliament.uk/work/10013/ai-adoption-safety-and-governance/",
+        "checkedAt": "2026-11-02",
+        "kind": "Current inquiry · not enacted legislation"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-02-safety-stop.png",
+      "alt": "Sam Altman waits in a car behind a stop line at a red traffic signal.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration of rules that require a developer to stop",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-01",
     "slug": "2026-11-01",
     "title": "What the new AI-training opt-out will actually do",

@@ -592,6 +592,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-02-safety-stop.png",
+      "brief": "2026-11-02",
+      "sha256": "91453b8b77f2e492ea04e24a90ad99c96fe50e973f52f3f19016ef302f4586c2",
+      "reviewedAt": "2026-11-02",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Visible action: a driver recognizable as Sam Altman waits in a left-facing car behind a white stop line, with a red traffic signal ahead on the left. The light and car now agree on travel direction. This is a conceptual editorial analogy for enforceable limits, not an enacted-rule claim or depiction of an actual event. Zero visible hands, wrists or forearms; two shoulder contours descend behind the door, with one coherent neck and complete head. No detached limbs or duplicate facial features. Mirror, window, car body and wheel are connected. Rear of car intentionally continues beyond right frame; driver and signal remain whole. Separate second inspection of final PNG followed the first generation review. Inspected desktop homepage and article, 390px homepage and article, and actual 1200x630 sharing card: red signal, stop line and driver remain visible, headline legible, no horizontal overflow. Agent-reviewed, not owner-approved.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }
