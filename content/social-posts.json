@@ -11,7 +11,8 @@
       "sourceUrl": "https://texxr.com/handle/gdb",
       "sourceName": "TEXXR archive",
       "contextUrl": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-      "contextLabel": "Read the release and review approach"
+      "contextLabel": "Read the release and review approach",
+      "sourceUnavailable": true
     },
     {
       "accountId": "OpenAI",
@@ -23,7 +24,8 @@
       "sourceUrl": "https://texxr.com/handle/openai",
       "sourceName": "TEXXR archive",
       "contextUrl": "https://openai.com/index/introducing-gpt-6-1-terra/",
-      "contextLabel": "Read the company announcement"
+      "contextLabel": "Read the company announcement",
+      "sourceUnavailable": true
     },
     {
       "accountId": "OpenAI",
@@ -35,7 +37,8 @@
       "sourceUrl": "https://texxr.com/handle/openai",
       "sourceName": "TEXXR archive",
       "contextUrl": "https://openai.com/index/securing-our-frontier-model-training-environment/",
-      "contextLabel": "Read the company account"
+      "contextLabel": "Read the company account",
+      "sourceUnavailable": true
     },
     {
       "accountId": "OpenAI",
@@ -47,7 +50,8 @@
       "sourceUrl": "https://texxr.com/handle/openai",
       "sourceName": "TEXXR archive",
       "contextUrl": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
-      "contextLabel": "Read the external evaluation"
+      "contextLabel": "Read the external evaluation",
+      "sourceUnavailable": true
     },
     {
       "accountId": "OpenAI",
@@ -59,7 +63,8 @@
       "sourceUrl": "https://texxr.com/handle/openai",
       "sourceName": "TEXXR archive",
       "contextUrl": "https://openai.com/index/openai-models-google-cloud/",
-      "contextLabel": "Read the company announcement"
+      "contextLabel": "Read the company announcement",
+      "sourceUnavailable": true
     },
     {
       "accountId": "gdb",
@@ -71,7 +76,8 @@
       "sourceUrl": "https://texxr.com/handle/gdb",
       "sourceName": "TEXXR archive",
       "contextUrl": "https://www.php.net/archive/2026.php#2026-10-21-5",
-      "contextLabel": "Read the maintainer advisory"
+      "contextLabel": "Read the maintainer advisory",
+      "sourceUnavailable": true
     },
     {
       "accountId": "OpenAI",
@@ -83,7 +89,8 @@
       "sourceUrl": "https://texxr.com/handle/openai",
       "sourceName": "TEXXR archive",
       "contextUrl": "https://openai.com/index/low-resource-programming-languages/",
-      "contextLabel": "Read the company research"
+      "contextLabel": "Read the company research",
+      "sourceUnavailable": true
     },
     {
       "accountId": "markchen90",
@@ -95,7 +102,8 @@
       "sourceUrl": "https://texxr.com/handle/markchen90",
       "sourceName": "TEXXR archive",
       "contextUrl": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
-      "contextLabel": "Read the company announcement"
+      "contextLabel": "Read the company announcement",
+      "sourceUnavailable": true
     },
     {
       "accountId": "sama",
@@ -107,7 +115,8 @@
       "sourceUrl": "https://texxr.com/handle/sama",
       "sourceName": "TEXXR archive",
       "contextUrl": "https://already-clean.goodfire.com/",
-      "contextLabel": "Read the research essay"
+      "contextLabel": "Read the research essay",
+      "sourceUnavailable": true
     },
     {
       "accountId": "gdb",
@@ -119,7 +128,8 @@
       "sourceUrl": "https://texxr.com/handle/gdb",
       "sourceName": "TEXXR archive",
       "contextUrl": "https://openai.com/index/gpt-6-for-everyone/",
-      "contextLabel": "Read the company announcement"
+      "contextLabel": "Read the company announcement",
+      "sourceUnavailable": true
     },
     {
       "accountId": "sama",
@@ -129,7 +139,8 @@
       "title": "Altman warns against surrendering judgment to AI",
       "summary": "Altman described treating AI models as a religious authority or giving up human judgment as a safety concern. This is his stated view, preserved in a public archive.",
       "sourceUrl": "https://texxr.com/handle/sama",
-      "sourceName": "TEXXR archive"
+      "sourceName": "TEXXR archive",
+      "sourceUnavailable": true
     },
     {
       "accountId": "merettm",
@@ -141,7 +152,8 @@
       "contextLabel": "Read the essay",
       "sourceUrl": "https://texxr.com/handle/merettm",
       "sourceName": "TEXXR archive",
-      "checkedAt": "2026-10-26"
+      "checkedAt": "2026-10-26",
+      "sourceUnavailable": true
     }
   ]
 }

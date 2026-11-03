@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-11-03",
+    "slug": "2026-11-03",
+    "title": "Anthropic’s warning about AI building AI",
+    "excerpt": "The company says future AI research could accelerate beyond its safeguards. Its filing also makes clear what has not yet been established.",
+    "file": "2026-11-03.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Amended Form S-1/A — Risk Factors p. 30; Business p. 189",
+        "publisher": "Anthropic via SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+        "publishedAt": "2026-11-02",
+        "kind": "Company disclosure · not independent validation"
+      },
+      {
+        "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+        "publishedAt": "2026-11-02",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Responsible Scaling Policy — current versions and change history",
+        "publisher": "Anthropic",
+        "url": "https://www.anthropic.com/responsible-scaling-policy",
+        "checkedAt": "2026-11-03",
+        "kind": "Company policy · background"
+      },
+      {
+        "title": "Annual Review 2026 — The cyber threat to the UK",
+        "publisher": "UK National Cyber Security Centre",
+        "url": "https://www.ncsc.gov.uk/collection/annual-review-2026/understanding-threat/cyber-threat-uk",
+        "publishedAt": "2026-11-03",
+        "kind": "Government threat assessment"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-03-ai-building-ai.png",
+      "alt": "A small robot uses a screwdriver to assemble a larger robot head on a workbench.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration of AI helping build successor systems",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-02",
     "slug": "2026-11-02",
     "title": "What OpenAI’s policy push needs to prove",
