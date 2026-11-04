@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-11-04",
+    "slug": "2026-11-04",
+    "title": "Google’s school AI opt-out comes with a search catch",
+    "excerpt": "Schools will get separate product controls. Choosing Google Search without its AI features is a different question.",
+    "file": "2026-11-04.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Designing responsible AI for learning",
+        "publisher": "Google",
+        "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
+        "publishedAt": "2026-11-03",
+        "kind": "Company announcement"
+      },
+      {
+        "title": "Google will cut off search access for students at schools that reject AI — updated report",
+        "publisher": "Associated Press via Spectrum News",
+        "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/11/03/students-using-google-search-in-classroom-accounts-will-need-access-to-ai-tools-the-company-says",
+        "publishedAt": "2026-11-03",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Privacy Considerations with AI Tools",
+        "publisher": "Electronic Frontier Foundation",
+        "url": "https://ssd.eff.org/module/privacy-considerations-with-ai-tools",
+        "checkedAt": "2026-11-04",
+        "kind": "Privacy guidance · background"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-04-school-search.png",
+      "alt": "A teacher looks at a magnifying glass chained to a small robot on a schoolbook and desk.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration of search bundled with AI",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-03",
     "slug": "2026-11-03",
     "title": "Anthropic’s warning about AI building AI",

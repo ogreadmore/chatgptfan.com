@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-11-03",
+  "reviewedAt": "2026-11-04",
   "resources": [
     "academy",
     "wharton-gail",
@@ -31,12 +31,12 @@
     "ai-now"
   ],
   "social": [
-    "https://x.com/sama/status/2111130577789493706",
-    "https://x.com/gdb/status/2114837059462627533",
-    "https://x.com/OpenAI/status/2113718797505036665",
-    "https://x.com/OpenAI/status/2114780711664398349",
+    "https://x.com/OpenAI/status/2117692475775258785",
+    "https://x.com/gdb/status/2117435285021810921",
+    "https://x.com/sama/status/2117794005165748448",
+    "https://x.com/merettm/status/2112231743734579542",
     "https://x.com/markchen90/status/2112628202594349139",
-    "https://x.com/merettm/status/2096630018495377464"
+    "https://x.com/OpenAI/status/2114780711664398349"
   ],
   "excludeNewsUrls": [
     "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
@@ -290,7 +290,15 @@
     "https://www.theguardian.com/us-news/2026/nov/02/gen-z-voting-issues",
     "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big",
     "https://www.theguardian.com/business/2026/nov/02/ryanair-considers-pay-freezes-reducing-crew-on-flights-fuel-costs-soar-ai",
-    "https://www.theguardian.com/commentisfree/2026/nov/02/puregatory-lifehoarding-new-words-strange-anxious-times"
+    "https://www.theguardian.com/commentisfree/2026/nov/02/puregatory-lifehoarding-new-words-strange-anxious-times",
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxObGtOMHhjQzVNYWRRMEw5cTYtWG9OOGREZGRvV3Bqd1EzUGhaUVQzYzdQX0ExMkp1MWdxZEN5LTJyRHYtUzROVldKeTFuSTdWb0VpelMyV2tkaWowU0xfbXBOanlKdGNIV1E3NWVla1YtSkhmRU4tdVZBTXhwY2YxWkFBdGVBaVB4N2VUVUlTZGtfdWJBbWtZVmE1VnM?oc=5",
+    "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
+    "https://www.theguardian.com/technology/2026/nov/03/google-search-artificial-intelligence",
+    "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
+    "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too",
+    "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+    "https://www.theguardian.com/food/2026/nov/03/bakers-and-cake-lovers-have-you-used-ai-for-inspiration",
+    "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search"
   ],
   "videos": [
     "https://www.youtube.com/shorts/7TtGMileCus",

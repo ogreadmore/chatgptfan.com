@@ -638,6 +638,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-04-school-search.png",
+      "brief": "2026-11-04",
+      "sha256": "7362e83a02eb9a7f3f4d4bfdd0dc598c48e02e5e0ba86de7ca61581b297299cc",
+      "reviewedAt": "2026-11-04",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Pixels show a concerned teacher looking at a magnifying glass physically chained to a small robot. The magnifier rests on a closed schoolbook and the robot stands on the desk; the connected objects make search bundled with AI visible without pretending the teacher is inspecting blank evidence. The chain connects to a metal collar on the magnifier handle and a ring on the robot body. This is a conceptual analogy for the lead's search/AI choice, not an actual classroom device or event. Zero visible human hands, wrists or forearms. Two shoulders and jacket-covered upper arms descend naturally behind the desk; one coherent neck and complete head. The robot has a head and solid body, no arms or hands. Face, eyes, glasses and props are coherent, with no floating limbs or merged attachments. Complete head remains inside the frame, though top margin is modest. Final PNG reopened for a separate full-pixel pass after initial generation inspection; actual desktop homepage/article, 390px homepage/article and 1200x630 split sharing PNG reviewed. The chain remains legible, full scene survives each layout and headline fits without horizontal overflow. One candidate; no revision. Agent review, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

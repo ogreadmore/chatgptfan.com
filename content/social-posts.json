@@ -1,159 +1,141 @@
 {
-  "updatedAt": "2026-11-01",
+  "updatedAt": "2026-11-04",
   "items": [
+    {
+      "accountId": "OpenAI",
+      "url": "https://x.com/OpenAI/status/2117692475775258785",
+      "title": "OpenAI shares physical engineering experiments",
+      "summary": "OpenAI describes using ChatGPT and Codex for mechanical design, electrical engineering and simulation. Its thread calls these early steps and says engineers review the outputs; these are company-reported examples, not independent validation.",
+      "coveredAt": "2026-11-04",
+      "checkedAt": "2026-11-04",
+      "sourceUrl": "https://x.com/OpenAI/status/2117692475775258785",
+      "sourceName": "X · original post"
+    },
+    {
+      "accountId": "gdb",
+      "url": "https://x.com/gdb/status/2117435285021810921",
+      "title": "Brockman describes Pando, a Git backend",
+      "summary": "Brockman says Pando handles large monorepos while preserving familiar Git workflows. He is considering making it available to others; the post is an invitation for interest, not a public product launch.",
+      "coveredAt": "2026-11-04",
+      "checkedAt": "2026-11-04",
+      "sourceUrl": "https://x.com/gdb/status/2117435285021810921",
+      "sourceName": "X · original post"
+    },
+    {
+      "accountId": "sama",
+      "url": "https://x.com/sama/status/2117794005165748448",
+      "title": "Altman says human control should constrain AI progress",
+      "summary": "Altman says people should not cede control of the future to superintelligence and that this requirement should limit AI progress. This is his stated position, not a published enforcement mechanism or a demonstrated safeguard.",
+      "coveredAt": "2026-11-04",
+      "checkedAt": "2026-11-04",
+      "sourceUrl": "https://x.com/sama/status/2117794005165748448",
+      "sourceName": "X · original post"
+    },
+    {
+      "accountId": "merettm",
+      "url": "https://x.com/merettm/status/2112231743734579542",
+      "title": "Pachocki brings Madry back to work on AI’s pace",
+      "summary": "In his October 19 post, Pachocki says he asked Aleksander Madry to return to OpenAI to work on the pace and implications of AI progress. The post describes a research and strategy focus; it does not announce a development pause.",
+      "coveredAt": "2026-11-04",
+      "checkedAt": "2026-11-04",
+      "sourceUrl": "https://x.com/merettm/status/2112231743734579542",
+      "sourceName": "X · original post"
+    },
     {
       "accountId": "gdb",
       "url": "https://x.com/gdb/status/2114837059462627533",
       "coveredAt": "2026-10-27",
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-11-04",
       "title": "Brockman shares new scientific claims",
       "summary": "Brockman announced results across mathematics, computer science and physics. OpenAI describes the manuscripts as raw research material and sets out different release and expert-review arrangements. We have not verified the proofs.",
-      "sourceUrl": "https://texxr.com/handle/gdb",
-      "sourceName": "TEXXR archive",
+      "sourceUrl": "https://x.com/gdb/status/2114837059462627533",
+      "sourceName": "X · original post",
       "contextUrl": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-      "contextLabel": "Read the release and review approach",
-      "sourceUnavailable": true
+      "contextLabel": "Read the release and review approach"
     },
     {
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2114780711664398349",
       "coveredAt": "2026-10-26",
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-11-04",
       "title": "OpenAI introduces GPT-6.1 Terra",
       "summary": "OpenAI presents Terra as a faster, lower-cost option for visual reasoning and computer work. Its performance comparisons are company evaluations; test complete workflows before relying on the model.",
-      "sourceUrl": "https://texxr.com/handle/openai",
-      "sourceName": "TEXXR archive",
+      "sourceUrl": "https://x.com/OpenAI/status/2114780711664398349",
+      "sourceName": "X · original post",
       "contextUrl": "https://openai.com/index/introducing-gpt-6-1-terra/",
-      "contextLabel": "Read the company announcement",
-      "sourceUnavailable": true
+      "contextLabel": "Read the company announcement"
     },
     {
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2113718797505036665",
       "coveredAt": "2026-10-23",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-11-04",
       "title": "OpenAI explains its offline training environment",
       "summary": "OpenAI says frontier training uses cached web content without live internet access. Its infrastructure retains necessary connections; the announcement describes a containment policy, rather than independent verification of its effectiveness.",
-      "sourceUrl": "https://texxr.com/handle/openai",
-      "sourceName": "TEXXR archive",
+      "sourceUrl": "https://x.com/OpenAI/status/2113718797505036665",
+      "sourceName": "X · original post",
       "contextUrl": "https://openai.com/index/securing-our-frontier-model-training-environment/",
-      "contextLabel": "Read the company account",
-      "sourceUnavailable": true
+      "contextLabel": "Read the company account"
     },
     {
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2113298833392496746",
       "coveredAt": "2026-10-22",
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-11-04",
       "title": "OpenAI responds to the outside monitoring review",
       "summary": "OpenAI says the summer pilot with METR and Redwood helped strengthen its safeguards. Read the evaluators’ historical scope and the boundary around unverified fixes alongside the company response.",
-      "sourceUrl": "https://texxr.com/handle/openai",
-      "sourceName": "TEXXR archive",
+      "sourceUrl": "https://x.com/OpenAI/status/2113298833392496746",
+      "sourceName": "X · original post",
       "contextUrl": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
-      "contextLabel": "Read the external evaluation",
-      "sourceUnavailable": true
-    },
-    {
-      "accountId": "OpenAI",
-      "url": "https://x.com/OpenAI/status/2112988118471295323",
-      "coveredAt": "2026-10-21",
-      "checkedAt": "2026-10-26",
-      "title": "OpenAI announces Google Cloud distribution",
-      "summary": "OpenAI says its frontier models and Codex workflows are coming to Google Cloud’s Model Garden. General availability is planned in the coming weeks; this is not a claim that every customer can use them today.",
-      "sourceUrl": "https://texxr.com/handle/openai",
-      "sourceName": "TEXXR archive",
-      "contextUrl": "https://openai.com/index/openai-models-google-cloud/",
-      "contextLabel": "Read the company announcement",
-      "sourceUnavailable": true
-    },
-    {
-      "accountId": "gdb",
-      "url": "https://x.com/gdb/status/2112921529650688312",
-      "coveredAt": "2026-10-21",
-      "checkedAt": "2026-10-22",
-      "title": "Brockman shares the PHP security response",
-      "summary": "Brockman pointed to work on securing the web during the PHP emergency. Read the maintainers’ advisory for affected systems and fixes; a company reaction is not a guarantee that a server is protected.",
-      "sourceUrl": "https://texxr.com/handle/gdb",
-      "sourceName": "TEXXR archive",
-      "contextUrl": "https://www.php.net/archive/2026.php#2026-10-21-5",
-      "contextLabel": "Read the maintainer advisory",
-      "sourceUnavailable": true
+      "contextLabel": "Read the external evaluation"
     },
     {
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2112310345863930168",
       "coveredAt": "2026-10-20",
-      "checkedAt": "2026-10-23",
+      "checkedAt": "2026-11-04",
       "title": "OpenAI shares work on legacy programming languages",
       "summary": "OpenAI describes evaluations of building and migrating software in languages including COBOL and Fortran. These are company-reported results; preserving behavior in a real system still needs testing.",
-      "sourceUrl": "https://texxr.com/handle/openai",
-      "sourceName": "TEXXR archive",
+      "sourceUrl": "https://x.com/OpenAI/status/2112310345863930168",
+      "sourceName": "X · original post",
       "contextUrl": "https://openai.com/index/low-resource-programming-languages/",
-      "contextLabel": "Read the company research",
-      "sourceUnavailable": true
+      "contextLabel": "Read the company research"
     },
     {
       "accountId": "markchen90",
       "url": "https://x.com/markchen90/status/2112628202594349139",
       "coveredAt": "2026-10-20",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-11-04",
       "title": "Chen welcomes Orchestra Bio",
       "summary": "Chen welcomed Orchestra Bio as OpenAI expands its life-sciences work. The announcement describes a business acquisition and research ambitions; it does not establish a clinical benefit.",
-      "sourceUrl": "https://texxr.com/handle/markchen90",
-      "sourceName": "TEXXR archive",
+      "sourceUrl": "https://x.com/markchen90/status/2112628202594349139",
+      "sourceName": "X · original post",
       "contextUrl": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
-      "contextLabel": "Read the company announcement",
-      "sourceUnavailable": true
+      "contextLabel": "Read the company announcement"
     },
     {
       "accountId": "sama",
       "url": "https://x.com/sama/status/2111130577789493706",
       "coveredAt": "2026-10-16",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-11-04",
       "title": "Altman welcomes new interpretability work",
       "summary": "Altman welcomed Nick Cammarata’s work on understanding neural networks. The Goodfire essay presents a working hypothesis; this reaction is not independent validation or evidence that AI safety is solved.",
-      "sourceUrl": "https://texxr.com/handle/sama",
-      "sourceName": "TEXXR archive",
+      "sourceUrl": "https://x.com/sama/status/2111130577789493706",
+      "sourceName": "X · original post",
       "contextUrl": "https://already-clean.goodfire.com/",
-      "contextLabel": "Read the research essay",
-      "sourceUnavailable": true
+      "contextLabel": "Read the research essay"
     },
     {
       "accountId": "gdb",
       "url": "https://x.com/gdb/status/2107899150247616531",
       "coveredAt": "2026-10-08",
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-11-04",
       "title": "Brockman introduces interactive answers in ChatGPT",
       "summary": "Brockman shared the Intelligent UI launch, describing interactive elements in ChatGPT responses. This is a company announcement; the interface is not independent evidence of answer accuracy.",
-      "sourceUrl": "https://texxr.com/handle/gdb",
-      "sourceName": "TEXXR archive",
+      "sourceUrl": "https://x.com/gdb/status/2107899150247616531",
+      "sourceName": "X · original post",
       "contextUrl": "https://openai.com/index/gpt-6-for-everyone/",
-      "contextLabel": "Read the company announcement",
-      "sourceUnavailable": true
-    },
-    {
-      "accountId": "sama",
-      "url": "https://x.com/sama/status/2106388373221118198",
-      "coveredAt": "2026-10-05",
-      "checkedAt": "2026-10-16",
-      "title": "Altman warns against surrendering judgment to AI",
-      "summary": "Altman described treating AI models as a religious authority or giving up human judgment as a safety concern. This is his stated view, preserved in a public archive.",
-      "sourceUrl": "https://texxr.com/handle/sama",
-      "sourceName": "TEXXR archive",
-      "sourceUnavailable": true
-    },
-    {
-      "accountId": "merettm",
-      "url": "https://x.com/merettm/status/2096630018495377464",
-      "coveredAt": "2026-09-07",
-      "title": "An Alien Mind: concerns about the next few years",
-      "summary": "Pachocki shared his essay on AI progress, his concerns, and the choices needed to preserve human control.",
-      "contextUrl": "https://openai.com/index/an-alien-mind/",
-      "contextLabel": "Read the essay",
-      "sourceUrl": "https://texxr.com/handle/merettm",
-      "sourceName": "TEXXR archive",
-      "checkedAt": "2026-10-26",
-      "sourceUnavailable": true
+      "contextLabel": "Read the company announcement"
     }
   ]
 }
