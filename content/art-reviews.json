@@ -661,6 +661,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-05-data-center-vote.png",
+      "brief": "2026-11-05",
+      "sha256": "ced4af3d20c8a6ca44c94dc077bdef15f1073357d4dae006f7e016c9f6513b71",
+      "reviewedAt": "2026-11-05",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 1,
+      "observedVisibleHands": 1,
+      "notes": "Pixels show one woman lowering a marked paper ballot into the slot of an opaque ballot box, with two server cabinets directly behind it. The lower edge of the paper meets the slot and the upper edge is held by her fingers. This is a coherent voting gesture and a concrete conceptual illustration of the lead about local data-center votes, not a documentary image of a polling place or a named voter. Exactly one hand is visible: shoulder connects through the sleeve, bent elbow, forearm and wrist to four fingers around the paper and a partly occluded thumb behind. The other arm descends behind the desk with its hand hidden. No extra limbs, floating attachments or merged silhouettes. Face, eyes and shoulders are coherent. Head, hand, ballot and box remain complete within the frame. Final PNG inspected separately after initial generation and again after the presentation review, without relying on the prompt. Desktop homepage and article, 390px homepage and article, and actual 1200x630 split sharing PNG inspected: action remains clear, headline fits, full scene survives layouts and required mobile views have no horizontal overflow. One candidate, no revision. Agent review, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

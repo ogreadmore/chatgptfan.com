@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-11-05",
+    "slug": "2026-11-05",
+    "title": "The AI buildout meets the ballot box",
+    "excerpt": "Local votes favor limits on data-center expansion. The next test is what those decisions actually change.",
+    "file": "2026-11-05.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Data center-related ballot measures, 2026",
+        "publisher": "Ballotpedia",
+        "url": "https://ballotpedia.org/Data_center-related_ballot_measures,_2026",
+        "checkedAt": "2026-11-05",
+        "kind": "Election tracking · preliminary results"
+      },
+      {
+        "title": "Gina Hinojosa defeats Greg Abbott in Texas",
+        "publisher": "Associated Press via OPB",
+        "url": "https://www.opb.org/article/2026/11/03/democrat-gina-hinojosa-elected-texas-first-latina-governor-ousts-republican-incumbent-greg-abbott/",
+        "publishedAt": "2026-11-04",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Candidates outline their data-center plans",
+        "publisher": "KXII",
+        "url": "https://www.kxii.com/2026/11/01/hinojosa-abbott-outline-differing-plans-data-centers-housing-ahead-election-day/",
+        "publishedAt": "2026-11-01",
+        "kind": "Independent reporting · campaign positions"
+      },
+      {
+        "title": "Data Centers: regulations, commission and upcoming hearings",
+        "publisher": "City of Fort Worth",
+        "url": "https://www.fortworthtexas.gov/departments/city-manager/datacenters",
+        "checkedAt": "2026-11-05",
+        "kind": "Local government · process and background"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-05-data-center-vote.png",
+      "alt": "A woman places a marked ballot into a ballot box in front of two server cabinets.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration of public votes on data-center development",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-04",
     "slug": "2026-11-04",
     "title": "Google’s school AI opt-out comes with a search catch",
