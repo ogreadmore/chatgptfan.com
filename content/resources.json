@@ -471,7 +471,7 @@
     "provider": "Responsible AI Collaborative",
     "kind": "Evidence",
     "description": "A searchable index of reported real-world AI harms and near harms. Follow the underlying sources for context and the status of individual claims; an indexed report is not a final finding.",
-    "checkedAt": "2026-10-17",
+    "checkedAt": "2026-11-06",
     "reviewEveryDays": 45,
     "safety": {
       "group": "evidence",
@@ -542,17 +542,17 @@
     "url": "https://metr.org/",
     "provider": "METR",
     "kind": "Evaluation research",
-    "description": "Research on agent capabilities and safeguards. Its October 22 OpenAI monitoring pilot separates historical findings from later, unverified fixes.",
-    "checkedAt": "2026-10-23",
+    "description": "Independent evaluations of AI capabilities and safeguards. Its November 5 review examines how Anthropic judged the risk of AI accelerating its own research.",
+    "checkedAt": "2026-11-06",
     "reviewEveryDays": 45,
     "safety": {
       "group": "frontier",
       "audience": "Technical readers",
       "why": "Empirical evaluations help distinguish measured capabilities from claims about what agents can do.",
-      "readFirst": "Start with the pilot’s scope, then compare the findings with OpenAI’s response.",
-      "limits": "Assessed the system on or before July 21, not current coverage. Limited public summary with company redaction rights; later fixes were not evaluated."
+      "readFirst": "Read the executive summary, then compare METR’s assessment of the early warning threshold with Anthropic’s explanation.",
+      "limits": "The November review examines conclusions about July models in an August risk report. Anthropic could redact nonpublic information. Check the redaction summary before interpreting the findings."
     },
-    "sourceUrl": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
+    "sourceUrl": "https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/"
   },
   {
     "id": "apollo",
@@ -562,7 +562,7 @@
     "provider": "Apollo Research",
     "kind": "Evaluation research",
     "description": "Technical work on model deception, scheming, and alignment evaluations. Study findings describe tested conditions; they do not establish the prevalence of a behavior in everyday use.",
-    "checkedAt": "2026-10-17",
+    "checkedAt": "2026-11-06",
     "reviewEveryDays": 45,
     "safety": {
       "group": "frontier",
@@ -832,13 +832,13 @@
     "provider": "OpenAI Help Center",
     "kind": "Product documentation",
     "description": "How linked accounts, quiet hours, study settings and limited notifications work. A practical starting point for a family conversation about using ChatGPT.",
-    "checkedAt": "2026-10-31",
+    "checkedAt": "2026-11-06",
     "reviewEveryDays": 14,
     "safety": {
       "group": "everyday",
       "audience": "Parents & guardians",
       "why": "Explains which settings families can change and what a parent cannot see or monitor.",
-      "readFirst": "Read account linking, quiet hours and safety notifications. Check the settings together; study hours do not block access.",
+      "readFirst": "Compare quiet hours, which block access, with study hours, which start eligible chats in study mode. Review the separate controls for code network access and the cloud browser.",
       "limits": "Company documentation, not an independent safety assessment. Linking requires acceptance, either side can unlink, and parents cannot read chats. Alerts are limited, may be delayed and will not identify every concern."
     }
   }

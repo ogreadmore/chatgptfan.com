@@ -684,6 +684,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-06-linux-repair-queue.png",
+      "brief": "2026-11-06",
+      "sha256": "929fbac5dc7ff701b3ce093c688167c5a3d47373742dc6ebc10d5fb919b86096",
+      "reviewedAt": "2026-11-06",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "A concerned penguin watches a conveyor drop a cracked padlock into a tray containing three other visibly damaged locks. The belt terminates above the tray, the falling lock tilts toward it, and the table supports both objects. The Linux penguin and accumulating broken locks connect directly to the queue of kernel flaws that need individual review and repair. One character, two flippers attached at the sides, no visible hands or feet. The tabletop occludes the lower body. Eyes follow the falling lock, the beak and complete head have coherent contours and the tray remains in frame. Inspected the original candidate, then reopened the exact final PNG for a separate pixel pass after reviewing the desktop and 390px homepage and article and the actual split sharing card. On each, the cracks, falling lock and penguin remain legible. The sharing headline fits. One candidate, no revision. Reviewed by the agent.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

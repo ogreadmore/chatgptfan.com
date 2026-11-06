@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-11-06",
+    "slug": "2026-11-06",
+    "title": "Who fixes the Linux bugs GPT-6 Cyber finds?",
+    "excerpt": "OpenAI reports 948 ways to gain administrator access in a Linux test. What happens between a successful test and a fix reaching your machine?",
+    "file": "2026-11-06.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "A thousand fewer paths to root",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+        "publishedAt": "2026-11-04",
+        "kind": "Company research"
+      },
+      {
+        "title": "GPT-6 Cyber System Card",
+        "publisher": "OpenAI",
+        "url": "https://deploymentsafety.openai.com/gpt-6-cyber",
+        "publishedAt": "2026-11-05",
+        "kind": "Company evaluation"
+      },
+      {
+        "title": "OpenAI unveils cyber model with unprecedented hacking skills",
+        "publisher": "Axios",
+        "url": "https://www.axios.com/2026/11/05/openai-linux-cyber-model",
+        "publishedAt": "2026-11-05",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Security bugs",
+        "publisher": "Linux kernel documentation",
+        "url": "https://docs.kernel.org/process/security-bugs.html",
+        "checkedAt": "2026-11-06",
+        "kind": "Maintainer guidance"
+      },
+      {
+        "title": "Ubuntu Security Notices",
+        "publisher": "Canonical",
+        "url": "https://ubuntu.com/security/notices",
+        "checkedAt": "2026-11-06",
+        "kind": "Distribution advisories"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-06-linux-repair-queue.png",
+      "alt": "A worried penguin watches a conveyor drop a cracked padlock into a tray of broken locks.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration of Linux vulnerability reports awaiting review",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-05",
     "slug": "2026-11-05",
     "title": "The AI buildout meets the ballot box",
