@@ -17,6 +17,8 @@ News draws up to eight headlines from the last seven days, prefers different act
 
 During each daily run, check the lead, selected posts, headline relevance, broken thumbnails, repeated topics, and featured resource usefulness. Rotate one or two selections only when warranted. If removing a resource or social post, update its homepage reference in the same edit; the build rejects dangling references. Hide stale social selections by removing them from the array if there are no useful replacements. Keep the library's original source-review dates unchanged unless sources were actually reviewed.
 
+When a native YouTube feed fails, the publisher’s own Videos tab can still identify new uploads. Check the original watch page for the channel ID and publication time, confirm the uploader and title through YouTube oEmbed, and inspect the actual thumbnail. Supplement the saved video selection with verified uploads within the source’s existing limit. Retain the native feed failure and its last successful fetch date. Record the direct checks separately in the private run log.
+
 ## Brief images
 
 Story-specific reviewed artwork is required for new editions from November 1, 2026 onward. Follow `docs/editorial-art-direction.md` for the modern editorial cartoon series requested by the owner. The September 18 magnifying-glass cartoon is owner-approved and is the style reference. Keep the style consistent while adapting expressions to the news: upbeat or curious by default, shocked, confused, or concerned when appropriate. Earlier glass-block, distressed-interface, and access-path diagram treatments were rejected; do not reuse them.

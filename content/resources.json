@@ -174,7 +174,7 @@
     "kind": "Research",
     "level": "All levels",
     "description": "Work with a collection of documents and ask questions tied to those sources. Useful for comparing readings and tracing a summary back to the underlying material.",
-    "checkedAt": "2026-10-31",
+    "checkedAt": "2026-11-07",
     "cost": "Free plan · paid options",
     "needs": "Google account. Free tier: up to 50 sources per notebook. Drive sources sync; other imports can become stale. Updating a source does not refresh already-generated Studio outputs. Web imports omit images and nested pages; YouTube uses captions, not visuals, and videos under 72 hours old may fail. Verify citations against originals.",
     "bestFor": "Reading a stack of sources",
@@ -686,11 +686,12 @@
     "kind": "Agent guide",
     "level": "Intermediate",
     "description": "Understand cloud computers, app connections and the boundary between background research and actions. Review Custom Rules before assigning consequential work.",
-    "checkedAt": "2026-10-31",
+    "checkedAt": "2026-11-07",
     "cost": "Free guide · Eligible paid plan required",
     "bestFor": "Deciding what an always-on agent may do",
-    "needs": "Check regional availability and administrator settings. Background research is restricted to read-only tools; connected-app actions have different permissions. Review consequential work. This is company guidance, not independent validation.",
-    "reviewEveryDays": 14
+    "needs": "Check your plan, region and workspace settings. Eligible Enterprise, Edu and Healthcare admins can opt in or out during the preview before November 18. Review who can use dots and which apps they can access.",
+    "reviewEveryDays": 14,
+    "sourceUrl": "https://openai.com/products/release-notes/?category=chatgpt"
   },
   {
     "id": "gpt6-model-guide",
@@ -701,7 +702,7 @@
     "kind": "Developer guide",
     "level": "Developer",
     "description": "A practical guide to balancing model capability, latency and cost, with advice on instructions, long-running work and production checks. Test vendor recommendations on your own tasks.",
-    "checkedAt": "2026-10-31",
+    "checkedAt": "2026-11-07",
     "cost": "Free guide · model usage extra",
     "needs": "Basic API or coding-agent experience. The October 2 overview predates GPT-6.1 Terra; use the current developer guide for model-specific details. Compare cost per successful task and test before changing a production workflow.",
     "bestFor": "Choosing a model for a real workload",
@@ -840,6 +841,25 @@
       "why": "Explains which settings families can change and what a parent cannot see or monitor.",
       "readFirst": "Compare quiet hours, which block access, with study hours, which start eligible chats in study mode. Review the separate controls for code network access and the cloud browser.",
       "limits": "Company documentation, not an independent safety assessment. Linking requires acceptance, either side can unlink, and parents cannot read chats. Alerts are limited, may be delayed and will not identify every concern."
+    }
+  },
+  {
+    "id": "ic3-impersonation",
+    "section": "safety",
+    "title": "Verify a suspicious voice or video call",
+    "url": "https://www.ic3.gov/PSA/2024/PSA241203",
+    "sourceUrl": "https://www.ic3.gov/CrimeInfo/BEC",
+    "provider": "FBI Internet Crime Complaint Center",
+    "kind": "Government guidance",
+    "description": "Steps for checking an urgent request from someone who sounds familiar, and what to do if money has already moved.",
+    "checkedAt": "2026-11-07",
+    "reviewEveryDays": 45,
+    "safety": {
+      "group": "everyday",
+      "audience": "Households and people who approve payments",
+      "why": "Offers a way to check a caller’s identity even when a recording sounds convincing.",
+      "readFirst": "Go to the protection tips. Hang up and use contact details you obtained independently. For a transfer already sent, follow the bank-recall and reporting steps in the companion guide.",
+      "limits": "The reporting route is for the United States. A bank may be able to recall a transfer, but recovery is uncertain."
     }
   }
 ]

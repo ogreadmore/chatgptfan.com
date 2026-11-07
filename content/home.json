@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-11-06",
+  "reviewedAt": "2026-11-07",
   "resources": [
     "academy",
     "wharton-gail",
@@ -31,12 +31,12 @@
     "ai-now"
   ],
   "social": [
-    "https://x.com/OpenAI/status/2118390190246879554",
-    "https://x.com/OpenAIDevs/status/2118386439675420743",
-    "https://x.com/gdb/status/2118204795219489172",
+    "https://x.com/OpenAI/status/2118782708767965238",
+    "https://x.com/gdb/status/2118753277718528402",
+    "https://x.com/OpenAIDevs/status/2118856544733532452",
     "https://x.com/sama/status/2117794005165748448",
     "https://x.com/merettm/status/2112231743734579542",
-    "https://x.com/OpenAI/status/2118124944928432327"
+    "https://x.com/OpenAI/status/2118390190246879554"
   ],
   "excludeNewsUrls": [
     "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
@@ -312,14 +312,25 @@
     "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder",
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZnpqZW1wbThoTUY1UWpZWi1aeU5rMzZxMDVRMnRUWWo3R1Z1cnJrblN1bVVpbXVGcldYOTNyT3d2MFVnZTlsNS0yZ0J3aDRlYXpUdmlmc0lTUWduYTZzLWpaYkowc1h5MFBwd0tja3RDbjZMcUcybFByX29ZUkl2V0IxdWhkSU5sb2VsT1VHWUs4Z0tVMkZqU2wxak1hYjNSSFQ2Zm1Ea1d5d25jNkE?oc=5",
     "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough",
-    "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch"
+    "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
+    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLVpUdVhKa3ZpUXBuSDdMV0tXM3JyVDFhWmpjOU95Mld1cWlMeGhPSmJ3Ym5WeHVQSkpLLW5iQngzVUVyeHg5Y19ucWF0SUpVNkxUOU5DNTFYN0dBN2hGWi1DVDNUQU9xMEtIVFlQSG1FSlU1NEUxeV9FeUNyV05CMXRVU3V3MmdSVFBEc2pjbE9WMFN3ZU1PS252VXVHemM5YkpmeFd4OVpFZ3pIZnN4TlpILWZfckU3R3VqTGs4RE84dw?oc=5",
+    "https://www.theguardian.com/commentisfree/2026/nov/06/the-guardian-view-on-the-ai-backlash-american-voters-want-a-say-in-their-future",
+    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdlpNRm5XVy11c3hLY0NRdjh2T3VmOE1LOWQ2LXlvcFhmZlFJYkQya3N3QWxud2UteUZpWVlCTXVHUXZZTjIwRlVQaUhqOGhyM2lDaDJTSGcxMnE5MzhOZ1NHYlJIc1p5bHRxaVZjZDd4MFY2RWMtRkNlYkhSVkdpMlRBWi1PYUNmZGNydXZnOTZFMTFoOHR0azBpUlU1aHpVdFA4dlhCV0dDNm91VE0xSVg0bXZhcF9jaVAzcXYzaldOdw?oc=5",
+    "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+    "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation",
+    "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
+    "https://www.theguardian.com/us-news/2026/nov/06/ai-ceo-impersonation-theft",
+    "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVGp0Vmt2N095WHZQZ1NLZnBMUGJpS09iWk4tbVB5QjFqbWdoYUhwUkJpbkE4STVlZVdMSXhOb1J2OS1SSW1xbWVxSkhrNjNocmZVWGdraTI2cnFkNzdlQVFhd0VNdWFlWkxzWFZzYW5Gend3c0QxZFc2TGVLMEpuMkFJTlB1MDlpMWstQWFBUkVRYXR0dGhjVjd1WFBPN2NiMHk5X1BPRERxMW50SEE?oc=5",
+    "https://www.theguardian.com/us-news/2026/nov/06/democrats-renew-calls-for-datacenter-pauses",
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX3NGMHFJQlQwNk4yNzFPblZsOHRFS0FBcmc0b3JxbGRoSnUzUC00WGctejhmNllYa094VGFmMHJrSWYyaUhBRlFERkdKbktXSmRkcWhhc21JVUp5Z29kbFVtTE11YjZnc3ZkZU5jM3BvbmRqUVVyUDBveF9OTmJXd1poLVI1LVhlRUVfUjhzczh2b2t3cnZuTUc4UDExWXFmVWlQZ2R4MHVQaGllbnljdlR2UQ?oc=5"
   ],
   "videos": [
-    "https://www.youtube.com/shorts/7TtGMileCus",
-    "https://www.youtube.com/watch?v=ujmyzWSj8IU",
-    "https://www.youtube.com/watch?v=6ep8Vvm4Bdw",
-    "https://www.youtube.com/watch?v=yJxZef1Ylok",
-    "https://www.youtube.com/watch?v=lPZQrVFcz3c",
-    "https://www.youtube.com/watch?v=cflbzHRvGvg"
+    "https://www.youtube.com/watch?v=hJOwOkLHRN0",
+    "https://www.youtube.com/watch?v=pXRZyOxbDL4",
+    "https://www.youtube.com/watch?v=bJldMYfRvMQ",
+    "https://www.youtube.com/watch?v=44GBqQGc-v0",
+    "https://www.youtube.com/watch?v=NCxD-qsQcN0",
+    "https://www.youtube.com/watch?v=yC72iQx6rM0"
   ]
 }

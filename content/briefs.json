@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-11-07",
+    "slug": "2026-11-07",
+    "title": "When the CEO on the call is an imitation",
+    "excerpt": "Prosecutors say employees spoke to both a fake executive and a fake lawyer in a $129 million scheme. Who chooses the callback number matters.",
+    "file": "2026-11-07.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Federal charges in the $129 million impersonation case",
+        "publisher": "U.S. Attorney’s Office, Southern District of New York",
+        "url": "https://www.justice.gov/usao-sdny/pr/three-foreign-nationals-arrested-and-charged-scheme-use-super-intelligence-defraud",
+        "publishedAt": "2026-11-05",
+        "kind": "Charging announcement"
+      },
+      {
+        "title": "Three charged in AI impersonation scheme",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/artificial-intelligence-impersonation-theft-fraud-c348a0c96e941214e56f8d923d03fc4b",
+        "checkedAt": "2026-11-07",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Trio accused of impersonating corporate executives",
+        "publisher": "ABC News",
+        "url": "https://abcnews.com/US/trio-ai-impersonate-corporate-execs-defrauding-companies-130/story?id=137894421",
+        "publishedAt": "2026-11-05",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Criminals use generative AI to facilitate financial fraud",
+        "publisher": "FBI Internet Crime Complaint Center",
+        "url": "https://www.ic3.gov/PSA/2024/PSA241203",
+        "publishedAt": "2024-12-03",
+        "kind": "Public guidance"
+      },
+      {
+        "title": "Business email compromise",
+        "publisher": "FBI Internet Crime Complaint Center",
+        "url": "https://www.ic3.gov/CrimeInfo/BEC",
+        "checkedAt": "2026-11-07",
+        "kind": "Incident response guidance"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-07-imitated-call.png",
+      "alt": "A grey parrot in a bow tie speaks into a desk phone beside a portrait of an executive wearing the same tie.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration of voice impersonation",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-06",
     "slug": "2026-11-06",
     "title": "Who fixes the Linux bugs GPT-6 Cyber finds?",

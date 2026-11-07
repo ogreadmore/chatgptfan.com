@@ -707,6 +707,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-07-imitated-call.png",
+      "brief": "2026-11-07",
+      "sha256": "cf6336f9c26a1bbcc4dd25e695b89f0961a4aad7f1f01c445f4e6ee11c0f6e79",
+      "reviewedAt": "2026-11-07",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "A grey parrot wearing an orange bow tie leans forward with open beak and sound marks over the microphone grille of a conference phone. A framed executive wears the same tie. The visual joke identifies whose voice the bird is copying and who is actually speaking into the phone. Side view shows one folded wing joined to the back, tail feathers, and two legs ending in separate feet resting on the desk. The far wing is hidden by the body. The portrait shows head, shoulders and collar. Zero hands, wrists or forearms to account for. Eye direction, beak, jaw, grille, handset symbol and frame stand read clearly. Inspected the original again after desktop and 390px homepage/article checks and the 1200×630 sharing PNG. Both ties, speaker and bird are visible even at phone size. Reviewed by the agent.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

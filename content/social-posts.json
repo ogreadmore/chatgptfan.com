@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-11-06",
+  "updatedAt": "2026-11-07",
   "items": [
+    {
+      "accountId": "OpenAI",
+      "url": "https://x.com/OpenAI/status/2118782708767965238",
+      "title": "OpenAI tests how agents read lab results",
+      "summary": "OpenAI says BioBasicsBench uses 100 tasks drawn from real experiments. It tests whether agents can interpret data, spot errors and recognize when the evidence is inconclusive. OpenAI developed it with biotech company Ligo.",
+      "coveredAt": "2026-11-07",
+      "checkedAt": "2026-11-07",
+      "sourceUrl": "https://x.com/OpenAI/status/2118782708767965238",
+      "sourceName": "X · original post"
+    },
+    {
+      "accountId": "gdb",
+      "url": "https://x.com/gdb/status/2118753277718528402",
+      "title": "A spoken goodbye ends a call with a dot",
+      "summary": "Greg Brockman shared a team update about calls with dots. The team says connections are faster and a caller can now say “goodbye” to hang up hands-free.",
+      "coveredAt": "2026-11-07",
+      "checkedAt": "2026-11-07",
+      "sourceUrl": "https://x.com/gdb/status/2118753277718528402",
+      "sourceName": "X · original post"
+    },
+    {
+      "accountId": "OpenAIDevs",
+      "url": "https://x.com/OpenAIDevs/status/2118856544733532452",
+      "title": "A Showcase tab for weekend builds",
+      "summary": "OpenAI Developers points builders to the new Showcase tab in its plugin and reminds eligible Pro and Business subscribers where to claim API credits.",
+      "coveredAt": "2026-11-07",
+      "checkedAt": "2026-11-07",
+      "sourceUrl": "https://x.com/OpenAIDevs/status/2118856544733532452",
+      "sourceName": "X · original post"
+    },
     {
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2118390190246879554",
@@ -82,42 +112,6 @@
       "checkedAt": "2026-11-06",
       "sourceUrl": "https://x.com/merettm/status/2112231743734579542",
       "sourceName": "X · original post"
-    },
-    {
-      "accountId": "gdb",
-      "url": "https://x.com/gdb/status/2114837059462627533",
-      "coveredAt": "2026-10-27",
-      "checkedAt": "2026-11-06",
-      "title": "Brockman shares new scientific claims",
-      "summary": "Brockman announced results across mathematics, computer science and physics. OpenAI describes the manuscripts as raw research material and sets out different release and expert-review arrangements. We have not verified the proofs.",
-      "sourceUrl": "https://x.com/gdb/status/2114837059462627533",
-      "sourceName": "X · original post",
-      "contextUrl": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-      "contextLabel": "Read the release and review approach"
-    },
-    {
-      "accountId": "OpenAI",
-      "url": "https://x.com/OpenAI/status/2113718797505036665",
-      "coveredAt": "2026-10-23",
-      "checkedAt": "2026-11-06",
-      "title": "OpenAI explains its offline training environment",
-      "summary": "OpenAI says frontier training uses cached web content without live internet access. Its infrastructure retains necessary connections; the announcement describes a containment policy, rather than independent verification of its effectiveness.",
-      "sourceUrl": "https://x.com/OpenAI/status/2113718797505036665",
-      "sourceName": "X · original post",
-      "contextUrl": "https://openai.com/index/securing-our-frontier-model-training-environment/",
-      "contextLabel": "Read the company account"
-    },
-    {
-      "accountId": "OpenAI",
-      "url": "https://x.com/OpenAI/status/2113298833392496746",
-      "coveredAt": "2026-10-22",
-      "checkedAt": "2026-11-06",
-      "title": "OpenAI responds to the outside monitoring review",
-      "summary": "OpenAI says the summer pilot with METR and Redwood helped strengthen its safeguards. Read the evaluators’ historical scope and the boundary around unverified fixes alongside the company response.",
-      "sourceUrl": "https://x.com/OpenAI/status/2113298833392496746",
-      "sourceName": "X · original post",
-      "contextUrl": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
-      "contextLabel": "Read the external evaluation"
     },
     {
       "accountId": "markchen90",
