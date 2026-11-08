@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-11-08",
+    "slug": "2026-11-08",
+    "title": "The pop-up that slipped past ChatGPT’s Lockdown Mode",
+    "excerpt": "Researchers found a way to send chat text through an HTML preview. OpenAI closed it in September. The test shows which protections matter when you upload a sensitive file.",
+    "file": "2026-11-08.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "HTML previews and the Lockdown Mode bypass",
+        "publisher": "Check Point Research",
+        "url": "https://research.checkpoint.com/2026/chatgpt-lockdown-mode-bypass-phishing-malware-delivery-and-silent-data-exfiltration/",
+        "publishedAt": "2026-11-05",
+        "kind": "Original technical disclosure"
+      },
+      {
+        "title": "When the sandbox leaks",
+        "publisher": "Cloud Security Alliance",
+        "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-chatgpt-lockdown-mode-bypass-20261106-csa/",
+        "publishedAt": "2026-11-06",
+        "kind": "Independent technical analysis"
+      },
+      {
+        "title": "Lockdown Mode",
+        "publisher": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/20001061-lockdown-mode",
+        "checkedAt": "2026-11-08",
+        "kind": "Product documentation"
+      },
+      {
+        "title": "Privacy considerations with AI tools",
+        "publisher": "Electronic Frontier Foundation",
+        "url": "https://ssd.eff.org/module/privacy-considerations-with-ai-tools",
+        "checkedAt": "2026-11-08",
+        "kind": "Practical guidance"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-08-preview-window.png",
+      "alt": "A ginger cat carries a letter out through an open window beside a firmly padlocked door.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration of the preview bypass",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-07",
     "slug": "2026-11-07",
     "title": "When the CEO on the call is an imitation",

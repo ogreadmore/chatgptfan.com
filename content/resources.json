@@ -634,7 +634,7 @@
     "provider": "Electronic Frontier Foundation",
     "kind": "Practical guidance",
     "description": "A readable guide to what happens to your data in AI apps, integrations, and local or cloud tools. Covers privacy settings, retention, and the limits of “private” modes.",
-    "checkedAt": "2026-10-30",
+    "checkedAt": "2026-11-08",
     "reviewEveryDays": 30,
     "safety": {
       "group": "everyday",
@@ -733,7 +733,7 @@
     "provider": "Common Sense Media · Youth AI Safety Institute",
     "kind": "Product evaluation",
     "description": "An October 7 assessment of teen safeguards, with its testing methods and findings. Read the original evidence and stated limits; OpenAI disputes the evaluation.",
-    "checkedAt": "2026-10-31",
+    "checkedAt": "2026-11-08",
     "reviewEveryDays": 30,
     "safety": {
       "group": "evidence",
@@ -767,7 +767,7 @@
     "provider": "CERT-In",
     "kind": "Government guidance",
     "description": "Practical guidance for keeping agent evaluations away from live systems, protecting credentials and detecting unauthorized activity.",
-    "checkedAt": "2026-11-01",
+    "checkedAt": "2026-11-08",
     "reviewEveryDays": 30,
     "level": "Technical teams",
     "cost": "Free advisory",
@@ -833,7 +833,7 @@
     "provider": "OpenAI Help Center",
     "kind": "Product documentation",
     "description": "How linked accounts, quiet hours, study settings and limited notifications work. A practical starting point for a family conversation about using ChatGPT.",
-    "checkedAt": "2026-11-06",
+    "checkedAt": "2026-11-08",
     "reviewEveryDays": 14,
     "safety": {
       "group": "everyday",
@@ -860,6 +860,24 @@
       "why": "Offers a way to check a caller’s identity even when a recording sounds convincing.",
       "readFirst": "Go to the protection tips. Hang up and use contact details you obtained independently. For a transfer already sent, follow the bank-recall and reporting steps in the companion guide.",
       "limits": "The reporting route is for the United States. A bank may be able to recall a transfer, but recovery is uncertain."
+    }
+  },
+  {
+    "id": "lockdown-mode",
+    "section": "safety",
+    "title": "Decide when to use ChatGPT Lockdown Mode",
+    "url": "https://help.openai.com/en/articles/20001061-lockdown-mode",
+    "provider": "OpenAI Help Center",
+    "kind": "Product documentation",
+    "description": "A guide to limiting where ChatGPT can send data when you work with sensitive material. Check which features you give up and which privacy settings you still need.",
+    "checkedAt": "2026-11-08",
+    "reviewEveryDays": 30,
+    "safety": {
+      "group": "everyday",
+      "audience": "People handling confidential files and workspace administrators",
+      "why": "Helps you decide whether a particular task needs live web or app access.",
+      "readFirst": "Read the list of restricted features. For managed workspaces, check the separate rules for apps and their write permissions.",
+      "limits": "Availability depends on your account. The setting leaves training preferences and Codex network access unchanged. An uploaded file can still contain instructions that influence the answer."
     }
   }
 ]

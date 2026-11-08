@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-11-07",
+  "reviewedAt": "2026-11-08",
   "resources": [
     "academy",
     "wharton-gail",
@@ -31,12 +31,12 @@
     "ai-now"
   ],
   "social": [
+    "https://x.com/OpenAI/status/2118795218099253606",
     "https://x.com/OpenAI/status/2118782708767965238",
     "https://x.com/gdb/status/2118753277718528402",
     "https://x.com/OpenAIDevs/status/2118856544733532452",
     "https://x.com/sama/status/2117794005165748448",
-    "https://x.com/merettm/status/2112231743734579542",
-    "https://x.com/OpenAI/status/2118390190246879554"
+    "https://x.com/merettm/status/2112231743734579542"
   ],
   "excludeNewsUrls": [
     "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
@@ -323,7 +323,11 @@
     "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVGp0Vmt2N095WHZQZ1NLZnBMUGJpS09iWk4tbVB5QjFqbWdoYUhwUkJpbkE4STVlZVdMSXhOb1J2OS1SSW1xbWVxSkhrNjNocmZVWGdraTI2cnFkNzdlQVFhd0VNdWFlWkxzWFZzYW5Gend3c0QxZFc2TGVLMEpuMkFJTlB1MDlpMWstQWFBUkVRYXR0dGhjVjd1WFBPN2NiMHk5X1BPRERxMW50SEE?oc=5",
     "https://www.theguardian.com/us-news/2026/nov/06/democrats-renew-calls-for-datacenter-pauses",
-    "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX3NGMHFJQlQwNk4yNzFPblZsOHRFS0FBcmc0b3JxbGRoSnUzUC00WGctejhmNllYa094VGFmMHJrSWYyaUhBRlFERkdKbktXSmRkcWhhc21JVUp5Z29kbFVtTE11YjZnc3ZkZU5jM3BvbmRqUVVyUDBveF9OTmJXd1poLVI1LVhlRUVfUjhzczh2b2t3cnZuTUc4UDExWXFmVWlQZ2R4MHVQaGllbnljdlR2UQ?oc=5"
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX3NGMHFJQlQwNk4yNzFPblZsOHRFS0FBcmc0b3JxbGRoSnUzUC00WGctejhmNllYa094VGFmMHJrSWYyaUhBRlFERkdKbktXSmRkcWhhc21JVUp5Z29kbFVtTE11YjZnc3ZkZU5jM3BvbmRqUVVyUDBveF9OTmJXd1poLVI1LVhlRUVfUjhzczh2b2t3cnZuTUc4UDExWXFmVWlQZ2R4MHVQaGllbnljdlR2UQ?oc=5",
+    "https://www.theguardian.com/us-news/2026/nov/07/faa-digital-air-traffic-control-tower-technology",
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVGE5cWdNNmdGUVUta195UWctb3dsWEp2d0ZDRE5FQU02SDRwckpqa25JM2QxNk1wOTV5aXF4NDJiZnRZRzlCcm85RzNjOEltYktuc1NDQ2Y2UzJOc2VMQm5HaFZUR2FGdkNDMVhoazNkN1FTYTBVdWRDQjItS2c2ZUVoemlwVVg4X3Z6cVhtTEx4NWtVbjhSMm5NR1loaXVaUkNFOTVB?oc=5",
+    "https://www.theguardian.com/technology/ng-interactive/2026/nov/07/philadelphia-blocking-food-delivery-robots",
+    "https://status.openai.com//incidents/01M6S2FV5TZWQ753NHRB7BF5K7"
   ],
   "videos": [
     "https://www.youtube.com/watch?v=hJOwOkLHRN0",

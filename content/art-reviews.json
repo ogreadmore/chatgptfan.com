@@ -730,6 +730,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-08-preview-window.png",
+      "brief": "2026-11-08",
+      "sha256": "c4450f8cf8e5fdb2e25acd47b85a8732f6a0b71915ba5d6fc323335f0d5f4877",
+      "reviewedAt": "2026-11-08",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "The ginger cat has a folded letter in its mouth, already outside the open side window of a little house; the hasp and gold padlock hold the front door closed. That juxtaposition makes the alternate path for correspondence visible. The eyes look toward the door, the mouth grips the envelope corner, and both ears and the neck join one head. The sill and near wall conceal all four legs. Zero exposed limbs, paws, human hands or stray shapes. The lock, envelope and gap remain distinct in the desktop and 390px homepage and article. Inspected the final 1672×941 PNG twice and the actual split 1200×630 card; text and full art fit. Agent review.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }
