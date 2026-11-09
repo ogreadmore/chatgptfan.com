@@ -1,5 +1,66 @@
 [
   {
+    "date": "2026-11-09",
+    "slug": "2026-11-09",
+    "title": "Who gets to see the results of U.S. AI safety tests?",
+    "excerpt": "As Trump signals openness to AI guardrails, questions about the federal testing center put its public record in focus. One published test shows what readers can check for themselves.",
+    "file": "2026-11-09.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Staff at the U.S. center for AI safety and the White House",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/ai-safety-trump-white-house-d3318eb2cf011df53e9ddb3e03d25f13",
+        "publishedAt": "2026-11-08",
+        "kind": "Original reporting"
+      },
+      {
+        "title": "The post-midterm interview with President Trump",
+        "publisher": "CBS News · 60 Minutes",
+        "url": "https://www.cbsnews.com/news/donald-trump-2026-post-midterm-elections-interview-60-minutes-transcript/",
+        "publishedAt": "2026-11-08",
+        "kind": "Interview transcript"
+      },
+      {
+        "title": "Trump signals openness to AI guardrails",
+        "publisher": "Reuters via Investing.com",
+        "url": "https://www.investing.com/news/world-news/trump-says-ai-risks-can-be-managed-signals-openness-to-guardrails-5010374",
+        "publishedAt": "2026-11-08",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Assessment of GLM-5.3’s cyber capabilities",
+        "publisher": "NIST",
+        "url": "https://www.nist.gov/news-events/news/2026/09/caisis-assessment-zais-glm-53-cyber-capabilities",
+        "publishedAt": "2026-09-17",
+        "kind": "Government evaluation"
+      },
+      {
+        "title": "Incident readiness during training and evaluation",
+        "publisher": "NIST",
+        "url": "https://www.nist.gov/news-events/news/2026/10/key-practices-incident-readiness-and-response-super-intelligence-training",
+        "publishedAt": "2026-10-16",
+        "kind": "Government guidance"
+      },
+      {
+        "title": "CAISSI’s remit and publications",
+        "publisher": "NIST",
+        "url": "https://www.nist.gov/caissi",
+        "checkedAt": "2026-11-09",
+        "kind": "Agency documentation"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-09-test-window.png",
+      "alt": "A woman looks through a lab window at a small wheeled robot. A lowered shade hides the reading on the test dial.",
+      "credit": "AI-generated editorial cartoon · Conceptual illustration of access to test results",
+      "width": 1672,
+      "height": 941,
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-08",
     "slug": "2026-11-08",
     "title": "The pop-up that slipped past ChatGPT’s Lockdown Mode",

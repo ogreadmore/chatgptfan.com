@@ -58,7 +58,7 @@
     "kind": "Course",
     "level": "Beginner",
     "description": "Hands-on practice in prompting, workplace tasks, and responsible use. A structured option for people who want a short course with a completion certificate.",
-    "checkedAt": "2026-11-01",
+    "checkedAt": "2026-11-09",
     "cost": "Paid course",
     "time": "Under 5 hours · provider estimate",
     "credential": "Google completion certificate; not a professional license.",
@@ -141,9 +141,9 @@
     "url": "https://huggingface.co/learn",
     "provider": "Hugging Face",
     "kind": "Courses",
-    "description": "Courses on language models, agents, context engineering and audio, alongside an open-source AI cookbook. Choose a subject and check its prerequisites before starting.",
+    "description": "Courses on language models, agents, robotics and audio, plus an open-source cookbook. Choose a subject and check the course prerequisites before starting.",
     "level": "Developer",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-11-09",
     "cost": "Varies by course",
     "bestFor": "Exploring additional technical subjects",
     "reviewEveryDays": 30,
@@ -158,8 +158,8 @@
     "provider": "OpenAI",
     "kind": "Developer guide",
     "level": "Developer",
-    "description": "A prompt caching guide to shared prefixes, stable tool definitions and cache breakpoints. Includes diagnostics for misses; compare cache-write costs with the savings from repeated reads.",
-    "checkedAt": "2026-10-19",
+    "description": "Learn how repeated API calls reuse the beginning of a prompt. Use the guide’s usage fields to check for cache hits and compare the cost of an initial write with later reads.",
+    "checkedAt": "2026-11-09",
     "cost": "Free documentation · paid API usage",
     "needs": "An API integration with repeated context. Rates and cache behavior vary by model; a persistent session does not guarantee a cache hit.",
     "bestFor": "Reducing avoidable latency and input costs",
@@ -878,6 +878,25 @@
       "why": "Helps you decide whether a particular task needs live web or app access.",
       "readFirst": "Read the list of restricted features. For managed workspaces, check the separate rules for apps and their write permissions.",
       "limits": "Availability depends on your account. The setting leaves training preferences and Codex network access unchanged. An uploaded file can still contain instructions that influence the answer."
+    }
+  },
+  {
+    "id": "nist-public-evaluations",
+    "section": "safety",
+    "title": "Read a U.S. government AI model evaluation",
+    "url": "https://www.nist.gov/news-events/news/2026/09/caisis-assessment-zais-glm-53-cyber-capabilities",
+    "sourceUrl": "https://www.nist.gov/caissi",
+    "provider": "National Institute of Standards and Technology",
+    "kind": "Government evaluation",
+    "description": "A worked example of how to read a federal model test. See the instructions, tools, scoring rules and uncertainty behind four cybersecurity benchmarks.",
+    "checkedAt": "2026-11-09",
+    "reviewEveryDays": 45,
+    "safety": {
+      "group": "evidence",
+      "audience": "Readers assessing AI capability claims",
+      "why": "Shows exactly how much help the researchers gave the model and which comparisons they made.",
+      "readFirst": "Start with SEC-Bench Pro in the methods table. Compare the clues given to the model with the task you thought the headline described.",
+      "limits": "Tests one model version in a controlled setting. These results do not establish how often users will face harm in ordinary use."
     }
   }
 ]

@@ -753,6 +753,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-09-test-window.png",
+      "brief": "2026-11-09",
+      "sha256": "011088b566fd514aebe25c15c7b517f138a4d8262889c72c47076029f361df53",
+      "reviewedAt": "2026-11-09",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "A woman looks through glass at a wheeled test vehicle. The blind covers the dial’s center and reading; its colored lower arc is visible. An illustration of limited access to results, not a reconstruction of anyone hiding a report. One near shoulder and upper arm join the clothed torso and continue out of frame; far arm hidden, no visible forearms, hands, legs or feet. The face, wheels, blind and pull cord are distinct. Zero hands. Inspected the original 1672×941 pixels twice, desktop and 390px homepage and article, and the actual 1200×630 split sharing card. The vehicle, reader, blind and gauge survive all crops; the sharing title fits. Agent review.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }
