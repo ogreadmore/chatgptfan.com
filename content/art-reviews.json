@@ -776,6 +776,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-10-trip-alarm.png",
+      "brief": "2026-11-10",
+      "sha256": "00c8cb7919e95d7ab4beae4a5870b93550e9cfaff31241df4180f44d27483ae9",
+      "reviewedAt": "2026-11-10",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "An orange unmanned rover interrupts the red beam between two aligned sensor posts. The beam stops at the shell and the far receiver is dark; the amber lamp above the Australia silhouette is lit. The physical alarm makes early incident notification legible without claiming that government researchers used a physical rover. Two visible wheels meet the floor and chassis; the dark lens is built into the nose. No people, faces, arms, legs or hands; no ambiguous attachments. Original pixels inspected twice. Desktop and 390px homepage/article retain both posts, beam, beacon and cart. Actual 1200×630 split card retains all four cues with a legible, unclipped title. Agent review.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

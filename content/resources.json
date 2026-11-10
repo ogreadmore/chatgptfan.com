@@ -206,8 +206,8 @@
     "provider": "n8n",
     "kind": "Automation",
     "level": "Intermediate",
-    "description": "Connect apps, triggers, and model calls in a visual workflow. Useful when an AI step needs to sit inside a repeatable business process.",
-    "checkedAt": "2026-11-03",
+    "description": "Run a workflow when an app sends an event, then pass the result to another app or model. Cloud pricing counts runs of the whole workflow, so a ten-step run counts as one execution.",
+    "checkedAt": "2026-11-10",
     "cost": "Paid cloud by workflow execution · self-host options",
     "needs": "App credentials and workflow setup. Cloud bills by workflow run; Assistant credits and model usage have separate allowances. Trials are limited. History limits remove old logs rather than stop workflows; paid self-hosted quotas can incur overages. Check license terms before reselling.",
     "bestFor": "Connecting AI to the apps you use",
@@ -222,7 +222,7 @@
     "kind": "Local models",
     "level": "Intermediate",
     "description": "Explore open models on your own computer through a desktop interface. Its Bionic agent also supports document and coding work.",
-    "checkedAt": "2026-11-02",
+    "checkedAt": "2026-11-10",
     "cost": "Free local use · paid cloud",
     "needs": "Hardware requirements depend on the model. Local inference is free; optional Bionic+ starts at US$20/month. Cloud models and web tools send data off your device, so check which mode you are using.",
     "bestFor": "Experimenting with local models",
@@ -236,8 +236,8 @@
     "url": "https://apps.shopify.com/chatgpt",
     "provider": "OpenAI · Shopify App Store listing",
     "kind": "Marketing tools",
-    "description": "A product-catalog integration for creating and measuring paid ChatGPT campaigns. Review the listing’s data permissions and current availability before connecting a store. A marketing channel, not evidence of earnings.",
-    "checkedAt": "2026-11-03",
+    "description": "Sync a Shopify catalog with ChatGPT Ads Manager, build campaigns from product listings and measure conversions with the Shopify pixel. Check its data permissions before connecting a store.",
+    "checkedAt": "2026-11-10",
     "level": "Business",
     "cost": "Free app · paid campaigns",
     "bestFor": "Merchants evaluating a new advertising channel",
@@ -897,6 +897,25 @@
       "why": "Shows exactly how much help the researchers gave the model and which comparisons they made.",
       "readFirst": "Start with SEC-Bench Pro in the methods table. Compare the clues given to the model with the task you thought the headline described.",
       "limits": "Tests one model version in a controlled setting. These results do not establish how often users will face harm in ordinary use."
+    }
+  },
+  {
+    "id": "au-incident-reporting",
+    "section": "safety",
+    "title": "What Australia wants AI labs to report",
+    "url": "https://www.pmc.gov.au/resources/rapid-review-australian-government-arrangements-ai-driven-cyber-incident/rapid-review-australian-government-arrangements-ai-driven-cyber-incident-recommendations",
+    "sourceUrl": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+    "provider": "Australian Department of the Prime Minister and Cabinet",
+    "kind": "Government review",
+    "description": "Read the recommendations prompted by the Medicare portal incident. Compare what the reviewers proposed with the safety standards the government says it will legislate.",
+    "checkedAt": "2026-11-10",
+    "reviewEveryDays": 30,
+    "safety": {
+      "group": "policy",
+      "audience": "Readers following AI oversight and incident reporting",
+      "why": "Shows how a real incident can lead to proposals about reporting deadlines, near misses and regulator powers.",
+      "readFirst": "Read recommendations 3 and 4 together: one concerns a reporting clock, the other what might encourage people to report near misses.",
+      "limits": "These are recommendations. Acceptance by the government does not itself create a legal duty or enact a penalty."
     }
   }
 ]

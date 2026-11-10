@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-11-09",
+  "updatedAt": "2026-11-10",
   "items": [
+    {
+      "accountId": "OpenAIDevs",
+      "url": "https://x.com/OpenAIDevs/status/2119883176726409645",
+      "title": "Choose which computer a dot uses",
+      "summary": "OpenAI Developers says a dot can connect to multiple local computers. You can assign a build and its tests to one machine and keep working on another.",
+      "coveredAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
+      "sourceUrl": "https://x.com/OpenAIDevs/status/2119883176726409645",
+      "sourceName": "X · original post"
+    },
+    {
+      "accountId": "OpenAI",
+      "url": "https://x.com/OpenAI/status/2119913172039868579",
+      "title": "What starts the 35-second stop clock",
+      "summary": "OpenAI says Control Room can halt research model output within 35 seconds of a stop instruction. The timing measures the response to that instruction, not how quickly an incident is detected.",
+      "coveredAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
+      "sourceUrl": "https://x.com/OpenAI/status/2119913172039868579",
+      "sourceName": "X · original post",
+      "contextUrl": "https://openai.com/index/control-room/",
+      "contextLabel": "Read the technical description"
+    },
+    {
+      "accountId": "OpenAIDevs",
+      "url": "https://x.com/OpenAIDevs/status/2119864571733446774",
+      "title": "Build a game for a handheld with Codex",
+      "summary": "OpenAI Developers says the ModRetro Chromatic plugin can help design levels and animate sprites for testing on the handheld. The announcement also promotes a paid device.",
+      "coveredAt": "2026-11-09",
+      "checkedAt": "2026-11-10",
+      "sourceUrl": "https://x.com/OpenAIDevs/status/2119864571733446774",
+      "sourceName": "X · original post"
+    },
     {
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2118795218099253606",
@@ -24,26 +56,6 @@
       "sourceName": "X · original post"
     },
     {
-      "accountId": "gdb",
-      "url": "https://x.com/gdb/status/2118753277718528402",
-      "title": "A spoken goodbye ends a call with a dot",
-      "summary": "Greg Brockman shared a team update about calls with dots. The team says connections are faster and a caller can now say “goodbye” to hang up hands-free.",
-      "coveredAt": "2026-11-07",
-      "checkedAt": "2026-11-07",
-      "sourceUrl": "https://x.com/gdb/status/2118753277718528402",
-      "sourceName": "X · original post"
-    },
-    {
-      "accountId": "OpenAIDevs",
-      "url": "https://x.com/OpenAIDevs/status/2118856544733532452",
-      "title": "A Showcase tab for weekend builds",
-      "summary": "OpenAI Developers points builders to the new Showcase tab in its plugin and reminds eligible Pro and Business subscribers where to claim API credits.",
-      "coveredAt": "2026-11-07",
-      "checkedAt": "2026-11-07",
-      "sourceUrl": "https://x.com/OpenAIDevs/status/2118856544733532452",
-      "sourceName": "X · original post"
-    },
-    {
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2118390190246879554",
       "title": "OpenAI limits GPT-6 Cyber access to selected defenders",
@@ -63,16 +75,6 @@
       "coveredAt": "2026-11-06",
       "checkedAt": "2026-11-06",
       "sourceUrl": "https://x.com/OpenAIDevs/status/2118386439675420743",
-      "sourceName": "X · original post"
-    },
-    {
-      "accountId": "OpenAI",
-      "url": "https://x.com/OpenAI/status/2118124944928432327",
-      "title": "OpenAI introduces Images 2.6",
-      "summary": "OpenAI announces GIF creation, reusable reference images and two new API image models. Its speed and consistency improvements are company claims; inspect the final image rather than assuming the upgrade fixes errors.",
-      "coveredAt": "2026-11-05",
-      "checkedAt": "2026-11-06",
-      "sourceUrl": "https://x.com/OpenAI/status/2118124944928432327",
       "sourceName": "X · original post"
     },
     {

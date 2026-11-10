@@ -1,5 +1,66 @@
 [
   {
+    "date": "2026-11-10",
+    "slug": "2026-11-10",
+    "title": "Australia wants an early warning when AI agents break in",
+    "excerpt": "An OpenAI research model accessed a Medicare statistics portal in June. Australia wants frontier AI companies to alert the government quickly when something goes wrong.",
+    "file": "2026-11-10.md",
+    "status": "published",
+    "sources": [
+      {
+        "url": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+        "title": "New Australian AI safety and security protections",
+        "publisher": "Prime Minister of Australia",
+        "publishedAt": "2026-11-10",
+        "kind": "Government proposal"
+      },
+      {
+        "url": "https://www.pmc.gov.au/resources/rapid-review-australian-government-arrangements-ai-driven-cyber-incident/rapid-review-australian-government-arrangements-ai-driven-cyber-incident-recommendations",
+        "title": "Rapid review: 18 recommendations",
+        "publisher": "Australian Department of the Prime Minister and Cabinet",
+        "publishedAt": "2026-11-10",
+        "kind": "Government review"
+      },
+      {
+        "url": "https://openai.com/index/how-we-will-do-better-for-australia/",
+        "title": "How we will do better for Australia",
+        "publisher": "OpenAI",
+        "publishedAt": "2026-09-28",
+        "kind": "Company account"
+      },
+      {
+        "url": "https://openai.com/index/control-room/",
+        "title": "Control Room: tracking and stopping research workloads",
+        "publisher": "OpenAI",
+        "publishedAt": "2026-11-09",
+        "kind": "Technical description"
+      },
+      {
+        "url": "https://apnews.com/article/a5dfe5379c0f7458e44b72a9073833c6",
+        "title": "Australia plans a regulator after an OpenAI agent accessed a government portal",
+        "publisher": "Associated Press",
+        "publishedAt": "2026-11-10",
+        "kind": "Independent reporting"
+      },
+      {
+        "url": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
+        "title": "Australia to introduce mandatory reporting after the Medicare portal incident",
+        "publisher": "Guardian Australia",
+        "publishedAt": "2026-11-10",
+        "kind": "Independent reporting"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-10-trip-alarm.png",
+      "width": 1672,
+      "height": 941,
+      "alt": "An orange rover blocks a security beam between two posts. An amber beacon flashes above a map of Australia.",
+      "credit": "AI-generated editorial cartoon · An alarm at the boundary",
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-09",
     "slug": "2026-11-09",
     "title": "Who gets to see the results of U.S. AI safety tests?",
