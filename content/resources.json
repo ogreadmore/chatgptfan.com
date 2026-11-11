@@ -255,7 +255,7 @@
     "description": "A virtual village where AI characters talk and socialize. An open-source starting point for experimenting with simulated worlds; supports several model providers, including OpenAI-compatible APIs.",
     "image": "village.png",
     "imageAlt": "Editorial pixel illustration of a small village among green trees",
-    "checkedAt": "2026-11-01",
+    "checkedAt": "2026-11-11",
     "level": "Developer",
     "cost": "Hosting & model costs",
     "bestFor": "Exploring playful agent simulations",
@@ -302,7 +302,7 @@
     "kind": "Voice",
     "level": "Developer",
     "description": "A current TypeScript starting point for a browser voice assistant, using the Agents SDK and WebRTC. Covers connection setup, microphone audio and a first conversation.",
-    "checkedAt": "2026-11-04",
+    "checkedAt": "2026-11-11",
     "cost": "API usage required",
     "needs": "Node.js/TypeScript, Zod v4 and OpenAI API access. Keep the regular API key on a backend; use short-lived client tokens in the browser. Source reviewed, not run by this site.",
     "bestFor": "Starting a new voice project with current APIs",
@@ -332,7 +332,7 @@
     "kind": "Reference demo",
     "level": "Developer",
     "description": "A Next.js reference for chat-supervisor and sequential-handoff voice patterns. Its sample session still requests a retired Realtime preview model, so it needs migration before use.",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-11-11",
     "cost": "API usage required",
     "needs": "Node.js, TypeScript and paid API access. The sample requests gpt-4o-realtime-preview-2025-06-03, listed as shut down May 7, 2026. Use the current voice quickstart for a new project. Source reviewed; demo not run.",
     "bestFor": "Studying voice-agent supervision and handoff patterns",
@@ -365,7 +365,7 @@
     "description": "A sketch-to-interface project built with the tldraw SDK. The repository was archived on February 20, 2026; treat it as a reference rather than an actively maintained starter. Its README links to a separate starter repository.",
     "image": "sketch.png",
     "imageAlt": "Editorial pixel illustration of sketches turning into an interface",
-    "checkedAt": "2026-11-01",
+    "checkedAt": "2026-11-11",
     "status": "archived",
     "level": "Developer",
     "bestFor": "Studying a sketch-to-interface experiment",
@@ -916,6 +916,40 @@
       "why": "Shows how a real incident can lead to proposals about reporting deadlines, near misses and regulator powers.",
       "readFirst": "Read recommendations 3 and 4 together: one concerns a reporting clock, the other what might encourage people to report near misses.",
       "limits": "These are recommendations. Acceptance by the government does not itself create a legal duty or enact a penalty."
+    }
+  },
+  {
+    "id": "upwork-ai-scope",
+    "section": "money",
+    "title": "Read a freelance budget before you bid",
+    "url": "https://cdn.openai.com/pdf/openai-upwork-full-report.pdf",
+    "sourceUrl": "https://openai.com/index/ai-effect-on-freelance-work/",
+    "provider": "OpenAI and Upwork researchers",
+    "kind": "Marketplace research",
+    "level": "All levels",
+    "description": "Compare advertised project budgets, hourly rates and hours actually logged. Exhibit 2.4 separates what clients offer for the whole job from what they offer for an hour.",
+    "cost": "Free report (PDF)",
+    "bestFor": "Scoping a freelance project",
+    "needs": "Results describe one marketplace. Posted budgets are not earnings; estimate your own revisions, testing and delivery time.",
+    "checkedAt": "2026-11-11",
+    "reviewEveryDays": 60
+  },
+  {
+    "id": "ny-raise-reporting",
+    "section": "safety",
+    "title": "What New York asks frontier developers to report",
+    "url": "https://www.nysenate.gov/legislation/laws/GBS/1422",
+    "provider": "New York State Senate",
+    "kind": "Statute",
+    "description": "Read section 1422 of the RAISE Act. It distinguishes critical incidents from routine problems and explains what starts the reporting clock.",
+    "checkedAt": "2026-11-11",
+    "reviewEveryDays": 30,
+    "safety": {
+      "group": "policy",
+      "audience": "Readers comparing AI incident reporting rules",
+      "why": "Lets you check the actual reporting duties against public claims about them.",
+      "readFirst": "Compare subdivision 3(a), the ordinary reporting clock, with 3(b), the rule for imminent physical danger.",
+      "limits": "This section concerns frontier models and defined critical safety incidents. It is not a general consumer complaint process."
     }
   }
 ]

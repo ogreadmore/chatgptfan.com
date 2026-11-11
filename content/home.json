@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-11-10",
+  "reviewedAt": "2026-11-11",
   "resources": [
     "academy",
     "wharton-gail",
@@ -20,9 +20,9 @@
     "hf-spaces"
   ],
   "money": [
+    "upwork-ai-scope",
     "chatgpt-api-credits",
-    "ai-business-value",
-    "aws-project-spend-limit"
+    "ai-business-value"
   ],
   "safetyFeature": "safety-report",
   "safety": [
@@ -31,10 +31,10 @@
     "ai-now"
   ],
   "social": [
-    "https://x.com/OpenAIDevs/status/2119883176726409645",
-    "https://x.com/OpenAI/status/2118782708767965238",
-    "https://x.com/OpenAIDevs/status/2119864571733446774",
-    "https://x.com/OpenAI/status/2119913172039868579",
+    "https://x.com/OpenAI/status/2120216592395174382",
+    "https://x.com/OpenAIDevs/status/2120258357533749755",
+    "https://x.com/gdb/status/2117435285021810921",
+    "https://x.com/OpenAIDevs/status/2120212596850663712",
     "https://x.com/sama/status/2117794005165748448",
     "https://x.com/merettm/status/2112231743734579542"
   ],
@@ -361,14 +361,20 @@
     "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMERscVA0bmtmSTlEYWRSTzV1bzVFVnFOQnR4ZjMtMzgyR0o0aFpzVmZDTklKMjUxZ2ptTTU2ZlA3UzRiNU1HUFIzd2gycHliSlo3ZkpOMk93akxqcjdQX05iSWZuQU9ZWlV2Q2o5cV80TTBqckFzOFlOREtOTHR4dVpFb29ZRkRTbDl3RGJrN0FrNEp1aGdTeVN2bkR3UlNYa0padDRqTTNINlNNdzVzTG9CcjlZV2tUaFV2SHlxcENUS28?oc=5",
     "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUzg0SWNIOFJSV3ZySXd6Ml9OWmdJS3ZlbDRMVWFOUVhRa1g5bE91N0VRTkJTQlVpbjhiWXJnSEt0ZlVmM3NVUVFyNk9nV2FVNG9jdXNWUFB5bnpESTd6M1Z4eGJPWGJHZUNYcEdPUDRqaVdXQlRaSjk4NEpHZVRxbkgtYnNTSERpUjJvczFDU0x3WE1CZFB6RG0zRm00SEc3RkRzMGlGend0WjdSenc?oc=5",
-    "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation"
+    "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+    "https://www.theguardian.com/commentisfree/picture/2026/nov/11/australians-are-not-streaming-australian-music-why-the-hell-not",
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxQa0R5YUh3ZWFLeEFIWkZaOWRqdUJTVWRveTdmMmpIWDR6enhRam9OX3FzUEpJMkJhUFhHclBKMHFqQldFbW4xRm9seERZNGVpOVVtcW85dWtmckM5czBtcmhzd0hDc1FyV3dmb3luank2MFhHRXNuTkRLU3k5bUFVSU1iRU01b0x3aEMyQm1BcGtmbDg5UXQwWVl0WQ?oc=5",
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOG9OZzJuZm1xMUpsNTF6M2dFN2VIbG1PaTRBU25xdUNtRnk2ZDg2c05UdERqUHQwcjN6OGhuZUoxajU0aFNGVWhLekxITjdwV1BwUFNucUdMaHp1N1UwWmhVYXI1Q3ZQUUFjVTBGbG1IUXVHTWlTQUU5TUlJc1RMYWREUkhwaFpKWFNyMW83a0k5dw?oc=5",
+    "https://simonwillison.net/2026/Nov/10/llm-gemini",
+    "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo",
+    "https://openai.com/index/ai-effect-on-freelance-work"
   ],
   "videos": [
+    "https://www.youtube.com/watch?v=Z9k5oI3Paoc",
+    "https://www.youtube.com/watch?v=jDxKzlGLCas",
     "https://www.youtube.com/watch?v=FNTz0CdqL6g",
-    "https://www.youtube.com/watch?v=hJOwOkLHRN0",
-    "https://www.youtube.com/watch?v=pXRZyOxbDL4",
-    "https://www.youtube.com/watch?v=bJldMYfRvMQ",
-    "https://www.youtube.com/watch?v=NCxD-qsQcN0",
-    "https://www.youtube.com/watch?v=yC72iQx6rM0"
+    "https://www.youtube.com/watch?v=gUQN7juxvVI",
+    "https://www.youtube.com/watch?v=5YXlrzC_RYE",
+    "https://www.youtube.com/watch?v=hJOwOkLHRN0"
   ]
 }

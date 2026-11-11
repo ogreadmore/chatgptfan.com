@@ -799,6 +799,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-11-video-storyboard.png",
+      "brief": "2026-11-11",
+      "sha256": "c6aadbbc68301511a8c7ee66e31a50a3b4680203fd1bd3fc949fec7f10b639c9",
+      "reviewedAt": "2026-11-11",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "A woman looks to her right at three consecutive pictures of one orange balloon: grounded, just clear of the ground, then high above the ridge. A waveform runs below the sequence on the same pinned board. The visible picture and audio work illustrate the multiple deliverables in a video commission. Her head, gaze, ear and neck are coherent. Both shoulders lead into distinct shirt sleeves at the bottom of frame. No visible elbows, forearms, wrists, hands or lower limbs. No implied grip, detached appendage or reflection. The earring hangs from the ear; the board and pins are independent of the figure. Judged once on generation and again from the unchanged final PNG. All three frames, waveform and face remain legible on desktop and 390px home and article. The actual split sharing card shows the intact artwork and full headline. Agent inspected, not owner-approved.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

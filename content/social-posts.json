@@ -1,6 +1,38 @@
 {
-  "updatedAt": "2026-11-10",
+  "updatedAt": "2026-11-11",
   "items": [
+    {
+      "accountId": "OpenAI",
+      "url": "https://x.com/OpenAI/status/2120216592395174382",
+      "title": "What a business can claim inside ChatGPT",
+      "summary": "OpenAI says verified businesses can update their information. Its separate Business Agents beta starts with eligible U.S. ecommerce and online service businesses.",
+      "coveredAt": "2026-11-10",
+      "checkedAt": "2026-11-11",
+      "sourceUrl": "https://x.com/OpenAI/status/2120216592395174382",
+      "sourceName": "X · original post",
+      "contextUrl": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "contextLabel": "Read the beta eligibility details"
+    },
+    {
+      "accountId": "OpenAIDevs",
+      "url": "https://x.com/OpenAIDevs/status/2120258357533749755",
+      "title": "From a product photo to a video ad",
+      "summary": "OpenAI Developers shares a Runway demonstration of turning a still photo into a video ad and trying alternate opening shots. The examples come from the vendor.",
+      "coveredAt": "2026-11-10",
+      "checkedAt": "2026-11-11",
+      "sourceUrl": "https://x.com/OpenAIDevs/status/2120258357533749755",
+      "sourceName": "X · original post"
+    },
+    {
+      "accountId": "OpenAIDevs",
+      "url": "https://x.com/OpenAIDevs/status/2120212596850663712",
+      "title": "Use a Business plan in supported tools",
+      "summary": "OpenAI Developers says ChatGPT Business users can sign in to supported tools including Notion, v0 and Warp with their ChatGPT account.",
+      "coveredAt": "2026-11-10",
+      "checkedAt": "2026-11-11",
+      "sourceUrl": "https://x.com/OpenAIDevs/status/2120212596850663712",
+      "sourceName": "X · original post"
+    },
     {
       "accountId": "OpenAIDevs",
       "url": "https://x.com/OpenAIDevs/status/2119883176726409645",
@@ -53,38 +85,6 @@
       "coveredAt": "2026-11-07",
       "checkedAt": "2026-11-07",
       "sourceUrl": "https://x.com/OpenAI/status/2118782708767965238",
-      "sourceName": "X · original post"
-    },
-    {
-      "accountId": "OpenAI",
-      "url": "https://x.com/OpenAI/status/2118390190246879554",
-      "title": "OpenAI limits GPT-6 Cyber access to selected defenders",
-      "summary": "OpenAI says its Linux kernel research used GPT-6 Cyber. Selected Daybreak Red customers can use it, and OpenAI plans to expand access over time.",
-      "contextUrl": "https://deploymentsafety.openai.com/gpt-6-cyber",
-      "contextLabel": "Read the system card",
-      "coveredAt": "2026-11-06",
-      "checkedAt": "2026-11-06",
-      "sourceUrl": "https://x.com/OpenAI/status/2118390190246879554",
-      "sourceName": "X · original post"
-    },
-    {
-      "accountId": "OpenAIDevs",
-      "url": "https://x.com/OpenAIDevs/status/2118386439675420743",
-      "title": "Where private API safety reviews take place",
-      "summary": "OpenAI Developers says Private Safety Processing keeps records in the customer’s environment. An automated agent reviews related requests there, and OpenAI says its personnel cannot access the content.",
-      "coveredAt": "2026-11-06",
-      "checkedAt": "2026-11-06",
-      "sourceUrl": "https://x.com/OpenAIDevs/status/2118386439675420743",
-      "sourceName": "X · original post"
-    },
-    {
-      "accountId": "OpenAI",
-      "url": "https://x.com/OpenAI/status/2117692475775258785",
-      "title": "OpenAI shares physical engineering experiments",
-      "summary": "OpenAI describes using ChatGPT and Codex for mechanical design, electrical engineering and simulation. Its thread calls these early steps and says engineers review the outputs; these are company-reported examples, not independent validation.",
-      "coveredAt": "2026-11-04",
-      "checkedAt": "2026-11-06",
-      "sourceUrl": "https://x.com/OpenAI/status/2117692475775258785",
       "sourceName": "X · original post"
     },
     {

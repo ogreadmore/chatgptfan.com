@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-11-11",
+    "slug": "2026-11-11",
+    "title": "AI freelance jobs offer bigger budgets. What do they buy?",
+    "excerpt": "Upwork postings that asked for AI advertised 52% more for a fixed-price project, but only 1.5% more per hour. The difference matters when you quote the job.",
+    "file": "2026-11-11.md",
+    "status": "published",
+    "sources": [
+      {
+        "url": "https://cdn.openai.com/pdf/openai-upwork-full-report.pdf",
+        "title": "The Rebundling of Freelance Work in the AI Age",
+        "publisher": "OpenAI and Upwork researchers",
+        "publishedAt": "2026-11-10",
+        "kind": "Research report"
+      },
+      {
+        "url": "https://openai.com/index/ai-effect-on-freelance-work/",
+        "title": "Work at the Frontier: AI’s effect on freelance work",
+        "publisher": "OpenAI",
+        "publishedAt": "2026-11-10",
+        "kind": "Research overview"
+      },
+      {
+        "url": "https://doi.org/10.1287/mnsc.2024.05420",
+        "title": "Who Is AI Replacing? The Impact of Generative AI on Online Freelancing Platforms",
+        "publisher": "Management Science",
+        "publishedAt": "2025-01-24",
+        "kind": "Independent research"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-11-video-storyboard.png",
+      "width": 1672,
+      "height": 941,
+      "alt": "A video editor studies three storyboard frames of an orange balloon lifting off, with a soundtrack drawn beneath the sequence.",
+      "credit": "AI-generated editorial cartoon · Planning the whole edit",
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-10",
     "slug": "2026-11-10",
     "title": "Australia wants an early warning when AI agents break in",
