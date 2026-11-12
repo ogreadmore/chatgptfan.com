@@ -822,6 +822,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-12-ticket-kiosk.png",
+      "brief": "2026-11-12",
+      "sha256": "b2cf31f0e2e00ac405f1d5b214b832acda82c486c44b58e4e7e4456c6b5e316c",
+      "reviewedAt": "2026-11-12",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "A wheeled suitcase with eyes is turned toward a machine marked with an airplane. The screen shows a crossed-out version of the suitcase robot’s face; the slot below is empty. The refusal is a visible response to this assistant, not a claim about an actual airport kiosk. Its two eyes look up at the sign. The antenna and handle are attached to the case; two wheel hubs and their supports align with the underside and the wheels meet the floor. No human figure, arms, legs, hands, wrists, fingers or disembodied shapes. The icon is a flat symbol inside the screen, not a second physical figure. First inspection on generation, independent second pass on the final original. Desktop and 390px article and homepage retain the eyes, blanket prohibition symbol, ticket slot and plane; the published text explains the narrower digital policy. Actual 1200×630 sharing card retains the full scene beside the full headline. Agent-reviewed.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

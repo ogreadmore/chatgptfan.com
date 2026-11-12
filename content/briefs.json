@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-11-12",
+    "slug": "2026-11-12",
+    "title": "United draws the line at letting AI book your flight",
+    "excerpt": "A traveler can ask AI to compare itineraries. United says an outside assistant needs the airline’s permission to book a ticket, spend miles or act in a customer’s account.",
+    "file": "2026-11-12.md",
+    "status": "published",
+    "sources": [
+      {
+        "url": "https://united.mediaroom.com/news-releases?item=125496",
+        "title": "United restricts access for third-party AI agents",
+        "publisher": "United Airlines",
+        "publishedAt": "2026-11-11",
+        "kind": "Airline policy announcement"
+      },
+      {
+        "url": "https://www.investing.com/news/stock-market-news/united-airlines-moves-to-block-ai-agents-from-its-platform-over-security-concerns-5019752",
+        "title": "United moves to block AI agents from its platform",
+        "publisher": "Reuters via Investing.com",
+        "publishedAt": "2026-11-11",
+        "kind": "Independent reporting"
+      },
+      {
+        "url": "https://www.phocuswire.com/news/technology/united-blocks-third-party-ai-agents-from-app-website",
+        "title": "United explains the policy and existing reservations",
+        "publisher": "PhocusWire",
+        "publishedAt": "2026-11-11",
+        "kind": "Travel industry reporting"
+      },
+      {
+        "url": "https://openai.com/index/singapore-airlines-travel-work/",
+        "title": "How Singapore Airlines uses OpenAI technology",
+        "publisher": "OpenAI",
+        "checkedAt": "2026-11-12",
+        "kind": "Vendor case study"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-12-ticket-kiosk.png",
+      "width": 1672,
+      "height": 941,
+      "alt": "A suitcase-shaped robot looks up at an airline ticket kiosk. Its screen shows a crossed-out robot and its ticket slot is empty.",
+      "credit": "AI-generated editorial cartoon · An assistant at the ticket machine",
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-11",
     "slug": "2026-11-11",
     "title": "AI freelance jobs offer bigger budgets. What do they buy?",

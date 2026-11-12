@@ -381,7 +381,7 @@
     "kind": "Business planning",
     "level": "All levels",
     "description": "Market research, business-plan examples, startup costs, and break-even planning in one reference. Use it to define a customer and a deliverable before investing in an AI service.",
-    "checkedAt": "2026-10-19",
+    "checkedAt": "2026-11-12",
     "cost": "Free resource",
     "bestFor": "Validating a service or product idea",
     "featured": true,
@@ -719,7 +719,7 @@
     "kind": "Cost control",
     "level": "Developer",
     "description": "A guide to setting a monthly project spending ceiling that pauses resources when reached. Useful for experiments that create cloud infrastructure; compare a real stop with a notification-only budget alert.",
-    "checkedAt": "2026-11-05",
+    "checkedAt": "2026-11-12",
     "cost": "Free guide · paid AWS usage",
     "bestFor": "Containing cloud costs during agent experiments",
     "needs": "For the new AWS account experience; requires a Paid Plan and project-owner access. Minimum cap is $20 or a higher usage estimate, before tax. Pausing interrupts services; after 90 days without action, paused project data is permanently deleted. Optional early controls can also block new resources or pause idle or high-cost resources before the ceiling.",
@@ -804,10 +804,10 @@
     "kind": "Development research",
     "level": "All levels",
     "description": "An overview of AI adoption, local needs, infrastructure and supplier dependence in developing economies. A broader lens for judging where an AI service could be useful.",
-    "checkedAt": "2026-10-19",
+    "checkedAt": "2026-11-12",
     "cost": "Free report",
     "bestFor": "Assessing local needs and adoption constraints",
-    "needs": "Start with the main messages, then a relevant chapter. We reviewed the overview, not the full report; projected benefits are not guaranteed and policy recommendations are the Bank’s own.",
+    "needs": "Start with chapter 3 on adapting tools to local conditions. Ask what local data, language coverage and infrastructure a service needs. The overview gives the Bank’s recommendations, not a guarantee of returns.",
     "reviewEveryDays": 30
   },
   {
@@ -818,11 +818,11 @@
     "provider": "OpenAI",
     "kind": "Cost planning",
     "description": "Eligible Pro and Business subscriptions can claim API credits for a linked API organization. Read the activation and expiry rules before budgeting an experiment; these credits do not raise ChatGPT or signed-in Codex usage limits.",
-    "checkedAt": "2026-11-05",
+    "checkedAt": "2026-11-12",
     "level": "Developer",
     "cost": "Paid eligible subscription · included API credit benefit",
     "bestFor": "Using an existing subscription benefit for API experiments",
-    "needs": "Paid subscription must be active for seven days; ownership and matching account email are required. Availability depends on cohort and country. First grants are prorated. Monthly credits expire each cycle; annually prepaid Business grants arrive upfront, capped at $6,000, and expire at the annual cycle end. Plus and Codex usage through API keys are excluded. Check the actual grant and paid-credit/recharge settings before running jobs.",
+    "needs": "An eligible paid subscription must be active for seven days; account email, API organization ownership and billing access matter. Business credits are pooled: up to $500 per monthly cycle or $6,000 per prepaid year. First grants are prorated; unused credits expire. A workspace seat alone gives no API project access. Paid credits or Auto Recharge can cover later usage.",
     "reviewEveryDays": 14
   },
   {
@@ -950,6 +950,40 @@
       "why": "Lets you check the actual reporting duties against public claims about them.",
       "readFirst": "Compare subdivision 3(a), the ordinary reporting clock, with 3(b), the rule for imminent physical danger.",
       "limits": "This section concerns frontier models and defined critical safety incidents. It is not a general consumer complaint process."
+    }
+  },
+  {
+    "id": "images-first-edit",
+    "section": "learn",
+    "title": "Make your first image edit in ChatGPT",
+    "url": "https://www.youtube.com/watch?v=CrrpfvbNyMw",
+    "provider": "OpenAI",
+    "kind": "Video walkthrough",
+    "level": "Beginner",
+    "learningStage": "start",
+    "description": "Watch three ways to start: describe a new picture, refine it in conversation, or edit a photo. Try changing one detail at a time so you can see what else changes.",
+    "cost": "Free to watch · product limits vary",
+    "bestFor": "Making one deliberate visual change",
+    "checkedAt": "2026-11-12",
+    "reviewEveryDays": 30
+  },
+  {
+    "id": "paris-ai-declaration",
+    "section": "safety",
+    "title": "What the Paris AI safety declaration commits to",
+    "url": "https://www.government.nl/documents/2026/11/10/paris-declaration-on-ai-safety-and-security",
+    "sourceUrl": "https://cesia.org/en/publications/paris-call-ai-safety-cesia/",
+    "provider": "Government of the Netherlands · declaration text",
+    "kind": "Diplomatic statement",
+    "description": "Compare the commitments on independent testing, shutdown mechanisms and incident reporting with what signatory CeSIA still wants made mandatory.",
+    "checkedAt": "2026-11-12",
+    "reviewEveryDays": 30,
+    "safety": {
+      "group": "policy",
+      "audience": "Readers comparing frontier AI safety commitments",
+      "why": "Puts the declaration next to a signatory’s argument about who should be able to stop a model.",
+      "readFirst": "Read the second section on evaluation, then compare the language about external access with CeSIA’s response.",
+      "limits": "A joint declaration does not demonstrate that any particular model has passed an independent test or that regulators can order a shutdown."
     }
   }
 ]
