@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-11-12",
+  "updatedAt": "2026-11-13",
   "items": [
     {
-      "accountId": "OpenAI",
-      "url": "https://x.com/OpenAI/status/2120202353907486826",
-      "title": "OpenAI schedules its cyber briefing for November 12",
-      "summary": "OpenAI says its Cyber at the Frontier keynote starts November 12 at 10 a.m. Pacific (1 p.m. Eastern). The announcement previews tools for defenders; it does not establish how they perform.",
-      "coveredAt": "2026-11-10",
-      "checkedAt": "2026-11-12",
-      "sourceUrl": "https://x.com/OpenAI/status/2120202353907486826",
-      "sourceName": "X · original post"
+      "accountId": "gdb",
+      "url": "https://x.com/gdb/status/2121004237413142656",
+      "title": "Brockman introduces two tools for security teams",
+      "summary": "Greg Brockman announced Daybreak Defense Factory and Daybreak Red Team. OpenAI describes the first as preparing patches for human review and the second as testing web apps and checking fixes.",
+      "coveredAt": "2026-11-12",
+      "checkedAt": "2026-11-13",
+      "sourceUrl": "https://openai.com/cyber-at-the-frontier/",
+      "sourceName": "OpenAI · keynote resources"
     },
     {
       "accountId": "OpenAI",

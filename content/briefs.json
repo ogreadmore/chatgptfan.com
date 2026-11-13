@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-11-13",
+    "slug": "2026-11-13",
+    "title": "Four groups ask a judge to freeze the next generation of AI models",
+    "excerpt": "A San Francisco lawsuit seeks two limits on frontier labs. One caps model capabilities. The other would restrict AI systems directing research into their successors.",
+    "file": "2026-11-13.md",
+    "status": "published",
+    "sources": [
+      {
+        "url": "https://www.platkinllp.com/2026/11/12/complaint-for-injunctive-relief-for-violations-of-the-unfair-competition-laws",
+        "title": "Complaint for injunctive relief, especially page 61",
+        "publisher": "Platkin LLP · plaintiffs’ counsel",
+        "kind": "Primary filing",
+        "publishedAt": "2026-11-12"
+      },
+      {
+        "url": "https://apnews.com/article/03ece37b96979fe834f60976648504ba",
+        "title": "Advocacy groups sue five AI developers over new models",
+        "publisher": "Associated Press",
+        "kind": "Independent reporting",
+        "publishedAt": "2026-11-12"
+      },
+      {
+        "url": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/",
+        "title": "Why four nonprofits filed suit",
+        "publisher": "Public Citizen",
+        "kind": "Plaintiff statement",
+        "publishedAt": "2026-11-12"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-13-court-filing.png",
+      "width": 1672,
+      "height": 941,
+      "alt": "A woman slides a folder bearing a chip and a pause symbol into a courthouse filing window.",
+      "credit": "AI-generated editorial cartoon · Filing a request to pause",
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-12",
     "slug": "2026-11-12",
     "title": "United draws the line at letting AI book your flight",

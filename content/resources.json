@@ -580,7 +580,7 @@
     "provider": "UK Department for Science, Innovation and Technology",
     "kind": "Government research",
     "description": "Government research on advanced AI capabilities, public safety, and risk mitigations, alongside evaluation tools and technical reports.",
-    "checkedAt": "2026-10-18",
+    "checkedAt": "2026-11-13",
     "reviewEveryDays": 45,
     "safety": {
       "group": "frontier",
@@ -616,7 +616,7 @@
     "provider": "Epoch AI",
     "kind": "Data & research",
     "description": "Data explorers and research on model capabilities, compute, and AI infrastructure. Check measurement methods, coverage, and assumptions before comparing claims.",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-11-13",
     "reviewEveryDays": 45,
     "safety": {
       "group": "frontier",
@@ -652,7 +652,7 @@
     "provider": "UK National Cyber Security Centre",
     "kind": "Government guidance",
     "description": "A nontechnical introduction to AI security for managers: unreliable outputs, attacks on AI systems, sensitive data, and responsibility within an organization.",
-    "checkedAt": "2026-10-17",
+    "checkedAt": "2026-11-13",
     "reviewEveryDays": 45,
     "safety": {
       "group": "everyday",
@@ -767,7 +767,7 @@
     "provider": "CERT-In",
     "kind": "Government guidance",
     "description": "Practical guidance for keeping agent evaluations away from live systems, protecting credentials and detecting unauthorized activity.",
-    "checkedAt": "2026-11-08",
+    "checkedAt": "2026-11-13",
     "reviewEveryDays": 30,
     "level": "Technical teams",
     "cost": "Free advisory",
@@ -776,7 +776,7 @@
       "group": "everyday",
       "audience": "Developers and security teams",
       "why": "Connects reported failures to specific controls.",
-      "readFirst": "Start with the actions for your role: enforce network limits outside the model, use synthetic targets, and define an automatic stop.",
+      "readFirst": "Find the deployment controls for a single agent run. Give it a short-lived identity, allow only required network destinations and log actions affecting production or data.",
       "limits": "The advisory does not name affected providers or organizations. Guidance is not proof of universal protection."
     }
   },
@@ -833,7 +833,7 @@
     "provider": "OpenAI Help Center",
     "kind": "Product documentation",
     "description": "How linked accounts, quiet hours, study settings and limited notifications work. A practical starting point for a family conversation about using ChatGPT.",
-    "checkedAt": "2026-11-08",
+    "checkedAt": "2026-11-13",
     "reviewEveryDays": 14,
     "safety": {
       "group": "everyday",
@@ -984,6 +984,25 @@
       "why": "Puts the declaration next to a signatory’s argument about who should be able to stop a model.",
       "readFirst": "Read the second section on evaluation, then compare the language about external access with CeSIA’s response.",
       "limits": "A joint declaration does not demonstrate that any particular model has passed an independent test or that regulators can order a shutdown."
+    }
+  },
+  {
+    "id": "frontier-injunction-complaint",
+    "section": "safety",
+    "title": "Read the filing seeking a freeze on frontier AI",
+    "url": "https://www.platkinllp.com/2026/11/12/complaint-for-injunctive-relief-for-violations-of-the-unfair-competition-laws",
+    "sourceUrl": "https://apnews.com/article/03ece37b96979fe834f60976648504ba",
+    "provider": "Plaintiffs’ counsel · Platkin LLP",
+    "kind": "Civil complaint · PDF",
+    "description": "Four nonprofits ask a San Francisco judge to limit more capable systems and autonomous AI research. Read the two requests in the plaintiffs’ own filing.",
+    "checkedAt": "2026-11-13",
+    "reviewEveryDays": 14,
+    "safety": {
+      "group": "policy",
+      "audience": "Readers following AI regulation through the courts",
+      "why": "Lets readers check the scope of a proposed freeze against the actual language submitted by the plaintiffs.",
+      "readFirst": "Turn to page 61, items A and B. Compare the proposed capability ceiling with the separate restriction on who can direct research.",
+      "limits": "A pleading states one side’s claims. Check subsequent orders for any enforceable restriction."
     }
   }
 ]

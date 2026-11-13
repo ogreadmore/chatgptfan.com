@@ -845,6 +845,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-13-court-filing.png",
+      "brief": "2026-11-13",
+      "sha256": "91458fac39489103a843946d4f4d0dc1dc9696d3dd8f740a75a31363e4753edc",
+      "reviewedAt": "2026-11-13",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 1,
+      "observedVisibleHands": 1,
+      "notes": "A woman faces a service window and feeds a tabbed folder under the sill. The scales above the slot identify a court. Two pause bars inside a chip identify the request on the folder. Filing the request is the action visible here. There is no judicial ruling depicted. One person, one visible arm, one visible hand. The sleeve continues from the near shoulder around the bent elbow and opens around the forearm, which connects to the wrist and palm. The thumb rests on the top sheet, with the curled fingers behind the folder supporting it. The far arm is out of view. No extra wrists, hands, fingers, limbs or reflections of the person. The eye points toward the opening and the folder fits under its lip. Hairline is close to the top, with the head outline intact. On separate inspection of the copied 1672×941 original the anatomy, folder grip and opening still read clearly. Desktop and 390px homepage/article retain the face, chip, grip, and scales. The actual 1200×630 split sharing card displays the whole scene and complete headline. Agent reviewed.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }
