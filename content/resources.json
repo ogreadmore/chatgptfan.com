@@ -191,7 +191,7 @@
     "kind": "Research",
     "level": "All levels",
     "description": "Collect, annotate, organize, and cite original research. A useful companion to AI reading tools when you need a durable source library.",
-    "checkedAt": "2026-11-03",
+    "checkedAt": "2026-11-14",
     "cost": "Free app · optional paid file storage",
     "needs": "Desktop app or browser connector. Optional file syncing includes 300 MB free; larger storage plans cost extra. This is a reference manager, not a generative AI model.",
     "bestFor": "Keeping the evidence behind your work",
@@ -410,7 +410,7 @@
     "provider": "OpenAI · vendor-published case study",
     "kind": "Business example",
     "description": "A vendor case study on splitting email assistance into smaller jobs, testing drafts against real tasks, and using edits as feedback. Useful product-design lessons; retention and revenue figures are company-reported.",
-    "checkedAt": "2026-10-22",
+    "checkedAt": "2026-11-14",
     "cost": "Free case study",
     "level": "Business",
     "bestFor": "Studying a focused subscription product",
@@ -425,7 +425,7 @@
     "kind": "Business example",
     "level": "Business",
     "description": "A September 2026 case study of legal drafting with source context and lawyers’ preferences. Read it for how a specialist product organizes documents and review; the claimed improvements are reported by the vendor.",
-    "checkedAt": "2026-10-22",
+    "checkedAt": "2026-11-14",
     "cost": "Free case study",
     "bestFor": "Understanding a vertical software business",
     "needs": "Vendor account, not independently audited business results. Professional applications require appropriate expertise and review.",
@@ -507,15 +507,16 @@
     "provider": "AI Now Institute",
     "kind": "Research & advocacy",
     "description": "Research and policy advocacy examining AI companies, concentrated power, and public accountability.",
-    "checkedAt": "2026-10-30",
+    "checkedAt": "2026-11-14",
     "reviewEveryDays": 45,
     "safety": {
       "group": "policy",
       "audience": "General readers",
       "why": "Examines who holds power, who bears costs, and how public institutions could respond.",
-      "readFirst": "Choose a topic in its research library, then examine the evidence behind its policy recommendations.",
+      "readFirst": "Read its November 13 argument about the permitting bill, local authority and data-center costs. Compare those claims with the bill text and the safeguards its supporters describe.",
       "limits": "Research and advocacy from an organization with a stated policy agenda; examine the evidence behind each proposal."
-    }
+    },
+    "sourceUrl": "https://ainowinstitute.org/news/announcement/ai-now-statement-on-the-bipartisan-american-affordability-and-jobs-act-baaja-to-us-congress"
   },
   {
     "id": "pause",
@@ -671,9 +672,9 @@
     "kind": "Vendor guide",
     "level": "Intermediate",
     "description": "A practical approach to comparing AI use with delivery time, quality and business outcomes. Includes review and correction time, setup and support costs; its ROI example is illustrative, not a measured earnings result.",
-    "checkedAt": "2026-10-22",
+    "checkedAt": "2026-11-14",
     "cost": "Free guide · product access varies",
-    "needs": "Useful for team leads and service providers. The product walkthrough uses ChatGPT administrator analytics; verify access in your plan.",
+    "needs": "For team leads with access to administrator analytics. Pick one recurring task, record its current cost and quality, and compare results after including setup, support and correction time.",
     "bestFor": "Evaluating a workflow before expanding it",
     "reviewEveryDays": 30
   },
@@ -1003,6 +1004,25 @@
       "why": "Lets readers check the scope of a proposed freeze against the actual language submitted by the plaintiffs.",
       "readFirst": "Turn to page 61, items A and B. Compare the proposed capability ceiling with the separate restriction on who can direct research.",
       "limits": "A pleading states one side’s claims. Check subsequent orders for any enforceable restriction."
+    }
+  },
+  {
+    "id": "wallet-approval",
+    "section": "safety",
+    "title": "Check a Wallet purchase before approving",
+    "url": "https://help.openai.com/en/articles/20001654-making-purchases-with-chatgpt-wallet",
+    "sourceUrl": "https://openai.com/policies/chatgpt-wallet-privacy-notice/",
+    "provider": "OpenAI Help Center",
+    "kind": "Product guide",
+    "description": "Check eligibility, the purchase request and the merchant confirmation, then find the right route for an order problem or card dispute.",
+    "checkedAt": "2026-11-14",
+    "reviewEveryDays": 14,
+    "safety": {
+      "group": "everyday",
+      "audience": "Adults considering purchases through a dot",
+      "why": "Explains where user approval, merchant acceptance and payment protections each enter the process.",
+      "readFirst": "Start with Approve a purchase. Check the seller, total and recurring-payment terms, then look for the merchant confirmation after checkout.",
+      "limits": "Company documentation. Availability and card support are restricted. Purchase and approval records are collected under the separate Wallet privacy notice."
     }
   }
 ]

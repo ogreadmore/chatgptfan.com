@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-11-14",
+    "slug": "2026-11-14",
+    "title": "ChatGPT Wallet asks you to approve every purchase",
+    "excerpt": "Wallet is rolling out to eligible US Pro users through dots. Each purchase needs your approval, and the merchant still has to confirm the order.",
+    "file": "2026-11-14.md",
+    "status": "published",
+    "sources": [
+      {
+        "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+        "title": "Introducing ChatGPT Wallet",
+        "publisher": "OpenAI",
+        "kind": "Product announcement",
+        "publishedAt": "2026-11-13"
+      },
+      {
+        "url": "https://help.openai.com/en/articles/20001654-making-purchases-with-chatgpt-wallet",
+        "title": "Making purchases with ChatGPT Wallet",
+        "publisher": "OpenAI Help Center",
+        "kind": "Product instructions",
+        "checkedAt": "2026-11-14"
+      },
+      {
+        "url": "https://www.investing.com/news/stock-market-news/openai-launches-chatgpt-wallet-letting-ai-agents-pay-for-purchases-5026114",
+        "title": "OpenAI launches ChatGPT Wallet, letting AI agents pay for purchases",
+        "publisher": "Reuters via Investing.com",
+        "kind": "Independent reporting",
+        "publishedAt": "2026-11-13"
+      },
+      {
+        "url": "https://openai.com/policies/chatgpt-wallet-terms/",
+        "title": "ChatGPT Wallet terms",
+        "publisher": "OpenAI",
+        "kind": "Product terms effective November 12",
+        "publishedAt": "2026-11-12"
+      },
+      {
+        "url": "https://openai.com/policies/chatgpt-wallet-privacy-notice/",
+        "title": "ChatGPT Wallet Privacy Notice",
+        "publisher": "OpenAI",
+        "kind": "Privacy notice effective November 12",
+        "publishedAt": "2026-11-12"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-14-wallet-approval.png",
+      "width": 1672,
+      "height": 941,
+      "alt": "A woman looks into a phone displaying a face verification frame while a small shopping robot waits with a sweater in its basket.",
+      "credit": "AI-generated editorial cartoon · A shopping assistant waits for approval",
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-13",
     "slug": "2026-11-13",
     "title": "Four groups ask a judge to freeze the next generation of AI models",

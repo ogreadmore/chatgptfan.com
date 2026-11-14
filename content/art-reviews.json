@@ -868,6 +868,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-14-wallet-approval.png",
+      "brief": "2026-11-14",
+      "sha256": "10324bbb72d69381d32cdb59f97f16c83d40e57a4b0585ffc7630df978f3ad47",
+      "reviewedAt": "2026-11-14",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "A woman leans toward an upright phone; its screen contains her face within four biometric framing corners. A small wheeled robot waits beside the phone with a folded sweater in its front basket. The visible relationship is a shopper verifying herself while a shopping assistant waits with the selected item. This is a conceptual approval scene, not a reproduction of the Wallet interface or a physical-robot product claim. One human figure; the face on the phone is a flat image of the same person. Zero hands or forearms visible. Both shoulder/sleeve outlines join the torso naturally and continue below the desk; no stray limbs or finger-like forms. The robot has no arms; its two wheels join its body and meet the desk. Phone, stand and basket are connected; the sweater is supported inside the basket. Faces, eyes and complete head outlines are coherent. First pixels inspected after generation; independent second pass on the final 1672×941 PNG after layout proofing. Desktop homepage and article, 390×844 viewport homepage and article (375px content width with scrollbar), and actual 1200×630 sharing card retain the face, verification frame, robot and sweater. Purple background and outlines remain legible at phone size. Agent reviewed; not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

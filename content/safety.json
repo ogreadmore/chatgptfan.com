@@ -34,7 +34,8 @@
         "parental-controls",
         "ncsc-ai-security",
         "nist",
-        "cert-agent-security"
+        "cert-agent-security",
+        "wallet-approval"
       ]
     },
     {

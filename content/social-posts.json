@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "items": [
+    {
+      "accountId": "gdb",
+      "url": "https://x.com/gdb/status/2121295213025194172",
+      "title": "Brockman points to Wallet’s payment partnerships",
+      "summary": "Greg Brockman announced purchases through dots with American Express, Mastercard and Visa. The launch requires approval for each purchase and begins with eligible US Pro users.",
+      "coveredAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
+      "sourceUrl": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "sourceName": "OpenAI · product announcement"
+    },
     {
       "accountId": "gdb",
       "url": "https://x.com/gdb/status/2121004237413142656",
@@ -95,16 +105,6 @@
       "coveredAt": "2026-11-07",
       "checkedAt": "2026-11-07",
       "sourceUrl": "https://x.com/OpenAI/status/2118782708767965238",
-      "sourceName": "X · original post"
-    },
-    {
-      "accountId": "gdb",
-      "url": "https://x.com/gdb/status/2117435285021810921",
-      "title": "Brockman describes Pando, a Git backend",
-      "summary": "Brockman says Pando handles large monorepos while preserving familiar Git workflows. He is considering making it available to others; the post is an invitation for interest, not a public product launch.",
-      "coveredAt": "2026-11-04",
-      "checkedAt": "2026-11-06",
-      "sourceUrl": "https://x.com/gdb/status/2117435285021810921",
       "sourceName": "X · original post"
     },
     {
