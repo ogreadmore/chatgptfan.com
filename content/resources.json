@@ -635,7 +635,7 @@
     "provider": "Electronic Frontier Foundation",
     "kind": "Practical guidance",
     "description": "A readable guide to what happens to your data in AI apps, integrations, and local or cloud tools. Covers privacy settings, retention, and the limits of “private” modes.",
-    "checkedAt": "2026-11-08",
+    "checkedAt": "2026-11-15",
     "reviewEveryDays": 30,
     "safety": {
       "group": "everyday",
@@ -834,7 +834,7 @@
     "provider": "OpenAI Help Center",
     "kind": "Product documentation",
     "description": "How linked accounts, quiet hours, study settings and limited notifications work. A practical starting point for a family conversation about using ChatGPT.",
-    "checkedAt": "2026-11-13",
+    "checkedAt": "2026-11-15",
     "reviewEveryDays": 14,
     "safety": {
       "group": "everyday",
@@ -871,7 +871,7 @@
     "provider": "OpenAI Help Center",
     "kind": "Product documentation",
     "description": "A guide to limiting where ChatGPT can send data when you work with sensitive material. Check which features you give up and which privacy settings you still need.",
-    "checkedAt": "2026-11-08",
+    "checkedAt": "2026-11-15",
     "reviewEveryDays": 30,
     "safety": {
       "group": "everyday",
@@ -1015,7 +1015,7 @@
     "provider": "OpenAI Help Center",
     "kind": "Product guide",
     "description": "Check eligibility, the purchase request and the merchant confirmation, then find the right route for an order problem or card dispute.",
-    "checkedAt": "2026-11-14",
+    "checkedAt": "2026-11-15",
     "reviewEveryDays": 14,
     "safety": {
       "group": "everyday",
@@ -1024,5 +1024,21 @@
       "readFirst": "Start with Approve a purchase. Check the seller, total and recurring-payment terms, then look for the merchant confirmation after checkout.",
       "limits": "Company documentation. Availability and card support are restricted. Purchase and approval records are collected under the separate Wallet privacy notice."
     }
+  },
+  {
+    "id": "app-troubleshooting",
+    "section": "tools",
+    "title": "Fix a failed app connection",
+    "url": "https://help.openai.com/en/articles/20001497-troubleshooting-plugins-and-apps-in-chatgpt",
+    "sourceUrl": "https://help.openai.com/en/articles/20001494-connecting-and-managing-app-accounts-in-chatgpt",
+    "provider": "OpenAI Help Center",
+    "kind": "Troubleshooting",
+    "level": "All levels",
+    "description": "Find the right response to connection errors, missing information and interrupted actions in ChatGPT apps.",
+    "checkedAt": "2026-11-15",
+    "cost": "Free guide",
+    "needs": "Check the connected account and the original service. Before repeating an action, inspect its destination for work that already completed.",
+    "bestFor": "Recovering an interrupted task",
+    "reviewEveryDays": 14
   }
 ]

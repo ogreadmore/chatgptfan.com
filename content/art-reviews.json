@@ -891,6 +891,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-15-mail-connection.png",
+      "brief": "2026-11-15",
+      "sha256": "d60394328db68f99c7a486986ebaba7f62a69a3762117f1f45bc50b4dbe8ad7f",
+      "reviewedAt": "2026-11-15",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "A concerned woman behind a laptop looks down toward two separated USB connector halves. One cable leads to the laptop; the other leads to a large upright envelope. The visible gap interrupts the path between computer and mail, a coherent conceptual depiction of the Microsoft mail-connection outage affecting ChatGPT apps. It does not assert a physical cable caused the outage or impersonate an app interface. One figure, zero visible hands and zero forearms. Both shoulder/sleeve contours connect naturally to the torso and end behind the desk; no stray limbs, attached finger-like shapes or hidden grips. Face, eyes and complete head are coherent. Each cable has one traceable path, plugs face each other, and laptop/envelope are grounded on the desk. First inspection after generation and a separate second pass on the final 1672×941 PNG after browser review. Desktop 1440×1000 homepage and article, 390×844 mobile homepage and article, and the actual 1200×630 sharing card preserve the complete head, laptop, envelope and connection gap. Caption labels the artwork conceptual; the card headline is legible and uncropped. Agent reviewed, not owner approved.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

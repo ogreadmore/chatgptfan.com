@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-11-15",
+    "slug": "2026-11-15",
+    "title": "Microsoft’s outage reached ChatGPT’s connected apps",
+    "excerpt": "The Microsoft connector is back. Before retrying an interrupted task, check the source account and whether any messages or changes already went through.",
+    "file": "2026-11-15.md",
+    "status": "published",
+    "sources": [
+      {
+        "url": "https://www.chinadailyhk.com/hk/article/642694",
+        "title": "Microsoft restores service to Outlook and Teams after global outage",
+        "publisher": "Reuters via China Daily",
+        "publishedAt": "2026-11-14",
+        "kind": "Independent reporting"
+      },
+      {
+        "url": "https://status.openai.com/incidents/01M78GAT3AK9P9W8Z230KHFVE8",
+        "title": "Elevated errors affecting the Microsoft 365 connector",
+        "publisher": "OpenAI Status",
+        "publishedAt": "2026-11-13",
+        "kind": "Resolved service incident"
+      },
+      {
+        "url": "https://help.openai.com/en/articles/20001497-troubleshooting-plugins-and-apps-in-chatgpt",
+        "title": "Troubleshooting plugins and apps in ChatGPT",
+        "publisher": "OpenAI Help Center",
+        "checkedAt": "2026-11-15",
+        "kind": "Product documentation"
+      },
+      {
+        "url": "https://help.openai.com/en/articles/20001494-connecting-and-managing-app-accounts-in-chatgpt",
+        "title": "Connecting and managing app accounts in ChatGPT",
+        "publisher": "OpenAI Help Center",
+        "checkedAt": "2026-11-15",
+        "kind": "Product documentation"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-15-mail-connection.png",
+      "width": 1672,
+      "height": 941,
+      "alt": "A concerned woman looks at a disconnected cable between her laptop and a large envelope, representing interrupted access to email.",
+      "credit": "AI-generated conceptual cartoon · An interrupted mail connection",
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-14",
     "slug": "2026-11-14",
     "title": "ChatGPT Wallet asks you to approve every purchase",

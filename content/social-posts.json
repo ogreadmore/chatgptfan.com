@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14",
+  "updatedAt": "2026-11-15",
   "items": [
     {
       "accountId": "gdb",
@@ -7,7 +7,7 @@
       "title": "Brockman points to Wallet’s payment partnerships",
       "summary": "Greg Brockman announced purchases through dots with American Express, Mastercard and Visa. The launch requires approval for each purchase and begins with eligible US Pro users.",
       "coveredAt": "2026-11-13",
-      "checkedAt": "2026-11-14",
+      "checkedAt": "2026-11-15",
       "sourceUrl": "https://openai.com/index/introducing-chatgpt-wallet/",
       "sourceName": "OpenAI · product announcement"
     },
@@ -17,7 +17,7 @@
       "title": "Brockman introduces two tools for security teams",
       "summary": "Greg Brockman announced Daybreak Defense Factory and Daybreak Red Team. OpenAI describes the first as preparing patches for human review and the second as testing web apps and checking fixes.",
       "coveredAt": "2026-11-12",
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-15",
       "sourceUrl": "https://openai.com/cyber-at-the-frontier/",
       "sourceName": "OpenAI · keynote resources"
     },
@@ -27,7 +27,7 @@
       "title": "What a business can claim inside ChatGPT",
       "summary": "OpenAI says verified businesses can update their information. Its separate Business Agents beta starts with eligible U.S. ecommerce and online service businesses.",
       "coveredAt": "2026-11-10",
-      "checkedAt": "2026-11-11",
+      "checkedAt": "2026-11-15",
       "sourceUrl": "https://x.com/OpenAI/status/2120216592395174382",
       "sourceName": "X · original post",
       "contextUrl": "https://openai.com/index/introducing-businesses-chatgpt/",
@@ -39,7 +39,7 @@
       "title": "From a product photo to a video ad",
       "summary": "OpenAI Developers shares a Runway demonstration of turning a still photo into a video ad and trying alternate opening shots. The examples come from the vendor.",
       "coveredAt": "2026-11-10",
-      "checkedAt": "2026-11-11",
+      "checkedAt": "2026-11-15",
       "sourceUrl": "https://x.com/OpenAIDevs/status/2120258357533749755",
       "sourceName": "X · original post"
     },
@@ -49,7 +49,7 @@
       "title": "Use a Business plan in supported tools",
       "summary": "OpenAI Developers says ChatGPT Business users can sign in to supported tools including Notion, v0 and Warp with their ChatGPT account.",
       "coveredAt": "2026-11-10",
-      "checkedAt": "2026-11-11",
+      "checkedAt": "2026-11-15",
       "sourceUrl": "https://x.com/OpenAIDevs/status/2120212596850663712",
       "sourceName": "X · original post"
     },
@@ -59,7 +59,7 @@
       "title": "Choose which computer a dot uses",
       "summary": "OpenAI Developers says a dot can connect to multiple local computers. You can assign a build and its tests to one machine and keep working on another.",
       "coveredAt": "2026-11-09",
-      "checkedAt": "2026-11-10",
+      "checkedAt": "2026-11-15",
       "sourceUrl": "https://x.com/OpenAIDevs/status/2119883176726409645",
       "sourceName": "X · original post"
     },
@@ -69,7 +69,7 @@
       "title": "What starts the 35-second stop clock",
       "summary": "OpenAI says Control Room can halt research model output within 35 seconds of a stop instruction. The timing measures the response to that instruction, not how quickly an incident is detected.",
       "coveredAt": "2026-11-09",
-      "checkedAt": "2026-11-10",
+      "checkedAt": "2026-11-15",
       "sourceUrl": "https://x.com/OpenAI/status/2119913172039868579",
       "sourceName": "X · original post",
       "contextUrl": "https://openai.com/index/control-room/",
@@ -81,7 +81,7 @@
       "title": "Build a game for a handheld with Codex",
       "summary": "OpenAI Developers says the ModRetro Chromatic plugin can help design levels and animate sprites for testing on the handheld. The announcement also promotes a paid device.",
       "coveredAt": "2026-11-09",
-      "checkedAt": "2026-11-10",
+      "checkedAt": "2026-11-15",
       "sourceUrl": "https://x.com/OpenAIDevs/status/2119864571733446774",
       "sourceName": "X · original post"
     },
@@ -93,7 +93,7 @@
       "contextUrl": "https://www.frontiermodelforum.org/specifications/jailbreak-rating-framework-for-frontier-cyber-threats/",
       "contextLabel": "Read the draft framework",
       "coveredAt": "2026-11-08",
-      "checkedAt": "2026-11-08",
+      "checkedAt": "2026-11-15",
       "sourceUrl": "https://x.com/OpenAI/status/2118795218099253606",
       "sourceName": "X · original post"
     },
@@ -103,7 +103,7 @@
       "title": "OpenAI tests how agents read lab results",
       "summary": "OpenAI says BioBasicsBench uses 100 tasks drawn from real experiments. It tests whether agents can interpret data, spot errors and recognize when the evidence is inconclusive. OpenAI developed it with biotech company Ligo.",
       "coveredAt": "2026-11-07",
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-15",
       "sourceUrl": "https://x.com/OpenAI/status/2118782708767965238",
       "sourceName": "X · original post"
     },
@@ -113,7 +113,7 @@
       "title": "Altman says human control should constrain AI progress",
       "summary": "Altman says people should not cede control of the future to superintelligence and that this requirement should limit AI progress. This is his stated position, not a published enforcement mechanism or a demonstrated safeguard.",
       "coveredAt": "2026-11-04",
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-15",
       "sourceUrl": "https://x.com/sama/status/2117794005165748448",
       "sourceName": "X · original post"
     },
@@ -123,7 +123,7 @@
       "title": "Pachocki brings Madry back to work on AI’s pace",
       "summary": "In his October 19 post, Pachocki says he asked Aleksander Madry to return to OpenAI to work on the pace and implications of AI progress. The post describes a research and strategy focus; it does not announce a development pause.",
       "coveredAt": "2026-11-04",
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-15",
       "sourceUrl": "https://x.com/merettm/status/2112231743734579542",
       "sourceName": "X · original post"
     },
@@ -131,7 +131,7 @@
       "accountId": "markchen90",
       "url": "https://x.com/markchen90/status/2112628202594349139",
       "coveredAt": "2026-10-20",
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-15",
       "title": "Chen welcomes Orchestra Bio",
       "summary": "Chen welcomed Orchestra Bio as OpenAI expands its life-sciences work. The announcement describes a business acquisition and research ambitions; it does not establish a clinical benefit.",
       "sourceUrl": "https://x.com/markchen90/status/2112628202594349139",
