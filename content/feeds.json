@@ -44,6 +44,20 @@
     "reviewedAt": "2026-09-18"
   },
   {
+    "id": "decoder-youtube",
+    "name": "Decoder on YouTube",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCYRwJnCWfBqFHEHrgc18FFw",
+    "site": "https://www.youtube.com/@DecoderPod",
+    "type": "Independent interviews · YouTube",
+    "topic": "Videos",
+    "category": "Videos",
+    "description": "The Verge’s interviews and analysis about AI companies, governance, and technology.",
+    "notes": "Selected AI-related uploads. Interviewee claims and host analysis are perspectives to examine, not independent verification of every claim.",
+    "maxItems": 10,
+    "reviewedAt": "2026-11-16",
+    "include": "\\b(AI|OpenAI|ChatGPT|Anthropic|Claude|artificial intelligence|Nvidia|Altman)\\b"
+  },
+  {
     "id": "mit",
     "name": "MIT Technology Review",
     "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",

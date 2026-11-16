@@ -914,6 +914,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-16-ai-exports.png",
+      "brief": "2026-11-16",
+      "sha256": "3b46cf52c14a89e12e13ca9c156b43a2bc31363cd2d584872728ab5c674ecd61",
+      "reviewedAt": "2026-11-16",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Pixels show one hard-hat-wearing woman looking down into an open freight crate containing four computer server units. A US flag sticker on the crate and cargo ship behind it make computing equipment prepared for export legible without invented documents or UI. This is a conceptual illustration of the AI export policy, not a depiction of a government decision or proof that the reported company list is final. Zero visible hands and zero forearms. The two shoulders/sleeve contours attach naturally to one torso and pass behind the crate; no floating fingers, extra limbs, ambiguous grips or reflections. Eyes, face and complete head are coherent; the top margin is narrow but the hat remains fully inside the final image and delivered versions. The server units sit inside a structurally coherent crate; the ship rests on the horizon. Separate final-file second pass after desktop/mobile page inspection confirmed the same visible action and anatomy. Desktop 1440x1000 homepage/article, 390x844 mobile homepage/article, and the actual 1200x630 split sharing card preserve the woman, crate, equipment and ship. Headline and date are legible on the card. Agent review, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

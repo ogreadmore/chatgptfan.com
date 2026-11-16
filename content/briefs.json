@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-11-16",
+    "slug": "2026-11-16",
+    "title": "What Washington’s AI export push would support",
+    "excerpt": "A reported “national champions” list would build on an existing push to sell American AI abroad. Here is what is established, and what still needs confirmation.",
+    "file": "2026-11-16.md",
+    "status": "published",
+    "sources": [
+      {
+        "url": "https://ca.finance.yahoo.com/news/trump-administration-name-nvidia-other-041705165.html",
+        "title": "Trump administration to name Nvidia, other AI firms as US 'national champions', WSJ reports",
+        "publisher": "Reuters via Yahoo Finance",
+        "publishedAt": "2026-11-15",
+        "kind": "Independent reporting of a WSJ report; not independently verified by Reuters"
+      },
+      {
+        "url": "https://www.whitehouse.gov/presidential-actions/2025/07/promoting-the-export-of-the-american-ai-technology-stack/",
+        "title": "Promoting the Export of the American AI Technology Stack",
+        "publisher": "The White House",
+        "publishedAt": "2025-07-23",
+        "kind": "Executive order; policy background"
+      },
+      {
+        "url": "https://www.whitehouse.gov/releases/2026/02/u-s-promotes-ai-adoption-sovereignty-and-exports-at-india-ai-impact-summit/",
+        "title": "U.S. Promotes AI Adoption, Sovereignty, and Exports at India AI Impact Summit",
+        "publisher": "The White House",
+        "publishedAt": "2026-02-20",
+        "kind": "Government announcement; policy background"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-16-ai-exports.png",
+      "width": 1672,
+      "height": 941,
+      "alt": "A woman in a hard hat inspects an open shipping crate holding computer servers, with a cargo ship in the background.",
+      "credit": "AI-generated conceptual cartoon · Computing equipment prepared for export",
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-15",
     "slug": "2026-11-15",
     "title": "Microsoft’s outage reached ChatGPT’s connected apps",
