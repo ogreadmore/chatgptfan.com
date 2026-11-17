@@ -174,7 +174,7 @@
     "kind": "Research",
     "level": "All levels",
     "description": "Work with a collection of documents and ask questions tied to those sources. Useful for comparing readings and tracing a summary back to the underlying material.",
-    "checkedAt": "2026-11-07",
+    "checkedAt": "2026-11-17",
     "cost": "Free plan · paid options",
     "needs": "Google account. Free tier: up to 50 sources per notebook. Drive sources sync; other imports can become stale. Updating a source does not refresh already-generated Studio outputs. Web imports omit images and nested pages; YouTube uses captions, not visuals, and videos under 72 hours old may fail. Verify citations against originals.",
     "bestFor": "Reading a stack of sources",
@@ -207,7 +207,7 @@
     "kind": "Automation",
     "level": "Intermediate",
     "description": "Run a workflow when an app sends an event, then pass the result to another app or model. Cloud pricing counts runs of the whole workflow, so a ten-step run counts as one execution.",
-    "checkedAt": "2026-11-10",
+    "checkedAt": "2026-11-17",
     "cost": "Paid cloud by workflow execution · self-host options",
     "needs": "App credentials and workflow setup. Cloud bills by workflow run; Assistant credits and model usage have separate allowances. Trials are limited. History limits remove old logs rather than stop workflows; paid self-hosted quotas can incur overages. Check license terms before reselling.",
     "bestFor": "Connecting AI to the apps you use",
@@ -222,9 +222,9 @@
     "kind": "Local models",
     "level": "Intermediate",
     "description": "Explore open models on your own computer through a desktop interface. Its Bionic agent also supports document and coding work.",
-    "checkedAt": "2026-11-10",
+    "checkedAt": "2026-11-17",
     "cost": "Free local use · paid cloud",
-    "needs": "Hardware requirements depend on the model. Local inference is free; optional Bionic+ starts at US$20/month. Cloud models and web tools send data off your device, so check which mode you are using.",
+    "needs": "Hardware requirements depend on the model. Local inference is free; optional Bionic+ starts at US$20/month, with credits for cloud use beyond its allowance. Cloud models and web tools send data off your device, so check which mode you are using.",
     "bestFor": "Experimenting with local models",
     "reviewEveryDays": 14,
     "sourceUrl": "https://lmstudio.ai/pricing"
@@ -543,17 +543,17 @@
     "url": "https://metr.org/",
     "provider": "METR",
     "kind": "Evaluation research",
-    "description": "Independent evaluations of AI capabilities and safeguards. Its November 5 review examines how Anthropic judged the risk of AI accelerating its own research.",
-    "checkedAt": "2026-11-06",
+    "description": "Independent evaluations of AI capabilities and safeguards. A November 16 research note asks whether models can recognize when they are being tested for misalignment.",
+    "checkedAt": "2026-11-17",
     "reviewEveryDays": 45,
     "safety": {
       "group": "frontier",
       "audience": "Technical readers",
       "why": "Empirical evaluations help distinguish measured capabilities from claims about what agents can do.",
-      "readFirst": "Read the executive summary, then compare METR’s assessment of the early warning threshold with Anthropic’s explanation.",
-      "limits": "The November review examines conclusions about July models in an August risk report. Anthropic could redact nonpublic information. Check the redaction summary before interpreting the findings."
+      "readFirst": "Start with the summary, Scope of this post and Limitations of interrogations. Separate recognizing a test from changing behavior because of it.",
+      "limits": "This is a preliminary research note with less review than a research post. Agents were asked to investigate test environments; the study does not establish that noticing a test causes deceptive behavior."
     },
-    "sourceUrl": "https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/"
+    "sourceUrl": "https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells/"
   },
   {
     "id": "apollo",
@@ -687,12 +687,12 @@
     "kind": "Agent guide",
     "level": "Intermediate",
     "description": "Understand cloud computers, app connections and the boundary between background research and actions. Review Custom Rules before assigning consequential work.",
-    "checkedAt": "2026-11-07",
+    "checkedAt": "2026-11-17",
     "cost": "Free guide · Eligible paid plan required",
     "bestFor": "Deciding what an always-on agent may do",
-    "needs": "Check your plan, region and workspace settings. Eligible Enterprise, Edu and Healthcare admins can opt in or out during the preview before November 18. Review who can use dots and which apps they can access.",
+    "needs": "Check your plan, region and workspace settings. For eligible Enterprise, Edu and Healthcare workspaces, admin preview ends November 18, when dots become available by default unless an admin opts out. Review effective access and app permissions before and after the transition; local-computer access has a separate control.",
     "reviewEveryDays": 14,
-    "sourceUrl": "https://openai.com/products/release-notes/?category=chatgpt"
+    "sourceUrl": "https://help.openai.com/en/articles/20001554-managing-dots-in-chatgpt-workspaces"
   },
   {
     "id": "gpt6-model-guide",
@@ -1040,5 +1040,20 @@
     "needs": "Check the connected account and the original service. Before repeating an action, inspect its destination for work that already completed.",
     "bestFor": "Recovering an interrupted task",
     "reviewEveryDays": 14
+  },
+  {
+    "id": "academic-researcher-access",
+    "section": "tools",
+    "title": "ChatGPT access for academic researchers",
+    "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
+    "provider": "OpenAI",
+    "kind": "Research access program",
+    "level": "Researcher",
+    "description": "Check the next application round for eligible researchers. OpenAI says 50,000 new grants will cover ChatGPT Plus for each recipient and up to two collaborators.",
+    "checkedAt": "2026-11-17",
+    "reviewEveryDays": 7,
+    "cost": "Free for accepted applicants",
+    "needs": "Applications open November 23 on a first-come, first-served basis for eligible applicants. New grants provide Plus, not the pilot’s Pro access. Read eligibility and data-use terms before applying; acceptance is not guaranteed.",
+    "bestFor": "Academic teams checking access support"
   }
 ]

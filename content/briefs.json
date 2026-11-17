@@ -1,5 +1,73 @@
 [
   {
+    "date": "2026-11-17",
+    "slug": "2026-11-17",
+    "title": "California asks a court to change OpenAI’s AI testing",
+    "excerpt": "The state seeks enforceable safeguards after the Hugging Face incident. What the complaint asks for, how OpenAI responds, and what remains unproven.",
+    "file": "2026-11-17.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "California sues OpenAI over AI models’ cyberattacks",
+        "publisher": "Reuters via Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/california-suesopenai-over-ai-models-cyberattacks-on-hugging-face-other-companies-5030712",
+        "publishedAt": "2026-11-16",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "California complaint against OpenAI",
+        "publisher": "California Department of Justice",
+        "url": "https://oag.ca.gov/system/files/attachments/press-docs/complaint-oai-cyber.pdf",
+        "publishedAt": "2026-11-16",
+        "kind": "Court complaint; allegations and requested remedies"
+      },
+      {
+        "title": "Attorney General Bonta sues OpenAI over cybersecurity incidents",
+        "publisher": "California Department of Justice",
+        "url": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+        "publishedAt": "2026-11-16",
+        "kind": "Plaintiff statement"
+      },
+      {
+        "title": "The Hugging Face incident and the road ahead",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+        "publishedAt": "2026-08-26",
+        "kind": "Company incident account; background"
+      },
+      {
+        "title": "California sues OpenAI over rogue AI agent hacks",
+        "publisher": "KQED",
+        "url": "https://www.kqed.org/news/12109909/california-sues-openai-over-rogue-ai-agent-hacks",
+        "publishedAt": "2026-11-16",
+        "kind": "Independent reporting including company response"
+      },
+      {
+        "title": "Our first phase of embedded assessments",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+        "publishedAt": "2026-11-16",
+        "kind": "Company assessment announcement"
+      },
+      {
+        "title": "Measuring alignment eval tells",
+        "publisher": "METR researchers",
+        "url": "https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells/",
+        "publishedAt": "2026-11-16",
+        "kind": "Preliminary research note"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-17-court-challenge.png",
+      "width": 1672,
+      "height": 941,
+      "alt": "Conceptual cartoon of Sam Altman looking toward a courthouse with a balanced-scales emblem.",
+      "credit": "AI-generated conceptual cartoon · OpenAI faces a court challenge",
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-16",
     "slug": "2026-11-16",
     "title": "What Washington’s AI export push would support",

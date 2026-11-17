@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-11-16",
+  "reviewedAt": "2026-11-17",
   "resources": [
     "app-troubleshooting",
     "academy",
@@ -31,12 +31,12 @@
     "ai-now"
   ],
   "social": [
-    "https://x.com/OpenAI/status/2122123437141553630",
+    "https://x.com/OpenAI/status/2122359930628063248",
+    "https://x.com/OpenAI/status/2122377585523126615",
     "https://x.com/gdb/status/2121295213025194172",
-    "https://x.com/gdb/status/2121004237413142656",
-    "https://x.com/OpenAI/status/2120216592395174382",
+    "https://x.com/OpenAIDevs/status/2120258357533749755",
     "https://x.com/sama/status/2117794005165748448",
-    "https://x.com/merettm/status/2112231743734579542"
+    "https://x.com/OpenAI/status/2122123437141553630"
   ],
   "excludeNewsUrls": [
     "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
@@ -433,7 +433,11 @@
     "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
     "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says",
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSktocy1OY2dwRlRpZnRkZ3V0d2hRdmgxRzM2bzlRVW1wdVd6a05PTGRUeTZDY3lwVkN4RFBDQUFrcmVBWmdnOVpkSVNlaVluTndndG1aeE1RQnBHY2NDcWVyeWg0VHhNQlBqejBSeXp0T0RBaTlUQS1rZ19kWEp4THhJa1cxWXhkSUl2Nm1YRG1xbmNMeV95S0NJMzl6M3c?oc=5",
-    "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health"
+    "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health",
+    "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+    "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont",
+    "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+    "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back"
   ],
   "videos": [
     "https://www.youtube.com/watch?v=CrrpfvbNyMw",

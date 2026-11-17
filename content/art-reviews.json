@@ -937,6 +937,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-17-court-challenge.png",
+      "brief": "2026-11-17",
+      "sha256": "a78026f7df06f01d0d8ce62d4d3f11dce7c64484783485c7b6a1bdaf39525fe7",
+      "reviewedAt": "2026-11-17",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Final pixels show one recognizable cartoon Sam Altman turning his eyes toward a courthouse entrance with a balanced-scales relief. The substantial doors, columns and scales identify a court; the sober sideways gaze makes facing a legal challenge legible without text or invented evidence. This connects specifically to California filing a lawsuit against OpenAI and does not depict a verdict or actual court appearance. Zero hands and zero forearms; both shoulder/sleeve contours connect naturally to one torso and leave the lower frame. No floating fingers, extra limbs, reflections or ambiguous grips. Eyes, face, complete hair and head are coherent. The courthouse roof has a narrow but intact top margin; its closed doors, paired columns and balanced scales are structurally clear. First pixel pass was followed by a separate final-file inspection without relying on the prompt. Desktop 1440x1000 homepage and article, mobile 390x844 homepage and article, and actual 1200x630 sharing card were inspected. The delivered versions preserve the face, gaze, court entrance and scales; headline/date on the card are legible. Agent review only, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }
