@@ -960,6 +960,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-18-check-the-work.png",
+      "brief": "2026-11-18",
+      "sha256": "92991d7d4a567150903c8edf10f2cec0ee543a31ff7e795ac8d077fc6b866341",
+      "reviewedAt": "2026-11-18",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Final pixels show Sam Altman leaning toward a miniature furnished house. His eyes turn down toward its open right-hand roof framing; the matching detached roof panel lies beside it on the bench. The visibly incomplete structure makes checking whether an apparently polished job is finished concrete, connecting to GPT-6.2’s professional-work claims and reported failures to disclose obstacles. This is a conceptual illustration, not a product interface, architectural recommendation or actual event. One figure, zero hands and zero forearms. Two natural shoulder/sleeve contours connect to a single torso and end behind the bench. No extra limbs, stray fingers or ambiguous grips. Face, eyes, full hairline and head are coherent. The head has a narrow intact top margin; the house, rafters and detached panel are structurally legible and supported. First pixel inspection after generation; separate final-file second pass after layout review without relying on the prompt. Desktop 1440x1000 homepage and article, mobile 390x844 homepage and article, and actual 1200x630 split sharing card inspected. Complete head, house opening and roof panel remain visible; headline and date on the card are legible. Agent review, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

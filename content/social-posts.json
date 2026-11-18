@@ -1,13 +1,33 @@
 {
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-18",
   "items": [
+    {
+      "accountId": "sama",
+      "url": "https://x.com/sama/status/2122798039899263456",
+      "title": "Altman welcomes GPT-6.2 Astra and Sol",
+      "summary": "Sam Altman emphasizes token efficiency and Sol’s ultrafast option. This is the CEO’s assessment of the launch; the linked system card also describes remaining limitations.",
+      "coveredAt": "2026-11-17",
+      "checkedAt": "2026-11-18",
+      "sourceUrl": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol",
+      "sourceName": "OpenAI · system card and limitations"
+    },
+    {
+      "accountId": "OpenAIDevs",
+      "url": "https://x.com/OpenAIDevs/status/2122824859491205152",
+      "title": "An updated view of API usage and errors",
+      "summary": "OpenAI Developers says the Analytics dashboard now surfaces spending, rate-limited requests and errors by model, project or API key. Useful for investigating usage; a dashboard view is not a spending cap.",
+      "coveredAt": "2026-11-17",
+      "checkedAt": "2026-11-18",
+      "sourceUrl": "https://x.com/OpenAIDevs/status/2122824859491205152",
+      "sourceName": "OpenAI Developers · original announcement"
+    },
     {
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2122359930628063248",
       "title": "Outside assessors get deeper access",
       "summary": "OpenAI announces assessments with Apollo Research, METR, Transluce and Goodfire. Its protocols allow publication with confidentiality redactions and possible disclosure delays; these are planned assessments, not completed safety findings.",
       "coveredAt": "2026-11-16",
-      "checkedAt": "2026-11-17",
+      "checkedAt": "2026-11-18",
       "sourceUrl": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
       "sourceName": "OpenAI · assessment announcement"
     },
@@ -17,7 +37,7 @@
       "title": "Researcher grants open November 23",
       "summary": "OpenAI says the next round offers 50,000 grants for eligible researchers, each covering Plus for a recipient and up to two collaborators. Applications will be first-come, first-served; new grants differ from the pilot’s Pro access.",
       "coveredAt": "2026-11-16",
-      "checkedAt": "2026-11-17",
+      "checkedAt": "2026-11-18",
       "sourceUrl": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
       "sourceName": "OpenAI · program announcement"
     },
@@ -27,7 +47,7 @@
       "title": "A physics proposal opens OpenAI’s science blog",
       "summary": "OpenAI shared Nathaniel Craig’s account of using GPT-6 Astra on a candidate lattice definition of the Standard Model. Craig says expert scrutiny and work on practical simulations remain; this is a research proposal, not a settled result.",
       "coveredAt": "2026-11-15",
-      "checkedAt": "2026-11-17",
+      "checkedAt": "2026-11-18",
       "sourceUrl": "https://openai.com/index/step-toward-defining-the-standard-model/",
       "sourceName": "OpenAI · guest science article"
     },
@@ -37,7 +57,7 @@
       "title": "Brockman points to Wallet’s payment partnerships",
       "summary": "Greg Brockman announced purchases through dots with American Express, Mastercard and Visa. The launch requires approval for each purchase and begins with eligible US Pro users.",
       "coveredAt": "2026-11-13",
-      "checkedAt": "2026-11-17",
+      "checkedAt": "2026-11-18",
       "sourceUrl": "https://openai.com/index/introducing-chatgpt-wallet/",
       "sourceName": "OpenAI · product announcement"
     },
@@ -47,7 +67,7 @@
       "title": "Brockman introduces two tools for security teams",
       "summary": "Greg Brockman announced Daybreak Defense Factory and Daybreak Red Team. OpenAI describes the first as preparing patches for human review and the second as testing web apps and checking fixes.",
       "coveredAt": "2026-11-12",
-      "checkedAt": "2026-11-17",
+      "checkedAt": "2026-11-18",
       "sourceUrl": "https://openai.com/cyber-at-the-frontier/",
       "sourceName": "OpenAI · keynote resources"
     },
@@ -57,7 +77,7 @@
       "title": "What a business can claim inside ChatGPT",
       "summary": "OpenAI says verified businesses can update their information. Its separate Business Agents beta starts with eligible U.S. ecommerce and online service businesses.",
       "coveredAt": "2026-11-10",
-      "checkedAt": "2026-11-17",
+      "checkedAt": "2026-11-18",
       "sourceUrl": "https://x.com/OpenAI/status/2120216592395174382",
       "sourceName": "X · original post",
       "contextUrl": "https://openai.com/index/introducing-businesses-chatgpt/",
@@ -69,28 +89,8 @@
       "title": "From a product photo to a video ad",
       "summary": "OpenAI Developers shares a Runway demonstration of turning a still photo into a video ad and trying alternate opening shots. The examples come from the vendor.",
       "coveredAt": "2026-11-10",
-      "checkedAt": "2026-11-17",
+      "checkedAt": "2026-11-18",
       "sourceUrl": "https://x.com/OpenAIDevs/status/2120258357533749755",
-      "sourceName": "X · original post"
-    },
-    {
-      "accountId": "OpenAIDevs",
-      "url": "https://x.com/OpenAIDevs/status/2120212596850663712",
-      "title": "Use a Business plan in supported tools",
-      "summary": "OpenAI Developers says ChatGPT Business users can sign in to supported tools including Notion, v0 and Warp with their ChatGPT account.",
-      "coveredAt": "2026-11-10",
-      "checkedAt": "2026-11-17",
-      "sourceUrl": "https://x.com/OpenAIDevs/status/2120212596850663712",
-      "sourceName": "X · original post"
-    },
-    {
-      "accountId": "OpenAIDevs",
-      "url": "https://x.com/OpenAIDevs/status/2119883176726409645",
-      "title": "Choose which computer a dot uses",
-      "summary": "OpenAI Developers says a dot can connect to multiple local computers. You can assign a build and its tests to one machine and keep working on another.",
-      "coveredAt": "2026-11-09",
-      "checkedAt": "2026-11-17",
-      "sourceUrl": "https://x.com/OpenAIDevs/status/2119883176726409645",
       "sourceName": "X · original post"
     },
     {
@@ -99,7 +99,7 @@
       "title": "What starts the 35-second stop clock",
       "summary": "OpenAI says Control Room can halt research model output within 35 seconds of a stop instruction. The timing measures the response to that instruction, not how quickly an incident is detected.",
       "coveredAt": "2026-11-09",
-      "checkedAt": "2026-11-17",
+      "checkedAt": "2026-11-18",
       "sourceUrl": "https://x.com/OpenAI/status/2119913172039868579",
       "sourceName": "X · original post",
       "contextUrl": "https://openai.com/index/control-room/",
@@ -111,7 +111,7 @@
       "title": "Altman says human control should constrain AI progress",
       "summary": "Altman says people should not cede control of the future to superintelligence and that this requirement should limit AI progress. This is his stated position, not a published enforcement mechanism or a demonstrated safeguard.",
       "coveredAt": "2026-11-04",
-      "checkedAt": "2026-11-17",
+      "checkedAt": "2026-11-18",
       "sourceUrl": "https://x.com/sama/status/2117794005165748448",
       "sourceName": "X · original post"
     },
@@ -121,7 +121,7 @@
       "title": "Pachocki brings Madry back to work on AI’s pace",
       "summary": "In his October 19 post, Pachocki says he asked Aleksander Madry to return to OpenAI to work on the pace and implications of AI progress. The post describes a research and strategy focus; it does not announce a development pause.",
       "coveredAt": "2026-11-04",
-      "checkedAt": "2026-11-17",
+      "checkedAt": "2026-11-18",
       "sourceUrl": "https://x.com/merettm/status/2112231743734579542",
       "sourceName": "X · original post"
     }

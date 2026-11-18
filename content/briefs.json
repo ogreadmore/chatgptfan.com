@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-11-18",
+    "slug": "2026-11-18",
+    "title": "GPT-6.2 arrives. Check what it actually finished.",
+    "excerpt": "Astra and Sol promise better work at lower cost. Their safety report also records missed disclosures of unfinished tasks. Here is how to judge the upgrade.",
+    "file": "2026-11-18.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Introducing GPT-6.2 Astra and Sol",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+        "publishedAt": "2026-11-17",
+        "kind": "Company launch announcement"
+      },
+      {
+        "title": "Using GPT-6.2",
+        "publisher": "OpenAI Developers",
+        "url": "https://developers.openai.com/api/docs/guides/latest-model",
+        "kind": "Current developer documentation"
+      },
+      {
+        "title": "GPT-6.2 Astra and GPT-6.2 Sol system card",
+        "publisher": "OpenAI",
+        "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol",
+        "publishedAt": "2026-11-17",
+        "kind": "Company evaluations and stated limitations"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-18-check-the-work.png",
+      "width": 1672,
+      "height": 941,
+      "alt": "Conceptual cartoon of Sam Altman inspecting a miniature house with an unfinished roof and its missing roof panel resting beside it.",
+      "credit": "AI-generated conceptual cartoon · Check the finished work",
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-17",
     "slug": "2026-11-17",
     "title": "California asks a court to change OpenAI’s AI testing",
