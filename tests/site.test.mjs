@@ -110,3 +110,16 @@ test('RSS is parseable and contains published briefs only', async () => {
   const search=await readFile('dist/search.json','utf8');
   for(const brief of briefs.filter(b=>b.status!=='published')) assert.ok(!search.includes(brief.title));
 });
+
+test('Explicit title ad disclosures are excluded without dropping ordinary advertising coverage', () => {
+ const titles=['Cybersecurity in the AI Era #ad Presented by Brand','Demo #AD','Demo #sponsored.','AI ad policies explained','#adoption of AI','An editor discusses sponsored content'];
+ const xml='<feed>'+titles.map((title,i)=>'<entry><title>'+title+'</title><link href="https://example.com/'+i+'"/><updated>2026-01-01</updated></entry>').join('')+'</feed>';
+ assert.deepEqual(parseFeed(xml,source).map(i=>i.title),titles.slice(3));
+});
+
+
+test('YouTube sponsor credits are excluded without suppressing reporting about a presentation', () => {
+ const item='<title>Can Congress regulate AI? Presented by @CrowdStrike</title><link href="https://example.com/presentation"/><updated>2026-01-01</updated>';
+ assert.equal(parseFeed('<feed><entry><yt:videoId>abcdefghi01</yt:videoId>'+item+'</entry></feed>',source).length,0);
+ assert.equal(parseFeed('<feed><entry>'+item+'</entry></feed>',source).length,1);
+});

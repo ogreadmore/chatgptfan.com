@@ -720,7 +720,7 @@
     "kind": "Cost control",
     "level": "Developer",
     "description": "A guide to setting a monthly project spending ceiling that pauses resources when reached. Useful for experiments that create cloud infrastructure; compare a real stop with a notification-only budget alert.",
-    "checkedAt": "2026-11-12",
+    "checkedAt": "2026-11-19",
     "cost": "Free guide · paid AWS usage",
     "bestFor": "Containing cloud costs during agent experiments",
     "needs": "For the new AWS account experience; requires a Paid Plan and project-owner access. Minimum cap is $20 or a higher usage estimate, before tax. Pausing interrupts services; after 90 days without action, paused project data is permanently deleted. Optional early controls can also block new resources or pause idle or high-cost resources before the ceiling.",
@@ -790,7 +790,7 @@
     "kind": "Risk & governance",
     "description": "Twelve practices for financial institutions adopting AI, from accountable leadership and documented uses to oversight and outside-provider risk.",
     "level": "Professional",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-11-19",
     "cost": "Free report",
     "bestFor": "Teams building AI for financial services",
     "needs": "Read the introduction and twelve-practice summary first. Non-binding guidance, not certification; local obligations still apply. Agent-specific practices remain nascent. We reviewed the introduction and summary, not all case studies.",
@@ -819,11 +819,11 @@
     "provider": "OpenAI",
     "kind": "Cost planning",
     "description": "Eligible Pro and Business subscriptions can claim API credits for a linked API organization. Read the activation and expiry rules before budgeting an experiment; these credits do not raise ChatGPT or signed-in Codex usage limits.",
-    "checkedAt": "2026-11-12",
+    "checkedAt": "2026-11-19",
     "level": "Developer",
     "cost": "Paid eligible subscription · included API credit benefit",
     "bestFor": "Using an existing subscription benefit for API experiments",
-    "needs": "An eligible paid subscription must be active for seven days; account email, API organization ownership and billing access matter. Business credits are pooled: up to $500 per monthly cycle or $6,000 per prepaid year. First grants are prorated; unused credits expire. A workspace seat alone gives no API project access. Paid credits or Auto Recharge can cover later usage.",
+    "needs": "An eligible paid subscription must be active for seven days; account email, API organization ownership and billing access matter. Business credits are pooled: up to $500 per monthly cycle or $6,000 per prepaid year. First grants are prorated; unused credits expire. A workspace seat alone gives no API project access. Paid credits or Auto Recharge can cover later usage. The benefit excludes Codex usage through API keys.",
     "reviewEveryDays": 14
   },
   {
@@ -1055,5 +1055,27 @@
     "cost": "Free for accepted applicants",
     "needs": "Applications open November 23 on a first-come, first-served basis for eligible applicants. New grants provide Plus, not the pilot’s Pro access. Read eligibility and data-use terms before applying; acceptance is not guaranteed.",
     "bestFor": "Academic teams checking access support"
+  },
+  {
+    "id": "california-ai-oversight",
+    "section": "safety",
+    "title": "Read California’s AI oversight proposal",
+    "url": "https://www.govops.ca.gov/wp-content/uploads/sites/11/2026/11/FINAL_-AI-Safety-in-2026-and-Beyond-v2.pdf",
+    "provider": "California Government Operations Agency",
+    "kind": "Policy proposal",
+    "description": "A November 2026 roadmap for independent audits, incident reporting and emergency intervention. Read pages 6–10 for the recommendations and limits.",
+    "level": "All levels",
+    "cost": "Free report",
+    "checkedAt": "2026-11-19",
+    "bestFor": "Separating proposed public powers from company safety promises",
+    "needs": "Recommendations for legislation, not newly enacted requirements. Reviewed the introduction and recommendation summary, not all 85 pages.",
+    "safety": {
+      "audience": "Readers following frontier AI governance",
+      "why": "Makes proposed independent oversight and shutdown authority concrete.",
+      "limits": "Government policy recommendations; implementation, enforcement and broader harms remain open questions.",
+      "group": "policy",
+      "readFirst": "Read the recommendation summary, especially shutdown limits on pages 8–10."
+    },
+    "reviewEveryDays": 7
   }
 ]

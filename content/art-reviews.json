@@ -983,6 +983,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-19-tested-shutdown.png",
+      "brief": "2026-11-19",
+      "sha256": "414363690d5974ab675d50bec67721316c9775f91e1c58341d041e563d4c2150",
+      "reviewedAt": "2026-11-19",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 1,
+      "observedVisibleHands": 1,
+      "notes": "The final pixels show one woman gripping an orange lever that is mechanically attached to a server cabinet through a vertical slot. She looks toward the control; the cabinet stands on a bench. A person directly operating a system's disconnect control makes the ability to stop it concrete, connecting to California's proposal for tested shutdown procedures. This is a conceptual cartoon, not a claim that a single physical switch solves the shutdown of distributed AI; the article explicitly explains multiple control layers and limits. One visible hand and forearm, necessary to show the action. The near arm traces continuously from shoulder through bent elbow and sleeve cuff to wrist and hand. Four curled finger contours form a coherent grip around the contrasting orange handle; the thumb is occluded on the far side, not an extra visible digit. No second hand, detached limb or finger-like artifact. The far shoulder/torso is naturally occluded, face and eyes are coherent, and the whole head has generous purple margin. The orange handle, slot and cabinet are structurally connected and grounded. First full-pixel inspection was followed by a separate final-file pass after page review, without relying on the generation prompt. Desktop 1440x1000 homepage and article, mobile 390x844 homepage and article, and actual 1200x630 split sharing card inspected. Complete head, arm, hand, lever and cabinet remain visible and legible at every size; sharing headline and date fit. Agent review, not owner approval. Earlier defective plug candidates were rejected and remain private.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

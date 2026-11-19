@@ -51,6 +51,9 @@ export function parseFeed(xml, source, now = Date.now()) {
     if (!title || !isWebURL(link) || !Number.isFinite(date.getTime()) || date.getTime() > now + 300000) return [];
     const tags = array(entry.category).map(tag => plain(typeof tag === 'object' ? tag['@_term'] ?? tag['#text'] : tag).toLowerCase());
     if (tags.some(tag => /^(sponsored|sponsored content|advertisement|advertorial|partner content)$/.test(tag))) return [];
+    // Explicit ad disclosures can be in YouTube titles rather than RSS categories.
+    if (/(?:^|\s)#(?:ad|sponsored)(?=$|[\s.,:;!?])/i.test(title)) return [];
+    if (entry['yt:videoId'] && /\bpresented by\s+@/i.test(title)) return [];
     if (source.includeTags && !source.includeTags.some(tag => tags.includes(tag.toLowerCase()))) return [];
     if (source.excludePath && new RegExp(source.excludePath, 'i').test(new URL(link).pathname)) return [];
     if (source.publisherDomains) {

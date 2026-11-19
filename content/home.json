@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-11-18",
+  "reviewedAt": "2026-11-19",
   "resources": [
     "app-troubleshooting",
     "academy",
@@ -22,7 +22,7 @@
   "money": [
     "upwork-ai-scope",
     "chatgpt-api-credits",
-    "ai-business-value"
+    "fsb-ai-adoption"
   ],
   "safetyFeature": "safety-report",
   "safety": [
@@ -31,10 +31,10 @@
     "ai-now"
   ],
   "social": [
+    "https://x.com/OpenAIDevs/status/2123129469447880885",
+    "https://x.com/gdb/status/2123225465762542044",
     "https://x.com/sama/status/2122798039899263456",
-    "https://x.com/OpenAIDevs/status/2122824859491205152",
     "https://x.com/OpenAI/status/2122359930628063248",
-    "https://x.com/gdb/status/2121295213025194172",
     "https://x.com/OpenAI/status/2122377585523126615",
     "https://x.com/sama/status/2117794005165748448"
   ],
@@ -467,10 +467,20 @@
     "https://www.theguardian.com/technology/2026/nov/16/trump-backs-calls-for-reinstatement-of-jensen-huang-as-nvidia-ceo",
     "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia",
     "https://www.youtube.com/shorts/6WXGRGjHd5E",
-    "https://www.technologyreview.com/2026/11/17/1148203/research-reports"
+    "https://www.technologyreview.com/2026/11/17/1148203/research-reports",
+    "https://www.theguardian.com/commentisfree/2026/nov/19/uk-growth-plan-datacentres-ai-bubble-big-tech",
+    "https://www.alignmentforum.org/posts/nvrFYAwciyyj9T5ir/solomonoff-induction-with-reflective-oracles",
+    "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team",
+    "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit",
+    "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report",
+    "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated",
+    "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie",
+    "https://www.theguardian.com/technology/2026/nov/18/why-palantirs-health-tech-is-not-the-right-fit-for-the-nhs",
+    "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen",
+    "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere"
   ],
   "videos": [
-    "https://www.youtube.com/watch?v=pmOJIq7Ah00",
+    "https://www.youtube.com/watch?v=AhmCKHNqhB8",
     "https://www.youtube.com/watch?v=dOwqsYtXp6k",
     "https://www.youtube.com/watch?v=R_sl8zEp9ng",
     "https://www.youtube.com/watch?v=CrrpfvbNyMw",
