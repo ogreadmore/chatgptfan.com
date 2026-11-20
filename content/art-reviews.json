@@ -1006,6 +1006,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-20-power-behind-ai.png",
+      "brief": "2026-11-20",
+      "sha256": "323c454a1780834a11c4aab2ab9b0cbf1602c2d7d370167a512cc353a0a05c5b",
+      "reviewedAt": "2026-11-20",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Final pixels show a concerned woman looking up toward a chimney plume. A miniature power station and a server cabinet stand on the same tabletop, physically joined by one continuous cable between visible sockets. The power-to-computing connection and plume communicate the fossil-fuel supply behind data-centre electricity, matching the IEA story. This is a clearly labeled conceptual cartoon, not a measured emissions diagram, actual site or claim that every facility has this supply. One chest-up person; zero hands and forearms. Both shoulder and sleeve contours connect naturally to one torso behind the bench; no extra limbs, detached fingers or ambiguous grips. Face, eyes, neck and full head are coherent; head margin intact. Station, cable and server are grounded and structurally connected. A separate second full-file pixel pass was made without relying on prompt intent. Desktop 1440x1000 and mobile 390x844 homepage and article were inspected, as was the actual 1200x630 split sharing PNG. All preserve the full face, station, cable and cabinet; the plume exits the upper frame intentionally. The sharing headline and date fit and remain legible. Agent review only, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

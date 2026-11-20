@@ -1,149 +1,725 @@
 {
-  "updatedAt": "2026-11-19T06:16:10.244Z",
+  "updatedAt": "2026-11-20T06:43:00.599Z",
   "sources": [
     {
       "id": "google",
-      "checkedAt": "2026-11-19T06:16:10.244Z",
-      "lastSuccessAt": "2026-11-19T06:16:10.244Z",
+      "checkedAt": "2026-11-20T06:43:00.599Z",
+      "lastSuccessAt": "2026-11-20T06:43:00.599Z",
       "status": "ok",
       "count": 20
     },
     {
       "id": "openai",
-      "checkedAt": "2026-11-19T06:16:10.244Z",
-      "lastSuccessAt": "2026-11-19T06:16:10.244Z",
+      "checkedAt": "2026-11-20T06:43:00.599Z",
+      "lastSuccessAt": "2026-11-20T06:43:00.599Z",
       "status": "ok",
-      "count": 15
+      "count": 16
     },
     {
       "id": "openai-youtube",
-      "checkedAt": "2026-11-19T06:16:10.244Z",
-      "lastSuccessAt": "2026-11-19T06:16:10.244Z",
+      "checkedAt": "2026-11-20T06:43:00.599Z",
+      "lastSuccessAt": "2026-11-20T06:43:00.599Z",
       "status": "ok",
       "count": 15
     },
     {
       "id": "decoder-youtube",
-      "checkedAt": "2026-11-19T06:16:10.244Z",
-      "lastSuccessAt": "2026-11-19T06:16:10.244Z",
+      "checkedAt": "2026-11-20T06:43:00.599Z",
+      "lastSuccessAt": "2026-11-20T06:43:00.599Z",
       "status": "ok",
       "count": 7
     },
     {
       "id": "mit",
-      "checkedAt": "2026-11-19T06:16:10.244Z",
-      "lastSuccessAt": "2026-11-19T06:16:10.244Z",
+      "checkedAt": "2026-11-20T06:43:00.599Z",
+      "lastSuccessAt": "2026-11-20T06:43:00.599Z",
       "status": "ok",
       "count": 7
     },
     {
       "id": "simon",
-      "checkedAt": "2026-11-19T06:16:10.244Z",
-      "lastSuccessAt": "2026-11-19T06:16:10.244Z",
+      "checkedAt": "2026-11-20T06:43:00.599Z",
+      "lastSuccessAt": "2026-11-20T06:43:00.599Z",
       "status": "ok",
       "count": 16
     },
     {
       "id": "404",
-      "checkedAt": "2026-11-19T06:16:10.244Z",
-      "lastSuccessAt": "2026-11-19T06:16:10.244Z",
+      "checkedAt": "2026-11-20T06:43:00.599Z",
+      "lastSuccessAt": "2026-11-20T06:43:00.599Z",
       "status": "ok",
       "count": 12
     },
     {
       "id": "metr",
-      "checkedAt": "2026-11-19T06:16:10.244Z",
-      "lastSuccessAt": "2026-11-19T06:16:10.244Z",
+      "checkedAt": "2026-11-20T06:43:00.599Z",
+      "lastSuccessAt": "2026-11-20T06:43:00.599Z",
       "status": "ok",
       "count": 12
     },
     {
       "id": "guardian",
-      "checkedAt": "2026-11-19T06:16:10.244Z",
-      "lastSuccessAt": "2026-11-19T06:16:10.244Z",
+      "checkedAt": "2026-11-20T06:43:00.599Z",
+      "lastSuccessAt": "2026-11-20T06:43:00.599Z",
       "status": "ok",
       "count": 16
     },
     {
       "id": "verge",
-      "checkedAt": "2026-11-19T06:16:10.244Z",
-      "lastSuccessAt": "2026-11-19T06:16:10.244Z",
+      "checkedAt": "2026-11-20T06:43:00.599Z",
+      "lastSuccessAt": "2026-11-20T06:43:00.599Z",
       "status": "ok",
       "count": 10
     },
     {
       "id": "techcrunch",
-      "checkedAt": "2026-11-19T06:16:10.244Z",
-      "lastSuccessAt": "2026-11-19T06:16:10.244Z",
+      "checkedAt": "2026-11-20T06:43:00.599Z",
+      "lastSuccessAt": "2026-11-20T06:43:00.599Z",
       "status": "ok",
       "count": 16
     },
     {
       "id": "ars",
-      "checkedAt": "2026-11-19T06:16:10.244Z",
-      "lastSuccessAt": "2026-11-19T06:16:10.244Z",
+      "checkedAt": "2026-11-20T06:43:00.599Z",
+      "lastSuccessAt": "2026-11-20T06:43:00.599Z",
       "status": "ok",
       "count": 16
     },
     {
       "id": "mollick",
-      "checkedAt": "2026-11-19T06:16:10.244Z",
-      "lastSuccessAt": "2026-11-19T06:16:10.244Z",
+      "checkedAt": "2026-11-20T06:43:00.599Z",
+      "lastSuccessAt": "2026-11-20T06:43:00.599Z",
       "status": "ok",
       "count": 10
     },
     {
       "id": "ainow",
-      "checkedAt": "2026-11-19T06:16:10.244Z",
+      "checkedAt": "2026-11-20T06:43:00.599Z",
       "lastSuccessAt": "2026-11-17T06:01:14.895Z",
       "status": "unavailable",
-      "error": "HTTP 403",
-      "count": 10
+      "error": "HTTP 403"
     },
     {
       "id": "alignment",
-      "checkedAt": "2026-11-19T06:16:10.244Z",
-      "lastSuccessAt": "2026-11-19T06:16:10.244Z",
+      "checkedAt": "2026-11-20T06:43:00.599Z",
+      "lastSuccessAt": "2026-11-20T06:43:00.599Z",
       "status": "ok",
       "count": 10
     },
     {
       "id": "status",
-      "checkedAt": "2026-11-19T06:16:10.244Z",
-      "lastSuccessAt": "2026-11-19T06:16:10.244Z",
+      "checkedAt": "2026-11-20T06:43:00.599Z",
+      "lastSuccessAt": "2026-11-20T06:43:00.599Z",
       "status": "ok",
       "count": 8
     }
   ],
   "items": [
     {
-      "title": "Ram through datacentres no one wants and hope the AI bubble never bursts: that’s the UK’s growth plan | George Monbiot",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/19/uk-growth-plan-datacentres-ai-bubble-big-tech",
-      "publishedAt": "2026-11-19T06:00:19.000Z",
+      "title": "Create and Share a Dashboard in ChatGPT",
+      "url": "https://www.youtube.com/watch?v=OSHSopaYjTw",
+      "publishedAt": "2026-11-20T06:07:50.000Z",
+      "sourceId": "openai-youtube",
+      "source": "OpenAI on YouTube",
+      "type": "Company videos · YouTube",
+      "topic": "Videos",
+      "image": "https://i.ytimg.com/vi/OSHSopaYjTw/maxresdefault.jpg",
+      "format": "video"
+    },
+    {
+      "title": "Ask Questions About Your Data in ChatGPT",
+      "url": "https://www.youtube.com/watch?v=JEgTn37Sk50",
+      "publishedAt": "2026-11-20T06:05:59.000Z",
+      "sourceId": "openai-youtube",
+      "source": "OpenAI on YouTube",
+      "type": "Company videos · YouTube",
+      "topic": "Videos",
+      "image": "https://i.ytimg.com/vi/JEgTn37Sk50/maxresdefault.jpg",
+      "format": "video"
+    },
+    {
+      "title": "Connect Your Team’s Data to ChatGPT",
+      "url": "https://www.youtube.com/watch?v=oJIuz3AFfEQ",
+      "publishedAt": "2026-11-20T06:02:57.000Z",
+      "sourceId": "openai-youtube",
+      "source": "OpenAI on YouTube",
+      "type": "Company videos · YouTube",
+      "topic": "Videos",
+      "image": "https://i.ytimg.com/vi/oJIuz3AFfEQ/maxresdefault.jpg",
+      "format": "video"
+    },
+    {
+      "title": "Meet the Data Agent in ChatGPT",
+      "url": "https://www.youtube.com/watch?v=KrlfehIapEA",
+      "publishedAt": "2026-11-20T05:35:32.000Z",
+      "sourceId": "openai-youtube",
+      "source": "OpenAI on YouTube",
+      "type": "Company videos · YouTube",
+      "topic": "Videos",
+      "image": "https://i.ytimg.com/vi/KrlfehIapEA/maxresdefault.jpg",
+      "format": "video"
+    },
+    {
+      "title": "Create and Share a Report in ChatGPT Space",
+      "url": "https://www.youtube.com/watch?v=3_fayTbZrW8",
+      "publishedAt": "2026-11-20T05:32:52.000Z",
+      "sourceId": "openai-youtube",
+      "source": "OpenAI on YouTube",
+      "type": "Company videos · YouTube",
+      "topic": "Videos",
+      "image": "https://i.ytimg.com/vi/3_fayTbZrW8/maxresdefault.jpg",
+      "format": "video"
+    },
+    {
+      "title": "‘We will become cyborgs!’ Peter Gabriel on bonobo ape duets, building a Jurassic Park for plants – and why AI will make great music",
+      "url": "https://www.theguardian.com/music/2026/nov/20/peter-gabriel-interview-ai-music-bonobo-ape-duets-jurassic-park-plants",
+      "publishedAt": "2026-11-20T05:00:22.000Z",
       "sourceId": "guardian",
       "source": "The Guardian",
       "type": "Reporting & opinion",
       "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/7619fd79f40710c000b8d324d812ec60c73e5910/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=e05f011145aa9865de9da4fe263b138f"
+      "image": "https://i.guim.co.uk/img/media/124bc29050c7da765c91e3c9121b3b2ab887ffa0/0_715_4126_3300/master/4126.jpg?width=140&quality=85&auto=format&fit=max&s=f0bd83c4f578462ee5eeaf1e262d06d8"
     },
     {
-      "title": "Anthropic set to begin trading after pricing its stock at $83 per share in biggest IPO on record - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZXdyUExSdjhGa000MWtxaUR0YzhiVHJnNzN0N0lTUnNONktkaWZkUVUwdExoUXhXMTlJN0NEZ3F3M2RYbUZYelpiNFhpOE14LWdtYjF1MnB2M00xMk1GbENmci1UeFlXa3V0aHM4TWlxVVZNeFBwUkZjMTA2ZWhCSFBVaVVBb0FUdnpj?oc=5",
-      "publishedAt": "2026-11-19T05:01:00.000Z",
+      "title": "NextDC vows to keep future datacentres away from homes after community backlash in Melbourne",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/20/nextdc-vows-to-keep-future-datacentres-away-from-homes-after-community-backlash-in-melbourne",
+      "publishedAt": "2026-11-20T04:37:08.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/9acf294a8c0fe26735bc3164495be1c8cbfbe068/683_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=17900272fc8dd5c5221231513aab8877"
+    },
+    {
+      "title": "Anthropic’s historic stock market debut: key takeaways, and what comes next for the AI industry",
+      "url": "https://www.theguardian.com/technology/2026/nov/20/anthropic-ipo-historic-stock-market-debut-key-takeaways-what-next-for-ai",
+      "publishedAt": "2026-11-20T03:33:45.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/61ed24035e251e6542b667ba9186f9479f108506/240_0_4204_3363/master/4204.jpg?width=140&quality=85&auto=format&fit=max&s=035500278e5a57ed65ddb04b90dc5540"
+    },
+    {
+      "title": "Asia shares drop on AI worries, echoing Wall Street's decline despite the strong Anthropic debut - AP News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY09GMmxTYlpRMnQ3YVJ4Q3BUdmg3NEFJWG5lVlh4TC0zZGxxZVcydTkwSkpiZUZfS3BXdlRab05HSW5TS0h5TDY5NFRKajBDSWdFbUdhNFIxMzUxc3pLRnEtMXVNblBwZmgteFlUWVhuS0lRU3diRGpWQnkyeWtDMGJiS3hzd2xCdUtDVHIxc0hOWGkwTHdPZ1FfenUwQQ?oc=5",
+      "publishedAt": "2026-11-20T03:17:00.000Z",
       "sourceId": "google",
       "source": "AP News",
       "type": "Reporting via Google News",
       "topic": "News"
     },
     {
-      "title": "Datacentres to create 70% more carbon emissions by 2030, IEA report warns",
-      "url": "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns",
-      "publishedAt": "2026-11-19T05:00:18.000Z",
+      "title": "Token fraud is here and it’s BAD (YouTube)",
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad",
+      "publishedAt": "2026-11-20T02:49:57.000Z",
+      "sourceId": "simon",
+      "source": "Simon Willison",
+      "type": "Practitioner analysis",
+      "topic": "Practical AI"
+    },
+    {
+      "title": "Anthropic's Australian data centre overwhelmingly opposed by residents - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQV0tkWmlBUktrOUtfR2pyekRxYkg0OW1MY3hhLU5sSUI0SGpMcFVFaUIxMkRTZDVKdzVHYmc4NmEySlFhWmpScjJSSWxLaTNMQjlvRXI2TGhKanh4N1JDMVBwd01tRmwwT29uQWc3Vk5KQ3RMX2NFUlFCTDhhX2cyOFhTU2djTm1wYzB1S2tDTUVJWlRFcEg5cDFPZVc1NTJLXzhaSzVEQzV0RWV4X3hNamRrM3dtV0lNSnpkRi1kTjF3Zw?oc=5",
+      "publishedAt": "2026-11-20T02:39:00.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Big tech is already building datacentres in Australia. Why is Labor so desperate to give them loopholes?",
+      "url": "https://www.theguardian.com/technology/commentisfree/2026/nov/20/big-tech-is-already-building-datacentres-in-australia-why-is-labor-desperate-to-give-them-loopholes",
+      "publishedAt": "2026-11-20T02:00:18.000Z",
       "sourceId": "guardian",
       "source": "The Guardian",
       "type": "Reporting & opinion",
       "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/2ea7dda4257fc43543719a2d375cd85a1ce8cdb4/0_0_7157_5728/master/7157.jpg?width=140&quality=85&auto=format&fit=max&s=bacf77eb19490db5a05856675b08baa4"
+      "image": "https://i.guim.co.uk/img/media/0cdbb6369ce14b701428a723ba8bb7a215b0e3bd/0_0_1828_1463/master/1828.jpg?width=140&quality=85&auto=format&fit=max&s=ec31418de2ee6aa3a2433d6d06ad0d05"
+    },
+    {
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac",
+      "publishedAt": "2026-11-20T00:56:01.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
+      "publishedAt": "2026-11-20T00:43:50.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "Alibaba defrauded shareholders by concealing ties to suspected spy in Nvidia scandal, lawsuit says - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNU2NLaWxYa3VzZlBrX09yMHM0MjctV3RIZzNUVVNWbjhHODZZQlZtTkNJaWJJbkJLUTNsckRSRURrWTdzYUVNa2JwNnNmenJYb3FVTS16U1B4R3Ezc1ZHcWZ5ZTl2aTh5V2VCdkZUQzRQMXpUbEJaQnRRZ1AybGYxaFk5Yjh2c256cVJJaFAzaG03eGtiRUIydWctNHNRSUFiWmV5aTlGVzlYUVRUQ0RiUGpOMUw5LW5UbXRCMFNhMTY3UnYzSjlkNmNwQnN5azFEZGxNUjBn?oc=5",
+      "publishedAt": "2026-11-19T23:32:09.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Anthropic surges in market debut after biggest IPO on record, despite fears that AI is running amok - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZXdyUExSdjhGa000MWtxaUR0YzhiVHJnNzN0N0lTUnNONktkaWZkUVUwdExoUXhXMTlJN0NEZ3F3M2RYbUZYelpiNFhpOE14LWdtYjF1MnB2M00xMk1GbENmci1UeFlXa3V0aHM4TWlxVVZNeFBwUkZjMTA2ZWhCSFBVaVVBb0FUdnpj?oc=5",
+      "publishedAt": "2026-11-19T23:22:00.000Z",
+      "sourceId": "google",
+      "source": "AP News",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "publishedAt": "2026-11-19T22:31:41.000Z",
+      "sourceId": "verge",
+      "source": "The Verge",
+      "type": "Reporting & analysis",
+      "topic": "News",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DSC04239.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "title": "Anthropic shares end first day of trading at $97 as Wall Street closes sharply lower – as it happened",
+      "url": "https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates",
+      "publishedAt": "2026-11-19T22:13:52.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/8226cf45c1bc20ad59eddec748cb40e245b6796d/378_0_2428_1942/master/2428.jpg?width=140&quality=85&auto=format&fit=max&s=97d0f5d644f173d2ba42f67590e1aa3d"
+    },
+    {
+      "title": "Anthropic closes first day of public trading at $1.3tn valuation after largest-ever IPO",
+      "url": "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo",
+      "publishedAt": "2026-11-19T22:09:18.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/6998f4e0d8ab24e4c35516c1ab618511a39fcd71/545_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=1d230408bbae396686d8049961356159"
+    },
+    {
+      "title": "A brief history of Nvidia’s recent stock fluctuations",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "publishedAt": "2026-11-19T21:59:35.000Z",
+      "sourceId": "verge",
+      "source": "The Verge",
+      "type": "Reporting & analysis",
+      "topic": "News",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305716823.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "title": "Meta’s new Muse Charm device may cost $300",
+      "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300",
+      "publishedAt": "2026-11-19T21:58:06.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "Protesters rally against Anthropic in New York and San Francisco after $2tn stock market debut",
+      "url": "https://www.theguardian.com/technology/2026/nov/19/anthropic-ipo-protests",
+      "publishedAt": "2026-11-19T21:52:19.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/71f9820b3e6fa3234944209ef4e179d6b83eeb67/333_0_3333_2668/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=c67dc9fe30c346a644aea3be3a033af0"
+    },
+    {
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style",
+      "publishedAt": "2026-11-19T21:42:31.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "Instant view: Anthropic hits $2 trillion market value in debut; major indexes fall - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQlRFLVpVV0l1RXpPXzhUdXlUT1ZHQ0NNeUplSXhERGJybFNNRDBVU1RDRktVeTBFYlhOV1dUbE1ldV92NS1zZDJCYkM1U24tMVI0clN1eFplWHdXQlZmX19zS2V2ZWE1Y0RGT3lLQ1dzUzJVS210N19zZXVZSHlVRUt6c3JhLVJ1bzk3cl9LZ0FPeVhmV3ZSYmdRSHpoc0p6VXB6cHhwX2FfQQ?oc=5",
+      "publishedAt": "2026-11-19T21:39:50.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Anthropic's $2 trln IPO may be last hurrah - Breakingviews",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMkNfRzVoLWlmTklyTmw3MkpsVl96Skg5aDVINHR6OHlleDlXY1pzUE1MV1piOXEzOXNGX1BNQnRWTnQxejBMWWFGR3RBUXhtMloxYVFZNDYtOHduajVoeHFYcUdqNXBMbmVUQ2FNRklpQXhxV1hlUC01T2V1cERsNDNwb3l6Z0t4RlpWNXIwd3Y0c2RET2VNbGs3T1AyeWFDa2Yw?oc=5",
+      "publishedAt": "2026-11-19T20:42:39.000Z",
+      "sourceId": "google",
+      "source": "Breakingviews",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Meta’s Muse Charm might cost $300",
+      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+      "publishedAt": "2026-11-19T20:22:17.000Z",
+      "sourceId": "verge",
+      "source": "The Verge",
+      "type": "Reporting & analysis",
+      "topic": "News",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/lcimg-3879511d-dd3d-430c-8072-616e2dfb3484.jpeg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+      "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert",
+      "publishedAt": "2026-11-19T20:19:28.000Z",
+      "sourceId": "ars",
+      "source": "Ars Technica",
+      "type": "Technical reporting",
+      "topic": "News",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-458680569-1152x648-1795115965.jpg"
+    },
+    {
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+      "publishedAt": "2026-11-19T20:18:49.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "Who are Anthropic’s seven co-founders, now worth $180bn?",
+      "url": "https://www.theguardian.com/technology/2026/nov/19/who-are-anthropic-founders",
+      "publishedAt": "2026-11-19T20:05:13.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/f21be169b52ca2b5f51250db2e1f038f14af993b/236_0_3021_2417/master/3021.jpg?width=140&quality=85&auto=format&fit=max&s=cfd2d2381022640d3abcec2594556295"
+    },
+    {
+      "title": "Google is putting AI chats right on the homepage",
+      "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "publishedAt": "2026-11-19T20:05:06.000Z",
+      "sourceId": "verge",
+      "source": "The Verge",
+      "type": "Reporting & analysis",
+      "topic": "News",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK093_GOOGLE_D.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "title": "Anthropic’s IPO could deliver $156B to charity",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity",
+      "publishedAt": "2026-11-19T19:10:45.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "France's OVHcloud launches AI cloud products hosted in Europe - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcnV6Z1NtSzlGTWp0ZnVxTjBKbUF3U011RmtiMDRFcmNNbFU2LTltRmViZHUtbjFjSWJVdGw0ckpmWUZ3WVNfbWFEUi13NkVoVC1TaXNFVkdDRnNPZGh3S0NsaEt2WU95RnRrOXZvbFRtTTk2Y2JtVFVpbHFMOVhheE9fWVZrSWZuUV9FUkYyNm5WR3pCWm9VdEZn?oc=5",
+      "publishedAt": "2026-11-19T18:41:08.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Gemini on Mac can now use your computer",
+      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+      "publishedAt": "2026-11-19T18:21:13.000Z",
+      "sourceId": "verge",
+      "source": "The Verge",
+      "type": "Reporting & analysis",
+      "topic": "News",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/M6_MBP_hero2.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "title": "Anthropic keeps the AI party swinging, but the atmosphere is bubbly | Nils Pratley",
+      "url": "https://www.theguardian.com/technology/nils-pratley-on-finance/2026/nov/19/anthropic-keeps-ai-party-swinging-but-atmosphere-bubbly",
+      "publishedAt": "2026-11-19T18:15:48.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/ae7186e144b4b6232e5ff363f0e9905e52124718/716_0_5611_4488/master/5611.jpg?width=140&quality=85&auto=format&fit=max&s=b17d1d80e98e983f0b94c1064dbde8ab"
+    },
+    {
+      "title": "At COP31, Venezuela touts AI as path to cleaner oil production - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQmdwRmVVelpCME1XUFJaY205YnloQ1NrdDhSVDBiZkhjTU9oQlp4WUg5YXFRNWp5RzhhVlN2bC1mUHFrVEhKalZJMGhjeHNla3ppQTc1Y2FwcWwweDJydXlRVzI0aUE4S3JyWXpJaEs2WjJOQWNKNTNMeEVZRWgwT3I0SUZsbjBtcGlDbS0zSy11SlI4MjE1VkVUMGd6Q0w1LVFqUTE1Nko2SlE?oc=5",
+      "publishedAt": "2026-11-19T18:13:50.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Google gives Gemini the ability to use your Mac for you",
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you",
+      "publishedAt": "2026-11-19T18:09:11.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "Academic integrity matters, but students shouldn’t be penalised for using AI | Letter",
+      "url": "https://www.theguardian.com/education/2026/nov/19/academic-integrity-matters-but-students-shouldnt-be-penalised-for-using-ai",
+      "publishedAt": "2026-11-19T18:07:23.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/d7bc00c363b545a490ae7a33839f622d2af83063/427_252_3735_2988/master/3735.jpg?width=140&quality=85&auto=format&fit=max&s=d2064f23bf3dda8f5c106a86b5f8b157"
+    },
+    {
+      "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says",
+      "publishedAt": "2026-11-19T17:38:40.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
+      "url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories",
+      "publishedAt": "2026-11-19T17:00:00.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
+      "publishedAt": "2026-11-19T16:59:23.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "Elevated error rates for gpt-6 Luna API requests",
+      "url": "https://status.openai.com//incidents/01M7T8MRF9SDBDNQ62Z6V156ZZ",
+      "publishedAt": "2026-11-19T16:58:04.000Z",
+      "sourceId": "status",
+      "source": "OpenAI Status",
+      "type": "Service notices",
+      "topic": "Status"
+    },
+    {
+      "title": "Anthropic starts trading on Wall Street",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+      "publishedAt": "2026-11-19T16:52:01.000Z",
+      "sourceId": "verge",
+      "source": "The Verge",
+      "type": "Reporting & analysis",
+      "topic": "News",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305334560.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "title": "Anthropic CEO acknowledges AI has 'very real risks' shortly before IPO – video",
+      "url": "https://www.theguardian.com/technology/video/2026/nov/19/anthropic-dario-amodei-acknowledges-ai-risks-before-ipo-video",
+      "publishedAt": "2026-11-19T16:24:13.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/e5c40ff59ef47cd73480080f50cff6aee0a18c5f/115_0_3086_2469/master/3086.jpg?width=140&quality=85&auto=format&fit=max&s=8c69367ee99a59652be4b3db3c2735a8"
+    },
+    {
+      "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+      "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development",
+      "publishedAt": "2026-11-19T16:19:41.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "Chinese tech firms fear AI hits from US curbs after Nvidia fallout - AP News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU203ZE8tUjMtSEdTeWVydDRjbVJPMzQ1ZmFEbUNFOTVuWjF3SWcwMEtwa3RnSXZwWkU1R0gtLXNBWmtwWDdsaTRSN05pRVR0WXNibktkYlAzWlQ5dVY5eDlMQ2t5ckgweTg0QmlUWkpNRG5VaGp2QlVGOHlGUUxxNjlFaE9GdkZLLUxfUlY1VVZ1OV9DcjRkUWczUDROQQ?oc=5",
+      "publishedAt": "2026-11-19T15:40:00.000Z",
+      "sourceId": "google",
+      "source": "AP News",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "ChatGPT can transcribe as you speak now with Live Dictation",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+      "publishedAt": "2026-11-19T15:16:45.000Z",
+      "sourceId": "verge",
+      "source": "The Verge",
+      "type": "Reporting & analysis",
+      "topic": "News",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/chatgpt-live-dictation-promo-screenshot.jpeg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "title": "AI demand will push up interest rates around the world, IMF head warns",
+      "url": "https://www.theguardian.com/world/2026/nov/19/imf-head-warns-ai-demand-push-up-interest-rates-apec",
+      "publishedAt": "2026-11-19T15:15:14.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/b2a56a8e00524c2b12815efdbcc9e91b0732fdc0/456_0_3410_2728/master/3410.jpg?width=140&quality=85&auto=format&fit=max&s=920ffff20187c6090b440fd5098e1f09"
+    },
+    {
+      "title": "James McAvoy’s random encounter triggers a delusional fantasy in Parasocial Activity",
+      "url": "https://www.theguardian.com/stage/2026/nov/19/parasocial-activity-review-a-james-mcavoy-obsession-oran-mor-glasgow",
+      "publishedAt": "2026-11-19T15:01:41.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/ac4bc4aebf61af3e909de88cdbac6c359612f513/532_172_1086_869/master/1086.jpg?width=140&quality=85&auto=format&fit=max&s=bd4338b40001d6dacfc3b0a8584bf1ab"
+    },
+    {
+      "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test",
+      "publishedAt": "2026-11-19T14:54:39.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "A cyberattack using artificial intelligence targeted the EU in October, official says - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNjFWMWRqdEZvSG5jaEYzNW9NSHd1c2VTUHQzU2FVUXY0cmFKT3BlblZfcHlGM19DZVJiMkpQTXVEeU1URFRwczEyZl8wM0NQZmJ5NTE1VGh6blRlc1lZdWdTSFV0NkhTVVh3cHBaa1Fvc2p5V0lQNlV3TTRzMFNXd2pVYnVzckU0bGZmNkRqQjFxcE1uU2lFSGdsVTlHdzZQaXUyX3BkQkt1V0ZCQXJ1bUlyZw?oc=5",
+      "publishedAt": "2026-11-19T14:34:00.000Z",
+      "sourceId": "google",
+      "source": "AP News",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Fed's Jefferson says AI boosting inflation, productivity impact possible 'in the future' - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcXEzRFlWTEdhd3lGQThDc1NRMGhfYWdMUDBlUVFzMlo1Vzl4b1Q5RG5iaXE0bzFaMTF4TGV6MjViSzBmYzl1UVVwLXU4QnZSa25WbkU1eEE2MkdsYjRYY01vQ2JCc1ZGUzNhd2lueFR3bGdGRExZbXRhcXp5Zlo4Y3Q3bnJURWlIYk9IRFdncDl2TW56ZHN1c0t0aXZucG5aMEFScGV3OEJ2RXdYZEZnQTNTMDR5c1VHMnRKYlkxMk9sejA?oc=5",
+      "publishedAt": "2026-11-19T14:27:43.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+      "publishedAt": "2026-11-19T14:25:37.000Z",
+      "sourceId": "verge",
+      "source": "The Verge",
+      "type": "Reporting & analysis",
+      "topic": "News",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK202_DARIO_AMODEI_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "title": "Australian music industry rejects ‘divide and conquer’ proposal to give musicians exemption from AI scraping",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/20/australian-music-industry-rejects-proposal-to-give-musicians-exemption-ai-scraping",
+      "publishedAt": "2026-11-19T14:00:52.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/a97bdc0f91639c96d197dd5d8f13df1d8ae98f29/0_671_3022_2418/master/3022.jpg?width=140&quality=85&auto=format&fit=max&s=477e9e74301ca35bc7164268ef50968e"
+    },
+    {
+      "title": "‘Communities are really angry’: how Australia’s datacentre opposition has gone from marginal to mainstream in five months",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/20/communities-are-really-angry-how-datacentre-opposition-has-gone-from-marginal-to-mainstream-in-five-months",
+      "publishedAt": "2026-11-19T14:00:50.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/e90e77dce409ae1737f7a957cdd23366571c08e6/735_307_6367_5096/master/6367.jpg?width=140&quality=85&auto=format&fit=max&s=7f3d300ffbcae89efe55693ab1f6daa6"
+    },
+    {
+      "title": "Superhuman pushes its Go assistant everywhere",
+      "url": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere",
+      "publishedAt": "2026-11-19T14:00:00.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "I let Apple’s always-listening AI summarize my life for two weeks",
+      "url": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+      "publishedAt": "2026-11-19T13:00:00.000Z",
+      "sourceId": "verge",
+      "source": "The Verge",
+      "type": "Reporting & analysis",
+      "topic": "News",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268874_siri_recaps_AKrales_0070.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "title": "Canva adds an AI ‘off’ button",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+      "publishedAt": "2026-11-19T12:30:00.000Z",
+      "sourceId": "verge",
+      "source": "The Verge",
+      "type": "Reporting & analysis",
+      "topic": "News",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25355957/STK263_CANVA_D.png?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "title": "Meet Brian and Beast, the dots at work at Holiday Extras",
+      "url": "https://www.youtube.com/watch?v=ikNf7eW8CHk",
+      "publishedAt": "2026-11-19T11:38:57.000Z",
+      "sourceId": "openai-youtube",
+      "source": "OpenAI on YouTube",
+      "type": "Company videos · YouTube",
+      "topic": "Videos",
+      "image": "https://i.ytimg.com/vi/ikNf7eW8CHk/maxresdefault.jpg",
+      "format": "video"
+    },
+    {
+      "title": "Anthropic's blockbuster debut tests Wall Street's faith in AI boom - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVmU0cXVPRUhwcDZpRkRudEI3bjNfMllQVEN3M09VWFNmQUJTck1UUE9mVERRbmFicElZMWxKVnd3UWpTNGY3R1JiZ0NnRnNBRHhLMkxkVC1vUWVOVzQ3NzcwMkoycTR0MC1LUnBfdUIyWl9OZE5xYnlVVmQ5bzdVZmdnVHFjUjh6dHZrbVVQdEFPaDNCUC1KSkZEMUlhcU9OeWFiWi10SGwxNTBpNE16aTd1MA?oc=5",
+      "publishedAt": "2026-11-19T11:08:00.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Outages, spies, and trillion-dollar IPOs: is this our AI future? – Stateside with Kai and Carter",
+      "url": "https://www.theguardian.com/us-news/video/2026/nov/19/our-ai-future-stateside",
+      "publishedAt": "2026-11-19T11:00:26.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/ccbfb20cc448f83eb6c97aa4bd0d48b9bf0ada9b/0_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=50d96cc8cb925210c559b488c0b3c29a"
+    },
+    {
+      "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
+      "publishedAt": "2026-11-19T09:03:00.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "publishedAt": "2026-11-19T08:00:00.000Z",
+      "sourceId": "openai",
+      "source": "OpenAI",
+      "type": "Company announcements",
+      "topic": "News"
+    },
+    {
+      "title": "Lenovo posts 48% revenue jump on AI-related sales, beating estimates - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPakF2dUtyWGhnNzlUeGQ4cWxIb3hGSjFWWU5Qb05STXdtelBYV1ppOE1nX05nbDdvbmk0ekNNYmJnODFHYndqVXRlX2dkWW9ucldzdFBCdTVIcW01WjhaR08tVjFrMHhxZnFCR0taQV9pY2pnMFh2X0RVX2ItZENzcjB2TVJ2RXZBNXdfRDNTOVQ2Z2FFSmM1cGhQVTNad1FneE9PRHNNTUp4ZHpBZVd4Zw?oc=5",
+      "publishedAt": "2026-11-19T05:47:00.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
     },
     {
       "title": "Solomonoff induction with reflective oracles",
@@ -173,9 +749,9 @@
       "topic": "News"
     },
     {
-      "title": "Trump says he referred to ex-Nvidia boss Huang's situation 'briefly' in talk with Xi - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZGVNM0xjMGtxNjE0aEFnRWU2QURJZy1TSzZGSkFXNVk0eTM0bkhOZWF4cXJjWGhyZEVfZjNuWjZxVVlqUWh5cDUzckE2QTdISldZeThRZG9sZTB3dzdIU1ZOX2RJV0FMQXJ4V2dKS0U3V0t1YWNpcXE4R2FuZVVRVFJaUUNnYmZkS1pQXzluQ25WaUROQ2NVQk5wNHpPa2NheXhUZFFiQ3o5cjNxcHFWUWRVS3FCNm1meTltX0xiMA?oc=5",
-      "publishedAt": "2026-11-19T01:46:00.000Z",
+      "title": "Stocks fall as Anthropic debut fails to ease AI concerns; dollar rises - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBKVlNYZ0xucjVqQUMzV3BSemlBQ2ZPcmxTejY2bXF6bzUyZTR3OEhOc3FoQW5JS095Uzl2LWhJcDdpVXpoeWF3c245cllBNFRjeks3eTdta3kxU3BiWm1IcG1ScWIweFVBdTk0eFpURlFDZi1kUmVIQ0dVTQ?oc=5",
+      "publishedAt": "2026-11-19T01:53:00.000Z",
       "sourceId": "google",
       "source": "Reuters",
       "type": "Reporting via Google News",
@@ -200,14 +776,59 @@
       "topic": "News"
     },
     {
-      "title": "Four Maryland high school students sue after AI mistakes Doritos bag for gun",
-      "url": "https://www.theguardian.com/us-news/2026/nov/18/maryland-baltimore-county-doritos-gun-ai-lawsuit",
-      "publishedAt": "2026-11-18T23:53:51.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/55b30b78210b9de9b6079a003a575537c1f083f7/340_0_2178_1744/master/2178.jpg?width=140&quality=85&auto=format&fit=max&s=c85dcd749957628eb5be59c86fc53c0b"
+      "title": "US Catholic bishops’ new AI task force urges regulation and worker protections - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbE9FOVlKOE1Razk0YnhJbjJuaUNFZFhINlRFMFVUa3N1bmVRRlEzVDZHOTR3QV9nV3RvdXVOS3VVQkNSUVhUTnFiZVBRck8wTHZnWkhLUjFPWEN4TlI1YWk0RFVHYUtGV3EyUWFyNjF3dE1COW9HZDZ5aDdvenFDTFVacVlqdlV5TVBMaXBkYy1zMzJNVlVUOEo0cW1yMU9wMUt4MWFYbGRWQQ?oc=5",
+      "publishedAt": "2026-11-19T00:06:00.000Z",
+      "sourceId": "google",
+      "source": "AP News",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "sourceId": "openai",
+      "source": "OpenAI",
+      "type": "Company announcements",
+      "topic": "News"
+    },
+    {
+      "title": "See PR scans in action",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "sourceId": "openai",
+      "source": "OpenAI",
+      "type": "Company announcements",
+      "topic": "News"
+    },
+    {
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "sourceId": "openai",
+      "source": "OpenAI",
+      "type": "Company announcements",
+      "topic": "News"
+    },
+    {
+      "title": "Get started with Daybreak Blue",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "sourceId": "openai",
+      "source": "OpenAI",
+      "type": "Company announcements",
+      "topic": "News"
+    },
+    {
+      "title": "llm-gemini 0.38",
+      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini",
+      "publishedAt": "2026-11-18T23:59:20.000Z",
+      "sourceId": "simon",
+      "source": "Simon Willison",
+      "type": "Practitioner analysis",
+      "topic": "Practical AI",
+      "image": "https://static.simonwillison.net/static/2026/gemini-4-neon__comparison-graphi.width-2000.webp"
     },
     {
       "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
@@ -216,6 +837,15 @@
       "sourceId": "techcrunch",
       "source": "TechCrunch",
       "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "Musk's xAI urges US appeals court to block California AI disclosure law - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeUstaGZQdnFxOEI0S3NCcUZzYmRMZG95aE9ROU9RMGI4VVV6LTZPNUVWem02OVNCVDhVZUtoRTA4OXg4ZktXenhjVW5RY3UxUmZjNmZkdEpDWGtTR0ZlNm15bmZEMDdsS3RzX3cyOEZHNVFLM2JIWVJaVGUxSzVLcHNnWkVKbnpMa1pLa18zM00wNU1STm05SUdFWGNaTE1wVVUxbzZacjdzTl94TTlQQjlWb0JvNjVvQkxrbA?oc=5",
+      "publishedAt": "2026-11-18T23:36:00.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
       "topic": "News"
     },
     {
@@ -228,127 +858,7 @@
       "topic": "News"
     },
     {
-      "title": "The nation’s largest school districts consider ditching Google Search",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
-      "publishedAt": "2026-11-18T23:18:35.000Z",
-      "sourceId": "verge",
-      "source": "The Verge",
-      "type": "Reporting & analysis",
-      "topic": "News",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/STK255_Google_Gemini_D.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
-      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit",
-      "publishedAt": "2026-11-18T23:17:28.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
-      "title": "US lawmakers seek Microsoft briefing on reported AI deal talks with ByteDance - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdEpRTFc4Q3Nsa085U2xoZldyY1BXSmlhSy0yT00tRzF4eU5QekdiUENlSTQyajA0eU5PVWl0MUpoejlXdXJMVVFPbHRVaGFlZmxoWFA5SHN5VXBpWHJvLUFLMjZISk96bVRuWWs0V3NSblpmWTM3VVZNQ3VHQVNpQTNUOFM5VzdwZ0ZOcHlFX3hmcEJ5ZDhRVXlCS0dCZEwxbXZ3Z09zVjB4N1FGMHo4Qkc4WWEwTG5LdHNWbk14NA?oc=5",
-      "publishedAt": "2026-11-18T23:13:48.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
-      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
-      "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web",
-      "publishedAt": "2026-11-18T22:58:11.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
-      "title": "How the Anthropic IPO stacks up against SpaceX - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWkdlbW1ReWtyUXdHSHFPaWw0Q25WdThvUlFSTDY3cGI2THcyNUtSNzVhNVZUdFVkcVF1Rzh3SWl4dVRiTEk3Z3JyLWpGeEx2aGFCYWZ3bTA2SXBia1lXcVBFd2xrRFdNQTllNUV4RGxVOWZreFlLWENXNzF5Njdsa1ZLZ0NWcEVRbzRJdnNuSm0tLTVUY280clRCaXVzOGhSekhNMkhBdGF2Wmc?oc=5",
-      "publishedAt": "2026-11-18T22:54:09.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
-      "title": "Nvidia retreats as strong outlook fails to dispel uncertainty - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNlVnb2FaQlk2WUUtQ3dtaUlBRF9oSnFadkhYVUNwSzRKdnFQNENDUmgyMXBFV1NKaDhUcXJYTGF3Z21LM1F0OEZMVTJZU0lhWHlhOHBCb0t5WVRmMVRMU1ZCRTlJRUpYRlFCZ3RBYVV4WlF0Nms2Q1NvbkVjU0p5NVVQbmFrdzdfZmdLdVgxZnZBUkRGbkpZMTNR?oc=5",
-      "publishedAt": "2026-11-18T22:17:53.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
-      "title": "Anthropic prices IPO at $83 a share, above projected range",
-      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range",
-      "publishedAt": "2026-11-18T22:11:15.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
-      "title": "Australia has a reputation for being the most secretive democracy in the world. New laws could make it worse | Tom Sulston",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/19/australia-has-a-reputation-for-being-the-most-secretive-democracy-in-the-world-new-laws-could-make-it-worse",
-      "publishedAt": "2026-11-18T22:00:09.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/fe9aab60932fe1cb7d519c49bff2fa37dfb99711/752_0_4027_3222/master/4027.jpg?width=140&quality=85&auto=format&fit=max&s=532dd0928a6abe38acdb8c7401f27268"
-    },
-    {
-      "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
-      "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report",
-      "publishedAt": "2026-11-18T21:57:40.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
-      "title": "EXCLUSIVE: Trump administration weighs forcing US firms to disclose Chinese AI use - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRDZYbWdKS2hHRWRxVU9jRTZmUW5GdUZXdXNnMW43cnNKNmV1d2JIcnByM0dBWVBKbkd0TkkydWpQSkdZVkNWQ1RnS2JRQmI1TFE0ODRrX1lCdXkwejVvN3Qwa0taTDZtMkt2VWlTblJqZ0FQeVlMajlocTZ5UE95V29GQ19xQUlkNDh6WVRKVXJDbjM2ZUdaM0c4X25lUlFWRk1qakhGSkwzMGhKdWxFNlBsSnVhVE0?oc=5",
-      "publishedAt": "2026-11-18T21:53:07.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
-      "title": "Anthropic sets share price at $83 for stock market debut, above expected range",
-      "url": "https://www.theguardian.com/technology/2026/nov/18/anthropic-share-price-stock-market-ipo",
-      "publishedAt": "2026-11-18T21:39:15.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/946b0e05dd0e1b4c6e798b7dd5ff3846fd4f4783/718_0_6195_4958/master/6195.jpg?width=140&quality=85&auto=format&fit=max&s=52829c68a6669d7634536a562a880f8e"
-    },
-    {
-      "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
-      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running",
-      "publishedAt": "2026-11-18T21:34:13.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
-      "title": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
-      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated",
-      "publishedAt": "2026-11-18T21:31:21.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
-      "title": "Anthropic raises record $81 billion in IPO at $1.5 trillion valuation - Reuters",
+      "title": "Anthropic valued at $1.5 trillion as IPO raises record $81 billion - Reuters",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR3NST2trRTZCZkdmblYtRm5pcldXRUJTVjZkZUJ6bHJYbjFUSUJ6ZGVJNW1SMVg0ZWthVnlfVVRhZnlld192c0pBaUZSUzRZS0xGdFlYRnViSU9RYVhHWXRpVDlULS0tREUzcDhfa0NGSVIzVkFTOXBzeW5JelpBVy1RV2FFWEpwdnFhZnlqUVN0bUxWSXJaTVFzTEQxTDlFVVpkRERxQmplM0V2X3c?oc=5",
       "publishedAt": "2026-11-18T21:26:00.000Z",
       "sourceId": "google",
@@ -368,53 +878,6 @@
       "format": "video"
     },
     {
-      "title": "Wall Street prepares for Anthropic IPO frenzy, despite broader AI stock slump - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONkZkRVdESVU1UERiQmhZWmp5cl9Vel9VQlJOOWtLM3ZfVjFVVU5rYUZVWk5UVF8xU0t3SU0ybEF4UDNBOWFNeVI3RjlGMzZVdUhMbnV4UU9JQXpqM1FxZk1reHJGbFM5Qm1VcTMwTl81SEtvWVRYNjJRa0JPZ2xkamZfR3I2elFGWnhlNUFsMWNYMW5MeWJYR3o4SFg5NWhxa0tjYzJtMVpaelVhMUREQnZJa0huN1pzSlUzdTBHWm9ackd6Q0w4?oc=5",
-      "publishedAt": "2026-11-18T20:16:28.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
-      "title": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
-      "url": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie",
-      "publishedAt": "2026-11-18T20:07:01.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
-      "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
-      "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor",
-      "publishedAt": "2026-11-18T19:56:39.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
-      "title": "Trump’s latest land grab is an AI hub in the Philippines",
-      "url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
-      "publishedAt": "2026-11-18T19:40:36.000Z",
-      "sourceId": "verge",
-      "source": "The Verge",
-      "type": "Reporting & analysis",
-      "topic": "News",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305507602.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "title": "Nvidia’s rise, visualized",
-      "url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
-      "publishedAt": "2026-11-18T19:30:00.000Z",
-      "sourceId": "verge",
-      "source": "The Verge",
-      "type": "Reporting & analysis",
-      "topic": "News",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24002526/acastro_STK083_01.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
       "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show",
       "publishedAt": "2026-11-18T19:19:33.000Z",
@@ -423,16 +886,6 @@
       "type": "Technical reporting",
       "topic": "News",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2299665210-1024x648.jpg"
-    },
-    {
-      "title": "Tech lawsuits defined 2026 — and lawmakers want more",
-      "url": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
-      "publishedAt": "2026-11-18T19:07:29.000Z",
-      "sourceId": "verge",
-      "source": "The Verge",
-      "type": "Reporting & analysis",
-      "topic": "News",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK470_AI_LAW_CVIRGINIA_C.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "title": "AI is making hacking terrifyingly easy",
@@ -446,16 +899,6 @@
       "format": "video"
     },
     {
-      "title": "What is Nvidia without AI’s sugar daddy in charge?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
-      "publishedAt": "2026-11-18T18:34:15.000Z",
-      "sourceId": "verge",
-      "source": "The Verge",
-      "type": "Reporting & analysis",
-      "topic": "News",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_01.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "title": "Will Wright's next simulation will use AI to mine content from your memories",
       "url": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories",
       "publishedAt": "2026-11-18T18:10:33.000Z",
@@ -464,63 +907,6 @@
       "type": "Technical reporting",
       "topic": "News",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Moonlit-walk-1152x648.png"
-    },
-    {
-      "title": "Google’s AI feature in Search gets its own incognito mode",
-      "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
-      "publishedAt": "2026-11-18T18:04:05.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
-      "title": "Disney’s new Star Wars animatronics interact with guests using AI",
-      "url": "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
-      "publishedAt": "2026-11-18T17:50:57.000Z",
-      "sourceId": "verge",
-      "source": "The Verge",
-      "type": "Reporting & analysis",
-      "topic": "News",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/disney1.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "title": "More banks say customers using AI agents are on their own — even if they get hacked",
-      "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
-      "publishedAt": "2026-11-18T17:32:10.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
-      "title": "US senators urge White House AI chief to fix vulnerabilities after mass outages",
-      "url": "https://www.theguardian.com/us-news/2026/nov/18/jay-clayton-ai-tech-outages-infrastructure",
-      "publishedAt": "2026-11-18T17:25:00.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/fd6d0a6c86ef943127b3020482a5ad62bb9e5788/492_0_4915_3933/master/4915.jpg?width=140&quality=85&auto=format&fit=max&s=5ec85d646e771e5486922ae676de0a9b"
-    },
-    {
-      "title": "Why Palantir’s health tech is not the right fit for the NHS | Letter",
-      "url": "https://www.theguardian.com/technology/2026/nov/18/why-palantirs-health-tech-is-not-the-right-fit-for-the-nhs",
-      "publishedAt": "2026-11-18T17:24:21.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/6aec9d2445171f7f84d66512d28da330a407d5d1/504_0_5040_4032/master/5040.jpg?width=140&quality=85&auto=format&fit=max&s=531dc40d0930f0a34a6f4e81189dd1f9"
-    },
-    {
-      "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
-      "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots",
-      "publishedAt": "2026-11-18T16:59:00.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
     },
     {
       "title": "Is AI like nukes or dragons?",
@@ -534,15 +920,6 @@
       "format": "video"
     },
     {
-      "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
-      "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen",
-      "publishedAt": "2026-11-18T16:14:09.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
       "title": "Quoting Daniel Stenberg",
       "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg",
       "publishedAt": "2026-11-18T15:58:27.000Z",
@@ -550,26 +927,6 @@
       "source": "Simon Willison",
       "type": "Practitioner analysis",
       "topic": "Practical AI"
-    },
-    {
-      "title": "Remember the frontier AI pause? Chip companies don’t either",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
-      "publishedAt": "2026-11-18T15:44:02.000Z",
-      "sourceId": "verge",
-      "source": "The Verge",
-      "type": "Reporting & analysis",
-      "topic": "News",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Vera-Rubin-NVL72.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "title": "‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio",
-      "url": "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio",
-      "publishedAt": "2026-11-18T14:46:49.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/d8053b9038ce3a18aaa3b2cbcffef1cb0d77b18b/475_0_4164_3333/master/4164.jpg?width=140&quality=85&auto=format&fit=max&s=e5092406fa7775e712f7bb56780148a3"
     },
     {
       "title": "The AI Hype Index: AI is everywhere",
@@ -590,73 +947,6 @@
       "topic": "Status"
     },
     {
-      "title": "Will Wright’s next game uses AI to map your memories",
-      "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
-      "publishedAt": "2026-11-18T14:00:00.000Z",
-      "sourceId": "verge",
-      "source": "The Verge",
-      "type": "Reporting & analysis",
-      "topic": "News",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Grand-Canyon-Family-Portrait.png?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "title": "Nvidia isn’t selling any more AI chips to China",
-      "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
-      "publishedAt": "2026-11-18T13:01:05.000Z",
-      "sourceId": "verge",
-      "source": "The Verge",
-      "type": "Reporting & analysis",
-      "topic": "News",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK083_NVIDIA_C.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "title": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
-      "url": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds",
-      "publishedAt": "2026-11-18T13:00:00.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
-      "title": "Malaysia says data centres must comply with US AI chip rules - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdUFnczFGX2xRSlVqVVVmazE1Zks1SDMySV9wNjM0aWRrQVQ2czRaOUdUVDZjVk9melJxR2NQSGhGNkY2MEVCVTQ3dEp1WTRHUUo4c2hINFFlSGJXWkliMXBtcFJHZjhvdVdtVUxxV29Pc2lnNXBqdkU4bUV5cnNjX0xOT0d4Y24xakt1TlFDOFVqY0lKbVQ2dm5fUFJjZ3piWHdhVWZuLVJiQzllR2ZzbDEzUQ?oc=5",
-      "publishedAt": "2026-11-18T12:22:19.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
-      "title": "Suno now lets you make AI videos for your AI music",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
-      "publishedAt": "2026-11-18T11:16:53.000Z",
-      "sourceId": "verge",
-      "source": "The Verge",
-      "type": "Reporting & analysis",
-      "topic": "News",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/suno-ai-visuals.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "title": "US senators warn White House that AI-enabled cyber threats are outpacing defenses - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdzI5cndBYkVfZHo2YU9EX19XUklYMzg0TWwySGlMeDV6Z2NBZlZsd1BTVTFmVm8tNllyaUdIdjM3TUFnVDFBaU4zWENEWW95ckJvZWo3M0lhSDBJOUlNT0xsZVpqelJSZVQ4MjR2NEJ5U1BLc082bTF5UlRPTGhuVUhFUUU2OTk4Qy1sb3psUGNONkFpRWtSUkdlSGlpOXR2ZkV1c1pMclp2SFgweEhIODFLTEJxdG1ZY29nQ2xWZDAxOUE?oc=5",
-      "publishedAt": "2026-11-18T10:47:09.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
-      "title": "Aria awards: how do Australian artists feel about their music being used to train AI? – video",
-      "url": "https://www.theguardian.com/music/video/2026/nov/18/aria-awards-how-do-australian-artists-feel-about-their-music-being-used-to-train-ai-video",
-      "publishedAt": "2026-11-18T10:22:44.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/6796b218513eda783f347b7149cb0733f9704d99/4393_651_3476_2781/master/3476.jpg?width=140&quality=85&auto=format&fit=max&s=0226c82f2a37e370f2566b43003fad5d"
-    },
-    {
       "title": "This smell startup says its AI nose is as good as a human’s",
       "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans",
       "publishedAt": "2026-11-18T10:20:30.000Z",
@@ -667,15 +957,6 @@
       "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/Copy-of-Copy-of-BH1_6183_Ben_Hider_250430.jpg?w=840"
     },
     {
-      "title": "AI platforms have created terrorism plots. This incoming Senator vows to take action against it - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTTU4UXNWakNzeVdBY3lDRlJRem8xdHAwSHZoaUwxWGZaMWlmcW55WXVaRDlGNjllNjA0Wk9ta2h4RWotVkdBUXNzdzNPYnhPZ19GeEpsMG9JamRJc0Z6MXJJdEN0S1Y3NnJsVUhnWWpnaU1CZ191aW4xMHEzNVNXR1ZKY3BtOFRxRS11R1g2bVlYOXBBeUJoRTFsVUZTZUIzek1lOW16YUVLSnM?oc=5",
-      "publishedAt": "2026-11-18T10:00:00.000Z",
-      "sourceId": "google",
-      "source": "AP News",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
       "title": "The Silent Consensus",
       "url": "https://openai.com/index/the-silent-consensus",
       "publishedAt": "2026-11-18T10:00:00.000Z",
@@ -683,16 +964,6 @@
       "source": "OpenAI",
       "type": "Company announcements",
       "topic": "News"
-    },
-    {
-      "title": "Elton John backs Australian artists in fight against AI in surprise Aria awards appearance",
-      "url": "https://www.theguardian.com/music/2026/nov/18/elton-john-ai-campaign-australia-artists-aria-awards-copyright",
-      "publishedAt": "2026-11-18T08:29:57.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/6717b5732293468c3ba09f5cd665c09dc0756308/271_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=e609aa1bd29fd424dfa469c9a27988d7"
     },
     {
       "title": "Research acceleration: The jagged frontier",
@@ -722,15 +993,6 @@
       "topic": "News"
     },
     {
-      "title": "COMMENTARY: What the last two bubbles tell us about the AI boom - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdDdsUjlxY1dzNFk4ZDNDZFRFQWdTTVRiTlZYOW44MEZtNXVORUVyMnN0d3R6ZXd6b29uLWtreVczVzg3Q0dDcnJFTmFsNURNSGcyMm9aQmNiSkdoRVNPeGhxZ1A4VThody14Z3QxVDc1X3Y2U2hTV3BGdkhZS3AtdGJpcGN1NlpDSXZvNmFiZ0ota0lHOEZOQ3NGQko2d1RhU0lfV1REYzRFVTRvVFVUb0tfVVYyR0Zua21lam9CWm5rTXVFZzBr?oc=5",
-      "publishedAt": "2026-11-18T07:00:00.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
       "title": "Managing frontier AI risk: From training to deployment",
       "url": "https://openai.com/index/managing-frontier-ai-risk",
       "publishedAt": "2026-11-18T06:00:00.000Z",
@@ -748,34 +1010,6 @@
       "type": "Investigative reporting",
       "topic": "Safety & Society",
       "image": "https://images.unsplash.com/photo-1610484826967-09c5720778c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHRlZW4lMjBvbiUyMGNvbXB1dGVyfGVufDB8fHx8MTc5NDk3MzM2OHww&ixlib=rb-4.1.0&q=80&w=2000"
-    },
-    {
-      "title": "‘Human’ wins Cambridge dictionary’s word of the year",
-      "url": "https://www.theguardian.com/science/2026/nov/18/cambridge-word-of-the-year-human",
-      "publishedAt": "2026-11-18T05:00:34.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/d3bff27441734d18c2feb427a057b23c1ce14bdc/1004_0_4725_3780/master/4725.jpg?width=140&quality=85&auto=format&fit=max&s=a34f5c5d68750204b892c4c4d64e18c3"
-    },
-    {
-      "title": "Cambridge Dictionary chooses ‘human’ as word of the year in response to AI fears - AP News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ2RSajV5djV1MUpOZFRYdGJHNmgzc1lVNjYtODVpV0w2azl2Wl84emEyYU5WaWF5djhqZ3VPdFdTTjRGVkk4SG8yVFlJQTlmNDk5YU5HZTZQMl9nRmxyTHNFNEN4a0ZWbE5CVUhvU0VFZG9CMzVBR0c5QlRhbVZKS2ZOZmZ2bWlxTUxaTWFrRU42aVVyZVI1bV9CaFo4ZmRo?oc=5",
-      "publishedAt": "2026-11-18T02:40:46.000Z",
-      "sourceId": "google",
-      "source": "AP News",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
-      "title": "Nvidia rejects Jensen Huang’s offer to return as CEO despite pressure from Silicon Valley - AP News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObnhLd21OYlROQnV3Z2ZRc29BZlRubWM4T2tVN3d3ektLVUdiMXNSS1dhclFQNVZrUEVrdG5rUHFUY0ozQWJJRjFFVlFvVjJ0SC15eEdoUm1JUEdwY2FZdTgyNmNDQnozOWRXSGJBRlVHaC13M09mZ0U3em9hYkp2V1BFWHJvR2ViRFZGcEk5RE8yTWNwUmM5dlhBMC1oMGYzYzE3TXl5akNYTGlOb2c?oc=5",
-      "publishedAt": "2026-11-18T01:46:00.000Z",
-      "sourceId": "google",
-      "source": "AP News",
-      "type": "Reporting via Google News",
-      "topic": "News"
     },
     {
       "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
@@ -799,34 +1033,6 @@
       "format": "video"
     },
     {
-      "title": "What tech CEOs are saying about the saga around Jensen Huang’s exit from Nvidia - AP News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObHhiT0pSTFVzOTBmYWhPd1EwNTVfLUNxclk3WVhTSEJIQnA1VC1WeGQyelpFOGhfQktaNHZTSmRqT25TTlN0STlmUXllTkJZMng2aTZHWVZSYTJqNDlYY1RqM0hXQ0lnRVJERW5hNmtvTjYtb1pMU0x0M2h2UENEdXhEWTRFOHQxazMzZEVOSFM5N3NBWGh6VnNPcnV3dkU?oc=5",
-      "publishedAt": "2026-11-18T00:02:00.000Z",
-      "sourceId": "google",
-      "source": "AP News",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
-      "title": "Ofqual urges ‘life-altering’ penalties for students who use tech to cheat",
-      "url": "https://www.theguardian.com/education/2026/nov/18/ofqual-urges-life-altering-penalties-for-students-who-use-tech-to",
-      "publishedAt": "2026-11-18T00:01:25.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/efcbf5966e70ac7fdc150878c56d20292fd9b3c7/299_0_2911_2329/master/2911.jpg?width=140&quality=85&auto=format&fit=max&s=bff45ca58a2890a34d56eb9828455ad9"
-    },
-    {
-      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-      "publishedAt": "2026-11-18T00:00:00.000Z",
-      "sourceId": "openai",
-      "source": "OpenAI",
-      "type": "Company announcements",
-      "topic": "News"
-    },
-    {
       "title": "Advancing chip design with OpenAI models",
       "url": "https://openai.com/index/advancing-chip-design-with-our-models",
       "publishedAt": "2026-11-18T00:00:00.000Z",
@@ -836,14 +1042,13 @@
       "topic": "News"
     },
     {
-      "title": "Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang",
-      "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang",
-      "publishedAt": "2026-11-17T23:32:16.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/8113a55d4f67088521e43617481262c2f4f3358a/366_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=886ec09740a96447a99058c23e7d0c2e"
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "sourceId": "openai",
+      "source": "OpenAI",
+      "type": "Company announcements",
+      "topic": "News"
     },
     {
       "title": "Introducing ChatGPT for Sales",
@@ -877,24 +1082,6 @@
       "image": "https://static.simonwillison.net/static/2026/astra-6-2-max.webp"
     },
     {
-      "title": "Former Nvidia CEO Jensen Huang can nominate two directors to company board, filings show - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcU1vUDEzelNFZ3BKMUQ1S2tLakNtTUVHOVBsWktncFlmOFpkY1lHQ280MlVlLUh0MGpzM3A0MHJZNmR2NzhJeURvLTdiZ0VPWi1xT0o5a3laQW5YbnFmQmZJRjhuOTdRcm1JWGctdEhMd05qUmtNUXZFMi1JUXN5UGhadkJ6UnZ6NnNoQ21rSzBKMmFFNERlTE9NdVFEeXc5eHdjcFBScGdqYmV0bEtiYnYyekgyaGRXVnBLcGhJUWdoMnZKYWFhSzd5Y1hma1hi?oc=5",
-      "publishedAt": "2026-11-17T21:59:00.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
-      "title": "Nvidia facing SEC probe after Huang's resignation, WSJ reports - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcWVwUXVkcFBaZ3VKNW82dWk3eU9VcDctS0Nsd0wzRHlTV3kxLW9ZbkpnNzFBbTllQ2Z6VVh1ZnpqNGZJNmtRVW9CNWNweXBOcGdFWFBOVDhOVVduRkRRZGc5Um9xVnlxOGZQTzRtYS1QWERzYTg1QWR2OFR4WnF4LWdWblJCcXJxMmR1Smp1aTgzN3dTY09jcGpfSTU5cjFuZXIzUnEyX0pMczQ?oc=5",
-      "publishedAt": "2026-11-17T21:28:31.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
       "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
       "url": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia",
       "publishedAt": "2026-11-17T20:32:55.000Z",
@@ -915,15 +1102,6 @@
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/CleanShot-2026-11-17-at-7.15.49-AM@2x.png"
     },
     {
-      "title": "Anthropic forges ahead with its IPO even as AI fears mount and markets wobble - AP News",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbWllWlQ0OVRrVGN4cXBpLU9ycXNjNWNBbmdNUmNBdkI4N3p6eHZwM0FEdjZpamRkN3ZycERMMzJtUkZaWURvMHdlRG55SGdqZXJHbzV4Q3ZXeDR1SER1d2VmUXVKMHc0ci1UN0JhVk9PSWlvOUF6S2ZmMWtLOVlIdE91ZzV1S2UyUlBLS1plWHNkbElCMkRPTXpiMnMxdmJaRlg0aC1CVmI3RXdMMTUw?oc=5",
-      "publishedAt": "2026-11-17T18:55:00.000Z",
-      "sourceId": "google",
-      "source": "AP News",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
       "title": "Building 3D video sets with GPT-6.2 Astra",
       "url": "https://www.youtube.com/watch?v=tKoDPOrLMX0",
       "publishedAt": "2026-11-17T18:41:32.000Z",
@@ -933,16 +1111,6 @@
       "topic": "Videos",
       "image": "https://i.ytimg.com/vi/tKoDPOrLMX0/maxresdefault.jpg",
       "format": "video"
-    },
-    {
-      "title": "Jensen Huang to testify before Congress on ‘potential breach of national security’",
-      "url": "https://www.theguardian.com/technology/2026/nov/17/jensen-huang-testify-congress-nvidia-affair-spy",
-      "publishedAt": "2026-11-17T17:58:05.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/fea99f9d4b797af26b13a23bec5d015fdb40ae5a/333_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=f670013bc0a3af1c5be5d664c18c5be9"
     },
     {
       "title": "GPT-6.2 Astra and GPT-6.2 Sol—Models built for the real world",
@@ -963,16 +1131,6 @@
       "source": "OpenAI",
       "type": "Company announcements",
       "topic": "News"
-    },
-    {
-      "title": "Jensen Huang says he would be ‘honored’ to return to Nvidia as CEO",
-      "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-jensen-huang-statement",
-      "publishedAt": "2026-11-17T17:35:26.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/f9ace1b4322ee936b135f2312f39c6839623e581/780_0_4668_3734/master/4668.jpg?width=140&quality=85&auto=format&fit=max&s=e781e01e252cac8c959bad73617d521f"
     },
     {
       "title": "Can we trust Sam Altman?",
@@ -1027,16 +1185,6 @@
       "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/11/CleanShot-2026-11-17-at-7.11.44-AM@2x.png"
     },
     {
-      "title": "Jensen Huang’s departure as Nvidia CEO becomes a political proxy war",
-      "url": "https://www.theguardian.com/global/2026/nov/16/jensen-huang-nvidia-ceo-china",
-      "publishedAt": "2026-11-17T14:50:24.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/f74f292bf21b64ac06a24785167573c263947fdc/411_0_3764_3013/master/3764.jpg?width=140&quality=85&auto=format&fit=max&s=dc6213ac90cd282f90c0e60449deac75"
-    },
-    {
       "title": "Research Reports",
       "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports",
       "publishedAt": "2026-11-17T14:39:46.000Z",
@@ -1079,50 +1227,8 @@
       "format": "video"
     },
     {
-      "title": "Making marketing feel local across 40 markets | Revolut’s Kim Maniovich",
-      "url": "https://www.youtube.com/watch?v=xkeXefmxArU",
-      "publishedAt": "2026-11-17T09:45:31.000Z",
-      "sourceId": "openai-youtube",
-      "source": "OpenAI on YouTube",
-      "type": "Company videos · YouTube",
-      "topic": "Videos",
-      "image": "https://i.ytimg.com/vi/xkeXefmxArU/maxresdefault.jpg",
-      "format": "video"
-    },
-    {
-      "title": "Faster fraud response for safer shopping | Revolut’s David Abitbol",
-      "url": "https://www.youtube.com/watch?v=-O0tMcyH4Wo",
-      "publishedAt": "2026-11-17T09:45:26.000Z",
-      "sourceId": "openai-youtube",
-      "source": "OpenAI on YouTube",
-      "type": "Company videos · YouTube",
-      "topic": "Videos",
-      "image": "https://i.ytimg.com/vi/-O0tMcyH4Wo/maxresdefault.jpg",
-      "format": "video"
-    },
-    {
-      "title": "Making seven years of design documentation AI-readable in a day | Revolut’s Dmytro Pavlov",
-      "url": "https://www.youtube.com/watch?v=hAASMPKkaXA",
-      "publishedAt": "2026-11-17T09:45:10.000Z",
-      "sourceId": "openai-youtube",
-      "source": "OpenAI on YouTube",
-      "type": "Company videos · YouTube",
-      "topic": "Videos",
-      "image": "https://i.ytimg.com/vi/hAASMPKkaXA/maxresdefault.jpg",
-      "format": "video"
-    },
-    {
       "title": "Strengthening NATO and allied cyber defenses with AI",
       "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-      "publishedAt": "2026-11-17T00:00:00.000Z",
-      "sourceId": "openai",
-      "source": "OpenAI",
-      "type": "Company announcements",
-      "topic": "News"
-    },
-    {
-      "title": "Astra for Law leads in legal intelligence",
-      "url": "https://openai.com/index/astra-law-6-2",
       "publishedAt": "2026-11-17T00:00:00.000Z",
       "sourceId": "openai",
       "source": "OpenAI",
@@ -1158,17 +1264,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg"
     },
     {
-      "title": "How Check Point speeds up vulnerability research with Daybreak | OpenAI for Cybersecurity",
-      "url": "https://www.youtube.com/shorts/Zbv70lLBHgo",
-      "publishedAt": "2026-11-16T20:23:56.000Z",
-      "sourceId": "openai-youtube",
-      "source": "OpenAI on YouTube",
-      "type": "Company videos · YouTube",
-      "topic": "Videos",
-      "image": "https://i.ytimg.com/vi/Zbv70lLBHgo/maxresdefault.jpg",
-      "format": "video"
-    },
-    {
       "title": "US moves to cut China’s remote access to AI chips",
       "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips",
       "publishedAt": "2026-11-16T19:10:09.000Z",
@@ -1188,24 +1283,6 @@
       "topic": "News"
     },
     {
-      "title": "Broadening access to AI for scientists",
-      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "publishedAt": "2026-11-16T17:00:00.000Z",
-      "sourceId": "openai",
-      "source": "OpenAI",
-      "type": "Company announcements",
-      "topic": "News"
-    },
-    {
-      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "url": "https://openai.com/index/strengthening-online-child-safety",
-      "publishedAt": "2026-11-16T17:00:00.000Z",
-      "sourceId": "openai",
-      "source": "OpenAI",
-      "type": "Company announcements",
-      "topic": "News"
-    },
-    {
       "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
       "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia",
       "publishedAt": "2026-11-16T14:06:16.000Z",
@@ -1216,24 +1293,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/06/huang_computex_2024-1152x648.jpg"
     },
     {
-      "title": "Science at the Frontier: How scientists use ChatGPT",
-      "url": "https://openai.com/index/science-at-the-frontier",
-      "publishedAt": "2026-11-16T12:00:00.000Z",
-      "sourceId": "openai",
-      "source": "OpenAI",
-      "type": "Company announcements",
-      "topic": "News"
-    },
-    {
-      "title": "How Revolut raises ambition without lowering the bar",
-      "url": "https://openai.com/business/customer-stories/revolut",
-      "publishedAt": "2026-11-16T09:30:00.000Z",
-      "sourceId": "openai",
-      "source": "OpenAI",
-      "type": "Company announcements",
-      "topic": "News"
-    },
-    {
       "title": "Measuring alignment eval tells",
       "url": "https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells",
       "publishedAt": "2026-11-16T08:00:00.000Z",
@@ -1242,17 +1301,6 @@
       "type": "Evaluation research",
       "topic": "Safety & Society",
       "image": "https://metr.org/assets/images/measuring-alignment-eval-tells/overview.png"
-    },
-    {
-      "title": "La Cousinade",
-      "url": "https://www.youtube.com/watch?v=soNLXvgUqNY",
-      "publishedAt": "2026-11-16T05:00:26.000Z",
-      "sourceId": "openai-youtube",
-      "source": "OpenAI on YouTube",
-      "type": "Company videos · YouTube",
-      "topic": "Videos",
-      "image": "https://i4.ytimg.com/vi/soNLXvgUqNY/hqdefault.jpg",
-      "format": "video"
     },
     {
       "title": "Delayed Costs Data in the Compliance API",
@@ -1372,17 +1420,6 @@
       "topic": "Safety & Society"
     },
     {
-      "title": "How Mozilla uses GPT-6 Cyber to find and fix Firefox vulnerabilities",
-      "url": "https://www.youtube.com/watch?v=PkAmyub12K8",
-      "publishedAt": "2026-11-13T16:56:45.000Z",
-      "sourceId": "openai-youtube",
-      "source": "OpenAI on YouTube",
-      "type": "Company videos · YouTube",
-      "topic": "Videos",
-      "image": "https://i.ytimg.com/vi/PkAmyub12K8/maxresdefault.jpg",
-      "format": "video"
-    },
-    {
       "title": "Sites: Publishing failing",
       "url": "https://status.openai.com//incidents/01M79GYA0GA772Y6D089AH5478",
       "publishedAt": "2026-11-13T05:55:44.000Z",
@@ -1471,15 +1508,6 @@
       "topic": "Status"
     },
     {
-      "title": "Unable to start new Workspace Agent runs",
-      "url": "https://status.openai.com//incidents/01M76CW2D7FM7K7F8NJ4W0G08N",
-      "publishedAt": "2026-11-12T08:32:37.000Z",
-      "sourceId": "status",
-      "source": "OpenAI Status",
-      "type": "Service notices",
-      "topic": "Status"
-    },
-    {
       "title": "Gemini Decisions API",
       "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api",
       "publishedAt": "2026-11-11T22:03:25.000Z",
@@ -1498,17 +1526,6 @@
       "topic": "Practical AI"
     },
     {
-      "title": "ChatGPT Images: Three Ways to Get Started",
-      "url": "https://www.youtube.com/watch?v=CrrpfvbNyMw",
-      "publishedAt": "2026-11-11T21:10:10.000Z",
-      "sourceId": "openai-youtube",
-      "source": "OpenAI on YouTube",
-      "type": "Company videos · YouTube",
-      "topic": "Videos",
-      "image": "https://i.ytimg.com/vi/CrrpfvbNyMw/maxresdefault.jpg",
-      "format": "video"
-    },
-    {
       "title": "Browse tools.simonwillison.net by tag",
       "url": "https://simonwillison.net/2026/Nov/11/tools-tags",
       "publishedAt": "2026-11-11T18:42:50.000Z",
@@ -1517,16 +1534,6 @@
       "type": "Practitioner analysis",
       "topic": "Practical AI",
       "image": "https://static.simonwillison.net/static/2026/tools-tag-cloud.webp"
-    },
-    {
-      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-      "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
-      "publishedAt": "2026-11-11T18:16:40.000Z",
-      "sourceId": "ars",
-      "source": "Ars Technica",
-      "type": "Technical reporting",
-      "topic": "News",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-1152x648.jpg"
     },
     {
       "title": "Anthropic's IPO roadshow video",
@@ -1554,17 +1561,6 @@
       "source": "Alignment Forum",
       "type": "Research discussion",
       "topic": "Safety & Society"
-    },
-    {
-      "title": "Answering your questions about GPT-Live",
-      "url": "https://www.youtube.com/watch?v=5YXlrzC_RYE",
-      "publishedAt": "2026-11-10T21:10:08.000Z",
-      "sourceId": "openai-youtube",
-      "source": "OpenAI on YouTube",
-      "type": "Company videos · YouTube",
-      "topic": "Videos",
-      "image": "https://i.ytimg.com/vi/5YXlrzC_RYE/maxresdefault.jpg",
-      "format": "video"
     },
     {
       "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
@@ -1614,24 +1610,6 @@
       "type": "Practitioner analysis",
       "topic": "Practical AI",
       "image": "https://static.simonwillison.net/static/2026/artificial-analysis-haiku-class.webp"
-    },
-    {
-      "title": "Quoting Prompting Claude Fable 5.2",
-      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52",
-      "publishedAt": "2026-11-10T05:34:14.000Z",
-      "sourceId": "simon",
-      "source": "Simon Willison",
-      "type": "Practitioner analysis",
-      "topic": "Practical AI"
-    },
-    {
-      "title": "Yonkers Rises",
-      "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises",
-      "publishedAt": "2026-11-10T03:53:04.000Z",
-      "sourceId": "simon",
-      "source": "Simon Willison",
-      "type": "Practitioner analysis",
-      "topic": "Practical AI"
     },
     {
       "title": "The backlash about data centers might really just be about electricity",
@@ -2049,6 +2027,28 @@
       "type": "Research-informed commentary",
       "topic": "Practical AI",
       "image": "https://substackcdn.com/image/fetch/$s_!a8R9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb63d669d-64f1-4f8b-81ae-9476d20a720d_1182x635.png"
+    },
+    {
+      "title": "ChatGPT Images: Three Ways to Get Started",
+      "url": "https://www.youtube.com/watch?v=CrrpfvbNyMw",
+      "publishedAt": "2026-11-11T21:10:10.000Z",
+      "sourceId": "openai-youtube",
+      "source": "OpenAI on YouTube",
+      "type": "Company videos · YouTube",
+      "topic": "Videos",
+      "image": "https://i.ytimg.com/vi/CrrpfvbNyMw/maxresdefault.jpg",
+      "format": "video"
+    },
+    {
+      "title": "How Mozilla uses GPT-6 Cyber to find and fix Firefox vulnerabilities",
+      "url": "https://www.youtube.com/watch?v=PkAmyub12K8",
+      "publishedAt": "2026-11-13T16:56:45.000Z",
+      "sourceId": "openai-youtube",
+      "source": "OpenAI on YouTube",
+      "type": "Company videos · YouTube",
+      "topic": "Videos",
+      "image": "https://i.ytimg.com/vi/PkAmyub12K8/maxresdefault.jpg",
+      "format": "video"
     }
   ]
 }

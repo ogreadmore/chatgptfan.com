@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-11-19",
+  "reviewedAt": "2026-11-20",
   "resources": [
     "app-troubleshooting",
     "academy",
@@ -31,7 +31,7 @@
     "ai-now"
   ],
   "social": [
-    "https://x.com/OpenAIDevs/status/2123129469447880885",
+    "https://x.com/OpenAIDevs/status/2123506733524136446",
     "https://x.com/gdb/status/2123225465762542044",
     "https://x.com/sama/status/2122798039899263456",
     "https://x.com/OpenAI/status/2122359930628063248",
@@ -477,7 +477,21 @@
     "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie",
     "https://www.theguardian.com/technology/2026/nov/18/why-palantirs-health-tech-is-not-the-right-fit-for-the-nhs",
     "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen",
-    "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere"
+    "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere",
+    "https://www.theguardian.com/music/2026/nov/20/peter-gabriel-interview-ai-music-bonobo-ape-duets-jurassic-park-plants",
+    "https://www.theguardian.com/technology/commentisfree/2026/nov/20/big-tech-is-already-building-datacentres-in-australia-why-is-labor-desperate-to-give-them-loopholes",
+    "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac",
+    "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
+    "https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates",
+    "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+    "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300",
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQlRFLVpVV0l1RXpPXzhUdXlUT1ZHQ0NNeUplSXhERGJybFNNRDBVU1RDRktVeTBFYlhOV1dUbE1ldV92NS1zZDJCYkM1U24tMVI0clN1eFplWHdXQlZmX19zS2V2ZWE1Y0RGT3lLQ1dzUzJVS210N19zZXVZSHlVRUt6c3JhLVJ1bzk3cl9LZ0FPeVhmV3ZSYmdRSHpoc0p6VXB6cHhwX2FfQQ?oc=5",
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMkNfRzVoLWlmTklyTmw3MkpsVl96Skg5aDVINHR6OHlleDlXY1pzUE1MV1piOXEzOXNGX1BNQnRWTnQxejBMWWFGR3RBUXhtMloxYVFZNDYtOHduajVoeHFYcUdqNXBMbmVUQ2FNRklpQXhxV1hlUC01T2V1cERsNDNwb3l6Z0t4RlpWNXIwd3Y0c2RET2VNbGs3T1AyeWFDa2Yw?oc=5",
+    "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+    "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+    "https://www.theguardian.com/technology/2026/nov/19/who-are-anthropic-founders",
+    "https://www.theguardian.com/technology/nils-pratley-on-finance/2026/nov/19/anthropic-keeps-ai-party-swinging-but-atmosphere-bubbly",
+    "https://www.theguardian.com/education/2026/nov/19/academic-integrity-matters-but-students-shouldnt-be-penalised-for-using-ai"
   ],
   "videos": [
     "https://www.youtube.com/watch?v=AhmCKHNqhB8",
@@ -485,6 +499,6 @@
     "https://www.youtube.com/watch?v=R_sl8zEp9ng",
     "https://www.youtube.com/watch?v=CrrpfvbNyMw",
     "https://www.youtube.com/watch?v=PkAmyub12K8",
-    "https://www.youtube.com/watch?v=5YXlrzC_RYE"
+    "https://www.youtube.com/watch?v=KrlfehIapEA"
   ]
 }

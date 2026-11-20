@@ -687,10 +687,10 @@
     "kind": "Agent guide",
     "level": "Intermediate",
     "description": "Check how workspace controls govern dots, app connections and actions. The admin guide separates access to a dot from access to a member’s local computer.",
-    "checkedAt": "2026-11-18",
+    "checkedAt": "2026-11-20",
     "cost": "Free guide · Eligible paid plan required",
     "bestFor": "Deciding what an always-on agent may do",
-    "needs": "For eligible Enterprise, Edu and Healthcare workspaces, OpenAI schedules default availability from November 18 unless an admin opts out. Confirm effective workspace access and compatible Agent Security settings; local-computer access is separate and remains off by default for Enterprise. Enabling access does not create dots automatically.",
+    "needs": "OpenAI’s admin guide sets November 18 as the default-availability transition for eligible Enterprise, Edu and Healthcare workspaces unless an admin opts out. Check effective workspace and role permissions, compatible Agent Security policies and separate cloud capabilities. Local-computer access remains off by default for Enterprise; enabling access does not create dots automatically.",
     "reviewEveryDays": 14,
     "sourceUrl": "https://help.openai.com/en/articles/20001554-managing-dots-in-chatgpt-workspaces"
   },
@@ -734,7 +734,7 @@
     "provider": "Common Sense Media · Youth AI Safety Institute",
     "kind": "Product evaluation",
     "description": "An October 7 assessment of teen safeguards, with its testing methods and findings. Read the original evidence and stated limits; OpenAI disputes the evaluation.",
-    "checkedAt": "2026-11-08",
+    "checkedAt": "2026-11-20",
     "reviewEveryDays": 30,
     "safety": {
       "group": "evidence",
@@ -834,14 +834,14 @@
     "provider": "OpenAI Help Center",
     "kind": "Product documentation",
     "description": "How linked accounts, quiet hours, study settings and limited notifications work. A practical starting point for a family conversation about using ChatGPT.",
-    "checkedAt": "2026-11-15",
+    "checkedAt": "2026-11-20",
     "reviewEveryDays": 14,
     "safety": {
       "group": "everyday",
       "audience": "Parents & guardians",
       "why": "Explains which settings families can change and what a parent cannot see or monitor.",
       "readFirst": "Compare quiet hours, which block access, with study hours, which start eligible chats in study mode. Review the separate controls for code network access and the cloud browser.",
-      "limits": "Company documentation, not an independent safety assessment. Linking requires acceptance, either side can unlink, and parents cannot read chats. Alerts are limited, may be delayed and will not identify every concern."
+      "limits": "Company documentation, not an independent safety assessment. Linking requires acceptance; either side can unlink and parents cannot read chats. Alerts are limited and may be delayed. Eating-disorder alerts cover Chat, not Work or Codex. Conversation-end and temporary-suspension notices also exclude voice."
     }
   },
   {
@@ -1015,14 +1015,14 @@
     "provider": "OpenAI Help Center",
     "kind": "Product guide",
     "description": "Check eligibility, the purchase request and the merchant confirmation, then find the right route for an order problem or card dispute.",
-    "checkedAt": "2026-11-15",
+    "checkedAt": "2026-11-20",
     "reviewEveryDays": 14,
     "safety": {
       "group": "everyday",
       "audience": "Adults considering purchases through a dot",
       "why": "Explains where user approval, merchant acceptance and payment protections each enter the process.",
       "readFirst": "Start with Approve a purchase. Check the seller, total and recurring-payment terms, then look for the merchant confirmation after checkout.",
-      "limits": "Company documentation. Availability and card support are restricted. Purchase and approval records are collected under the separate Wallet privacy notice."
+      "limits": "Company documentation. Gradual rollout to eligible US adults on Pro; supported cards and biometric approval are required. Approval is not merchant confirmation, and removing a card does not cancel recurring charges. Purchase and approval records are collected under the separate Wallet privacy notice."
     }
   },
   {

@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-11-20",
+    "slug": "2026-11-20",
+    "title": "AI’s power demand has a fossil-fuel problem",
+    "excerpt": "The IEA expects data-centre demand and emissions to grow. Renewable contracts, physical electricity and household bills need separate scrutiny.",
+    "file": "2026-11-20.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "World Energy Outlook 2026",
+        "publisher": "International Energy Agency",
+        "url": "https://www.iea.org/reports/world-energy-outlook-2026",
+        "publishedAt": "2026-11-19",
+        "kind": "Energy scenarios and methodology"
+      },
+      {
+        "title": "World Energy Outlook 2026 · AI and energy, pages 82–86",
+        "publisher": "International Energy Agency",
+        "url": "https://www.iea.org/files/41082112-1153-4b16-b738-d44fb273dfd9/WorldEnergyOutlook2026.pdf",
+        "publishedAt": "2026-11-19",
+        "kind": "Primary report · scenario estimates"
+      },
+      {
+        "title": "Data centre energy consumption could double by 2030 straining grids, IEA warns",
+        "publisher": "Euronews",
+        "url": "https://www.euronews.com/2026/11/19/data-centre-energy-consumption-could-double-by-2030-straining-grids-iea-warns",
+        "publishedAt": "2026-11-19",
+        "kind": "Independent reporting"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-20-power-behind-ai.png",
+      "width": 1672,
+      "height": 941,
+      "alt": "Conceptual cartoon of a concerned woman watching chimney exhaust from a miniature power station connected by a cable to a server cabinet.",
+      "credit": "AI-generated conceptual cartoon · The electricity behind computing",
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-19",
     "slug": "2026-11-19",
     "title": "California wants proof that dangerous AI can be stopped",
