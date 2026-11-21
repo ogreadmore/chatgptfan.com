@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-11-21",
+    "slug": "2026-11-21",
+    "title": "Autonomous weapons: more talks, no new binding rules",
+    "excerpt": "Governments aim to develop rules by 2028, but their legal force is unresolved. What the Geneva outcome means for human control.",
+    "file": "2026-11-21.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "States agree to UN talks aiming to regulate “killer robots” by 2028",
+        "publisher": "Reuters · via Arab News",
+        "url": "https://www.arabnews.com/world/states-agree-to-un-talks-aiming-to-regulate-killer-robots-by-2028-3013276",
+        "publishedAt": "2026-11-21",
+        "kind": "Independent reporting · overnight conference outcome"
+      },
+      {
+        "title": "Seventh Review Conference of the Convention on Certain Conventional Weapons",
+        "publisher": "United Nations Office for Disarmament Affairs",
+        "url": "https://meetings.unoda.org/ccw-revcon/convention-on-certain-conventional-weapons-seventh-review-conference-2026",
+        "kind": "Official document index · drafts distinguished from adopted text"
+      },
+      {
+        "title": "Frequently asked questions: Autonomous weapon systems",
+        "publisher": "International Committee of the Red Cross",
+        "url": "https://www.icrc.org/en/article/faq-autonomous-weapon-systems",
+        "publishedAt": "2026-10-08",
+        "kind": "Humanitarian law explanation"
+      },
+      {
+        "title": "Autonomous weapons",
+        "publisher": "International Committee of the Red Cross",
+        "url": "https://www.icrc.org/en/law-and-policy/autonomous-weapons",
+        "kind": "Humanitarian analysis and policy recommendations"
+      },
+      {
+        "title": "Trump, Xi agreed that military AI decisions should involve humans, Bessent says",
+        "publisher": "Reuters · via Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says-5042288",
+        "publishedAt": "2026-11-20",
+        "kind": "Independent reporting · attributed diplomatic statement"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-21-autonomous-weapons-clock.png",
+      "width": 1672,
+      "height": 941,
+      "alt": "Conceptual cartoon of a concerned woman beside a running hourglass and a hovering armed quadcopter.",
+      "credit": "AI-generated conceptual cartoon · Time for rules",
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-20",
     "slug": "2026-11-20",
     "title": "AI’s power demand has a fossil-fuel problem",

@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-11-20",
+  "reviewedAt": "2026-11-21",
   "resources": [
     "app-troubleshooting",
     "academy",
@@ -31,7 +31,7 @@
     "ai-now"
   ],
   "social": [
-    "https://x.com/OpenAIDevs/status/2123506733524136446",
+    "https://x.com/OpenAI/status/2123862344422088794",
     "https://x.com/gdb/status/2123225465762542044",
     "https://x.com/sama/status/2122798039899263456",
     "https://x.com/OpenAI/status/2122359930628063248",
@@ -491,14 +491,19 @@
     "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
     "https://www.theguardian.com/technology/2026/nov/19/who-are-anthropic-founders",
     "https://www.theguardian.com/technology/nils-pratley-on-finance/2026/nov/19/anthropic-keeps-ai-party-swinging-but-atmosphere-bubbly",
-    "https://www.theguardian.com/education/2026/nov/19/academic-integrity-matters-but-students-shouldnt-be-penalised-for-using-ai"
+    "https://www.theguardian.com/education/2026/nov/19/academic-integrity-matters-but-students-shouldnt-be-penalised-for-using-ai",
+    "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building",
+    "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too",
+    "https://www.theguardian.com/sport/2026/nov/20/cricket-rogue-robots-tech-billionaires-artificial-intelligence",
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVEFvNDBodHpvUlp4S085VFJqRGZsa1drMzJrQXZYWjQtNHNFRU1wR3Z5VG95dDNMWjFLMGRxMTNTYmpQVHlrS1hvd1dYMmE2RHdIZnBQaFFqVEQwWERxaDd6aWNqa1pXWnBYVnVCMTUyblg5ZHNpYTNGbWF5eHdlZk40QUdRcmZiZTl0cW5EMUphWXZpcEdQMjRQaGJTWC1qQ2JETnBhWF9kQQ?oc=5",
+    "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
   ],
   "videos": [
-    "https://www.youtube.com/watch?v=AhmCKHNqhB8",
+    "https://www.youtube.com/watch?v=kIZEaw74Uiw",
+    "https://www.youtube.com/watch?v=mX7wHNnsghs",
     "https://www.youtube.com/watch?v=dOwqsYtXp6k",
     "https://www.youtube.com/watch?v=R_sl8zEp9ng",
-    "https://www.youtube.com/watch?v=CrrpfvbNyMw",
-    "https://www.youtube.com/watch?v=PkAmyub12K8",
+    "https://www.youtube.com/watch?v=AhmCKHNqhB8",
     "https://www.youtube.com/watch?v=KrlfehIapEA"
   ]
 }

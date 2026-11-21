@@ -58,6 +58,20 @@
     "include": "\\b(AI|OpenAI|ChatGPT|Anthropic|Claude|artificial intelligence|Nvidia|Altman)\\b"
   },
   {
+    "id": "icrc-youtube",
+    "name": "ICRC on YouTube",
+    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZyACOXbNnPs2RXA_Iv9pxA",
+    "site": "https://www.youtube.com/channel/UCZyACOXbNnPs2RXA_Iv9pxA",
+    "type": "Humanitarian analysis & advocacy · YouTube",
+    "topic": "Videos",
+    "category": "Videos",
+    "description": "ICRC explanations of autonomous weapons, military AI and human control.",
+    "notes": "The International Committee of the Red Cross’s analysis and policy advocacy. Selected AI-related uploads; calls for new rules are proposals, not proof of adopted law.",
+    "maxItems": 5,
+    "reviewedAt": "2026-11-21",
+    "include": "\\b(autonomous weapons?|military AI|artificial intelligence)\\b"
+  },
+  {
     "id": "mit",
     "name": "MIT Technology Review",
     "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",

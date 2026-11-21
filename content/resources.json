@@ -232,18 +232,18 @@
   {
     "id": "shopify-chatgpt-ads",
     "section": "tools",
-    "title": "ChatGPT Ads for Shopify",
+    "title": "ChatGPT for Shopify",
     "url": "https://apps.shopify.com/chatgpt",
     "provider": "OpenAI · Shopify App Store listing",
     "kind": "Marketing tools",
-    "description": "Sync a Shopify catalog with ChatGPT Ads Manager, build campaigns from product listings and measure conversions with the Shopify pixel. Check its data permissions before connecting a store.",
-    "checkedAt": "2026-11-10",
+    "description": "Connect a Shopify catalog to ChatGPT Business Hub, manage business information and publish a Business Agent that answers product questions. The app also connects ad accounts and tracks campaigns.",
+    "checkedAt": "2026-11-21",
     "level": "Business",
     "cost": "Free app · paid campaigns",
-    "bestFor": "Merchants evaluating a new advertising channel",
-    "needs": "A Shopify store and an eligible ChatGPT Ads account. OpenAI announced 89-country availability on October 21; check your market. The listing requests customer data and pixel access. Test syncing, set a small spend limit and check conversion results before expanding; installation is free, campaigns are not.",
+    "bestFor": "Merchants evaluating ChatGPT discovery and advertising",
+    "needs": "A Shopify store; availability and business verification may vary by market. Check access to customer information, browsing activity, products and pixels before connecting. Review catalog accuracy and agent answers before publishing; free installation does not make advertising free.",
     "reviewEveryDays": 14,
-    "sourceUrl": "https://openai.com/index/chatgpt-ads-expands-26-new-countries/"
+    "sourceUrl": "https://apps.shopify.com/chatgpt"
   },
   {
     "id": "ai-town",
@@ -439,7 +439,7 @@
     "provider": "Stanford HAI",
     "kind": "Economic evidence",
     "description": "The 2026 report brings together evidence on AI adoption, investment, capabilities and governance. Use the data and methods to test a market story; aggregate trends do not prove demand for your particular service.",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-11-21",
     "level": "All levels",
     "cost": "Free report",
     "bestFor": "Checking a market story against broader evidence",
@@ -543,17 +543,17 @@
     "url": "https://metr.org/",
     "provider": "METR",
     "kind": "Evaluation research",
-    "description": "Independent evaluations of AI capabilities and safeguards. A November 16 research note asks whether models can recognize when they are being tested for misalignment.",
-    "checkedAt": "2026-11-17",
+    "description": "Independent capability evaluations. The November 20 update contrasts strong coding and optimization performance with weaker results on tasks that require judgment without clear feedback.",
+    "checkedAt": "2026-11-21",
     "reviewEveryDays": 45,
     "safety": {
       "group": "frontier",
       "audience": "Technical readers",
       "why": "Empirical evaluations help distinguish measured capabilities from claims about what agents can do.",
-      "readFirst": "Start with the summary, Scope of this post and Limitations of interrogations. Separate recognizing a test from changing behavior because of it.",
-      "limits": "This is a preliminary research note with less review than a research post. Agents were asked to investigate test environments; the study does not establish that noticing a test causes deceptive behavior."
+      "readFirst": "Read the overview, methodology and discussion together. Check which tasks are being measured and how human completion times were obtained.",
+      "limits": "Most completion-time baselines in the new task set are estimates. Benchmark progress does not establish whole-job automation or settle the timing of rapid AI research acceleration; METR explicitly describes remaining uncertainty."
     },
-    "sourceUrl": "https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells/"
+    "sourceUrl": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/"
   },
   {
     "id": "apollo",
@@ -1050,7 +1050,7 @@
     "kind": "Research access program",
     "level": "Researcher",
     "description": "Check the next application round for eligible researchers. OpenAI says 50,000 new grants will cover ChatGPT Plus for each recipient and up to two collaborators.",
-    "checkedAt": "2026-11-17",
+    "checkedAt": "2026-11-21",
     "reviewEveryDays": 7,
     "cost": "Free for accepted applicants",
     "needs": "Applications open November 23 on a first-come, first-served basis for eligible applicants. New grants provide Plus, not the pilot’s Pro access. Read eligibility and data-use terms before applying; acceptance is not guaranteed.",
@@ -1077,5 +1077,20 @@
       "readFirst": "Read the recommendation summary, especially shutdown limits on pages 8–10."
     },
     "reviewEveryDays": 7
+  },
+  {
+    "id": "chatgpt-space",
+    "section": "tools",
+    "title": "ChatGPT Space",
+    "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "provider": "OpenAI",
+    "kind": "Pages and presentations",
+    "level": "All levels",
+    "description": "Create and collaborate on pages and presentations, including updates using connected apps. OpenAI announced the global Plus rollout on November 20 for adults.",
+    "checkedAt": "2026-11-21",
+    "reviewEveryDays": 14,
+    "cost": "Eligible paid ChatGPT plan",
+    "needs": "Space access is required for both creators and invited viewers. Shared content requires permission and sign-in to an eligible Plus, Pro, Business or Enterprise account; Free users cannot open it and public links are unavailable. Check access before choosing Space for an audience.",
+    "bestFor": "Collaborating with people who already have Space access"
   }
 ]

@@ -11,6 +11,7 @@ Prioritize original reporting, empirical work, practical experiments, clear auth
 - Reuters and AP: wire reporting, including international developments and policy. Google News is the discovery transport; its source domain must match Reuters or AP. Read the underlying report for the brief.
 - OpenAI: firsthand product, research, and policy announcements, labeled as company material.
 - OpenAI on YouTube: recent official videos, in the Videos category and labeled as company material. The native YouTube Atom feed works with the same scheduled refresh and last-good snapshot; no API key or embedded player is needed. More channels can be added using their verified channel ID at `https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID`. The feed is a recent-upload window, not a full archive.
+- ICRC on YouTube: humanitarian analysis and advocacy about autonomous weapons and military AI, with a narrow topic filter. Identify recommendations as proposals; the channel is not evidence that a treaty has been adopted. Added November 21 after checking the official ICRC link, channel ID, upload metadata and thumbnail.
 - MIT Technology Review: reporting and analysis connecting research to practical and social consequences.
 - Simon Willison: reproducible experiments, implementation detail, and security analysis. The full Atom feed is filtered to AI/LLM categories.
 - 404 Media: investigations into privacy, labor, and misuse. Registration or subscriptions may apply.

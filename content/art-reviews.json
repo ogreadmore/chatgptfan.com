@@ -1029,6 +1029,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-21-autonomous-weapons-clock.png",
+      "brief": "2026-11-21",
+      "sha256": "a4cdd293e0636d3e90f75e4cd71473411a0f63999f614fbae8bfea118da15712",
+      "reviewedAt": "2026-11-21",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Final pixels show one concerned woman beside an upright hourglass with sand visibly falling into its lower chamber. An armed quadcopter hovers on the right. The passing time beside a weapon already present connects to delay in agreeing binding autonomous-weapons rules. This is a conceptual illustration, not an actual conference, weapon deployment or visual proof of autonomy; the article explicitly distinguishes armed drones from autonomous targeting. One chest-up figure, zero visible hands and forearms. Two shoulder and sleeve contours connect naturally to one torso behind the table. No extra limbs, detached fingers or ambiguous grips. Face, eyes, neck and full head are coherent. The hourglass rests on the table; its supports and two chambers connect. Four drone arms each connect to a rotor, and the missile is visibly attached beneath its body. No firing is depicted. Full-file second pixel pass after layout review confirmed the visible objects and anatomy without relying on intended meaning. Desktop 1440x1000 and mobile 390x844 homepage and article, plus the actual 1200x630 split sharing card, were inspected. Full head, hourglass and drone remain visible; the card headline and date fit. Agent review only, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }
