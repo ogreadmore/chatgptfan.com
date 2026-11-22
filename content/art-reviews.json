@@ -1052,6 +1052,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-22-screen-privacy.png",
+      "brief": "2026-11-22",
+      "sha256": "441ca15c892ec8b2d8207e49c42ebdaea3b0db27b0658e32282087c2439e7d3d",
+      "reviewedAt": "2026-11-22",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Two separate full-PNG inspections. Literal scene: closed apricot shutters cover the entire screen of an upright phone while a separate camera faces it; a wary man looks across at the blocked view. The shutters visibly prevent a view of the screen, linking concretely to Signal blocking screen capture. Conceptual metaphor, not a literal phone interface or claim of perfect protection. One head, one torso, two shoulders and two upper-arm sleeve contours trace naturally from shoulders to the desk edge. Zero hands, forearms or stray limbs; no fingers or grip to assess. Phone and camera each have separate coherent grounded stands; no fused objects. Eyes, complete head and camera remain inside the frame. Full image and readable shutter/camera relationship inspected on desktop and 390px homepage/article, and actual 1200x630 split sharing PNG; no clipped props or text overlap. Agent review only.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-11-22",
+    "slug": "2026-11-22",
+    "title": "Signal draws a line around your phone screen",
+    "excerpt": "New screenshot protections show why encrypted chats and AI access need separate controls. Three settings to check—and the limits to keep in mind.",
+    "file": "2026-11-22.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Protecting your privacy",
+        "publisher": "Signal",
+        "url": "https://signal.org/blog/protecting-your-privacy/",
+        "publishedAt": "2026-11-20",
+        "kind": "Product announcement and advocacy"
+      },
+      {
+        "title": "Signal is blocking screenshots to prevent Gemini and Siri AI from scanning your chats",
+        "publisher": "Android Authority",
+        "url": "https://www.androidauthority.com/signal-blocks-gemini-siri-ai-private-messages-3737647/",
+        "publishedAt": "2026-11-20",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Siri AI: A profoundly more capable and personal assistant is here",
+        "publisher": "Apple",
+        "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/",
+        "publishedAt": "2026-09-14",
+        "kind": "Company feature explanation"
+      },
+      {
+        "title": "Get help with what’s on your screen",
+        "publisher": "Google Gemini Help",
+        "url": "https://support.google.com/gemini/answer/15850607?hl=en",
+        "checkedAt": "2026-11-22",
+        "kind": "Product documentation"
+      },
+      {
+        "title": "Victory! You Can Now Exclude Apps from Siri AI",
+        "publisher": "Electronic Frontier Foundation",
+        "url": "https://www.eff.org/deeplinks/2026/10/victory-you-can-now-exclude-apps-siri-ai",
+        "publishedAt": "2026-10-28",
+        "kind": "Digital-rights guidance"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-22-screen-privacy.png",
+      "width": 1672,
+      "height": 941,
+      "alt": "Conceptual cartoon of a wary phone user beside a smartphone with closed wooden shutters over its screen, facing a surveillance camera.",
+      "credit": "AI-generated conceptual cartoon · A private screen",
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-21",
     "slug": "2026-11-21",
     "title": "Autonomous weapons: more talks, no new binding rules",

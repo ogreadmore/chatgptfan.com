@@ -598,15 +598,15 @@
     "url": "https://airisk.mit.edu/",
     "provider": "MIT AI Risk Initiative",
     "kind": "Evidence",
-    "description": "A structured collection of AI risks and the frameworks that describe them. Useful for checking whether a discussion overlooks social, security, or system-level harms.",
-    "checkedAt": "2026-10-25",
+    "description": "A structured collection linking AI risk categories, reported incidents, governance responses and company disclosures. Use the Risk Navigator to explore how these records connect.",
+    "checkedAt": "2026-11-22",
     "reviewEveryDays": 45,
     "safety": {
       "group": "evidence",
       "audience": "General readers · deeper reference",
       "why": "A map of risk categories helps reveal what a narrow discussion leaves out.",
       "readFirst": "Start with the risk repository, then use the Risk Navigator to connect risk categories with incidents and governance records.",
-      "limits": "A catalog organizes risks; it does not establish that every risk is equally likely or severe."
+      "limits": "A catalog organizes evidence and possible risks; it does not establish that every risk is equally likely or severe. Check the provenance and methods behind individual records."
     }
   },
   {
@@ -834,7 +834,7 @@
     "provider": "OpenAI Help Center",
     "kind": "Product documentation",
     "description": "How linked accounts, quiet hours, study settings and limited notifications work. A practical starting point for a family conversation about using ChatGPT.",
-    "checkedAt": "2026-11-20",
+    "checkedAt": "2026-11-22",
     "reviewEveryDays": 14,
     "safety": {
       "group": "everyday",
@@ -1015,7 +1015,7 @@
     "provider": "OpenAI Help Center",
     "kind": "Product guide",
     "description": "Check eligibility, the purchase request and the merchant confirmation, then find the right route for an order problem or card dispute.",
-    "checkedAt": "2026-11-20",
+    "checkedAt": "2026-11-22",
     "reviewEveryDays": 14,
     "safety": {
       "group": "everyday",
@@ -1092,5 +1092,24 @@
     "cost": "Eligible paid ChatGPT plan",
     "needs": "Space access is required for both creators and invited viewers. Shared content requires permission and sign-in to an eligible Plus, Pro, Business or Enterprise account; Free users cannot open it and public links are unavailable. Check access before choosing Space for an audience.",
     "bestFor": "Collaborating with people who already have Space access"
+  },
+  {
+    "id": "screen-context-privacy",
+    "section": "safety",
+    "title": "Choose which apps an AI assistant can read",
+    "url": "https://www.eff.org/deeplinks/2026/10/victory-you-can-now-exclude-apps-siri-ai",
+    "sourceUrl": "https://support.google.com/gemini/answer/15850607?hl=en",
+    "provider": "Electronic Frontier Foundation · Google documentation",
+    "kind": "Practical guidance",
+    "description": "Review Siri app exclusions and Gemini’s screen-context controls before letting an assistant work with sensitive content. EFF explains the privacy tradeoffs; Google documents its screen settings.",
+    "checkedAt": "2026-11-22",
+    "reviewEveryDays": 14,
+    "safety": {
+      "group": "everyday",
+      "audience": "Phone users and people sharing sensitive messages",
+      "why": "Encrypted messaging and permission for an assistant to read a device are separate privacy decisions.",
+      "readFirst": "For iOS 27.2, read EFF’s Excluded Apps steps. For Android, compare its guidance with Google’s current Screen context documentation and the settings available on your device.",
+      "limits": "Settings and availability vary by version. Excluding an app can remove assistant features, and screen controls do not cover every access path or the recipient’s device. Documentation review, not our own device test."
+    }
   }
 ]

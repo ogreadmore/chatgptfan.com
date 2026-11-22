@@ -1,127 +1,303 @@
 {
-  "updatedAt": "2026-11-21T06:09:28.631Z",
+  "updatedAt": "2026-11-22T06:02:23.187Z",
   "sources": [
     {
       "id": "google",
-      "checkedAt": "2026-11-21T06:09:28.631Z",
-      "lastSuccessAt": "2026-11-21T06:09:28.631Z",
+      "checkedAt": "2026-11-22T06:02:23.187Z",
+      "lastSuccessAt": "2026-11-22T06:02:23.187Z",
       "status": "ok",
       "count": 20
     },
     {
       "id": "openai",
-      "checkedAt": "2026-11-21T06:09:28.631Z",
-      "lastSuccessAt": "2026-11-21T06:09:28.631Z",
+      "checkedAt": "2026-11-22T06:02:23.187Z",
+      "lastSuccessAt": "2026-11-22T06:02:23.187Z",
       "status": "ok",
       "count": 16
     },
     {
       "id": "openai-youtube",
-      "checkedAt": "2026-11-21T06:09:28.631Z",
-      "lastSuccessAt": "2026-11-21T06:09:28.631Z",
+      "checkedAt": "2026-11-22T06:02:23.187Z",
+      "lastSuccessAt": "2026-11-22T06:02:23.187Z",
       "status": "ok",
       "count": 15
     },
     {
       "id": "decoder-youtube",
-      "checkedAt": "2026-11-21T06:09:28.631Z",
-      "lastSuccessAt": "2026-11-21T06:09:28.631Z",
+      "checkedAt": "2026-11-22T06:02:23.187Z",
+      "lastSuccessAt": "2026-11-22T06:02:23.187Z",
       "status": "ok",
       "count": 7
     },
     {
       "id": "icrc-youtube",
-      "checkedAt": "2026-11-21T06:09:28.631Z",
-      "lastSuccessAt": "2026-11-21T06:09:28.631Z",
+      "checkedAt": "2026-11-22T06:02:23.187Z",
+      "lastSuccessAt": "2026-11-22T06:02:23.187Z",
       "status": "ok",
       "count": 1
     },
     {
       "id": "mit",
-      "checkedAt": "2026-11-21T06:09:28.631Z",
-      "lastSuccessAt": "2026-11-21T06:09:28.631Z",
+      "checkedAt": "2026-11-22T06:02:23.187Z",
+      "lastSuccessAt": "2026-11-22T06:02:23.187Z",
       "status": "ok",
       "count": 8
     },
     {
       "id": "simon",
-      "checkedAt": "2026-11-21T06:09:28.631Z",
-      "lastSuccessAt": "2026-11-21T06:09:28.631Z",
+      "checkedAt": "2026-11-22T06:02:23.187Z",
+      "lastSuccessAt": "2026-11-22T06:02:23.187Z",
       "status": "ok",
       "count": 16
     },
     {
       "id": "404",
-      "checkedAt": "2026-11-21T06:09:28.631Z",
-      "lastSuccessAt": "2026-11-21T06:09:28.631Z",
+      "checkedAt": "2026-11-22T06:02:23.187Z",
+      "lastSuccessAt": "2026-11-22T06:02:23.187Z",
       "status": "ok",
       "count": 12
     },
     {
       "id": "metr",
-      "checkedAt": "2026-11-21T06:09:28.631Z",
-      "lastSuccessAt": "2026-11-21T06:09:28.631Z",
+      "checkedAt": "2026-11-22T06:02:23.187Z",
+      "lastSuccessAt": "2026-11-22T06:02:23.187Z",
       "status": "ok",
       "count": 12
     },
     {
       "id": "guardian",
-      "checkedAt": "2026-11-21T06:09:28.631Z",
-      "lastSuccessAt": "2026-11-21T06:09:28.631Z",
+      "checkedAt": "2026-11-22T06:02:23.187Z",
+      "lastSuccessAt": "2026-11-22T06:02:23.187Z",
       "status": "ok",
       "count": 16
     },
     {
       "id": "verge",
-      "checkedAt": "2026-11-21T06:09:28.631Z",
-      "lastSuccessAt": "2026-11-21T06:09:28.631Z",
+      "checkedAt": "2026-11-22T06:02:23.187Z",
+      "lastSuccessAt": "2026-11-22T06:02:23.187Z",
       "status": "ok",
       "count": 10
     },
     {
       "id": "techcrunch",
-      "checkedAt": "2026-11-21T06:09:28.631Z",
-      "lastSuccessAt": "2026-11-21T06:09:28.631Z",
+      "checkedAt": "2026-11-22T06:02:23.187Z",
+      "lastSuccessAt": "2026-11-22T06:02:23.187Z",
       "status": "ok",
       "count": 16
     },
     {
       "id": "ars",
-      "checkedAt": "2026-11-21T06:09:28.631Z",
-      "lastSuccessAt": "2026-11-21T06:09:28.631Z",
+      "checkedAt": "2026-11-22T06:02:23.187Z",
+      "lastSuccessAt": "2026-11-22T06:02:23.187Z",
       "status": "ok",
       "count": 16
     },
     {
       "id": "mollick",
-      "checkedAt": "2026-11-21T06:09:28.631Z",
-      "lastSuccessAt": "2026-11-21T06:09:28.631Z",
+      "checkedAt": "2026-11-22T06:02:23.187Z",
+      "lastSuccessAt": "2026-11-22T06:02:23.187Z",
       "status": "ok",
       "count": 10
     },
     {
       "id": "ainow",
-      "checkedAt": "2026-11-21T06:09:28.631Z",
+      "checkedAt": "2026-11-22T06:02:23.187Z",
       "lastSuccessAt": "2026-11-17T06:01:14.895Z",
       "status": "unavailable",
       "error": "HTTP 403"
     },
     {
       "id": "alignment",
-      "checkedAt": "2026-11-21T06:09:28.631Z",
-      "lastSuccessAt": "2026-11-21T06:09:28.631Z",
+      "checkedAt": "2026-11-22T06:02:23.187Z",
+      "lastSuccessAt": "2026-11-22T06:02:23.187Z",
       "status": "ok",
       "count": 10
     },
     {
       "id": "status",
-      "checkedAt": "2026-11-21T06:09:28.631Z",
-      "lastSuccessAt": "2026-11-21T06:09:28.631Z",
+      "checkedAt": "2026-11-22T06:02:23.187Z",
+      "lastSuccessAt": "2026-11-22T06:02:23.187Z",
       "status": "ok",
       "count": 8
     }
   ],
   "items": [
+    {
+      "title": "‘Serious error of judgment’: outrage over military AI event at Berlin arts complex",
+      "url": "https://www.theguardian.com/world/2026/nov/22/military-ai-event-berlin-kraftwerk-arts-complex",
+      "publishedAt": "2026-11-22T06:00:21.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/4d3b2eefdc19be5ce451b348a00b741e730d6dbd/1327_0_6144_4918/master/6144.jpg?width=140&quality=85&auto=format&fit=max&s=afb066577694373a8420080e6f970403"
+    },
+    {
+      "title": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
+      "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
+      "publishedAt": "2026-11-22T05:04:39.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/3d9052371f434580f71c25a962110e47f2e6a076/605_0_6228_4986/master/6228.jpg?width=140&quality=85&auto=format&fit=max&s=b27cbf562e91080e6b506b93ff0b44c3"
+    },
+    {
+      "title": "Muru",
+      "url": "https://simonwillison.net/2026/Nov/21/muru",
+      "publishedAt": "2026-11-21T23:56:28.000Z",
+      "sourceId": "simon",
+      "source": "Simon Willison",
+      "type": "Practitioner analysis",
+      "topic": "Practical AI"
+    },
+    {
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+      "publishedAt": "2026-11-21T21:37:10.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "A tale of two Nvidias",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias",
+      "publishedAt": "2026-11-21T21:07:42.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+      "publishedAt": "2026-11-21T20:15:57.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/d3154f68df589c297fc3d173e2bb3d95faca05c9/530_0_4678_3742/master/4678.jpg?width=140&quality=85&auto=format&fit=max&s=2be6ea0855df616ea30ffc89afed2e1f"
+    },
+    {
+      "title": "The UN fails to agree on rules regulating ‘killer robots’",
+      "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "publishedAt": "2026-11-21T20:03:37.000Z",
+      "sourceId": "verge",
+      "source": "The Verge",
+      "type": "Reporting & analysis",
+      "topic": "News",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13611631/503831564.jpg.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "title": "Anthony Albanese talks a big game about sovereignty. But Australia remains in thrall to its ‘unreliable boyfriend’ | Julianne Schultz",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/22/anthony-albanese-talks-a-big-game-about-sovereignty-but-australia-remains-in-thrall-to-its-unreliable-boyfriend",
+      "publishedAt": "2026-11-21T19:00:06.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/07c5e1e60c18e0d209d22916b379ba24ab64a47c/484_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=3d1ea4fa65a9468ace4e4c86664e9ba8"
+    },
+    {
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
+      "publishedAt": "2026-11-21T17:00:00.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "International UN talks on controlling use of autonomous weapons collapse",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+      "publishedAt": "2026-11-21T16:36:11.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/247601abada695f09f302253178bbc8f6e58cd42/415_0_4165_3333/master/4165.jpg?width=140&quality=85&auto=format&fit=max&s=19283afd22dbc9bfead542bffab860d5"
+    },
+    {
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
+      "publishedAt": "2026-11-21T16:00:00.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "Can Anthropic afford to put safety first?",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "publishedAt": "2026-11-21T15:00:00.000Z",
+      "sourceId": "verge",
+      "source": "The Verge",
+      "type": "Reporting & analysis",
+      "topic": "News",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_DCD_1121_Site.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "title": "Jensen Huang’s fall makes Anthropic’s IPO look even stranger",
+      "url": "https://www.youtube.com/watch?v=yTR5sD5KwD4",
+      "publishedAt": "2026-11-21T14:00:20.000Z",
+      "sourceId": "decoder-youtube",
+      "source": "Decoder on YouTube",
+      "type": "Independent interviews · YouTube",
+      "topic": "Videos",
+      "image": "https://i.ytimg.com/vi/yTR5sD5KwD4/maxresdefault.jpg",
+      "format": "video"
+    },
+    {
+      "title": "‘I was shaking, crying, having trouble breathing’: the uncharted trauma of breaking up with AI companions",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/nov/21/shaking-crying-trouble-breathing-breaking-up-with-ai-companions",
+      "publishedAt": "2026-11-21T14:00:01.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/fbb1db8f761639f3693a6f337b815d2473bc48a3/0_0_5790_4631/master/5790.jpg?width=140&quality=85&auto=format&fit=max&s=2239c1be6f4f5d6b422101664e95ad91"
+    },
+    {
+      "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+      "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "publishedAt": "2026-11-21T14:00:00.000Z",
+      "sourceId": "verge",
+      "source": "The Verge",
+      "type": "Reporting & analysis",
+      "topic": "News",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/classic-games-home-page-trimmed.jpeg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "title": "‘Little room for error’: what a debt-laden cloud computing company says about the AI boom",
+      "url": "https://www.theguardian.com/business/2026/nov/21/debt-laden-cloud-computing-company-coreweave-ai-boom",
+      "publishedAt": "2026-11-21T13:00:01.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/4ccf3eba2b9600a32c8f0d9bd1554d5d4fe50e67/504_0_5040_4032/master/5040.jpg?width=140&quality=85&auto=format&fit=max&s=e8d923ad2af9620a6291627751c10ce3"
+    },
+    {
+      "title": "I’m a priest. Silicon Valley’s search for the ‘soul’ of AI is deeply troubling | Rev Kevin Deal",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/21/silicon-valleys-ai-soul-search",
+      "publishedAt": "2026-11-21T12:00:58.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/3d6259c7c4a22f7ecae82e1aef45d9bc1fff8bd3/147_152_2937_2350/master/2937.jpg?width=140&quality=85&auto=format&fit=max&s=0c6653067417b404617765294f09e8bd"
+    },
+    {
+      "title": "‘I’m opening the cage of a monster’: Taxi Driver scriptwriter Paul Schrader on unleashing AI at 80",
+      "url": "https://www.theguardian.com/film/2026/nov/21/taxi-driver-scriptwriter-paul-schrader-ai-film-making-martin-scorsese",
+      "publishedAt": "2026-11-21T11:00:57.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/c3c591ee1acfc05bd826c7b9314021f5f105c5c6/804_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=99354a6a41759bb3d3e31a867653f11a"
+    },
     {
       "title": "‘The doom of humanity’: will the quest to make robotic hands render us obsolete?",
       "url": "https://www.theguardian.com/technology/2026/nov/21/robot-hands-future-of-humanity-ai",
@@ -133,11 +309,20 @@
       "image": "https://i.guim.co.uk/img/media/23b370295e6a0451fe53a38aba2282045f215272/1054_0_6677_5342/master/6677.jpg?width=140&quality=85&auto=format&fit=max&s=b205cd24b9f7e774996bfccf38effe3f"
     },
     {
-      "title": "Anthropic's Tom Brown plans to donate to Trump's investment accounts for kids, source says - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVEFvNDBodHpvUlp4S085VFJqRGZsa1drMzJrQXZYWjQtNHNFRU1wR3Z5VG95dDNMWjFLMGRxMTNTYmpQVHlrS1hvd1dYMmE2RHdIZnBQaFFqVEQwWERxaDd6aWNqa1pXWnBYVnVCMTUyblg5ZHNpYTNGbWF5eHdlZk40QUdRcmZiZTl0cW5EMUphWXZpcEdQMjRQaGJTWC1qQ2JETnBhWF9kQQ?oc=5",
-      "publishedAt": "2026-11-20T22:42:31.000Z",
+      "title": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI - AP News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZl83aFlGaHFEUVczbnRQYTJCbmhiWUFic2RBN0JLeVJrUy1GOG5TZDRtSzVDQ3JzT1otb3dqZlQ0X1JXc0I3Wm1CMzB2Ul9MZGlGbFVvOHEyVlo4V1NxUU5sQ0FoMTNkTUJkaXlCSFYwcE5rZGtyb2hwTkNYcVNJcGtMSzdqRFlQejUzTjFuei1PX2ZPcU5ZRw?oc=5",
+      "publishedAt": "2026-11-21T04:55:00.000Z",
       "sourceId": "google",
-      "source": "Reuters",
+      "source": "AP News",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Treasury secretary says no further restrictions are needed for Nvidia chip exports to China - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWVNwbUpEZjJtY1NaOWc5Z1ZfYUo2QXJqdl9WVGhJVnFvajdCTGV5RFJwNzNQTFVSeENSNzdUQ2ctRjB5Sl9ybmJqb3FfZENLMEZkeFdYSUJMa1FSamFBS2pqTGpjQzAwWHBza2JHOXBzdmV2ZG1icEgzQXp1aW4zRDFLWnN1Rm1USW9zZ3I4V2NZZ05RN2tBa295b0I4c1VIME1OR3N0VXlZc0ZxOUcwb2lrOA?oc=5",
+      "publishedAt": "2026-11-20T22:36:00.000Z",
+      "sourceId": "google",
+      "source": "AP News",
       "type": "Reporting via Google News",
       "topic": "News"
     },
@@ -162,7 +347,7 @@
     {
       "title": "Senator proposes select committee on AI as Democrats hope to move quickly to regulate it - AP News",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMVppTkpwTl9RaDg3enpSUG00Y1l0eXFZVkV5ODJoYjhlRVFNdkNSWkEtMnJ6NDhRaHlFVkFqcEl5T3g2R3BrbjNTVjRyaU56ZjRTd0NYTkxvX0RkWVNkVkJ6THp1M3JuWmJaNFZrVlRrS0hsVjF6U1J3M0I2aTF5dW9CV3JXckdnN3hjWDVJWUFGX1E0QzlvNWIyMTNsVm5Oa3RWMWxrckJSVzg?oc=5",
-      "publishedAt": "2026-11-20T22:07:00.000Z",
+      "publishedAt": "2026-11-20T22:07:47.000Z",
       "sourceId": "google",
       "source": "AP News",
       "type": "Reporting via Google News",
@@ -336,6 +521,15 @@
       "format": "video"
     },
     {
+      "title": "Anthropic's IPO bank closed position meant to stabilize stock, removing source of support - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSVpRUnlwbWF4cmpjRkg1N1ZnRU9Dc1ZIRFFQU3pyMHNac0tJSXlINUg5YUdLRl9mMUEzQTRkZTdQWHJwRkhJbmYyWV9VYkt4dDVTSGRib3VzbVVENWd1WWllZkhzR2E5SGhrNm5xOUM1QzBfdFFqZlNvNmJDUHFNeU1IdnRMclVkRmdsNTRxTWVZY0hQYWJHN05EZ2xxZTFORDZ0V1g2eWZEWnBGRnVEVVNROURGMVFCTzkwbA?oc=5",
+      "publishedAt": "2026-11-20T17:10:35.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
       "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
       "publishedAt": "2026-11-20T16:34:13.000Z",
@@ -355,7 +549,7 @@
       "topic": "Practical AI"
     },
     {
-      "title": "3 ChatGPT Tips to Save Money",
+      "title": "3 Tips to Save Money With ChatGPT",
       "url": "https://www.youtube.com/watch?v=WGvsk0LIveU",
       "publishedAt": "2026-11-20T16:00:17.000Z",
       "sourceId": "openai-youtube",
@@ -364,15 +558,6 @@
       "topic": "Videos",
       "image": "https://i.ytimg.com/vi/WGvsk0LIveU/maxresdefault.jpg",
       "format": "video"
-    },
-    {
-      "title": "Big Pharma, with eye on Anthropic, says AI is shrinking drug discovery timelines - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORlJGWE45RkVJTGJ1UXJxWFlaMlNfcnQ4bkNxRlIyV2VYVm0yRVQyeS1UQW5ldEZybjQzOFlRUmRzNlRxaGMzR3FWVlc1NVZMNnJzeGlyeXJvdVFxaXJPOVhjY0J4OUdEbWg5X0Rza1owcllpM1ZaME9LSDlpS0JfcFhTZ29acnV3a3M3Z1dGVW1FRHZjdmNqZGQyeDc2S25sbTQ1TGNEdFdLVDRtU25lU3JVaXFVMXAzT0xkYU5LSEY1dExkRnNR?oc=5",
-      "publishedAt": "2026-11-20T15:11:35.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
     },
     {
       "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
@@ -431,16 +616,6 @@
       "type": "Reporting & opinion",
       "topic": "News",
       "image": "https://i.guim.co.uk/img/media/06367e7fdfd0f05a668d10411818299d34910160/656_0_6561_5249/master/6561.jpg?width=140&quality=85&auto=format&fit=max&s=1fd17bd548ba127b4f7c623cfd2410d2"
-    },
-    {
-      "title": "Will AI break the internet? | Garrison Lovely",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/20/ai-internet-outages-apocalypse",
-      "publishedAt": "2026-11-20T10:00:31.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/d0d3e01dd99c16399c8dbc88cf6f6b915811600d/333_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=3c89a7301381e5589eb91de840c238ea"
     },
     {
       "title": "Combatting adversarial distillation",
@@ -535,14 +710,13 @@
       "topic": "News"
     },
     {
-      "title": "‘We’re the most arrogant of all apes!’ A delightfully mind-expanding encounter with Peter Gabriel",
-      "url": "https://www.theguardian.com/music/2026/nov/20/peter-gabriel-interview-ai-music-bonobo-ape-duets-jurassic-park-plants",
-      "publishedAt": "2026-11-20T05:00:22.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/124bc29050c7da765c91e3c9121b3b2ab887ffa0/0_715_4126_3300/master/4126.jpg?width=140&quality=85&auto=format&fit=max&s=f0bd83c4f578462ee5eeaf1e262d06d8"
+      "title": "Anthropic's blockbuster debut tests Wall Street's faith in AI boom - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVmU0cXVPRUhwcDZpRkRudEI3bjNfMllQVEN3M09VWFNmQUJTck1UUE9mVERRbmFicElZMWxKVnd3UWpTNGY3R1JiZ0NnRnNBRHhLMkxkVC1vUWVOVzQ3NzcwMkoycTR0MC1LUnBfdUIyWl9OZE5xYnlVVmQ5bzdVZmdnVHFjUjh6dHZrbVVQdEFPaDNCUC1KSkZEMUlhcU9OeWFiWi10SGwxNTBpNE16aTd1MA?oc=5",
+      "publishedAt": "2026-11-20T04:57:37.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
     },
     {
       "title": "Anthropic valued at $1.5 trillion as IPO raises record $81 billion - Reuters",
@@ -554,24 +728,14 @@
       "topic": "News"
     },
     {
-      "title": "NextDC vows to keep future datacentres away from homes after community backlash in Melbourne",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/20/nextdc-vows-to-keep-future-datacentres-away-from-homes-after-community-backlash-in-melbourne",
-      "publishedAt": "2026-11-20T04:37:08.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/9acf294a8c0fe26735bc3164495be1c8cbfbe068/683_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=17900272fc8dd5c5221231513aab8877"
-    },
-    {
-      "title": "Anthropic’s historic stock market debut: key takeaways, and what comes next for the AI industry",
-      "url": "https://www.theguardian.com/technology/2026/nov/20/anthropic-ipo-historic-stock-market-debut-key-takeaways-what-next-for-ai",
-      "publishedAt": "2026-11-20T03:33:45.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/61ed24035e251e6542b667ba9186f9479f108506/240_0_4204_3363/master/4204.jpg?width=140&quality=85&auto=format&fit=max&s=035500278e5a57ed65ddb04b90dc5540"
+      "title": "llm-gemini 0.38.1",
+      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini",
+      "publishedAt": "2026-11-20T03:01:57.000Z",
+      "sourceId": "simon",
+      "source": "Simon Willison",
+      "type": "Practitioner analysis",
+      "topic": "Practical AI",
+      "image": "https://static.simonwillison.net/static/2026/gemini-4-xhigh-pelicans.webp"
     },
     {
       "title": "Token fraud is here and it’s BAD (YouTube)",
@@ -581,16 +745,6 @@
       "source": "Simon Willison",
       "type": "Practitioner analysis",
       "topic": "Practical AI"
-    },
-    {
-      "title": "Big tech is already building datacentres in Australia. Why is Labor so desperate to give them loopholes?",
-      "url": "https://www.theguardian.com/technology/commentisfree/2026/nov/20/big-tech-is-already-building-datacentres-in-australia-why-is-labor-desperate-to-give-them-loopholes",
-      "publishedAt": "2026-11-20T02:00:18.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/0cdbb6369ce14b701428a723ba8bb7a215b0e3bd/0_0_1828_1463/master/1828.jpg?width=140&quality=85&auto=format&fit=max&s=ec31418de2ee6aa3a2433d6d06ad0d05"
     },
     {
       "title": "Apple may be developing its own AI agent that runs your Mac",
@@ -638,9 +792,27 @@
       "topic": "News"
     },
     {
-      "title": "Anthropic's $1.5 trillion debut rewrites venture capital's playbook - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcVk2clRUVFZnTGJTcG1qOWpTRmlSQmRjTXdoVFhIMGQ1cU1idU5RTVFqOVhob2NMQXYyWlVTeEhpU2N2cEk5d0pJSlhic2NSaHJ2M0V1b3N2WW9BalFiZ3VnQnpuY1VKV3Fwd1pkMWw0N1FnRlNPZmdXRFVudkhGOHA5OHNsVzBPWnRWaWNnTmRTNFBQQTVKSEF1WndCeVhnSmZ3S1ZCVzBtcDBWSk9VS3ViTnY5UThFaHFz?oc=5",
-      "publishedAt": "2026-11-19T23:22:04.000Z",
+      "title": "Anthropic surges in market debut after biggest IPO on record, despite fears that AI is running amok - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZXdyUExSdjhGa000MWtxaUR0YzhiVHJnNzN0N0lTUnNONktkaWZkUVUwdExoUXhXMTlJN0NEZ3F3M2RYbUZYelpiNFhpOE14LWdtYjF1MnB2M00xMk1GbENmci1UeFlXa3V0aHM4TWlxVVZNeFBwUkZjMTA2ZWhCSFBVaVVBb0FUdnpj?oc=5",
+      "publishedAt": "2026-11-19T23:22:00.000Z",
+      "sourceId": "google",
+      "source": "AP News",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Stocks fall as Anthropic debut fails to ease AI concerns; dollar rises - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBKVlNYZ0xucjVqQUMzV3BSemlBQ2ZPcmxTejY2bXF6bzUyZTR3OEhOc3FoQW5JS095Uzl2LWhJcDdpVXpoeWF3c245cllBNFRjeks3eTdta3kxU3BiWm1IcG1ScWIweFVBdTk0eFpURlFDZi1kUmVIQ0dVTQ?oc=5",
+      "publishedAt": "2026-11-19T22:58:43.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Trump says he and China's Xi want moderate AI rules - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRmhOamVpZF9sMG9qSElyRS13Q2hIdXdncHVuRUIzUU1FYlM4eGNSR1NVcE9DdHVFNXRDT0ZSdTBXUUtSZGJUWGdoNnEwLXRqMmVRd251SWpHNVVsSWRFODZ3S3ZZQkVxM0dTaHNUaXA5M0FLVVYyaFNXa1l1a0Vkc2Rpc01EWWUxYi1kQmhwckhZOTBURFAxeQ?oc=5",
+      "publishedAt": "2026-11-19T22:34:50.000Z",
       "sourceId": "google",
       "source": "Reuters",
       "type": "Reporting via Google News",
@@ -655,26 +827,6 @@
       "type": "Reporting & analysis",
       "topic": "News",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DSC04239.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "title": "Anthropic shares end first day of trading at $97 as Wall Street closes sharply lower – as it happened",
-      "url": "https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates",
-      "publishedAt": "2026-11-19T22:13:52.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/8226cf45c1bc20ad59eddec748cb40e245b6796d/378_0_2428_1942/master/2428.jpg?width=140&quality=85&auto=format&fit=max&s=97d0f5d644f173d2ba42f67590e1aa3d"
-    },
-    {
-      "title": "Anthropic closes first day of public trading at $1.3tn valuation after largest-ever IPO",
-      "url": "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo",
-      "publishedAt": "2026-11-19T22:09:18.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/6998f4e0d8ab24e4c35516c1ab618511a39fcd71/545_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=1d230408bbae396686d8049961356159"
     },
     {
       "title": "Democratic lawmakers probe DOJ filing in OpenAI copyright case - Reuters",
@@ -705,22 +857,30 @@
       "topic": "News"
     },
     {
-      "title": "Protesters rally against Anthropic in New York and San Francisco after $2tn stock market debut",
-      "url": "https://www.theguardian.com/technology/2026/nov/19/anthropic-ipo-protests",
-      "publishedAt": "2026-11-19T21:52:19.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/71f9820b3e6fa3234944209ef4e179d6b83eeb67/333_0_3333_2668/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=c67dc9fe30c346a644aea3be3a033af0"
-    },
-    {
       "title": "These tech outages are giving Y2K, AI agent style",
       "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style",
       "publishedAt": "2026-11-19T21:42:31.000Z",
       "sourceId": "techcrunch",
       "source": "TechCrunch",
       "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "Instant view: Anthropic hits $2 trillion market value in debut; major indexes fall - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQlRFLVpVV0l1RXpPXzhUdXlUT1ZHQ0NNeUplSXhERGJybFNNRDBVU1RDRktVeTBFYlhOV1dUbE1ldV92NS1zZDJCYkM1U24tMVI0clN1eFplWHdXQlZmX19zS2V2ZWE1Y0RGT3lLQ1dzUzJVS210N19zZXVZSHlVRUt6c3JhLVJ1bzk3cl9LZ0FPeVhmV3ZSYmdRSHpoc0p6VXB6cHhwX2FfQQ?oc=5",
+      "publishedAt": "2026-11-19T21:39:50.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "US lawmakers seek Microsoft briefing on reported AI deal talks with ByteDance - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdEpRTFc4Q3Nsa085U2xoZldyY1BXSmlhSy0yT00tRzF4eU5QekdiUENlSTQyajA0eU5PVWl0MUpoejlXdXJMVVFPbHRVaGFlZmxoWFA5SHN5VXBpWHJvLUFLMjZISk96bVRuWWs0V3NSblpmWTM3VVZNQ3VHQVNpQTNUOFM5VzdwZ0ZOcHlFX3hmcEJ5ZDhRVXlCS0dCZEwxbXZ3Z09zVjB4N1FGMHo4Qkc4WWEwTG5LdHNWbk14NA?oc=5",
+      "publishedAt": "2026-11-19T21:17:14.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
       "topic": "News"
     },
     {
@@ -753,44 +913,6 @@
       "topic": "News"
     },
     {
-      "title": "Japanese investors sought $9.4 billion of shares in Anthropic IPO, sources say - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbzA3aGxPN3dWWXpGQ0NxUkVUdm9md2JpZnZQSjFtY0ZTeG1sazJtSUxMZHliR2Z2Rm5paDM2UjRwa3VXRDNUb2JCV0JOQkdiUnBnek50RTEtMGlCUmRsMTNaTkVfcklXVWk4SjZSRnFGN1BmblVxdVhfLVU3MkFkd3JYd21IY0ozME1KUjZUMjNXeHZGZzJxU3VrYWVkODc1RF9wZzA1UnBCRzBSY3dlQWllcEZaQzZGNXp6Z0JWTQ?oc=5",
-      "publishedAt": "2026-11-19T20:07:44.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
-      "title": "Who are Anthropic’s seven co-founders, now worth $180bn?",
-      "url": "https://www.theguardian.com/technology/2026/nov/19/who-are-anthropic-founders",
-      "publishedAt": "2026-11-19T20:05:13.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/f21be169b52ca2b5f51250db2e1f038f14af993b/236_0_3021_2417/master/3021.jpg?width=140&quality=85&auto=format&fit=max&s=cfd2d2381022640d3abcec2594556295"
-    },
-    {
-      "title": "Google is putting AI chats right on the homepage",
-      "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
-      "publishedAt": "2026-11-19T20:05:06.000Z",
-      "sourceId": "verge",
-      "source": "The Verge",
-      "type": "Reporting & analysis",
-      "topic": "News",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK093_GOOGLE_D.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "title": "From anti-war physicist to AI power broker, Amodei takes his safety approach public - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZnhhNDVzR1JMenI2MDVJa0lUc1E0T2dZRHpzREt6eUtxTVJfdHdWX3BQcU5nc0w5RUR0VzRFVjVDVDA3ZVo1c2w3Zk9SYlhhd1RoLXNOUjdvN01MQWJjUTNaSGk1Z1p6WWRFM3lwNlUyamYwb0dTNkxweXBhM1JRT1pNQkdtTTFrTjRVTXQzNFpfZXlRVmMxZF9JYlFBZUs3bGU0aVVRWndzcTdNY3B5dGJ2S1lXdW8?oc=5",
-      "publishedAt": "2026-11-19T19:16:00.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
       "title": "Anthropic’s IPO could deliver $156B to charity",
       "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity",
       "publishedAt": "2026-11-19T19:10:45.000Z",
@@ -798,16 +920,6 @@
       "source": "TechCrunch",
       "type": "Industry reporting",
       "topic": "News"
-    },
-    {
-      "title": "Gemini on Mac can now use your computer",
-      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
-      "publishedAt": "2026-11-19T18:21:13.000Z",
-      "sourceId": "verge",
-      "source": "The Verge",
-      "type": "Reporting & analysis",
-      "topic": "News",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/M6_MBP_hero2.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
       "title": "At COP31, Venezuela touts AI as path to cleaner oil production - Reuters",
@@ -828,33 +940,6 @@
       "topic": "News"
     },
     {
-      "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
-      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says",
-      "publishedAt": "2026-11-19T17:38:40.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
-      "title": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
-      "url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories",
-      "publishedAt": "2026-11-19T17:00:00.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
-      "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
-      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
-      "publishedAt": "2026-11-19T16:59:23.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
       "title": "Elevated error rates for gpt-6 Luna API requests",
       "url": "https://status.openai.com//incidents/01M7T8MRF9SDBDNQ62Z6V156ZZ",
       "publishedAt": "2026-11-19T16:58:04.000Z",
@@ -862,52 +947,6 @@
       "source": "OpenAI Status",
       "type": "Service notices",
       "topic": "Status"
-    },
-    {
-      "title": "Anthropic starts trading on Wall Street",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
-      "publishedAt": "2026-11-19T16:52:01.000Z",
-      "sourceId": "verge",
-      "source": "The Verge",
-      "type": "Reporting & analysis",
-      "topic": "News",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305334560.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
-      "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
-      "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development",
-      "publishedAt": "2026-11-19T16:19:41.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
-      "title": "A cyberattack using artificial intelligence targeted the EU in October, official says - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNjFWMWRqdEZvSG5jaEYzNW9NSHd1c2VTUHQzU2FVUXY0cmFKT3BlblZfcHlGM19DZVJiMkpQTXVEeU1URFRwczEyZl8wM0NQZmJ5NTE1VGh6blRlc1lZdWdTSFV0NkhTVVh3cHBaa1Fvc2p5V0lQNlV3TTRzMFNXd2pVYnVzckU0bGZmNkRqQjFxcE1uU2lFSGdsVTlHdzZQaXUyX3BkQkt1V0ZCQXJ1bUlyZw?oc=5",
-      "publishedAt": "2026-11-19T14:34:00.000Z",
-      "sourceId": "google",
-      "source": "AP News",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
-      "title": "Schneider Electric warns high power costs could push AI investment out of Europe - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMV8wcTVyeEdDUFZNSW9xSGJtdnlPNW9WUjRZdVVsc1haRkxWZ3lwcnY5Zmx3dk0xZXRySnV0ZlFqLVlyT1BYVjZZYTRlRHRQZF9oRTVscE5UVXBMeml6WW03TmdHNXhrOTh2QzNqR09YeWtZSGtYY3ltLWh1N2tkeENMMVRuRzhkSF9WSTBONnFyN1VGRzJyVE1vUWZDOE1ySnRKbzl2Y2JiSXg0Q015TGZLRTBEWlpCRmJLX2NZZGhMV2Z3UGlYRQ?oc=5",
-      "publishedAt": "2026-11-19T14:09:40.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
-      "title": "Anthropic's $2 trln IPO may be last hurrah - Breakingviews",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMkNfRzVoLWlmTklyTmw3MkpsVl96Skg5aDVINHR6OHlleDlXY1pzUE1MV1piOXEzOXNGX1BNQnRWTnQxejBMWWFGR3RBUXhtMloxYVFZNDYtOHduajVoeHFYcUdqNXBMbmVUQ2FNRklpQXhxV1hlUC01T2V1cERsNDNwb3l6Z0t4RlpWNXIwd3Y0c2RET2VNbGs3T1AyeWFDa2Yw?oc=5",
-      "publishedAt": "2026-11-19T12:11:23.000Z",
-      "sourceId": "google",
-      "source": "Breakingviews",
-      "type": "Reporting via Google News",
-      "topic": "News"
     },
     {
       "title": "Meet Brian and Beast, the dots at work at Holiday Extras",
@@ -919,15 +958,6 @@
       "topic": "Videos",
       "image": "https://i.ytimg.com/vi/ikNf7eW8CHk/maxresdefault.jpg",
       "format": "video"
-    },
-    {
-      "title": "Anthropic's blockbuster debut tests Wall Street's faith in AI boom - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVmU0cXVPRUhwcDZpRkRudEI3bjNfMllQVEN3M09VWFNmQUJTck1UUE9mVERRbmFicElZMWxKVnd3UWpTNGY3R1JiZ0NnRnNBRHhLMkxkVC1vUWVOVzQ3NzcwMkoycTR0MC1LUnBfdUIyWl9OZE5xYnlVVmQ5bzdVZmdnVHFjUjh6dHZrbVVQdEFPaDNCUC1KSkZEMUlhcU9OeWFiWi10SGwxNTBpNE16aTd1MA?oc=5",
-      "publishedAt": "2026-11-19T11:08:00.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
     },
     {
       "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
@@ -1449,17 +1479,6 @@
       "format": "video"
     },
     {
-      "title": "China sees the AI race differently",
-      "url": "https://www.youtube.com/shorts/pup41bjlPHY",
-      "publishedAt": "2026-11-14T14:00:07.000Z",
-      "sourceId": "decoder-youtube",
-      "source": "Decoder on YouTube",
-      "type": "Independent interviews · YouTube",
-      "topic": "Videos",
-      "image": "https://i.ytimg.com/vi/pup41bjlPHY/maxresdefault.jpg",
-      "format": "video"
-    },
-    {
       "title": "Elevated errors with ChatGPT billing and Ads billing",
       "url": "https://status.openai.com//incidents/01M7C40W0N5MZHNW0YM09QV962",
       "publishedAt": "2026-11-14T05:27:53.000Z",
@@ -1601,15 +1620,6 @@
       "image": "https://static.simonwillison.net/static/2026/tools-tag-cloud.webp"
     },
     {
-      "title": "Anthropic's IPO roadshow video",
-      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow",
-      "publishedAt": "2026-11-11T15:11:59.000Z",
-      "sourceId": "simon",
-      "source": "Simon Willison",
-      "type": "Practitioner analysis",
-      "topic": "Practical AI"
-    },
-    {
       "title": "How I'm thinking about different types of automated alignment",
       "url": "https://www.alignmentforum.org/posts/NFkj9J2BBLSjNuH5G/how-i-m-thinking-about-different-types-of-automated",
       "publishedAt": "2026-11-11T09:49:37.000Z",
@@ -1635,16 +1645,6 @@
       "source": "AI Now Institute",
       "type": "Research & advocacy",
       "topic": "Safety & Society"
-    },
-    {
-      "title": "llm-gemini 0.36",
-      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini",
-      "publishedAt": "2026-11-10T20:09:44.000Z",
-      "sourceId": "simon",
-      "source": "Simon Willison",
-      "type": "Practitioner analysis",
-      "topic": "Practical AI",
-      "image": "https://static.simonwillison.net/static/2026/carbon-pelican.webp"
     },
     {
       "title": "Q3.5 Timelines Update: Looks Like the Intelligence Explosion Will Happen in 2027 After All",
