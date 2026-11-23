@@ -12,12 +12,12 @@
     "hf-agents"
   ],
   "projects": [
-    "ai-town",
-    "gradio-demo",
-    "voice-quickstart",
-    "n8n-summary",
-    "realtime",
-    "hf-spaces"
+    "data-analyst",
+    "sop-voice",
+    "robot-pick-place",
+    "local-inkling",
+    "rumble-transcription",
+    "agent-eval"
   ],
   "money": [
     "ai-business-value",

@@ -23,7 +23,7 @@ Daily coverage checklist (record a separate outcome for each):
 - Resources overview: useful starting paths and selections.
 - Getting Started and Learning: both learning groups, current guides, courses, and developer materials.
 - Tools: availability, changing capabilities, pricing signals, and useful alternatives.
-- Projects: maintained examples, runnable-project claims, archived status, and new worthwhile work.
+- Projects: compare the featured lineup with current concrete builds; replace stale or superseded choices. Check prerequisites, runnable-project claims, and archived status. Record selection changes separately from source maintenance, following docs/resource-maintenance.md.
 - Money: current business examples and practical guidance, with commercial claims attributed.
 - Safety & Society: each topic, reading paths, safety resources, and relevant news/discussions, including criticism of OpenAI.
 

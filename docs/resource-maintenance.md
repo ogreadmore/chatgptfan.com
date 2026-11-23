@@ -33,3 +33,16 @@ Review coverage across all five sections, stale backlog, duplicated destinations
 ## Publication and verification
 
 Run `npm run verify`, inspect the changed pages, and follow the existing publishing gate. `resources:review` never modifies dates, downloads third-party code, or publishes. Public “Checked” dates refer to source review, not hands-on testing. Keep the library's presentation stable during morning maintenance. Notify only under the daily run's existing rules.
+
+
+## Editorial freshness is separate from source validity
+
+A working URL, accurate warning, or new `checkedAt` date does not refresh a selection. For each main section, assess both factual accuracy and whether its featured material still earns its place against current alternatives. Inspect the reader-facing homepage row and destination together.
+
+For Projects, record the previous and proposed featured IDs, which builds are new to the collection, and why retained items are still more useful than alternatives actually considered. Read current release posts and concrete build guides beyond the existing list. Favor distinct outcomes and a useful range of prerequisites; remove superseded examples, duplicate voice starters, and broad catalogs when a specific current build serves readers better. Keep archived references out of the active recommendations.
+
+When the owner requests a freshness overhaul, refresh the selection substantively across the affected sections. The ordinary one-or-two-candidate guideline is not a limit on that work. Changing descriptions, source URLs or review dates while leaving the same lineup must be logged as source maintenance, not a content refresh.
+
+Preserve a source's actual publication date in `publishedAt` when verified. It is shown separately from `checkedAt`; never substitute today's review date for the source date or imply a newly added old guide was just released. An older guide can remain valuable, but retain it for a documented reader benefit, not inertia. Do not add weaker material merely because it is newer.
+
+The private daily log must distinguish selection changes, source maintenance, and a justified no-change decision, with specific candidates considered and unresolved gaps. The owner should not have to rediscover the same stale selection.

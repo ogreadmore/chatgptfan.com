@@ -21,3 +21,16 @@ test('Homepage and Safety feed labels honor the configured publication timezone'
   assert.match(safety,/<time datetime="2026-10-30T01:23:00Z">Oct 29, 2026<\/time>/);
   assert.ok(safety.includes('Snapshot refreshed Oct 29, 2026'));
 });
+
+import {renderResourceCollection} from '../scripts/resources-page.mjs';
+
+test('Project source publication dates remain distinct from later source checks',()=>{
+  const item={id:'sample-project',section:'projects',title:'Sample build',url:'https://example.com/build',provider:'Example',kind:'Guide',description:'An example.',publishedAt:'2026-11-03',checkedAt:'2026-11-23'};
+  const render=r=>renderResourceCollection('projects',[r],p=>'/'+p);
+  const original=render(item);
+  const reviewedAgain=render({...item,checkedAt:'2026-11-24'});
+  for(const html of [original,reviewedAgain]) assert.match(html,/Source published <time datetime="2026-11-03">Nov 3, 2026<\/time>/);
+  assert.match(original,/Checked <time datetime="2026-11-23">Nov 23, 2026<\/time>/);
+  assert.match(reviewedAgain,/Checked <time datetime="2026-11-24">Nov 24, 2026<\/time>/);
+  assert.ok(!render({...item,publishedAt:undefined}).includes('Source published'));
+});

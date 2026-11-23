@@ -5,7 +5,7 @@ import {localImage} from './image-delivery.mjs';
 export const collections = [
   { id: 'learn', title: 'Learn', description: 'Courses, guides, and examples worth your time.', detail: 'Start with the fundamentals, improve your practice, or learn to build.' },
   { id: 'tools', title: 'Tools', description: 'A small toolkit for useful work.', detail: 'Research, automation, and local models. Choose for the task at hand.' },
-  { id: 'projects', title: 'Projects', description: 'Experiments to explore. Starting points to make your own.', detail: 'Source code, practical workflows, and ideas to explore.' },
+  { id: 'projects', title: 'Projects', description: 'Experiments to explore. Starting points to make your own.', detail: 'Selected builds in data analysis, voice, robotics, local models, transcription, and evaluation.' },
   { id: 'money', title: 'Money', description: 'How useful work becomes a business.', detail: 'Business examples, customer research, and the economics behind a product or service.' }
 ];
 
@@ -22,7 +22,7 @@ function card(r, url, heading = 'h2') {
     ${r.bestFor ? `<p class="library-use"><span>Good for</span> ${e(r.bestFor)}</p>` : ''}
     <div class="library-facts">${[r.level,r.cost,r.time].filter(Boolean).map(v=>`<span>${e(v)}</span>`).join('')}</div>
     ${r.needs || r.credential ? `<details><summary>Before you start</summary>${r.needs ? `<p>${e(r.needs)}</p>` : ''}${r.credential ? `<p>${e(r.credential)}</p>` : ''}</details>` : ''}
-    <div class="library-reviewed">Checked <time datetime="${e(r.checkedAt)}">${dateLabel(r.checkedAt)}</time>${r.sourceUrl ? ` · <a href="${e(r.sourceUrl)}">Source notes ↗</a>` : ''}</div></div>
+    <div class="library-reviewed">${r.publishedAt ? `Source published <time datetime="${e(r.publishedAt)}">${dateLabel(r.publishedAt)}</time> · ` : ''}Checked <time datetime="${e(r.checkedAt)}">${dateLabel(r.checkedAt)}</time>${r.sourceUrl ? ` · <a href="${e(r.sourceUrl)}">Source notes ↗</a>` : ''}</div></div>
   </article>`;
 }
 
@@ -30,13 +30,13 @@ export function renderResourcesOverview(resources, url) {
   const items = resources.filter(r=>r.section!=='safety');
   const paths = [
     ['New to AI', 'Start with the basics, then practice on a real task.', ['academy','elements','wharton-gail']],
-    ['AI at work', 'Work with sources, connect your tools, and test the result.', ['notebook','n8n','n8n-summary']],
-    ['Build something', 'Learn the patterns, make a demo, then explore agents.', ['ms-genai','gradio-demo','hf-agents']]
+    ['AI at work', 'Work with sources, connect your tools, and test the result.', ['notebook','n8n','sop-voice']],
+    ['Build something', 'Learn the patterns, transcribe a recording, then explore agents.', ['ms-genai','rumble-transcription','hf-agents']]
   ];
   return `<header class="page-head library-head"><div><span class="eyebrow">The library</span><h1>Resources</h1><p>Good things to learn from, work with, and build on.</p></div><span class="library-total">${items.length}<small>selected resources</small></span></header>${tabs(url)}
     <section class="library-start"><div class="section-head"><h2>Find your starting point</h2></div><div class="library-paths">${paths.map(([title,desc,ids])=>`<article><h3>${title}</h3><p>${desc}</p><ol>${ids.map(id=>{ const r=resources.find(x=>x.id===id); return `<li><a href="${url(`resources/${r.section}/#${r.id}`)}">${e(r.title)} <span aria-hidden="true">→</span></a></li>`; }).join('')}</ol></article>`).join('')}</div></section>
     <section class="library-browse"><div class="section-head"><h2>Browse the library</h2></div>${collections.map(c=>`<a class="library-collection" href="${url(`resources/${c.id}/`)}"><h3>${c.title}</h3><p>${c.description}</p><span class="meta">${items.filter(r=>r.section===c.id).length} resources</span><span aria-hidden="true">↗</span></a>`).join('')}</section>
-    <section class="library-picks"><div class="section-head"><h2>A few good places to begin</h2></div><div class="library-grid">${['wharton-gail','n8n-summary'].map(id=>card(items.find(r=>r.id===id),url,'h3')).join('')}</div></section>
+    <section class="library-picks"><div class="section-head"><h2>A few good places to begin</h2></div><div class="library-grid">${['wharton-gail','sop-voice'].map(id=>card(items.find(r=>r.id===id),url,'h3')).join('')}</div></section>
     <aside class="library-footer"><div><h2>Keep the bigger picture in view.</h2><p>Independent research, documented harms, practical safeguards, and arguments for stronger oversight.</p><a class="text-link" href="${url('safety/')}">Safety & Society →</a></div><div><h3>A maintained collection</h3><p>Entries show when their source was last checked. We review every section daily, check selected sources in depth, and audit the whole library monthly. A source check is not a hands-on product test.</p></div></aside>`;
 }
 
