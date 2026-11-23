@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-22",
+  "updatedAt": "2026-11-23",
   "items": [
+    {
+      "accountId": "sama",
+      "url": "https://x.com/sama/status/2124551594691932405",
+      "title": "Altman backs a discussion of common limits",
+      "summary": "Sam Altman endorses Pachocki’s proposal and hopes laboratories can agree on common limits. This is support for an approach, not evidence that a new limit has been agreed or implemented.",
+      "publishedAt": "2026-11-22",
+      "checkedAt": "2026-11-23",
+      "sourceUrl": "https://x.com/sama/status/2124551594691932405",
+      "sourceName": "Sam Altman · original public post",
+      "coveredAt": "2026-11-22"
+    },
     {
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2123862344422088794",
@@ -74,8 +85,8 @@
     {
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2122377585523126615",
-      "title": "Researcher grants open November 23",
-      "summary": "OpenAI says the next round offers 50,000 grants for eligible researchers, each covering Plus for a recipient and up to two collaborators. Applications will be first-come, first-served; new grants differ from the pilot’s Pro access.",
+      "title": "Researcher grants: check the current round",
+      "summary": "OpenAI announced November 23 for the next academic application round, offering selected researchers Plus access for themselves and two collaborators. The form requires sign-in; available places have not been confirmed.",
       "coveredAt": "2026-11-16",
       "checkedAt": "2026-11-22",
       "sourceUrl": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
@@ -112,16 +123,6 @@
       "sourceName": "X · original post",
       "contextUrl": "https://openai.com/index/control-room/",
       "contextLabel": "Read the technical description"
-    },
-    {
-      "accountId": "sama",
-      "url": "https://x.com/sama/status/2117794005165748448",
-      "title": "Altman says human control should constrain AI progress",
-      "summary": "Altman says people should not cede control of the future to superintelligence and that this requirement should limit AI progress. This is his stated position, not a published enforcement mechanism or a demonstrated safeguard.",
-      "coveredAt": "2026-11-04",
-      "checkedAt": "2026-11-22",
-      "sourceUrl": "https://x.com/sama/status/2117794005165748448",
-      "sourceName": "X · original post"
     }
   ]
 }

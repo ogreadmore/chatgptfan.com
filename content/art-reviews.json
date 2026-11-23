@@ -1075,6 +1075,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-23-common-limits.png",
+      "brief": "2026-11-23",
+      "sha256": "1c1e3da2eb7f8cd511276997c091ebd28d68fb9f14e8f45cc2f5c0d0595cd4d3",
+      "reviewedAt": "2026-11-23",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Separate full-PNG inspections followed by a meaning-first second pass. Literal scene: one concerned driver sits in a lavender open-top car stopped at a lowered striped barrier on its own grounded post. The car faces the barrier and the driver looks toward it. Waiting at a physical checkpoint concretely illustrates making further progress conditional on a limit; the credit explicitly calls this a proposed checkpoint, not an implemented agreement. One head and torso, two shoulder/sleeve contours naturally disappear behind the car body. Zero visible hands, forearms or legs, no fingers or grip to assess, no floating limbs. The small outlined part on the car is a side mirror. Eyes, ears and complete head are coherent; car wheels and barrier pivot are grounded and separate. Head, car and post have safe margins. Inspected full artwork on desktop and 390px homepage and article, and actual 1200x630 split sharing PNG. Meaning remains readable with no clipped props, distorted anatomy or text overlap. Agent inspection, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-11-23",
+    "slug": "2026-11-23",
+    "title": "OpenAI proposes common limits. What would make them count?",
+    "excerpt": "A new proposal links AI development limits to measurable progress. The next test is who sets the limits, verifies them and enforces a stop.",
+    "file": "2026-11-23.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Perplexity and Intelligence",
+        "publisher": "OpenAI · Jakub Pachocki",
+        "url": "https://openai.com/index/perplexity-and-intelligence/",
+        "publishedAt": "2026-11-22",
+        "kind": "Company research and policy proposal"
+      },
+      {
+        "title": "OpenAI scientist proposes industry AI limits tied to model intelligence metric",
+        "publisher": "Reuters",
+        "url": "https://www.investing.com/news/stock-market-news/openai-scientist-proposes-industry-ai-limits-tied-to-model-intelligence-metric-5044174",
+        "publishedAt": "2026-11-22",
+        "kind": "Independent reporting"
+      },
+      {
+        "title": "Statement on Superintelligence",
+        "publisher": "Future of Life Institute",
+        "url": "https://superintelligence-statement.org/",
+        "checkedAt": "2026-11-23",
+        "kind": "Advocacy"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-23-common-limits.png",
+      "width": 1672,
+      "height": 941,
+      "alt": "Conceptual cartoon of a concerned driver waiting in a small lavender car before a lowered striped barrier.",
+      "credit": "AI-generated conceptual cartoon · A proposed checkpoint, not an implemented agreement",
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-22",
     "slug": "2026-11-22",
     "title": "Signal draws a line around your phone screen",

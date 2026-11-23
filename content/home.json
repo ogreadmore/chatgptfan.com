@@ -1,28 +1,28 @@
 {
-  "reviewedAt": "2026-11-22",
+  "reviewedAt": "2026-11-23",
   "resources": [
-    "app-troubleshooting",
     "academy",
     "wharton-gail",
+    "ms-concepts",
+    "app-troubleshooting",
     "gpt6-model-guide",
     "ms-genai",
     "zotero",
     "dots-permissions",
-    "elements",
-    "notebook"
+    "hf-agents"
   ],
   "projects": [
     "ai-town",
-    "n8n-summary",
-    "voice-quickstart",
     "gradio-demo",
+    "voice-quickstart",
+    "n8n-summary",
     "realtime",
     "hf-spaces"
   ],
   "money": [
-    "upwork-ai-scope",
+    "ai-business-value",
     "chatgpt-api-credits",
-    "fsb-ai-adoption"
+    "aws-project-spend-limit"
   ],
   "safetyFeature": "safety-report",
   "safety": [
@@ -31,12 +31,12 @@
     "ai-now"
   ],
   "social": [
+    "https://x.com/sama/status/2124551594691932405",
     "https://x.com/OpenAI/status/2123862344422088794",
     "https://x.com/gdb/status/2123225465762542044",
-    "https://x.com/sama/status/2122798039899263456",
+    "https://x.com/OpenAIDevs/status/2123506733524136446",
     "https://x.com/OpenAI/status/2122359930628063248",
-    "https://x.com/OpenAI/status/2122377585523126615",
-    "https://x.com/sama/status/2117794005165748448"
+    "https://x.com/OpenAI/status/2122377585523126615"
   ],
   "excludeNewsUrls": [
     "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
@@ -498,15 +498,25 @@
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVEFvNDBodHpvUlp4S085VFJqRGZsa1drMzJrQXZYWjQtNHNFRU1wR3Z5VG95dDNMWjFLMGRxMTNTYmpQVHlrS1hvd1dYMmE2RHdIZnBQaFFqVEQwWERxaDd6aWNqa1pXWnBYVnVCMTUyblg5ZHNpYTNGbWF5eHdlZk40QUdRcmZiZTl0cW5EMUphWXZpcEdQMjRQaGJTWC1qQ2JETnBhWF9kQQ?oc=5",
     "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
     "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
-    "https://www.youtube.com/watch?v=yTR5sD5KwD4",
-    "https://www.theguardian.com/commentisfree/2026/nov/21/silicon-valleys-ai-soul-search"
+    "https://www.theguardian.com/commentisfree/2026/nov/21/silicon-valleys-ai-soul-search",
+    "https://www.theguardian.com/australia-news/2026/nov/23/victorian-liberal-party-uses-ai-to-write-jess-wilsons-tribute-to-molly-meldrum",
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxPS1pvWmhMSm1MRktDOXJhZWNCdTJIZ25WejNRVExzUHhPeGhEeklEZW54T3NVZTJYbjJEa3Bmcm0xV3B2aVZnTE5oYm9MNEVYQXBzZmZYQXV4SmNWa3ZrVXVqczFEV0JqaXNoRERwTlZaNk1YSXo3TGlQNWRVekh5dC1XTmVhYU5SYVRUbjNnbmszTm5PRTdCeVEyMmFweGE1NTRHSmcyRXlrUnBGNk5aWXZyTkdvSmgwaWRvdks2bGIzejlMY0E?oc=5",
+    "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxPa0ZQb0xtalJ5djRmZmkwQnhmdDBlMEtncDUtUEJsUFBtWmptbkdVQ3c5QjY2TzhKN0NFT2ZzYnZmenQxY1lrUWFFYjJsdS1KazdRUkJINEJRemQ1alh6TGtnNW1nRE92bTF3RW9FMTIyODB3UmpBaW5oSzFDWDFVT3FXdjZDVzQ0TVNVd29nQzZvY3ByWVpBLUlhRVg0bFZiRHUxVjhqclptLUMycDJlYVBsQXQ4a28tRnFnbQ?oc=5",
+    "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development",
+    "https://www.theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy",
+    "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+    "https://www.theguardian.com/commentisfree/2026/nov/22/stopped-talking-to-husband-let-ai-do-it-instead",
+    "https://www.theguardian.com/commentisfree/2026/nov/22/grand-theft-auto-vi-gaming",
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT1RsTFBlMWZGejNqWjVvdVlYX2lRTGpZZXhoYXFXN2RuV3lHZ09ra0ctdnZqc3hiVENXSlc2ZTBIbDRyTmpTS1Nhdk1kdU5HLW5FNGdNRTNoeXVBeEc5cDl5VGx3c3dUSzNDYkVVTHVfenVQbHFUQ0hQS2NfalhuNDczWFdUS0FWQS1iZ1ZhVnNYMy1FOHVSUmlBMmI3NTdVTGY1X0JxTFRmYnptV3huQQ?oc=5",
+    "https://openai.com/index/perplexity-and-intelligence"
   ],
   "videos": [
     "https://www.youtube.com/watch?v=kIZEaw74Uiw",
-    "https://www.youtube.com/watch?v=mX7wHNnsghs",
-    "https://www.youtube.com/watch?v=dOwqsYtXp6k",
+    "https://www.youtube.com/watch?v=KrlfehIapEA",
+    "https://www.youtube.com/watch?v=yTR5sD5KwD4",
     "https://www.youtube.com/watch?v=R_sl8zEp9ng",
-    "https://www.youtube.com/watch?v=AhmCKHNqhB8",
-    "https://www.youtube.com/watch?v=KrlfehIapEA"
+    "https://www.youtube.com/watch?v=dOwqsYtXp6k",
+    "https://www.youtube.com/watch?v=AhmCKHNqhB8"
   ]
 }
