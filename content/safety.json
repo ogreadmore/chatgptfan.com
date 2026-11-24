@@ -28,6 +28,7 @@
       "question": "What can I do differently?",
       "description": "Privacy and security decisions for your own use or your workplace. Individual precautions matter, but they cannot substitute for responsibilities held by developers and institutions.",
       "resources": [
+        "ncsc-agentic-defense",
         "eff-ai-privacy",
         "screen-context-privacy",
         "lockdown-mode",

@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-11-23",
+  "updatedAt": "2026-11-24",
   "items": [
+    {
+      "accountId": "OpenAI",
+      "url": "https://x.com/OpenAI/status/2124980590717911527",
+      "title": "A temporary shield while a Linux patch is prepared",
+      "summary": "OpenAI announces Shirudo with Cisco. Operators test and approve temporary protections for running Linux services; the company’s demonstration is not evidence that every workload is protected.",
+      "coveredAt": "2026-11-23",
+      "checkedAt": "2026-11-24",
+      "sourceUrl": "https://openai.com/index/introducing-shirudo/",
+      "sourceName": "OpenAI · announcement; post checked through public archive"
+    },
+    {
+      "accountId": "OpenAI",
+      "url": "https://x.com/OpenAI/status/2124922133545714160",
+      "title": "OpenWorks offers local help through a U.S. pilot",
+      "summary": "OpenAI invites independent small businesses and local AI practitioners to apply. The pilot has eligibility and location limits; a partner stipend is a maximum offer, not guaranteed income.",
+      "coveredAt": "2026-11-23",
+      "checkedAt": "2026-11-24",
+      "sourceUrl": "https://help.openai.com/en/articles/20001724-how-to-apply-to-openworks-and-follow-up-on-your-application",
+      "sourceName": "OpenAI · program requirements; post checked through public archive"
+    },
     {
       "accountId": "sama",
       "url": "https://x.com/sama/status/2124551594691932405",
@@ -101,28 +121,6 @@
       "checkedAt": "2026-11-22",
       "sourceUrl": "https://openai.com/index/introducing-chatgpt-wallet/",
       "sourceName": "OpenAI · product announcement"
-    },
-    {
-      "accountId": "gdb",
-      "url": "https://x.com/gdb/status/2121004237413142656",
-      "title": "Brockman introduces two tools for security teams",
-      "summary": "Greg Brockman announced Daybreak Defense Factory and Daybreak Red Team. OpenAI describes the first as preparing patches for human review and the second as testing web apps and checking fixes.",
-      "coveredAt": "2026-11-12",
-      "checkedAt": "2026-11-22",
-      "sourceUrl": "https://openai.com/cyber-at-the-frontier/",
-      "sourceName": "OpenAI · keynote resources"
-    },
-    {
-      "accountId": "OpenAI",
-      "url": "https://x.com/OpenAI/status/2119913172039868579",
-      "title": "What starts the 35-second stop clock",
-      "summary": "OpenAI says Control Room can halt research model output within 35 seconds of a stop instruction. The timing measures the response to that instruction, not how quickly an incident is detected.",
-      "coveredAt": "2026-11-09",
-      "checkedAt": "2026-11-22",
-      "sourceUrl": "https://x.com/OpenAI/status/2119913172039868579",
-      "sourceName": "X · original post",
-      "contextUrl": "https://openai.com/index/control-room/",
-      "contextLabel": "Read the technical description"
     }
   ]
 }

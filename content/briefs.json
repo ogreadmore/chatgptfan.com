@@ -1,5 +1,56 @@
 [
   {
+    "date": "2026-11-24",
+    "slug": "2026-11-24",
+    "title": "AI attackers are faster. The unlocked doors are familiar.",
+    "excerpt": "A new UK warning puts exposed credentials and weak access controls in focus. What to check before an AI-assisted project goes live.",
+    "file": "2026-11-24.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Familiar weaknesses, exploited faster: defending against agentic cyber attacks",
+        "publisher": "UK National Cyber Security Centre",
+        "url": "https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks",
+        "publishedAt": "2026-11-24",
+        "kind": "Government incident assessment and defensive guidance"
+      },
+      {
+        "title": "API authentication and authorisation",
+        "publisher": "UK National Cyber Security Centre",
+        "url": "https://www.ncsc.gov.uk/collection/securing-http-based-apis/2-api-authentication-and-authorisation",
+        "kind": "Technical guidance"
+      },
+      {
+        "title": "Protect your code repository",
+        "publisher": "UK National Cyber Security Centre",
+        "url": "https://www.ncsc.gov.uk/collection/developers-collection/principles/protect-your-code-repository",
+        "kind": "Technical guidance"
+      },
+      {
+        "title": "OpenAI and Cisco introduce Shirudo",
+        "publisher": "OpenAI",
+        "url": "https://openai.com/index/introducing-shirudo/",
+        "publishedAt": "2026-11-23",
+        "kind": "Company announcement and controlled demonstration"
+      },
+      {
+        "title": "Top tips for staying secure online",
+        "publisher": "UK National Cyber Security Centre",
+        "url": "https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online",
+        "kind": "Personal security guidance"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-24-exposed-key.png",
+      "width": 1672,
+      "height": 941,
+      "alt": "Conceptual cartoon of a wheeled inspection robot illuminating a key left on an outside hook of an open server cabinet.",
+      "credit": "AI-generated conceptual cartoon · An exposed key is easy to find",
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-23",
     "slug": "2026-11-23",
     "title": "OpenAI proposes common limits. What would make them count?",

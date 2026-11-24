@@ -1,10 +1,10 @@
 {
-  "reviewedAt": "2026-11-23",
+  "reviewedAt": "2026-11-24",
   "resources": [
     "academy",
+    "chat-model-rollout",
     "wharton-gail",
     "ms-concepts",
-    "app-troubleshooting",
     "gpt6-model-guide",
     "ms-genai",
     "zotero",
@@ -20,8 +20,8 @@
     "agent-eval"
   ],
   "money": [
+    "openworks-pilot",
     "ai-business-value",
-    "chatgpt-api-credits",
     "aws-project-spend-limit"
   ],
   "safetyFeature": "safety-report",
@@ -31,12 +31,12 @@
     "ai-now"
   ],
   "social": [
+    "https://x.com/OpenAI/status/2124980590717911527",
     "https://x.com/sama/status/2124551594691932405",
-    "https://x.com/OpenAI/status/2123862344422088794",
+    "https://x.com/OpenAI/status/2124922133545714160",
     "https://x.com/gdb/status/2123225465762542044",
     "https://x.com/OpenAIDevs/status/2123506733524136446",
-    "https://x.com/OpenAI/status/2122359930628063248",
-    "https://x.com/OpenAI/status/2122377585523126615"
+    "https://x.com/OpenAI/status/2122359930628063248"
   ],
   "excludeNewsUrls": [
     "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
@@ -509,14 +509,42 @@
     "https://www.theguardian.com/commentisfree/2026/nov/22/stopped-talking-to-husband-let-ai-do-it-instead",
     "https://www.theguardian.com/commentisfree/2026/nov/22/grand-theft-auto-vi-gaming",
     "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT1RsTFBlMWZGejNqWjVvdVlYX2lRTGpZZXhoYXFXN2RuV3lHZ09ra0ctdnZqc3hiVENXSlc2ZTBIbDRyTmpTS1Nhdk1kdU5HLW5FNGdNRTNoeXVBeEc5cDl5VGx3c3dUSzNDYkVVTHVfenVQbHFUQ0hQS2NfalhuNDczWFdUS0FWQS1iZ1ZhVnNYMy1FOHVSUmlBMmI3NTdVTGY1X0JxTFRmYnptV3huQQ?oc=5",
-    "https://openai.com/index/perplexity-and-intelligence"
+    "https://openai.com/index/perplexity-and-intelligence",
+    "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+    "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+    "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security",
+    "https://www.theguardian.com/business/2026/nov/24/nvidia-stock-falls-jensen-huang",
+    "https://www.theguardian.com/technology/video/2026/nov/24/mamdani-questions-ai-economy-as-jensen-huang-returns-to-nvidia-video",
+    "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+    "https://www.theguardian.com/technology/2026/nov/24/mistake-corrected-jensen-huang-resinstated-nvidia-analysis",
+    "https://www.theguardian.com/technology/2026/nov/24/nvidia-staff-what-do-you-think-jensen-huang-return-chief-executive",
+    "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back",
+    "https://www.theguardian.com/us-news/2026/nov/24/mamdani-nvidia-stock-market-ai",
+    "https://www.theguardian.com/global/2026/nov/24/jensen-huang-nvidia-return-silicon-valley-trump",
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU0xsQUxDeF9QUjROTTJxRkEzQng4MTJHbFMzZS1ZVkZ5ZDZqbUZOOXNSdXpoN2NXN3hUbm94c2VRVE9VTWQ0UFhsTTBTTlZOZld1elA4REpjRm81VERUUG1KUUs3MHc2X2lNRHJQWnZxYmp3bHp4dmdxejV0bjc4al9XZktNNjB3TXpMN1Uwb1RuTHlOTkIzZnpR?oc=5",
+    "https://www.theguardian.com/us-news/video/2026/nov/24/jensen-huang-back-nvidia-stateside",
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRlhOYUV1dThCM2pOcWh3OGZpMXdEckVSTTRWRU5jTlBNX01jcnpFSnljTU1qYWhrQS0zZzBWUHE2dmZoaFprbmN3MzYyUW9xRDhGRnZkX29PWkVTNEtLWnJnMTc1WW81T01QR1ppTUNkR3hSZGF4bm84RkF2QWd3cEFSR29IOFVLWFloLUFZbVluY1ZyUnQ2akRmMnp6Vk42cTRES2ZB?oc=5",
+    "https://www.theguardian.com/technology/2026/nov/23/nvidia-jensen-huang-return-ceo",
+    "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNF9ZLU84V2VPZHBHcGx0V3p5TVVoV21zbUYyQWFOWU96ZjBmcExvQ1lpVmtFRzl5RVpXdFg3TGhUM3ZHM282MkdnMVgxZ2lwUTRkcm9KaWlHMEcyZ3R6amZIM25vMFRRM0l1OXNxMFFSQVVnR3hzY3BNb1NyUWwxa2hLMndRMkpVZ2l2X0N2Z3JFcmRVMzRMZldCbzlEZkpGZjNmTVJZdw?oc=5",
+    "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+    "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal",
+    "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist",
+    "https://openai.com/index/introducing-shirudo",
+    "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq",
+    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTnl5YXJWaTZZMWZEbDg0REZlZHJkb3FqSzRwd213V3BUMXRHMnhKdkdmRE9jYklOenFtQ0E5RG9Cb2pnTWpLRmtWd0djSjRfTklVSElaRXJHaUVYdUpwZ1JHY2R2c3RJTFdpV2hZdVRDU2lQTUR2eVVjTWJmVVhYaV9PTE5wMk43X0ZmUnVLcjRLb1pMbEZCeXctZGxWeklXZ180eWQyZ2tkbng0VkhSdXZsa2JzTjlkUEJj?oc=5",
+    "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo",
+    "https://www.youtube.com/shorts/qLyZo1tWGtA",
+    "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet",
+    "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair",
+    "https://www.youtube.com/watch?v=yTR5sD5KwD4"
   ],
   "videos": [
-    "https://www.youtube.com/watch?v=kIZEaw74Uiw",
-    "https://www.youtube.com/watch?v=KrlfehIapEA",
+    "https://www.youtube.com/watch?v=p8lvQQebvpg",
+    "https://www.youtube.com/shorts/w-ltt0Np2cY",
+    "https://www.youtube.com/watch?v=mX7wHNnsghs",
     "https://www.youtube.com/watch?v=yTR5sD5KwD4",
-    "https://www.youtube.com/watch?v=R_sl8zEp9ng",
-    "https://www.youtube.com/watch?v=dOwqsYtXp6k",
-    "https://www.youtube.com/watch?v=AhmCKHNqhB8"
+    "https://www.youtube.com/watch?v=kIZEaw74Uiw",
+    "https://www.youtube.com/shorts/gAmjBqXNoFI"
   ]
 }

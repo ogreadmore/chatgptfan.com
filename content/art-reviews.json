@@ -1098,6 +1098,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-24-exposed-key.png",
+      "brief": "2026-11-24",
+      "sha256": "c56849ea10ed160566c7fd5b866f085fc32e698abbeb61ddee7670fa06b92e31",
+      "reviewedAt": "2026-11-24",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Literal final scene: a small wheeled inspection robot shines a lamp onto an apricot key hanging on an exterior hook of an ajar server cabinet. The large ring rests on the hook and a smaller ring joins it to the key. The separate keyhole is below. This visibly exposes the means of access, connecting to the lead assessment of agents exploiting exposed credentials and weak access controls. Conceptual metaphor, not an actual incident or a claim of universal compromise. No people, hands, arms or legs; the lamp support attaches to the robot body, two visible wheels are grounded, and cabinet panels and feet connect coherently. No facial anatomy or grips to assess. Full final PNG inspected again after layout review with prompt put aside; no ambiguous attachment, extra limb or text. Desktop 1280x900 and mobile 390x844 homepage and article, plus the actual 1200x630 split sharing PNG, inspected. Robot, light beam, key and cabinet remain legible and inside frame; sharing headline and date fit. Initial candidate rejected for ambiguous key attachment. Agent inspection only, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }
