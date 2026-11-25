@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-24",
+  "updatedAt": "2026-11-25",
   "items": [
+    {
+      "accountId": "OpenAI",
+      "url": "https://x.com/OpenAI/status/2125305606685053416",
+      "title": "Candidate planets still need confirmation",
+      "summary": "OpenAI describes two amateur astronomy searches using Codex and Astra with public telescope data. The signals are candidates for professional follow-up, not confirmed discoveries.",
+      "coveredAt": "2026-11-24",
+      "checkedAt": "2026-11-25",
+      "sourceUrl": "https://openai.com/index/searching-for-distant-planets-with-astra/",
+      "sourceName": "OpenAI · company account; post checked through public archive"
+    },
     {
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2124980590717911527",
@@ -111,16 +121,6 @@
       "checkedAt": "2026-11-22",
       "sourceUrl": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
       "sourceName": "OpenAI · program announcement"
-    },
-    {
-      "accountId": "gdb",
-      "url": "https://x.com/gdb/status/2121295213025194172",
-      "title": "Brockman points to Wallet’s payment partnerships",
-      "summary": "Greg Brockman announced purchases through dots with American Express, Mastercard and Visa. The launch requires approval for each purchase and begins with eligible US Pro users.",
-      "coveredAt": "2026-11-13",
-      "checkedAt": "2026-11-22",
-      "sourceUrl": "https://openai.com/index/introducing-chatgpt-wallet/",
-      "sourceName": "OpenAI · product announcement"
     }
   ]
 }

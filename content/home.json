@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-11-24",
+  "reviewedAt": "2026-11-25",
   "resources": [
     "academy",
     "chat-model-rollout",
@@ -36,7 +36,7 @@
     "https://x.com/OpenAI/status/2124922133545714160",
     "https://x.com/gdb/status/2123225465762542044",
     "https://x.com/OpenAIDevs/status/2123506733524136446",
-    "https://x.com/OpenAI/status/2122359930628063248"
+    "https://x.com/OpenAI/status/2125305606685053416"
   ],
   "excludeNewsUrls": [
     "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
@@ -537,13 +537,24 @@
     "https://www.youtube.com/shorts/qLyZo1tWGtA",
     "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet",
     "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair",
-    "https://www.youtube.com/watch?v=yTR5sD5KwD4"
+    "https://www.youtube.com/watch?v=yTR5sD5KwD4",
+    "https://www.theguardian.com/commentisfree/picture/2026/nov/25/what-real-or-imagined-horrors-are-waking-you-up-at-4am",
+    "https://www.theguardian.com/commentisfree/2026/nov/25/jess-wilson-molly-meldrum-tribute-ai-ethics-obituary",
+    "https://www.theguardian.com/commentisfree/2026/nov/25/anthony-albanese-approval-rating-poll-results",
+    "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy",
+    "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy",
+    "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion",
+    "https://news.google.com/rss/articles/CBMizgFBVV95cUxQczdXX09VbktzSHB2LWVWdy1ZR3d0OTlhbGpndW9HU3ZzWjU0VXZwNzI5M0pFYXhXM0pOSS01REQxeG9rUG9kekdqbzdQdEttaDZ1YUVqSjFBc0xCSk45SnlyQ3ZHeXNlX2RYLUk1aVhuSU9hLTAxMjFoc3pYS3loNWZDLXdIUXFKd2xqcVJOMFVUMFhlOXA1TDd5UVgySHU1d3hwZ3BhTlFxOVc5OEl0UGVfRnUtVEJvZE5zZW82SXU3RmViQnp6Zl9kdkRYZw?oc=5",
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbEdHU1ZWMjgzb1lYODBaTEJpdWNXUXVpUmlDTmVxSTBjUVlOYlBBWmZXSzVrMWR3SE9NYTg5cVNuemZFZHlJdU1PdGdybnh1NUFQVTVINkJUUk1Sb0hmNnI5YS1LQTl5SUJibWpWekVQU1BqR3NuQWhVeHZlUVJ3bDEtRmZZNmVHWVFFRTA2RUhFcTQ?oc=5",
+    "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9",
+    "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+    "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming"
   ],
   "videos": [
+    "https://www.youtube.com/watch?v=1u0hTd86_HU",
     "https://www.youtube.com/watch?v=p8lvQQebvpg",
     "https://www.youtube.com/shorts/w-ltt0Np2cY",
     "https://www.youtube.com/watch?v=mX7wHNnsghs",
-    "https://www.youtube.com/watch?v=yTR5sD5KwD4",
     "https://www.youtube.com/watch?v=kIZEaw74Uiw",
     "https://www.youtube.com/shorts/gAmjBqXNoFI"
   ]

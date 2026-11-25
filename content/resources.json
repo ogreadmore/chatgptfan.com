@@ -259,7 +259,7 @@
     "needs": "Python 3.14+, uv, an OpenAI API key, and your own PostgreSQL-compatible warehouse with a read-only role. Use data approved for model processing. The local demo serves one analyst; a shared deployment needs authentication and separate user memory. Source reviewed; example not run.",
     "sourceUrl": "https://github.com/openai/openai-cookbook/tree/main/examples/agents_api/apps/data_analyst",
     "section": "projects",
-    "checkedAt": "2026-11-23",
+    "checkedAt": "2026-11-25",
     "reviewEveryDays": 14
   },
   {
@@ -310,7 +310,7 @@
     "needs": "Choose the standard Inkling 2 Mini model and a supported runtime. The model card recommends 32 GB or more of unified memory or VRAM; Hugging Face’s suggested 4-bit variant fits that class of hardware. Weights use Apache 2.0. Check generated answers and code yourself. Source and model card reviewed; model not run.",
     "sourceUrl": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
     "section": "projects",
-    "checkedAt": "2026-11-23",
+    "checkedAt": "2026-11-25",
     "reviewEveryDays": 14
   },
   {
@@ -344,7 +344,7 @@
     "needs": "The companion uses Python 3.12 and pinned NumPy/SciPy for local baseline checks. Its full comparison needs Harbor, an HF token with Jobs access, billing, and Inference Providers. Eight synthetic tasks are a development example, not proof of general reliability. Article and companion reviewed; evaluation not run.",
     "sourceUrl": "https://github.com/burtenshaw/raman-lab-evals",
     "section": "projects",
-    "checkedAt": "2026-11-23",
+    "checkedAt": "2026-11-25",
     "reviewEveryDays": 14
   },
   {
@@ -1135,11 +1135,30 @@
     "kind": "Small-business support",
     "level": "All levels",
     "description": "A U.S. pilot pairs eligible independent small businesses with local AI practitioners. OpenAI says participation is free and includes three months of ChatGPT Business.",
-    "checkedAt": "2026-11-24",
+    "checkedAt": "2026-11-25",
     "publishedAt": "2026-11-23",
     "reviewEveryDays": 7,
     "cost": "Free business participation · selective partner program",
-    "needs": "Software/SaaS, venture-backed and private-equity-owned businesses are excluded. Partner applicants should expect at least four full days a month plus a workshop; the advertised stipend is up to US$8,000, with amount and duration unspecified. Acceptance and local availability are not guaranteed.",
+    "needs": "Software/SaaS, venture-backed and private-equity-owned businesses are excluded. Partner applicants should expect at least four full days a month plus a workshop; the advertised monthly stipend is up to US$8,000. Amount, duration, acceptance and local availability are not guaranteed.",
     "bestFor": "Finding hands-on local support or assessing a partner application"
+  },
+  {
+    "id": "camera-glasses-safety",
+    "section": "safety",
+    "title": "Before bringing AI glasses into a shared space",
+    "url": "https://autoriteitpersoonsgegevens.nl/en/current/ap-advises-against-purchasing-ai-camera-glasses-serious-risks-for-users-and-bystanders",
+    "provider": "Dutch data protection authority",
+    "kind": "Regulator assessment",
+    "description": "A November 19 examination of six camera glasses identifies privacy, security and advice failures. The regulator advises against buying them for general use.",
+    "publishedAt": "2026-11-19",
+    "checkedAt": "2026-11-25",
+    "reviewEveryDays": 14,
+    "safety": {
+      "group": "everyday",
+      "audience": "General readers · workplaces",
+      "why": "Wearable recording affects people who did not choose the device.",
+      "readFirst": "Read the findings and the recommendations for manufacturers and venue owners.",
+      "limits": "Two products received extensive simulated safety tests. The announcement does not identify the models or establish a failure rate for all products. Advice is distinct from a legal ban."
+    }
   }
 ]

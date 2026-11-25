@@ -1121,6 +1121,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-25-camera-glasses.png",
+      "brief": "2026-11-25",
+      "sha256": "d1d628d0cabe8ca4cb6c3acc63f3f142e66d531eef805c262cc83b0758562e81",
+      "reviewedAt": "2026-11-25",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Literal final pixels: open camera glasses rest on a pale table; their exaggerated wall shadow is the recognizable silhouette of a CCTV camera. The integrated front lens connects unobtrusive wearable recording to surveillance of bystanders, the privacy issue in the lead. Deliberate conceptual shadow, not a physical product diagram or a depiction of the emergency simulation. Two eyeglass lenses, one bridge, two temple arms attached at hinges; no extra frame or floating pieces. No humans, hands, limbs, faces or grips (zero expected and observed hands). Complete objects and generous margins, clear silhouette and no lettering. Initial output and the copied final PNG inspected separately with the prompt put aside. Desktop 1280x900 and mobile 390x844 homepage and article inspected before restart; final PNG and actual 1200x630 split sharing card inspected again afterward. Mobile article and homepage rechecked; all props and the headline/date remain legible. One candidate, no revision. Agent review only, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

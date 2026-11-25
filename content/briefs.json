@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-11-25",
+    "slug": "2026-11-25",
+    "title": "AI glasses need more than a reassuring voice",
+    "excerpt": "A Dutch safety warning and new workplace demands expose two problems: unreliable advice and recording that bystanders cannot readily see.",
+    "file": "2026-11-25.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "AP advises against purchasing AI camera glasses",
+        "publisher": "Dutch data protection authority",
+        "url": "https://autoriteitpersoonsgegevens.nl/en/current/ap-advises-against-purchasing-ai-camera-glasses-serious-risks-for-users-and-bystanders",
+        "publishedAt": "2026-11-19",
+        "kind": "Regulator assessment"
+      },
+      {
+        "title": "CNV calls for rules on AI glasses at work",
+        "publisher": "CNV",
+        "url": "https://www.cnv.nl/nieuws/cnv-onderzoek-78-werknemers-heeft-zorgen-over-snelle-opmars-ai-bril/",
+        "publishedAt": "2026-11-24",
+        "kind": "Trade union advocacy and survey announcement"
+      },
+      {
+        "title": "AI camera glasses endanger safety, says the Dutch privacy authority",
+        "publisher": "NOS",
+        "url": "https://nos.nl/artikel/2640119-autoriteit-persoonsgegevens-ai-camerabrillen-brengen-veiligheid-in-gevaar",
+        "publishedAt": "2026-11-19",
+        "kind": "Reporting"
+      },
+      {
+        "title": "Dutch data watchdog highlights safety issues with AI glasses",
+        "publisher": "The Register",
+        "url": "https://www.theregister.com/security/2026/11/20/dutch-data-watchdog-highlights-safety-issues-with-ai-glasses/5311345",
+        "publishedAt": "2026-11-20",
+        "kind": "Reporting"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-25-camera-glasses.png",
+      "width": 1672,
+      "height": 941,
+      "alt": "Conceptual cartoon of camera glasses casting an exaggerated surveillance-camera shadow.",
+      "credit": "AI-generated conceptual cartoon · The camera behind the glasses",
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-24",
     "slug": "2026-11-24",
     "title": "AI attackers are faster. The unlocked doors are familiar.",
