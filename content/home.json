@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-11-25",
+  "reviewedAt": "2026-11-26",
   "resources": [
     "academy",
     "chat-model-rollout",
@@ -31,11 +31,11 @@
     "ai-now"
   ],
   "social": [
+    "https://x.com/sama/status/2125638790593274259",
     "https://x.com/OpenAI/status/2124980590717911527",
     "https://x.com/sama/status/2124551594691932405",
     "https://x.com/OpenAI/status/2124922133545714160",
     "https://x.com/gdb/status/2123225465762542044",
-    "https://x.com/OpenAIDevs/status/2123506733524136446",
     "https://x.com/OpenAI/status/2125305606685053416"
   ],
   "excludeNewsUrls": [
@@ -548,14 +548,16 @@
     "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbEdHU1ZWMjgzb1lYODBaTEJpdWNXUXVpUmlDTmVxSTBjUVlOYlBBWmZXSzVrMWR3SE9NYTg5cVNuemZFZHlJdU1PdGdybnh1NUFQVTVINkJUUk1Sb0hmNnI5YS1LQTl5SUJibWpWekVQU1BqR3NuQWhVeHZlUVJ3bDEtRmZZNmVHWVFFRTA2RUhFcTQ?oc=5",
     "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9",
     "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
-    "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming"
+    "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming",
+    "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks",
+    "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york"
   ],
   "videos": [
+    "https://www.youtube.com/watch?v=A4UNP-axGHU",
     "https://www.youtube.com/watch?v=1u0hTd86_HU",
     "https://www.youtube.com/watch?v=p8lvQQebvpg",
     "https://www.youtube.com/shorts/w-ltt0Np2cY",
-    "https://www.youtube.com/watch?v=mX7wHNnsghs",
-    "https://www.youtube.com/watch?v=kIZEaw74Uiw",
-    "https://www.youtube.com/shorts/gAmjBqXNoFI"
+    "https://www.youtube.com/shorts/ZBXI-oytXv0",
+    "https://www.youtube.com/watch?v=kIZEaw74Uiw"
   ]
 }

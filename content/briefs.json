@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-11-26",
+    "slug": "2026-11-26",
+    "title": "Australia puts online platforms on notice",
+    "excerpt": "Parliament has passed a digital duty of care covering AI chatbots. Enforcement, remedies and the implementation period matter as much as the announcement.",
+    "file": "2026-11-26.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Australia’s Digital Duty of Care becomes law",
+        "publisher": "Australian Minister for Communications",
+        "url": "https://minister.infrastructure.gov.au/wells/media-release/australias-digital-duty-care-becomes-law",
+        "publishedAt": "2026-11-25",
+        "kind": "Government announcement"
+      },
+      {
+        "title": "Digital duty of care laws pass parliament — live coverage",
+        "publisher": "ABC News",
+        "url": "https://www.abc.net.au/news/2026-11-25/federal-politics-live-blog-parliament-november-25/107422208",
+        "publishedAt": "2026-11-25",
+        "kind": "Parliamentary reporting"
+      },
+      {
+        "title": "Australia follows EU with new online safety law",
+        "publisher": "Euronews and AP",
+        "url": "https://www.euronews.com/2026/11/25/australia-follows-eu-with-new-online-safety-law-putting-big-tech-at-risk-of-multibillion-d",
+        "publishedAt": "2026-11-25",
+        "kind": "Reporting"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-26-platform-accountability.png",
+      "width": 1672,
+      "height": 941,
+      "alt": "Conceptual cartoon of an anxious smartphone facing a microphone in a courtroom dock.",
+      "credit": "AI-generated conceptual cartoon · Platforms called to account",
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-25",
     "slug": "2026-11-25",
     "title": "AI glasses need more than a reassuring voice",

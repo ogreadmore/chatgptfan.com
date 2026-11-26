@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-25",
+  "updatedAt": "2026-11-26",
   "items": [
+    {
+      "accountId": "sama",
+      "url": "https://x.com/sama/status/2125638790593274259",
+      "title": "Private Inference enters a limited customer test",
+      "summary": "Sam Altman says OpenAI is testing Private Inference with a small group of customers. The company describes confidential computing and access controls; this is a limited test, not general availability or independent proof of its security.",
+      "coveredAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
+      "sourceUrl": "https://openai.com/business/private-intelligence/",
+      "sourceName": "OpenAI · product page; post checked through public archive"
+    },
     {
       "accountId": "OpenAI",
       "url": "https://x.com/OpenAI/status/2125305606685053416",
@@ -111,16 +121,6 @@
       "checkedAt": "2026-11-22",
       "sourceUrl": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
       "sourceName": "OpenAI · assessment announcement"
-    },
-    {
-      "accountId": "OpenAI",
-      "url": "https://x.com/OpenAI/status/2122377585523126615",
-      "title": "Researcher grants: check the current round",
-      "summary": "OpenAI announced November 23 for the next academic application round, offering selected researchers Plus access for themselves and two collaborators. The form requires sign-in; available places have not been confirmed.",
-      "coveredAt": "2026-11-16",
-      "checkedAt": "2026-11-22",
-      "sourceUrl": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
-      "sourceName": "OpenAI · program announcement"
     }
   ]
 }

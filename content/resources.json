@@ -695,10 +695,10 @@
     "kind": "Cost control",
     "level": "Developer",
     "description": "A guide to setting a monthly project spending ceiling that pauses resources when reached. Useful for experiments that create cloud infrastructure; compare a real stop with a notification-only budget alert.",
-    "checkedAt": "2026-11-19",
+    "checkedAt": "2026-11-26",
     "cost": "Free guide · paid AWS usage",
     "bestFor": "Containing cloud costs during agent experiments",
-    "needs": "A supported AWS project on a Paid Plan, managed by its owner. Limits apply to pre-tax charges and pause resources; this can interrupt a live service. AWS says project data is deleted after 90 days without action following a pause. Check the scope and recovery steps before relying on it.",
+    "needs": "A supported AWS project on a Paid Plan, managed by its owner. The minimum is US$20 or a higher estimate based on usage. Limits apply to pre-tax charges and pause resources, which can interrupt a live service. Optional early controls can stop new launches or pause resources sooner. AWS says project data is deleted after 90 days without action following a pause; plan recovery and backups.",
     "reviewEveryDays": 14
   },
   {
@@ -1042,7 +1042,7 @@
     "description": "A November 2026 roadmap for independent audits, incident reporting and emergency intervention. Read pages 6–10 for the recommendations and limits.",
     "level": "All levels",
     "cost": "Free report",
-    "checkedAt": "2026-11-19",
+    "checkedAt": "2026-11-26",
     "bestFor": "Separating proposed public powers from company safety promises",
     "needs": "Recommendations for legislation, not newly enacted requirements. Reviewed the introduction and recommendation summary, not all 85 pages.",
     "safety": {
@@ -1135,7 +1135,7 @@
     "kind": "Small-business support",
     "level": "All levels",
     "description": "A U.S. pilot pairs eligible independent small businesses with local AI practitioners. OpenAI says participation is free and includes three months of ChatGPT Business.",
-    "checkedAt": "2026-11-25",
+    "checkedAt": "2026-11-26",
     "publishedAt": "2026-11-23",
     "reviewEveryDays": 7,
     "cost": "Free business participation · selective partner program",
@@ -1159,6 +1159,27 @@
       "why": "Wearable recording affects people who did not choose the device.",
       "readFirst": "Read the findings and the recommendations for manufacturers and venue owners.",
       "limits": "Two products received extensive simulated safety tests. The announcement does not identify the models or establish a failure rate for all products. Advice is distinct from a legal ban."
+    }
+  },
+  {
+    "id": "au-digital-duty",
+    "section": "safety",
+    "title": "Follow Australia’s digital duty of care",
+    "url": "https://minister.infrastructure.gov.au/wells/media-release/australias-digital-duty-care-becomes-law",
+    "provider": "Australian Minister for Communications",
+    "kind": "Government announcement",
+    "description": "The November 25 announcement confirms parliamentary passage of rules covering online services, including AI chatbots. Follow implementation and remedies separately from the promise of protection.",
+    "publishedAt": "2026-11-25",
+    "checkedAt": "2026-11-26",
+    "reviewEveryDays": 14,
+    "level": "All levels",
+    "cost": "Free announcement",
+    "safety": {
+      "group": "policy",
+      "audience": "Readers following online-service accountability",
+      "why": "Connects platform design responsibilities with enforcement and routes to redress.",
+      "readFirst": "Read the scope and the 12-month implementation statement, then compare independent parliamentary reporting.",
+      "limits": "Government account of the legislation. The new duty is not operating immediately; this page does not establish how a particular claim would be decided."
     }
   }
 ]

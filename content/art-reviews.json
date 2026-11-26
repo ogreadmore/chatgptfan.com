@@ -1144,6 +1144,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-26-platform-accountability.png",
+      "brief": "2026-11-26",
+      "sha256": "dfafba6a849e0b1853873bf41a9dfbd083ebe38482e8486227fe058f43a6450e",
+      "reviewedAt": "2026-11-26",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Literal pixels: an oversized smartphone stands inside a wooden courtroom dock facing a microphone. Two worried eyes, two eyebrows and one mouth are on its screen. No human body, arms, hands or legs: zero expected and observed hands. The microphone has one continuous curved stem attached to its base on the rail; the phone bottom is naturally occluded by the front panel. The carved scales have a beam, central support and two pans. The action reads as a platform being called to account, not a depiction of a real trial or a conviction. Initial generated pixels and the exact copied final PNG were inspected separately with the prompt put aside; desktop homepage/article, 390px mobile homepage/article and actual 1200x630 sharing PNG inspected. Phone, face, microphone and scales remain legible; no ambiguous limbs, malformed grips, stray objects or text. One candidate, no revision. Agent review, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }
