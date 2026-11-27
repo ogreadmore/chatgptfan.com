@@ -169,12 +169,12 @@
     "id": "notebook",
     "section": "tools",
     "title": "Gemini Notebook / NotebookLM",
-    "url": "https://notebook.google/",
+    "url": "https://notebook.google.com/",
     "provider": "Google",
     "kind": "Research",
     "level": "All levels",
     "description": "Work with a collection of documents and ask questions tied to those sources. Useful for comparing readings and tracing a summary back to the underlying material.",
-    "checkedAt": "2026-11-17",
+    "checkedAt": "2026-11-27",
     "cost": "Free plan · paid options",
     "needs": "Google account. Free tier: up to 50 sources per notebook. Drive sources sync; other imports can become stale. Updating a source does not refresh already-generated Studio outputs. Web imports omit images and nested pages; YouTube uses captions, not visuals, and videos under 72 hours old may fail. Verify citations against originals.",
     "bestFor": "Reading a stack of sources",
@@ -518,17 +518,17 @@
     "url": "https://metr.org/",
     "provider": "METR",
     "kind": "Evaluation research",
-    "description": "Independent capability evaluations. The November 20 update contrasts strong coding and optimization performance with weaker results on tasks that require judgment without clear feedback.",
-    "checkedAt": "2026-11-21",
+    "description": "Independent capability research. The November 24 analysis examines faster improvement on an internal code-prediction measure and asks how much it reveals about broader AI progress.",
+    "checkedAt": "2026-11-27",
     "reviewEveryDays": 45,
     "safety": {
       "group": "frontier",
       "audience": "Technical readers",
       "why": "Empirical evaluations help distinguish measured capabilities from claims about what agents can do.",
-      "readFirst": "Read the overview, methodology and discussion together. Check which tasks are being measured and how human completion times were obtained.",
-      "limits": "Most completion-time baselines in the new task set are estimates. Benchmark progress does not establish whole-job automation or settle the timing of rapid AI research acceleration; METR explicitly describes remaining uncertainty."
+      "readFirst": "Read the measurement, alternative explanations and proposed follow-up tests together. Compare the code-prediction result with performance on other tasks.",
+      "limits": "The observed acceleration concerns one internal code dataset. It does not establish a sevenfold increase in general capability or prove recursive self-improvement. METR’s contributors disagree about its implications."
     },
-    "sourceUrl": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/"
+    "sourceUrl": "https://metr.org/blog/2026-11-24-interpreting-a-recent-acceleration-in-pretraining-loss/"
   },
   {
     "id": "apollo",
@@ -809,14 +809,14 @@
     "provider": "OpenAI Help Center",
     "kind": "Product documentation",
     "description": "How linked accounts, quiet hours, study settings and limited notifications work. A practical starting point for a family conversation about using ChatGPT.",
-    "checkedAt": "2026-11-22",
+    "checkedAt": "2026-11-27",
     "reviewEveryDays": 14,
     "safety": {
       "group": "everyday",
       "audience": "Parents & guardians",
       "why": "Explains which settings families can change and what a parent cannot see or monitor.",
-      "readFirst": "Compare quiet hours, which block access, with study hours, which start eligible chats in study mode. Review the separate controls for code network access and the cloud browser.",
-      "limits": "Company documentation, not an independent safety assessment. Linking requires acceptance; either side can unlink and parents cannot read chats. Alerts are limited and may be delayed. Eating-disorder alerts cover Chat, not Work or Codex. Conversation-end and temporary-suspension notices also exclude voice."
+      "readFirst": "Compare quiet hours with study hours, review separate Work network and browser controls, and check what changes when a linked user turns 18.",
+      "limits": "Company documentation, not an independent safety assessment. Linking requires acceptance; either side can unlink and parents cannot read chats. Alerts are limited and may be delayed. Some alerts exclude Work, Codex or voice. When ChatGPT recognizes the user as 18 or older, the parental link and teen notifications end."
     }
   },
   {
@@ -971,7 +971,7 @@
     "provider": "Plaintiffs’ counsel · Platkin LLP",
     "kind": "Civil complaint · PDF",
     "description": "Four nonprofits ask a San Francisco judge to limit more capable systems and autonomous AI research. Read the two requests in the plaintiffs’ own filing.",
-    "checkedAt": "2026-11-13",
+    "checkedAt": "2026-11-27",
     "reviewEveryDays": 14,
     "safety": {
       "group": "policy",
@@ -1181,5 +1181,22 @@
       "readFirst": "Read the scope and the 12-month implementation statement, then compare independent parliamentary reporting.",
       "limits": "Government account of the legislation. The new duty is not operating immediately; this page does not establish how a particular claim would be decided."
     }
+  },
+  {
+    "id": "ive-page-decisions",
+    "section": "projects",
+    "title": "Build a document-page relevance checker",
+    "url": "https://huggingface.co/blog/QuentinJG/ive-release",
+    "sourceUrl": "https://huggingface.co/illuin/IVE-4B",
+    "provider": "Illuin Technology · Hugging Face",
+    "kind": "Document processing",
+    "description": "Give IVE a page image and a yes/no relevance question, then use its scores to rank candidate pages. The release includes Python examples and an HTTP server; compare its decisions with a small set you label yourself.",
+    "bestFor": "Adding a reviewable step to document retrieval",
+    "publishedAt": "2026-11-23",
+    "checkedAt": "2026-11-27",
+    "reviewEveryDays": 14,
+    "level": "Advanced",
+    "cost": "Open weights · local GPU",
+    "needs": "Python 3.10+, CUDA PyTorch and the model repository’s package. The model card estimates about 9 GB of GPU memory for bf16 weights, plus extra for inputs. Mostly English training; weaker on long reasoning and multiple-answer questions. Read the supplied code before installing. Source and model card reviewed; example not run."
   }
 ]

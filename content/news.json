@@ -1,127 +1,304 @@
 {
-  "updatedAt": "2026-11-26T06:08:02.223Z",
+  "updatedAt": "2026-11-27T05:57:53.186Z",
   "sources": [
     {
       "id": "google",
-      "checkedAt": "2026-11-26T06:08:02.223Z",
-      "lastSuccessAt": "2026-11-26T06:08:02.223Z",
+      "checkedAt": "2026-11-27T05:57:53.186Z",
+      "lastSuccessAt": "2026-11-27T05:57:53.186Z",
       "status": "ok",
       "count": 20
     },
     {
       "id": "openai",
-      "checkedAt": "2026-11-26T06:08:02.223Z",
-      "lastSuccessAt": "2026-11-26T06:08:02.223Z",
+      "checkedAt": "2026-11-27T05:57:53.186Z",
+      "lastSuccessAt": "2026-11-27T05:57:53.186Z",
       "status": "ok",
       "count": 16
     },
     {
       "id": "openai-youtube",
-      "checkedAt": "2026-11-26T06:08:02.223Z",
-      "lastSuccessAt": "2026-11-26T06:08:02.223Z",
+      "checkedAt": "2026-11-27T05:57:53.186Z",
+      "lastSuccessAt": "2026-11-27T05:57:53.186Z",
       "status": "ok",
       "count": 15
     },
     {
       "id": "decoder-youtube",
-      "checkedAt": "2026-11-26T06:08:02.223Z",
-      "lastSuccessAt": "2026-11-26T06:08:02.223Z",
+      "checkedAt": "2026-11-27T05:57:53.186Z",
+      "lastSuccessAt": "2026-11-27T05:57:53.186Z",
       "status": "ok",
-      "count": 6
+      "count": 5
     },
     {
       "id": "icrc-youtube",
-      "checkedAt": "2026-11-26T06:08:02.223Z",
+      "checkedAt": "2026-11-27T05:57:53.186Z",
       "lastSuccessAt": "2026-11-26T06:08:02.223Z",
-      "status": "ok",
-      "count": 1
+      "status": "unavailable",
+      "error": "HTTP 503"
     },
     {
       "id": "mit",
-      "checkedAt": "2026-11-26T06:08:02.223Z",
-      "lastSuccessAt": "2026-11-26T06:08:02.223Z",
+      "checkedAt": "2026-11-27T05:57:53.186Z",
+      "lastSuccessAt": "2026-11-27T05:57:53.186Z",
       "status": "ok",
       "count": 8
     },
     {
       "id": "simon",
-      "checkedAt": "2026-11-26T06:08:02.223Z",
-      "lastSuccessAt": "2026-11-26T06:08:02.223Z",
+      "checkedAt": "2026-11-27T05:57:53.186Z",
+      "lastSuccessAt": "2026-11-27T05:57:53.186Z",
       "status": "ok",
       "count": 16
     },
     {
       "id": "404",
-      "checkedAt": "2026-11-26T06:08:02.223Z",
-      "lastSuccessAt": "2026-11-26T06:08:02.223Z",
+      "checkedAt": "2026-11-27T05:57:53.186Z",
+      "lastSuccessAt": "2026-11-27T05:57:53.186Z",
       "status": "ok",
       "count": 12
     },
     {
       "id": "metr",
-      "checkedAt": "2026-11-26T06:08:02.223Z",
-      "lastSuccessAt": "2026-11-26T06:08:02.223Z",
+      "checkedAt": "2026-11-27T05:57:53.186Z",
+      "lastSuccessAt": "2026-11-27T05:57:53.186Z",
       "status": "ok",
       "count": 12
     },
     {
       "id": "guardian",
-      "checkedAt": "2026-11-26T06:08:02.223Z",
-      "lastSuccessAt": "2026-11-26T06:08:02.223Z",
+      "checkedAt": "2026-11-27T05:57:53.186Z",
+      "lastSuccessAt": "2026-11-27T05:57:53.186Z",
       "status": "ok",
       "count": 16
     },
     {
       "id": "verge",
-      "checkedAt": "2026-11-26T06:08:02.223Z",
-      "lastSuccessAt": "2026-11-26T06:08:02.223Z",
+      "checkedAt": "2026-11-27T05:57:53.186Z",
+      "lastSuccessAt": "2026-11-27T05:57:53.186Z",
       "status": "ok",
       "count": 10
     },
     {
       "id": "techcrunch",
-      "checkedAt": "2026-11-26T06:08:02.223Z",
-      "lastSuccessAt": "2026-11-26T06:08:02.223Z",
+      "checkedAt": "2026-11-27T05:57:53.186Z",
+      "lastSuccessAt": "2026-11-27T05:57:53.186Z",
       "status": "ok",
       "count": 16
     },
     {
       "id": "ars",
-      "checkedAt": "2026-11-26T06:08:02.223Z",
-      "lastSuccessAt": "2026-11-26T06:08:02.223Z",
+      "checkedAt": "2026-11-27T05:57:53.186Z",
+      "lastSuccessAt": "2026-11-27T05:57:53.186Z",
       "status": "ok",
       "count": 16
     },
     {
       "id": "mollick",
-      "checkedAt": "2026-11-26T06:08:02.223Z",
-      "lastSuccessAt": "2026-11-26T06:08:02.223Z",
+      "checkedAt": "2026-11-27T05:57:53.186Z",
+      "lastSuccessAt": "2026-11-27T05:57:53.186Z",
       "status": "ok",
       "count": 10
     },
     {
       "id": "ainow",
-      "checkedAt": "2026-11-26T06:08:02.223Z",
+      "checkedAt": "2026-11-27T05:57:53.186Z",
       "lastSuccessAt": "2026-11-17T06:01:14.895Z",
       "status": "unavailable",
       "error": "HTTP 403"
     },
     {
       "id": "alignment",
-      "checkedAt": "2026-11-26T06:08:02.223Z",
-      "lastSuccessAt": "2026-11-26T06:08:02.223Z",
+      "checkedAt": "2026-11-27T05:57:53.186Z",
+      "lastSuccessAt": "2026-11-27T05:57:53.186Z",
       "status": "ok",
       "count": 10
     },
     {
       "id": "status",
-      "checkedAt": "2026-11-26T06:08:02.223Z",
-      "lastSuccessAt": "2026-11-26T06:08:02.223Z",
+      "checkedAt": "2026-11-27T05:57:53.186Z",
+      "lastSuccessAt": "2026-11-27T05:57:53.186Z",
       "status": "ok",
       "count": 8
     }
   ],
   "items": [
+    {
+      "title": "As Google threatens to cut schools’ search access, Los Angeles blocks AI features - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX28yVGlpUUl3UEpZMGJaTDRFbXBWR09uX1diWWotVXFuQ2JOTDlZRVVCUXRtN3FyUUNzczI2SG9sTXZXanlELUZfYU1YTHZ3enQ1NUoyUGU4NmwzNzJYV3l5ZjM0cHF0NHlhMDl2R3gwaWROaHREY3Zrd3BBd2hHd202WnFqWTJwSF9pSThfUk5wRV9TQkdBVC1zc09hbHh6M1BVVHJ5MUdmc2JzQmJ2YUJLaEkzSGJXNHc?oc=5",
+      "publishedAt": "2026-11-27T05:01:00.000Z",
+      "sourceId": "google",
+      "source": "AP News",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Necessities join gifts in Black Friday shopping carts as AI and higher costs steer spending - AP News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON2owWWh6dEFmYm4tT1lvMDBDbkI1dS1rZEoydHEzeHA5cjgwei11aWlyNVFya21QU3V5ZG8zTjNpYld2YWNTdVZabWo2cUsxTmZnQUZGTXozSThuaUpPWDIxRXpKQ1pQN3VSQVFWcnVDekFSb3ZFT2I3UF81NS0yOVpPWGw4ZmptMXRLdGthNlhLTjhPR0QwZ0dPYw?oc=5",
+      "publishedAt": "2026-11-26T20:28:00.000Z",
+      "sourceId": "google",
+      "source": "AP News",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+      "publishedAt": "2026-11-26T20:03:54.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "Kazakhstan boosts AI cooperation with Russia, which is hungry for advanced US chips - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUmRrMnRZNThoLUtNVGFhaXJMeG1NaWZ1YXVxS1l2UkczbFZJcUxUWFJSQkF0RlJiczJwQkFPNlV2RDFRaV9DdlVXbFRKb0ZQSFQyODNTZ3Btdy1nOGFfVzJCdzI1cHk4dm12ZDdLYmZOeDVLQ0VlUnNucm1JNHdsdnFZS3liQTVxTVg4MUlaOEJGSG13d2gyV2ZiaUdFWkF2QWdhSEhuZ08yRktJTC1pZDJMbTQ3TmhmLVZwUkZrSVJUenhjMTVrM0tSNA?oc=5",
+      "publishedAt": "2026-11-26T18:48:00.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Can Elon Musk really put AI datacentres in space? - The Latest",
+      "url": "https://www.theguardian.com/news/video/2026/nov/26/can-elon-musk-really-put-ai-datacentres-in-space-the-latest",
+      "publishedAt": "2026-11-26T18:34:17.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/7da230064c1eaf9ac951b3f7766a1a4a840051b7/933_0_4663_3731/master/4663.jpg?width=140&quality=85&auto=format&fit=max&s=69727c1464ec8fefc0c01d72e509c049"
+    },
+    {
+      "title": "SAP considers at least 10,000 job cuts in AI restructuring, Bloomberg reports - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUUhZaXItb2lOYVhHRHBoUkpGZFM2Y0ZpQ1dSN3QwUnEyQlBKdmlRVG9fdFM5WS1UNm41dGZnRVhyY1FIbjBvOUNFWEREN1F4S1l1amVSUGFheGl4N1NNbk1ieF9HU3N0azQ1djN1bjA2RWhIc1VhVWVWb0RVbG1HMVlPbFQyb0N5N1ZLTUVZeXlxMDk4d3d0UHh1ajdZeWd3ekx5TU52Z3BDaXdhOU9uN3dtd1lLMXM?oc=5",
+      "publishedAt": "2026-11-26T16:56:45.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+      "publishedAt": "2026-11-26T16:00:00.000Z",
+      "sourceId": "techcrunch",
+      "source": "TechCrunch",
+      "type": "Industry reporting",
+      "topic": "News"
+    },
+    {
+      "title": "Quoting Jack Despain Zhou",
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou",
+      "publishedAt": "2026-11-26T15:09:31.000Z",
+      "sourceId": "simon",
+      "source": "Simon Willison",
+      "type": "Practitioner analysis",
+      "topic": "Practical AI"
+    },
+    {
+      "title": "Elevated errors with Codex GitHub reviews and pull request merges",
+      "url": "https://status.openai.com//incidents/01M89RGC3STKK2MT53TXHFMY4H",
+      "publishedAt": "2026-11-26T14:07:54.000Z",
+      "sourceId": "status",
+      "source": "OpenAI Status",
+      "type": "Service notices",
+      "topic": "Status"
+    },
+    {
+      "title": "I’m an AI leader at a tech giant. Our industry has stopped taking safety seriously | Anonymous",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/26/ai-leader-tech-giant-trust-safeguarding-privacy-profit",
+      "publishedAt": "2026-11-26T14:06:10.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/8cc6bbd0024f4ba8485616485bd55f9c34d98452/458_0_4167_3333/master/4167.jpg?width=140&quality=85&auto=format&fit=max&s=4df7f5d2d9c27b9f0fc98bdecaf9d619"
+    },
+    {
+      "title": "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026",
+      "url": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
+      "publishedAt": "2026-11-26T12:19:37.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/18a0e7b9f66bc93973a6114fb4fac2215545e754/415_0_4167_3335/master/4167.jpg?width=140&quality=85&auto=format&fit=max&s=4dde606c8245482dad518cc7a22ff83f"
+    },
+    {
+      "title": "Employers: do you have concerns about the rollout of Muse and other AI agents?",
+      "url": "https://www.theguardian.com/technology/2026/nov/26/employers-do-you-have-concerns-about-the-rollout-of-muse-and-other-ai-agents",
+      "publishedAt": "2026-11-26T11:23:41.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/24f8156f1c3ce3ecc74c4c1c10d376b740af751e/225_0_3166_2533/master/3166.jpg?width=140&quality=85&auto=format&fit=max&s=c45d4cf88cd883f2652dd754344da698"
+    },
+    {
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "publishedAt": "2026-11-26T09:54:40.000Z",
+      "sourceId": "verge",
+      "source": "The Verge",
+      "type": "Reporting & analysis",
+      "topic": "News",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25557391/STK278_character_ai_B.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "title": "Investors see rising risk of SoftBank default as pressure grows on AI bets - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbXByeGEwLTVxU195LU1WRUprSnI4cU1EaWQtRFF1QUNfQnU3TlN3VlYyVjlvUHFkc09mQVV6eHlLemN4d3BfcnJ2c1pmT2Q2NlAyZ2oxMlRjbjFHd0JKNDZNRFhCWTl0dkZYZXRuSnB4X3lUSmh1RjdZdjM3VndxN2xpX21kSnNYTVdQcWFjTjZrSmV4WUZfUlM3cHdYOHNyd3R1ekpQeUJPSlZ3eklaOUtFTzMzUnhQdUtDMmlDc1VDZw?oc=5",
+      "publishedAt": "2026-11-26T08:13:44.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "EXCLUSIVE: US chip curbs, distillation crackdown threaten Chinese AI model development, sources say - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSHo5VjlHR1l4UkdCSmFGNUd6WVlZNXlwZXl6Yk5oYUFnTm9ISC1ZSWdmbi1aZ3R1b1Q3bXhpaXVoSXRaNy1hcWdSWHdCd2RFVGx6WlhYN25pZXI4Q2xHWGpQVkJYN2MwTk1ma2NERnBKTHhBUXpHSElLeFdwdEpVZFZZcWhxMm1QUEVpeHRYSXczYXNJelJTUWtHdEkxSGpud2NxeV90R0VjTXVkTmE4U0JRZWVRM1RFUmt3UGhIbw?oc=5",
+      "publishedAt": "2026-11-26T07:19:00.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Elon Musk pledges to give two SpaceX shares to every child in the US",
+      "url": "https://www.theguardian.com/technology/2026/nov/26/elon-musk-pledges-to-give-two-spacex-shares-to-every-child-in-the-us",
+      "publishedAt": "2026-11-26T07:02:37.000Z",
+      "sourceId": "guardian",
+      "source": "The Guardian",
+      "type": "Reporting & opinion",
+      "topic": "News",
+      "image": "https://i.guim.co.uk/img/media/6b1786336d92dd9924ed6029c54417bb3647a7e8/448_0_4604_3681/master/4604.jpg?width=140&quality=85&auto=format&fit=max&s=58d0e57e7ee97b156409e6c3860efca3"
+    },
+    {
+      "title": "EXCLUSIVE: Data from Chinese AI firm MiniMax accessed by unidentified parties, researcher says - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYXlXQVE4enJyRWstWjJvUGdBczBMWHdfZHRmYTNSN3I0eFpqeXBfVU5tN3NRSERpcjBPeE1rV1kwWTBwWnY3U2s1TnlpY2EtakM5TmItUW1UdnVFZXJWTWVRQk1paVhJeTBpSlB0eHJyWERRdnZ1bVctUmctdGJZOXpZMnFMdkxYVlZ3UHI4OE1wZEhocHBGNW0wU1Z3S2VxQ0x6a1pablJOUzlTOXlMSkxUYjRFcWtIc2tB?oc=5",
+      "publishedAt": "2026-11-26T06:16:00.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Apple pulls MiniMax AI chatbot from App Store over child safety concerns - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNU9tZmh6STA3Ui1FY1FQaE9LMDgzQjJjV2xoZ3Q1Znlvbk5wdll2OXoyOUdxUHp2WEYteFpvTFBhVDZYbFozTXp5T0RpaE4zUUhBaDhiVDAxUkY2RURGQWFFaE1BRTVmdmdXTDh3UEdReDM5N0pjSjBzUXB3UEpPa05ma2ZoWDZhTzhJbTNFeDBfQllEWS02eHhST1FPRWI0VlRMOEhHanpvUjZpWkNPWEJLS1BlSllaZ25XeTRGUXF3bUZEcE5n?oc=5",
+      "publishedAt": "2026-11-26T05:13:00.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Musk pledges two SpaceX shares for every US child in $18 billion AI charm offensive - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNklmekFZWmFURnFwVlBHa2FlTGZwYkxaSkNSRUxMV2lsanFDc2hkdGF1RGhHWlJoUTBicHFXY1B3dWxHa0xmdU5mYzFBbGpYN3Z5N2xTS2U1bVBJeVZQVHRucldkRVhsVlVfNldnTWpRclIzSjJQa0tMMnBFVGhDTS1HYzdwVlctaXowdDJtdVJaNkxLcXo2Tk9Odi1XZnI0c1JScHZycXhWRUNUZmQ4?oc=5",
+      "publishedAt": "2026-11-26T04:15:00.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
     {
       "title": "Air cargo demand from AI data centres shows no sign of slowing, SATS CEO says - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSGJIcm9ZVllVLXpXNEx0M2d3VE5CSmhwcS1nNzl6S1I0eGp2bE1HZk90UzA3dDVKWVdlRHNhSGd1YmNiYlRkX1NybzRJQ1lHb3A0VDhCSk1JUXFlckQ0YTRORzhIVmpQa21hNElGUjRxcl9yVl9Oc0JyZUJaVzhxR01PYnMwM2VraEx1dmhBOVZkSUxnOVM0a2ItQ1JmblZtQjd5T0MtN0N4eENxSzgwQTBKRlJwQWtvUWRJZFlZM1M?oc=5",
@@ -168,15 +345,6 @@
       "source": "Simon Willison",
       "type": "Practitioner analysis",
       "topic": "Practical AI"
-    },
-    {
-      "title": "Wall Street recovers most early losses as pullback in AI stocks eases - AP News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdVFZQmxpUGVXLUtXYzR6ZzYzX0Njd0I2bzBVbkJMb2JhcDJkRHJnVGV5eC1Ma0o2djdvZUhROXVpYjRzbTVQUGliYlRINU1kdnJVOXpRd21KdlJYcFQySlR5aWRCc0ZLMjZESjdYOWlrZEpiR0owcTRILVhqNVZZeGtweUNoM21XQndPZEl4Ym1OeTQ?oc=5",
-      "publishedAt": "2026-11-25T23:05:00.000Z",
-      "sourceId": "google",
-      "source": "AP News",
-      "type": "Reporting via Google News",
-      "topic": "News"
     },
     {
       "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
@@ -270,15 +438,6 @@
       "topic": "News"
     },
     {
-      "title": "S&P Global places Nvidia rating on 'CreditWatch Negative' on rising management and governance risks - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQamtqRVI0MHhzRTB5Tk1wMDNXRGhEYi1zVzFJT3hBMFNzUmt1RWptQnpTNWR1QTllclluaW50Z0tmSWVIbW5DWXJoaVJlblRoN2puUGFjbEtkOTZ6VUk5ZGEtLU9vYnJOMm53Tm5Idzg0dzNJSlRXVEI1b2xIQ1BBaVVuQmthNFlremtLRnNFY2RWdjNGcHNPV3ZrQ2JOTGhNMTdKbWpfWGtRMjBEekpJS0lmejFMSUxUakFYS1FvUnVxckk?oc=5",
-      "publishedAt": "2026-11-25T19:12:45.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
       "title": "Anthropic's slide tests Wall Street's lofty bets on future AI profits - Reuters",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZE1sRHlKd3Y1aUpqaUVpeFQ3QjFmX191blVmM1gyS0hidW81RjFjSXJjQndnODAwQU9qb3VkYkJfZ3ppYzdBQ1J5cTRUaDMzamxvZVNsYzB6RUpiVzd2RlhxV2hKaDRjTFdhamRKZ3g3MXZDY1c5c3NMalpmc09aQ3JnNGEyQTR5NG85OW9VTEE1NW9md1VKdFYxeTlnbWNjd25UcjVwamhDX1pIaXc?oc=5",
       "publishedAt": "2026-11-25T18:35:00.000Z",
@@ -336,15 +495,6 @@
       "topic": "Videos",
       "image": "https://i.ytimg.com/vi/ZBXI-oytXv0/maxresdefault.jpg",
       "format": "video"
-    },
-    {
-      "title": "Elevated errors with Codex GitHub reviews and pull request merges",
-      "url": "https://status.openai.com//incidents/01M89RGC3STKK2MT53TXHFMY4H",
-      "publishedAt": "2026-11-25T16:58:51.000Z",
-      "sourceId": "status",
-      "source": "OpenAI Status",
-      "type": "Service notices",
-      "topic": "Status"
     },
     {
       "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
@@ -593,6 +743,24 @@
       "image": "https://static.simonwillison.net/static/2026/fable-class.webp"
     },
     {
+      "title": "Schumer accuses Nvidia CEO of violating US export control law - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWkIyNDFsT2dsN05tM0U4NFZjRU9IZG1Bemx1b2hqOXFneHV3bDBnY0gzc3drRkxjY0JqWVdPTW8xR29QUy1wczZRM0FaemMzMEk3X2I5Wlp5elVhS0dTb2tIMFJ3VlZ3a0dNelRZYWFpeVA0THA3UDkwMGVtd1BZMENTbEZ6alRuR3pnNnI0TGdMWjZ3VVBmb2lDZHd4ckJwVzJRTk1veERGQQ?oc=5",
+      "publishedAt": "2026-11-24T23:01:53.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
+      "title": "Huang's return to Nvidia brings open-weight AI debate to forefront in Washington - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcE80eU84aDZfY24tLUhfMURrVFZHdkt3UHZuNjcxOXA3MUdWU0ZXUV9Od0d2QUJUWVFtZEN4X19BekxhdUFzcUNlVFYtZVdiMHgtTEFPQWtxU2xIS2NwUW1HVzJkUjNRS2tiMkJEa1ltcG42enk0czYyQXNjN0xibUd1SFNGU3pzd1diLWxDcFlmUVVqUmRoNVJ5VzVDNUVmMDJNRmxTY2dJSjJ3MGk4UUNhTk9DaGNLQ1E?oc=5",
+      "publishedAt": "2026-11-24T22:29:00.000Z",
+      "sourceId": "google",
+      "source": "Reuters",
+      "type": "Reporting via Google News",
+      "topic": "News"
+    },
+    {
       "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
       "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy",
       "publishedAt": "2026-11-24T22:27:52.000Z",
@@ -602,31 +770,12 @@
       "topic": "News"
     },
     {
-      "title": "Tech sell-off resumes as euphoria from Jensen Huang’s Nvidia return subsides",
-      "url": "https://www.theguardian.com/business/2026/nov/24/nvidia-stock-falls-jensen-huang",
-      "publishedAt": "2026-11-24T22:05:21.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/ba0b7e2734b3f5675558eff081b376f8f83077b6/479_0_4801_3840/master/4801.jpg?width=140&quality=85&auto=format&fit=max&s=814d34a792f3088b68350ec9f04f70e5"
-    },
-    {
       "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
       "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy",
       "publishedAt": "2026-11-24T21:48:27.000Z",
       "sourceId": "techcrunch",
       "source": "TechCrunch",
       "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
-      "title": "UK financial watchdog delivers AI warning as Meta launches adapted Muse - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa3dIeGlGcm82OGVfY2ZzWWFXY3FWZ3RVTWFyZV95dlN2a1NWTWhiV19OX1A2OVBTNFI5dGF2dzVMQVhmNjdxa2taQkpHeUpJZnVxTlNZYmZPVFJXYkdxYTNzLTVxTHVfSVVOU1pNbFBUU3BMYzNCZ290d3RIN0RzbE8xekZxNGRBTVdYZlY5UlVpMnJFMFdSNlE5WkpENThvSlVCZjE3eXdMY0ZqUkNSYkxQeGxLMlVJZ19XaGg4NkVDcVU?oc=5",
-      "publishedAt": "2026-11-24T21:43:35.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
       "topic": "News"
     },
     {
@@ -656,24 +805,6 @@
       "sourceId": "techcrunch",
       "source": "TechCrunch",
       "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
-      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
-      "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself",
-      "publishedAt": "2026-11-24T21:19:52.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
-      "title": "AI consumes less water per dollar spent than almond milk or golf, Enverus report says - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLXlYaTU4SDlDWXJSNGFNN1FFaGZSZzcxY3NnM0VEd0ZhbThkT1d5UDBsLTRfLXAzSmk5MUxpUGdMY1BrakhsbndpV2pycnpsblZaX0E0V2JpTExxam5VWW0xcUV4RFNabTk3bk51QmwyQjd4bHZEdFI2ZTFMeVpPWmVpc1RFaXFtRHZMWHdPaXNTWE9PQ253S1M5eFFaZHF1UE01SFZJbGtkdGNZWngwUVgxLVpNSGpaQ1JyeExYRlUxc3h3?oc=5",
-      "publishedAt": "2026-11-24T20:53:59.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
       "topic": "News"
     },
     {
@@ -718,24 +849,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/prime-air-mk30-drone-package-loading-1152x648.jpg"
     },
     {
-      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups",
-      "publishedAt": "2026-11-24T18:30:42.000Z",
-      "sourceId": "techcrunch",
-      "source": "TechCrunch",
-      "type": "Industry reporting",
-      "topic": "News"
-    },
-    {
-      "title": "Some in Jensen Huang’s native Taiwan welcome his return to Nvidia despite scandal - AP News",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU0xsQUxDeF9QUjROTTJxRkEzQng4MTJHbFMzZS1ZVkZ5ZDZqbUZOOXNSdXpoN2NXN3hUbm94c2VRVE9VTWQ0UFhsTTBTTlZOZld1elA4REpjRm81VERUUG1KUUs3MHc2X2lNRHJQWnZxYmp3bHp4dmdxejV0bjc4al9XZktNNjB3TXpMN1Uwb1RuTHlOTkIzZnpR?oc=5",
-      "publishedAt": "2026-11-24T18:25:00.000Z",
-      "sourceId": "google",
-      "source": "AP News",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
       "title": "David Fincher is being dragged for suspected use of AI in his latest film",
       "url": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
       "publishedAt": "2026-11-24T18:15:00.000Z",
@@ -744,15 +857,6 @@
       "type": "Reporting & analysis",
       "topic": "News",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/UFP25_R4_Rec709_2p4gamma_6188x3240_20260828.0363314_R2.jpg?quality=90&strip=all&crop=20.001873779297,0,79.998126220703,100"
-    },
-    {
-      "title": "Nvidia's Huang returns to cheers in China, but political hurdles mount - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNd2I2bERDWFVzTGY0OFhwaE0xVHRxaFFWM0REVzVOVjBsRkIyQjdwTlVEdnBzSmtqc2FlRFlJOERuOTc1Q1ZDV2U4SWRFa01fQTNHMnZJTjRXOW5VOUVMcjA1WDI4eW5vZ0FFbmRiNEc4aGdsSDQ0Zm1TNFBiVE5Pb0tIVm1SSzRIa3BVTk5GQ2NPY0JhMG1HLVpHamtrVWswd09ONFJCN3JSZDlBd0pYdGxwTE9tNm5sQ0FB?oc=5",
-      "publishedAt": "2026-11-24T17:57:26.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
     },
     {
       "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
@@ -839,16 +943,6 @@
       "topic": "Practical AI"
     },
     {
-      "title": "Mamdani questions AI economy as Jensen Huang returns to Nvidia – video",
-      "url": "https://www.theguardian.com/technology/video/2026/nov/24/mamdani-questions-ai-economy-as-jensen-huang-returns-to-nvidia-video",
-      "publishedAt": "2026-11-24T16:30:07.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/526ad4b151eda4ee611778e9331242738273d7c0/229_0_2281_1825/master/2281.jpg?width=140&quality=85&auto=format&fit=max&s=973d87bb3555567599736eb15e929c72"
-    },
-    {
       "title": "Jensen Huang deepfakes are the hot new AI slop",
       "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
       "publishedAt": "2026-11-24T16:30:00.000Z",
@@ -859,36 +953,6 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Jensen_huang_AI_deepfakes.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
     {
-      "title": "‘The mistake has been corrected’: end of Jensen Huang’s brief walk in the wilderness",
-      "url": "https://www.theguardian.com/technology/2026/nov/24/mistake-corrected-jensen-huang-resinstated-nvidia-analysis",
-      "publishedAt": "2026-11-24T16:27:41.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/37b2869f7bd05de287d811e35f9d87f7014da37e/848_0_5407_4326/master/5407.jpg?width=140&quality=85&auto=format&fit=max&s=df3b941b33dea5b6e55f9ae56f1d3512"
-    },
-    {
-      "title": "Nvidia staff: what do you think of Jensen Huang’s return as chief executive?",
-      "url": "https://www.theguardian.com/technology/2026/nov/24/nvidia-staff-what-do-you-think-jensen-huang-return-chief-executive",
-      "publishedAt": "2026-11-24T16:25:57.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/acc6b55b5a2588de1743b839ccdd4877f7978618/372_0_4820_3856/master/4820.jpg?width=140&quality=85&auto=format&fit=max&s=8f3c2b3a0cf8176549e66fa1c2a427e4"
-    },
-    {
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-      "publishedAt": "2026-11-24T16:09:23.000Z",
-      "sourceId": "verge",
-      "source": "The Verge",
-      "type": "Reporting & analysis",
-      "topic": "News",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0,0,100,100"
-    },
-    {
       "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
       "url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back",
       "publishedAt": "2026-11-24T14:56:50.000Z",
@@ -897,16 +961,6 @@
       "type": "Technical reporting",
       "topic": "News",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2297759490-1024x648.jpg"
-    },
-    {
-      "title": "Meta launches Muse in UK – the AI agent that can do your Christmas shopping",
-      "url": "https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping",
-      "publishedAt": "2026-11-24T14:36:32.000Z",
-      "sourceId": "guardian",
-      "source": "The Guardian",
-      "type": "Reporting & opinion",
-      "topic": "News",
-      "image": "https://i.guim.co.uk/img/media/54771ca72dfba09d32535c72c90ff667400f9d2e/405_0_3242_2593/master/3242.jpg?width=140&quality=85&auto=format&fit=max&s=16d8db7d6c55c8ea74f0c30b47e1dd75"
     },
     {
       "title": "Conheça o novíssimo ChatGPT Modo Voz.",
@@ -937,15 +991,6 @@
       "type": "Technical reporting",
       "topic": "News",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cairn-banner.jpg"
-    },
-    {
-      "title": "German economy minister urges industry to seize AI opportunity - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemI0SEZ3NEEzNTVYYzBfWUxlemJ3cWdDNUh3WnMzSWpmVHUyaHpubXBSYWlwalY1dWpqbnNkbEl2RGVRWlpLR2x2WkJWdzBsLTRIT3JVOW5YNXpKdVdld3FqNUVkS0oyMjJBTS1iMzZQRk1uMTV0YUpsTlFSc0FuRG9WeVZPTHJKeE1FR1JpdUMyTl90cVVlZFpzdjJhS2pJY0kzekZ6V3Z0QQ?oc=5",
-      "publishedAt": "2026-11-24T11:25:45.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
     },
     {
       "title": "Searching for distant planets with Astra",
@@ -1015,15 +1060,6 @@
       "topic": "News"
     },
     {
-      "title": "New AI rule marks a first for US federal appeals courts - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMFpmUkVHc2JjTWYtenpNaDMtVUhVNHBRS1ExTFhJRnFMNU9vWHYwSFlvZmoxcmZXUXhieGl0UGRqdzdJXy1pUGY1Ul90QW93OTBET21hWkRDd1pOWUlhTWQtcGdwZE9fOTAtTmVjYU11VWZTOGpMQXhiUlg4bzh6bEtVOHhBWEFFZGJxLVdveUd3MEdMOU1RU2JjTktnSU1UYTNTVzlCTkJBdUVGUF8tblk0RQ?oc=5",
-      "publishedAt": "2026-11-23T23:57:13.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
-    },
-    {
       "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
       "url": "https://simonwillison.net/2026/Nov/23/glm-54",
       "publishedAt": "2026-11-23T23:40:49.000Z",
@@ -1032,15 +1068,6 @@
       "type": "Practitioner analysis",
       "topic": "Practical AI",
       "image": "https://static.simonwillison.net/static/2026/glm-5.4-max.webp"
-    },
-    {
-      "title": "EXCLUSIVE: Some US banks tighten AI-agent controls on concern about models escaping safeguards - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPb0pELTVieEVteWV5TWE5cU80T1M4MmNHVmxQVjNmb0tkQ3diUHRFSTg0X1NJTnhEMGZHcS1CaFZfRHUyeWUyQ0RSMWVOa2drMEY0VG1Ba3puU0FmamtxdzF3dFFLaXl0TGloeVIteHFxMkNiRlFLMU5Yc0FUeDNvVzJZS0lLS2t1TWo5Tmk1RWJjMGlHQ2Q2eXlwc1NRU0lXNEFxODVLZ1FmQm4xLUR0QWFoRTRTS1FqSE5FRGVfUzNPaFZGUlNJREtSb0ZjUQ?oc=5",
-      "publishedAt": "2026-11-23T22:45:12.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
     },
     {
       "title": "Ladybird's first alpha release",
@@ -1081,15 +1108,6 @@
       "topic": "Videos",
       "image": "https://i.ytimg.com/vi/w-ltt0Np2cY/maxresdefault.jpg",
       "format": "video"
-    },
-    {
-      "title": "Jensen Huang's Nvidia return puts him on US Inc's 'Boomerang' CEO list - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTnl5YXJWaTZZMWZEbDg0REZlZHJkb3FqSzRwd213V3BUMXRHMnhKdkdmRE9jYklOenFtQ0E5RG9Cb2pnTWpLRmtWd0djSjRfTklVSElaRXJHaUVYdUpwZ1JHY2R2c3RJTFdpV2hZdVRDU2lQTUR2eVVjTWJmVVhYaV9PTE5wMk43X0ZmUnVLcjRLb1pMbEZCeXctZGxWeklXZ180eWQyZ2tkbng0VkhSdXZsa2JzTjlkUEJj?oc=5",
-      "publishedAt": "2026-11-23T18:22:09.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
     },
     {
       "title": "Google Wants To Make a 24/7 AI TV Channel. You’ll Be the Main Character",
@@ -1159,15 +1177,6 @@
       "type": "Technical reporting",
       "topic": "News",
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Asus-P16-3-1152x648.jpg"
-    },
-    {
-      "title": "Australia to treat AI as key foreign policy challenge - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSmdWRGZRVWl0NVIxT2w5WmpBdjJWM1kyanhqd3hNdGRuME9SWTgwQU5ZTHVVaVdOdm5LTGdtanlicWpzREgyTjRmYzUtOEcyNl9CTWpGNTdiUHJIYjRmT1F0RUEtZ1RoNHRHeVAxZVpadGpOYjBmOHctMUhQWDZWT0ZWWHZLeHFfblhYZHVIdkczZjZpYmNCeFlGS3dtbnpVQVpjRg?oc=5",
-      "publishedAt": "2026-11-23T10:33:43.000Z",
-      "sourceId": "google",
-      "source": "Reuters",
-      "type": "Reporting via Google News",
-      "topic": "News"
     },
     {
       "title": "Connected intelligence for in-house legal",
@@ -1456,17 +1465,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Moonlit-walk-1152x648.png"
     },
     {
-      "title": "Is AI like nukes or dragons?",
-      "url": "https://www.youtube.com/shorts/juKy9EFf0Y8",
-      "publishedAt": "2026-11-18T16:55:25.000Z",
-      "sourceId": "decoder-youtube",
-      "source": "Decoder on YouTube",
-      "type": "Independent interviews · YouTube",
-      "topic": "Videos",
-      "image": "https://i.ytimg.com/vi/juKy9EFf0Y8/maxresdefault.jpg",
-      "format": "video"
-    },
-    {
       "title": "Quoting Daniel Stenberg",
       "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg",
       "publishedAt": "2026-11-18T15:58:27.000Z",
@@ -1599,16 +1597,6 @@
       "source": "OpenAI Status",
       "type": "Service notices",
       "topic": "Status"
-    },
-    {
-      "title": "datasette-maplibre 0.1a0",
-      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre",
-      "publishedAt": "2026-11-15T23:58:36.000Z",
-      "sourceId": "simon",
-      "source": "Simon Willison",
-      "type": "Practitioner analysis",
-      "topic": "Practical AI",
-      "image": "https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp"
     },
     {
       "title": "Elevated errors with ChatGPT billing and Ads billing",

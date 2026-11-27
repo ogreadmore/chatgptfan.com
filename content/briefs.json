@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-11-27",
+    "slug": "2026-11-27",
+    "title": "When a chatbot is sold, what happens to its chats?",
+    "excerpt": "States are challenging the privacy terms of Character.AI’s proposed sale. Advancing a bid does not settle what protections follow users’ conversations.",
+    "file": "2026-11-27.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Attorney General Bonta opposes asset sale of Character.AI amid child safety concerns",
+        "publisher": "California Department of Justice",
+        "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-opposes-asset-sale-characterai-amid-child-safety-concerns",
+        "publishedAt": "2026-11-24",
+        "kind": "States’ position"
+      },
+      {
+        "title": "Character.ai asks judge to make $10m bid for users’ chats the one to beat",
+        "publisher": "PPC Land",
+        "url": "https://ppc.land/character-ai-asks-judge-to-make-10m-bid-for-users-chats-the-one-to-beat/",
+        "publishedAt": "2026-11-26",
+        "kind": "Docket reporting"
+      },
+      {
+        "title": "An update on Character.ai",
+        "publisher": "Character.AI",
+        "url": "https://blog.character.ai/an-update-on-character-ai/",
+        "publishedAt": "2026-10-12",
+        "kind": "Company announcement and FAQ"
+      },
+      {
+        "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+        "publisher": "The Verge",
+        "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+        "publishedAt": "2026-11-26",
+        "kind": "Reporting"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-27-chats-at-auction.png",
+      "width": 1672,
+      "height": 941,
+      "alt": "Conceptual cartoon of a worried speech bubble in an auction display case beside a resting gavel.",
+      "credit": "AI-generated conceptual cartoon · Private conversations offered for sale",
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-26",
     "slug": "2026-11-26",
     "title": "Australia puts online platforms on notice",

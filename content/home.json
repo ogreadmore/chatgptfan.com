@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-11-26",
+  "reviewedAt": "2026-11-27",
   "resources": [
     "academy",
     "chat-model-rollout",
@@ -15,7 +15,7 @@
     "data-analyst",
     "sop-voice",
     "robot-pick-place",
-    "local-inkling",
+    "ive-page-decisions",
     "rumble-transcription",
     "agent-eval"
   ],
@@ -550,7 +550,12 @@
     "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
     "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming",
     "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks",
-    "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york"
+    "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxON2owWWh6dEFmYm4tT1lvMDBDbkI1dS1rZEoydHEzeHA5cjgwei11aWlyNVFya21QU3V5ZG8zTjNpYld2YWNTdVZabWo2cUsxTmZnQUZGTXozSThuaUpPWDIxRXpKQ1pQN3VSQVFWcnVDekFSb3ZFT2I3UF81NS0yOVpPWGw4ZmptMXRLdGthNlhLTjhPR0QwZ0dPYw?oc=5",
+    "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+    "https://simonwillison.net/2026/Nov/26/jack-despain-zhou",
+    "https://www.theguardian.com/technology/2026/nov/26/employers-do-you-have-concerns-about-the-rollout-of-muse-and-other-ai-agents",
+    "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats"
   ],
   "videos": [
     "https://www.youtube.com/watch?v=A4UNP-axGHU",

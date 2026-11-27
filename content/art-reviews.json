@@ -1167,6 +1167,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-27-chats-at-auction.png",
+      "brief": "2026-11-27",
+      "sha256": "a7f37d05b153c49855573ac4efb46f36dddbbf9eb142dd5d2effaf4d9a7e0c89",
+      "reviewedAt": "2026-11-27",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Literal pixels: a worried cream speech bubble sits inside a transparent rectangular display case on a lavender base. An auction gavel rests diagonally on its round block beside the case; its handle end rests on the tabletop. The speech-bubble tail stays inside the case. The display case and gavel visibly present a conversation as an auction lot, directly connecting to the proposed sale of chat histories; the conceptual caption does not claim a completed sale. There are two coherent eyes, two eyebrows and one worried mouth. No people, arms, legs or hands: zero expected and observed hands. No unattached limbs or unexplained grips. Case, bubble and gavel are complete with safe margins. The initial generated pixels, final original PNG and a separate second pass were inspected with the prompt put aside. Desktop homepage/article, 390px mobile homepage/article and actual 1200x630 sharing PNG were inspected; scene and face remain readable, with no clipped props or headline. One candidate, no revision. Agent review, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }
