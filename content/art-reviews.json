@@ -1190,6 +1190,29 @@
         "mobile": true,
         "sharingCard": true
       }
+    },
+    {
+      "src": "briefs/2026-11-28-shared-allowance.png",
+      "brief": "2026-11-28",
+      "sha256": "85f0204db7476313fbb9f4ccd5ab07fcbe0afdf4774304934c80492f3cb08ef7",
+      "reviewedAt": "2026-11-28",
+      "result": "pass",
+      "secondPass": true,
+      "expectedVisibleHands": 0,
+      "observedVisibleHands": 0,
+      "notes": "Literal pixels on a separate second pass: one worried cream power bank supplies a phone displaying a speech bubble and a laptop displaying code brackets. Its four-cell charge symbol has one colored cell. Two distinct cables each connect a visible bank port to a visible device connector; no loose ends or crossings. The shared low supply directly represents the coming common chat/coding usage budget. The caption labels this as conceptual, not a physical device or real product screen. No people, arms, legs or hands: zero expected and observed hands. Two eyes, two eyebrows and one worried mouth are coherent. Phone, bank, laptop and cables are complete with safe margins. Original final PNG inspected at full size, then inspected again independently after the context views. Desktop homepage/article, 390px mobile homepage/article and actual 1200x630 sharing PNG inspected: all connectors and the charge symbol remain legible, with no clipping or headline overlap. One candidate, no revision. Agent review, not owner approval.",
+      "checks": {
+        "limbCount": true,
+        "limbConnections": true,
+        "hands": true,
+        "poseAndProps": true,
+        "face": true,
+        "framing": true,
+        "story": true,
+        "desktop": true,
+        "mobile": true,
+        "sharingCard": true
+      }
     }
   ]
 }

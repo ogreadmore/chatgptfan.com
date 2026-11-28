@@ -1,10 +1,10 @@
 {
-  "reviewedAt": "2026-11-27",
+  "reviewedAt": "2026-11-28",
   "resources": [
     "academy",
     "chat-model-rollout",
     "wharton-gail",
-    "ms-concepts",
+    "shared-usage-allowance",
     "gpt6-model-guide",
     "ms-genai",
     "zotero",
@@ -555,7 +555,18 @@
     "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
     "https://simonwillison.net/2026/Nov/26/jack-despain-zhou",
     "https://www.theguardian.com/technology/2026/nov/26/employers-do-you-have-concerns-about-the-rollout-of-muse-and-other-ai-agents",
-    "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats"
+    "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
+    "https://www.theguardian.com/technology/2026/nov/28/ai-artificial-intelligence-encryption-global-chaos",
+    "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQd2M4TlRLTnhveE1TOUxpeUtJWndLa2IyclBrU205dURJWThZNnpzWVhyaTVicVRPRkdBS3hSU0NaZ1lFWFBtUE1SVlk1QnFiaGdISTkwZDc5Mi1xN0ZYSVdMM2NRbmZ0ZFcwaVJCT000Wm1QRDNyRmR3VEU1Zl9QU1dOcVhlUzNTRVJz?oc=5",
+    "https://www.theguardian.com/commentisfree/2026/nov/27/donald-trump-destroying-us-law-tech-titans-jensen-huang-nvidia",
+    "https://www.theguardian.com/commentisfree/2026/nov/27/the-guardian-view-on-ai-and-the-riemann-hypothesis-a-triumph-of-intelligence-a-test-of-democracy",
+    "https://www.theguardian.com/technology/2026/nov/27/meta-whistleblower-sarah-wynn-williams-calls-on-burnham-to-go-further-with-ban-on-non-disclosure-agreements",
+    "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQjE5WDFpRW9HTXZvS0dTbF9MTjBwQXh0VUVGcUEzeTc3QllSWm9tMUVvWHl4Tl9veFhhamxPUXVWbzhnRTdpTFRhOTRyNFh6Y3pXcXloN3lHNlZaemNhQ2kyVnZkR3U0LUVuSklGNDN3b0tVMEloSEY1N2dwWFhlMnFpRkpudTJNMjJz?oc=5",
+    "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
+    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOW1ZT25rWmU5YkRYRnRfWWsycFpOU0xXcnFMYUtJeGFxOHJPRElLTmx3VERYNUNOT0dRVXAzN3J4VkVEVFRwQXVfUHRCZ3Q0bWc3a2ZJWkZCcWlKSUJLRzZWWVBPT01VSmxmakNNaFN3eHNwVzgteWM4UlJBclg3YzF6cVItQzR3bThEbTJCTUNFcTAweG1RbnZRbnM1SE9HYVhDdWtGSmEtYjE4b0FkT3Y5RlNqaW5PSnVB?oc=5",
+    "https://www.theguardian.com/business/2026/nov/27/retailers-ai-shopping-assistants-black-friday-brands-meta-muse",
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRGJ6MDVocEMyM2tiakM5cmxadktxMGZaMWROTE52VkE4RlVPRUJTd3pSRlB5bWFBNWZNYV9abjdSWnJjcnhVSFE2eExUUUJFRnBTeWVPenNsdEZVam1xdEJpWXRxenY5azA5SmZtSUJ3elRfaXBrQmxPYWJCMWVBeW1pVkhDMHpEay1HRDktWUpwbV84QUtiNE9mQmdsb0U?oc=5",
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUUhZaXItb2lOYVhHRHBoUkpGZFM2Y0ZpQ1dSN3QwUnEyQlBKdmlRVG9fdFM5WS1UNm41dGZnRVhyY1FIbjBvOUNFWEREN1F4S1l1amVSUGFheGl4N1NNbk1ieF9HU3N0azQ1djN1bjA2RWhIc1VhVWVWb0RVbG1HMVlPbFQyb0N5N1ZLTUVZeXlxMDk4d3d0UHh1ajdZeWd3ekx5TU52Z3BDaXdhOU9uN3dtd1lLMXM?oc=5"
   ],
   "videos": [
     "https://www.youtube.com/watch?v=A4UNP-axGHU",

@@ -324,10 +324,10 @@
     "publishedAt": "2026-11-18",
     "level": "Developer",
     "cost": "Open weights · local compute",
-    "needs": "Python with PyTorch, Transformers, and Accelerate, plus hardware that can load the model. The weights use Apache 2.0. Begin with an authorized sample recording and compare the transcript with the audio. Hosted API use is separate from the local path. Source reviewed; transcription not run.",
+    "needs": "Python with PyTorch, Transformers and Accelerate, plus hardware that can load the model. Apache 2.0 weights. Choose whether to retain fillers and use verbatim output; the default removes fillers. Compare the result with an authorized sample recording. Hosted API use is separate. Source and model card reviewed; transcription not run.",
     "sourceUrl": "https://huggingface.co/Reson8/Rumble-2-Flash",
     "section": "projects",
-    "checkedAt": "2026-11-23",
+    "checkedAt": "2026-11-28",
     "reviewEveryDays": 14
   },
   {
@@ -678,9 +678,9 @@
     "kind": "Developer guide",
     "level": "Developer",
     "description": "Current GPT-6.2 guidance for model choice, task completion and migration. Covers changes to conversation history, instruction caching and supported API parameters.",
-    "checkedAt": "2026-11-18",
+    "checkedAt": "2026-11-28",
     "cost": "Free guide · model usage extra",
-    "needs": "Basic API experience. Tool calling requires the Responses API. Review migration settings, then compare cost and correction time on your own tasks before changing a production workflow.",
+    "needs": "Basic API experience. Tool calling requires Responses. GPT-6.2 does not support Flex processing; review background-mode completion windows separately. Keep stable instructions at the start of input for caching, then compare cost and correction time on your own tasks before migrating.",
     "bestFor": "Choosing a model for a real workload",
     "reviewEveryDays": 14,
     "learningStage": "build",
@@ -1010,9 +1010,9 @@
     "kind": "Troubleshooting",
     "level": "All levels",
     "description": "Find the right response to connection errors, missing information and interrupted actions in ChatGPT apps.",
-    "checkedAt": "2026-11-15",
+    "checkedAt": "2026-11-28",
     "cost": "Free guide",
-    "needs": "Check the connected account and the original service. Before repeating an action, inspect its destination for work that already completed.",
+    "needs": "Check the connected account and the original service. Finding a file does not necessarily mean the app can read its contents. If an action’s result is unclear, check its destination before trying again; reconnecting does not override a workspace restriction.",
     "bestFor": "Recovering an interrupted task",
     "reviewEveryDays": 14
   },
@@ -1025,7 +1025,7 @@
     "kind": "Research access program",
     "level": "Researcher",
     "description": "Compare research access programs before applying. The announced academic round offers selected applicants three ChatGPT Plus seats; it does not include API credits.",
-    "checkedAt": "2026-11-23",
+    "checkedAt": "2026-11-28",
     "reviewEveryDays": 7,
     "cost": "Free for accepted applicants",
     "needs": "OpenAI announced November 23 as the next application date. The application currently requires sign-in; we have not confirmed available places or completed an application. Check eligibility and the current round before applying. The separate API researcher-credit program has different terms.",
@@ -1198,5 +1198,21 @@
     "level": "Advanced",
     "cost": "Open weights · local GPU",
     "needs": "Python 3.10+, CUDA PyTorch and the model repository’s package. The model card estimates about 9 GB of GPU memory for bf16 weights, plus extra for inputs. Mostly English training; weaker on long reasoning and multiple-answer questions. Read the supplied code before installing. Source and model card reviewed; example not run."
+  },
+  {
+    "id": "shared-usage-allowance",
+    "section": "learn",
+    "learningStage": "start",
+    "title": "Understand your ChatGPT usage allowance",
+    "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+    "provider": "OpenAI Help Center",
+    "kind": "Usage guide",
+    "description": "Check the planned December shared allowance for ChatGPT and Codex on Plus, Pro and Business. Explains model-dependent consumption and where to find the balance and reset times.",
+    "bestFor": "Planning work around usage limits",
+    "level": "Beginner",
+    "cost": "Free guide",
+    "needs": "Some accounts enter the transition early. Instant chat does not draw from this allowance. Check your own account’s current settings.",
+    "checkedAt": "2026-11-28",
+    "reviewEveryDays": 7
   }
 ]

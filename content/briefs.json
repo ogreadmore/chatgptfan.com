@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-28",
+    "slug": "2026-11-28",
+    "title": "ChatGPT’s allowance is changing. Watch the meter.",
+    "excerpt": "A usage-accounting correction and a coming shared ChatGPT–Codex allowance are separate changes. Check the balance before committing to a long task.",
+    "file": "2026-11-28.md",
+    "status": "published",
+    "sources": [
+      {
+        "title": "Understanding ChatGPT and Codex usage limits",
+        "publisher": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "kind": "Product documentation"
+      },
+      {
+        "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40 percent faster because it fixed a bug",
+        "publisher": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+        "publishedAt": "2026-11-26",
+        "kind": "Reporting"
+      },
+      {
+        "title": "OpenAI admits a GPT-6.2 launch mistake affects usage limits",
+        "publisher": "TechRadar",
+        "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/weve-fixed-this-now-so-the-same-work-will-use-more-of-your-plans-usage-allowance-openai-admits-it-made-a-mistake-when-launching-gpt-6-2-and-now-paying-chatgpt-users-could-hit-their-usage-limits-up-to-40-percent-faster",
+        "publishedAt": "2026-11-26",
+        "kind": "Reporting and reproduced company post"
+      },
+      {
+        "title": "Managing usage with GPT-6 Astra in Work and Codex",
+        "publisher": "OpenAI Help Center",
+        "url": "https://help.openai.com/en/articles/20001516-managing-usage-with-gpt-6-astra-in-work-and-codex",
+        "kind": "Banked-reset documentation"
+      }
+    ],
+    "image": {
+      "src": "briefs/2026-11-28-shared-allowance.png",
+      "width": 1672,
+      "height": 941,
+      "alt": "Conceptual cartoon of a worried power bank with one charged cell supplying a chat phone and a coding laptop through two cables.",
+      "credit": "AI-generated conceptual cartoon · Chat and coding share one allowance",
+      "shareLayout": "split",
+      "reviewStatus": "agent-reviewed"
+    }
+  },
+  {
     "date": "2026-11-27",
     "slug": "2026-11-27",
     "title": "When a chatbot is sold, what happens to its chats?",
